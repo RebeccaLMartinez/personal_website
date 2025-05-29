@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Meet Rebecca!",
+    "title": "Welcome!",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Hi, and welcome!\nI’m Rebecca Martinez — a student researcher and environmental studies major based in California. My work spans field science, , and educational outreach, with a focus on projects that connect people to place and data to impact.\nThis site highlights the projects I’m working on, the experiences shaping my academic path, and the ways I stay involved beyond the classroom. Whether you’re here to browse, collaborate, or just learn more, I’m glad you stopped by.\nNote: Some sections are still in progress as I add new content. Thanks for your patience!\n\n\nQuick Links\n\nAbout Me\nProjects\nRésumé\nCV\nGitHub\nEmail Me"
   },
   {
     "objectID": "about.html",
@@ -12,5 +12,26 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#quick-links",
+    "href": "index.html#quick-links",
+    "title": "Meet Rebecca!",
+    "section": "",
+    "text": "GitHub\nCV (coming soon)\nEmail Me"
+  },
+  {
+    "objectID": "index.html#projects-in-progress",
+    "href": "index.html#projects-in-progress",
+    "title": "Meet Rebecca!",
+    "section": "",
+    "text": "🛰 Service Light Data Project – View project post\n🌫 Fog Harp Project – (coming soon)\n🦨 Skunk Research Project – (coming soon)\n🪱 NRS Bioturbation Study – (coming soon)"
+  },
+  {
+    "objectID": "index.html#photo-gallery-extras",
+    "href": "index.html#photo-gallery-extras",
+    "title": "Meet Rebecca!",
+    "section": "",
+    "text": "Coming soon: Fieldwork photos, behind-the-scenes moments, and more!\n\nThanks for stopping by — last updated: May 2025"
   }
 ]
