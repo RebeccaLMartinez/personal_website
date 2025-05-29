@@ -2,7 +2,7 @@ project:
   type: website
   output-dir: docs
 website:
-  title: "rebecca_martinez"
+  title: "Rebecca Martinez"
   navbar:
     left:
       - href: index.qmd
