@@ -142,30 +142,41 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <summary>
 <strong>💡 Service Light Data Project</strong>
 </summary>
-<p><strong>Course:</strong> ENVS 193DS – Data Science for Environmental Studies<br>
-<strong>Tools:</strong> RStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto</p>
-I explored the relationship between lighting conditions and service calls using a custom dataset of 108 observations. Deliverables included bar charts, a summary table, and a blinking lightboard animation. <strong>Reflection</strong>
+<p><strong>UCSB</strong> <strong>Course:</strong> ENVS 193DS – Data Science for Environmental Studies</p>
+<details>
+<summary>
+<strong>Tools</strong>
+</summary>
+RStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto
+</details>
+<p>I explored the relationship between lighting conditions and service calls using a custom dataset of 108 observations. Deliverables included bar charts, a summary table, and a blinking lightboard animation.</p>
+<details>
+<summary>
+<strong>Reflection</strong>
+</summary>
 <blockquote class="blockquote">
 “It requires you to actually <em>think</em> about your data.” – An Bui
 </blockquote>
-<p>This project made me think harder about data than I expected. After attempting to collect AND use my own data, I am humbled. Lessons were learned. Tears were shed.</p>
+This project made me think harder about data than I expected. After attempting to collect AND use my own data, I am humbled. Lessons were learned. Tears were shed.
+</details>
 <details>
 <summary>
 <strong>💻 Example Code</strong>
 </summary>
-<p>Code for cleaning data:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a></span>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Clean and standardize help and working columns</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>clean_service_data <span class="ot">&lt;-</span> service_data <span class="sc">|&gt;</span>  <span class="co"># using service_data set</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">help =</span> <span class="fu">toupper</span>(help),</span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">working =</span> <span class="fu">toupper</span>(working),</span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Convert the uppercase text to logical TRUE/FALSE values</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>     <span class="at">help =</span> <span class="fu">as.logical</span>(help), </span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">working =</span> <span class="fu">as.logical</span>(working))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">help =</span> <span class="fu">as.logical</span>(help), </span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">working =</span> <span class="fu">as.logical</span>(working)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
-<p><a href="https://github.com/RebeccaLMartinez/ENVS-193DS_homework-03">📁 GitHub Repo</a><br>
-<a href="https://rebeccalmartinez.github.io/ENVS-193DS_homework-03/code/ENVS-193DS_homework-03.html">🌐 View Live</a></p>
-<p><strong>Visuals</strong></p>
+<details>
+<summary>
+<strong>Visuals</strong>
+</summary>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src=".\media/light_table.jpg" class="img-fluid figure-img"></p>
@@ -178,7 +189,15 @@ I explored the relationship between lighting conditions and service calls using 
 <figcaption>Service Light Graph.</figcaption>
 </figure>
 </div>
-<p><img src="media/blinking_lights.gif" width="400px" style="margin: 10px 0;"></p>
+<figure style="text-align: center;" class="figure">
+<img src="media/blinking_lights.gif" width="400px" style="margin: 10px 0;" class="figure-img">
+<figcaption style="margin-top: 5px; font-style: italic;">
+Service Light Visual
+</figcaption>
+</figure>
+</details>
+<p><a href="https://github.com/RebeccaLMartinez/ENVS-193DS_homework-03">📁 GitHub Repo</a><br>
+<a href="https://rebeccalmartinez.github.io/ENVS-193DS_homework-03/code/ENVS-193DS_homework-03.html">🌐 View Live</a></p>
 </details>
 </section>
 <section id="past" class="level4">
@@ -211,7 +230,7 @@ I explored the relationship between lighting conditions and service calls using 
 </summary>
 <p><strong>Affiliation:</strong> UCNRS Field Science Fellowship<br>
 <strong>Mentor:</strong> Dr.&nbsp;Iris Holzer</p>
-<p>Investigating how small mammals like gophers and ground squirrels influence soil processes through bioturbation. Includes paired site comparisons, soil sampling, vegetation surveys, and motion-activated cameras to measure ecosystem impacts.</p>
+<p>Investigating how small mammals like gophers and ground squirrels influence soil processes through bioturbation. Includes paired site comparisons.</p>
 </details>
 </section>
 <section id="past-1" class="level4">

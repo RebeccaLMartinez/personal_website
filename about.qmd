@@ -1,6 +1,5 @@
 ---
 title: "Meet Rebecca!"
-2toc: false
 about:
   id: hero-heading
   template: solana

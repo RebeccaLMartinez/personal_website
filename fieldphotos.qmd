@@ -1,9 +1,21 @@
 ---
-title: "fieldphotos"
-format: html
+title: "Photo Gallery"
+format: 
+  html:
+    theme: darkly
+    toc: false
+    css: styles.css
 ---
 
-# ***Under Construction***
+
+Where are all the photos she promised??
+
+Sorry: 
+
+#*Under construction*
+
+
+[Go back home 🏡](index.qmd)
 
 
 

@@ -14,18 +14,19 @@ format:
 <details>
   <summary><strong>💡 Service Light Data Project</strong></summary>
 
+**UCSB**
 **Course:** ENVS 193DS – Data Science for Environmental Studies  
 
 <details>
-    <summary><strong>**Tools**</strong></summary>
-    RStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto  
+  <summary><strong>Tools</strong></summary>
+  RStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto  
 </details>
 
 I explored the relationship between lighting conditions and service calls using a custom dataset of 108 observations. Deliverables included bar charts, a summary table, and a blinking lightboard animation.
 
-
 <details>
-    <summary><strong>**Reflection**</strong></summary>
+  <summary><strong>Reflection</strong></summary>
+
 <blockquote>
   “It requires you to actually <em>think</em> about your data.” – An Bui
 </blockquote>
@@ -34,34 +35,39 @@ This project made me think harder about data than I expected. After attempting t
 </details>
 
 <details>
-    <summary><strong>💻 Example Code</strong></summary>
-    
-Code for cleaning data:
+  <summary><strong>💻 Example Code</strong></summary>
 
 ```r
-
+# Clean and standardize help and working columns
 clean_service_data <- service_data |>  # using service_data set
   mutate(
     help = toupper(help),
     working = toupper(working),
     # Convert the uppercase text to logical TRUE/FALSE values
-     help = as.logical(help), 
-    working = as.logical(working))
+    help = as.logical(help), 
+    working = as.logical(working)
+  )
 ``` 
+</details>
+
+<details>
+  <summary><strong>Visuals</strong></summary>
+  
+![Service Light Table](/media/light_table.jpg)
+
+
+![Service Light Graph](/media/service_light_bar.jpg)
+
+
+<figure style="text-align: left;">
+  <img src="media/blinking_lights.gif" width="400px" style="margin: 10px 0;" />
+  <figcaption style="margin-top: 5px;">Service Light Visual</figcaption>
+</figure>
 </details>
 
 [📁 GitHub Repo](https://github.com/RebeccaLMartinez/ENVS-193DS_homework-03)  
 [🌐 View Live](https://rebeccalmartinez.github.io/ENVS-193DS_homework-03/code/ENVS-193DS_homework-03.html)
 
-**Visuals**
-
-![Service Light Table](/media/light_table.jpg)
-
-
-![Service Light Graph.](/media/service_light_bar.jpg)
-
-
-  <img src="media/blinking_lights.gif" width="400px" style="margin: 10px 0;" />
 
 </details>
 
@@ -99,7 +105,7 @@ Using camera traps to monitor skunk activity and movement patterns across reserv
 **Affiliation:** UCNRS Field Science Fellowship  
 **Mentor:** Dr. Iris Holzer  
 
-Investigating how small mammals like gophers and ground squirrels influence soil processes through bioturbation. Includes paired site comparisons, soil sampling, vegetation surveys, and motion-activated cameras to measure ecosystem impacts.
+Investigating how small mammals like gophers and ground squirrels influence soil processes through bioturbation. Includes paired site comparisons.
 
 </details>
 
