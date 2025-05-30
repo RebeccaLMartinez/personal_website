@@ -16,7 +16,7 @@
 
 /* Prevent footer overlap */
 body {
-  padding-bottom: 70px;
+  padding-bottom: 120px;
   margin: 0;
 }
 
@@ -89,18 +89,90 @@ body {
   object-fit: cover;
 }
 
-/* Custom button (used in quizzes, CTAs, etc.) */
-.btn-custom-green {
-  background-color: #4FA78D;
-  border-color: #418c76;
-  color: white;
+/* === Quiz Container === */
+#quiz-container {
+  background-color: #222;         /* match your fixed footer */
+  color: #ffffff;
+  padding: 1.5em;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  font-family: system-ui, sans-serif;
 }
 
-.btn-custom-green:hover {
-  background-color: #418c76;
-  border-color: #377a67;
-  color: white;
+/* === Question Text === */
+#quiz-container #question {
+  font-size: 1.2em;
+  margin-bottom: 1em;
 }
+
+/* === Answer Buttons === */
+#quiz-container .btn {
+  padding: 0.6em 1.2em;
+  margin: 0.4em;
+  border-radius: 6px;
+  border: 2px solid #4FA78D;
+  background-color: #2b7a78; /* dark teal */
+  color: #fff;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+
+#quiz-container .btn:hover {
+  background-color: #418c76;
+  transform: translateY(-2px);
+}
+
+/* === Result Text === */
+#quiz-container #result {
+  margin-top: 1.2em;
+  font-size: 1.3em;
+  color: #4FA78D;
+  text-shadow: 1px 1px 2px #111;
+}
+
+/* === Result Image Styling === */
+#quiz-container #result-image img {
+  margin-top: 1em;
+  border: 3px solid #4FA78D;
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* === Start Screen Styling === */
+#start-screen {
+  text-align: center;
+  margin: 2em auto;
+  color: #ffffff; /* Make text white */
+}
+
+#start-screen h2 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  color: #ffffff; /* Ensure heading is white */
+}
+
+/* Match quiz button styles */
+#start-button {
+  padding: 0.6em 1.2em;
+  margin: 0.4em;
+  border-radius: 6px;
+  border: 2px solid #4FA78D;
+  background-color: #2b7a78; /* dark teal */
+  color: #fff;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+
+#start-button:hover {
+  background-color: #418c76;
+  transform: translateY(-2px);
+}
+
+
+/* Comment box formatting*/
 
 
 /* Main container for the comment box */

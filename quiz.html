@@ -1,13 +1,32 @@
-<!-- quiz.html -->
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Are you more like Chester or Leo?</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
 <div id="quiz-container">
   <p id="question"></p>
   <div id="answers"></div>
-  <div id="result" style="font-weight: bold; font-size: 1.2em; margin-top: 1em;"></div>
-  <div id="result-image" style="margin-top: 1em;"></div>
+  <div id="result"></div>
+  <div id="result-image"></div>
+  <div id="restart-btn-container" style="margin-top: 1.5em; display: none;">
+    <button id="restart-quiz-btn" class="btn">Restart Quiz</button>
+  </div>
 </div>
 
 <script>
-const quiz = [
+document.addEventListener("DOMContentLoaded", function () {
+  const quiz = [
+  {
+    question: "Are you more like Chester or Leo?",
+    answers: [
+      { text: "🐾 Unleash My Inner Cat", type: "none" }
+    ]
+  },
   {
     question: "How do you feel about new places or people?",
     answers: [
@@ -25,8 +44,8 @@ const quiz = [
   {
     question: "How would your friends describe you?",
     answers: [
-      { text: "Grateful and sweet with a gentle soul.", type: "chester" },
-      { text: "Not subtle, but full of love and charm.", type: "leo" }
+      { text: "Low-key and kind — a quiet comfort to have around.", type: "chester" },
+      { text: "Loud, lovable, and impossible to ignore!", type: "leo" }
     ]
   },
   {
@@ -45,69 +64,79 @@ const quiz = [
   }
 ];
 
-let currentQuestion = 0;
-const scores = { chester: 0, leo: 0 };
+  let currentQuestion = 0;
+  const scores = { chester: 0, leo: 0 };
 
-function showQuestion() {
-  const questionEl = document.getElementById("question");
-  const answersEl = document.getElementById("answers");
-  const resultEl = document.getElementById("result");
-  const imageEl = document.getElementById("result-image");
-  resultEl.innerHTML = "";
-  imageEl.innerHTML = "";
+  function showQuestion() {
+    const q = quiz[currentQuestion];
+    document.getElementById("result").innerHTML = "";
+    document.getElementById("result-image").innerHTML = "";
+    document.getElementById("question").innerText = q.question;
 
-  const q = quiz[currentQuestion];
-  questionEl.innerText = q.question;
-  answersEl.innerHTML = "";
+    const answersEl = document.getElementById("answers");
+    answersEl.innerHTML = "";
 
-  q.answers.forEach((answer) => {
-    const btn = document.createElement("button");
-    btn.innerText = answer.text;
-    btn.style.margin = "0.5em";
-    btn.className = "btn btn-custom-green";
-    btn.onclick = () => {
-      scores[answer.type]++;
-      currentQuestion++;
-      if (currentQuestion < quiz.length) {
-        showQuestion();
-      } else {
-        showResult();
-      }
-    };
-    answersEl.appendChild(btn);
-  });
-}
-
-function showResult() {
-  const resultEl = document.getElementById("result");
-  const imageEl = document.getElementById("result-image");
-  const questionEl = document.getElementById("question");
-  const answersEl = document.getElementById("answers");
-
-  questionEl.innerHTML = "";
-  answersEl.innerHTML = "";
-
-  let resultText = "";
-  let imgSrc = "";
-  let imgAlt = "";
-
-  if (scores.chester > scores.leo) {
-    resultText = "You're more like Chester 🐈 — calm, kind, and quietly brilliant.";
-    imgSrc = "media/chester.jpeg";
-    imgAlt = "Photo of Chester the cat";
-  } else if (scores.leo > scores.chester) {
-    resultText = "You're more like Leo 🐾 — bold, affectionate, and full of life.";
-    imgSrc = "media/leo.jpeg";
-    imgAlt = "Photo of Leo the cat";
-  } else {
-    resultText = "You're a perfect mix of Chester and Leo — the best of both cats!";
-    imgSrc = "media/cats.jpeg";
-    imgAlt = "Photo of Chester and Leo together";
+    q.answers.forEach(answer => {
+      const btn = document.createElement("button");
+      btn.innerText = answer.text;
+      btn.className = "btn";
+      btn.onclick = () => {
+        scores[answer.type]++;
+        currentQuestion++;
+        if (currentQuestion < quiz.length) {
+          showQuestion();
+        } else {
+          showResult();
+        }
+      };
+      answersEl.appendChild(btn);
+    });
   }
 
-  resultEl.innerText = resultText;
-  imageEl.innerHTML = `<img src="${imgSrc}" alt="${imgAlt}" style="max-width: 300px; border-radius: 12px; margin-top: 1em;">`;
-}
+  function showResult() {
+    const resultEl = document.getElementById("result");
+    const imageEl = document.getElementById("result-image");
+    const questionEl = document.getElementById("question");
+    const answersEl = document.getElementById("answers");
+    const restartBtnContainer = document.getElementById("restart-btn-container");
 
-showQuestion();
+    questionEl.innerHTML = "";
+    answersEl.innerHTML = "";
+
+    let resultText = "";
+    let imgSrc = "";
+    let imgAlt = "";
+
+    if (scores.chester > scores.leo) {
+      resultText = "You're more like Chester 🐈 — calm, kind, and quietly brilliant.";
+      imgSrc = "media/chester.jpeg";
+      imgAlt = "Photo of Chester the cat";
+    } else if (scores.leo > scores.chester) {
+      resultText = "You're more like Leo 🐾 — bold, affectionate, and full of life.";
+      imgSrc = "media/leo.jpeg";
+      imgAlt = "Photo of Leo the cat";
+    } else {
+      resultText = "You're a perfect mix of Chester and Leo — the best of both cats!";
+      imgSrc = "media/cats.jpeg";
+      imgAlt = "Photo of Chester and Leo together";
+    }
+
+    resultEl.innerText = resultText;
+    imageEl.innerHTML = `<img src="${imgSrc}" alt="${imgAlt}" style="max-width: 300px; border-radius: 12px;">`;
+    restartBtnContainer.style.display = "block";
+  }
+
+  document.getElementById("restart-quiz-btn").addEventListener("click", function () {
+    currentQuestion = 0;
+    scores.chester = 0;
+    scores.leo = 0;
+    document.getElementById("restart-btn-container").style.display = "none";
+    showQuestion();
+  });
+
+  // Start the quiz right away
+  showQuestion();
+});
 </script>
+</body>
+</html>

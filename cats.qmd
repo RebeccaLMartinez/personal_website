@@ -1,5 +1,5 @@
 ---
-title: "😿Uh-Oh!😿"
+title: "Chester and Leo"
 format: 
   html:
     theme: darkly
@@ -13,16 +13,17 @@ format:
   </video>
 </div>
 
-Wondering where the photos are?
 
-Chester and Leo got into the code again.
-
+Welcome to the page of Chester and Leo. Bios coming soon...
 
 
-## Are You More Like Chester or Leo?
+# Gallery
 
-<iframe src="quiz.html" width="100%" height="600" style="border: none;"></iframe>
+*Wondering where the photos are? Chester and Leo got into the code again.*
 
 Check back soon for more feline mischief, fluff, and fun!
 
+
+
+<iframe src="quiz.html" width="100%" height="600" style="border: none;"></iframe>
 
