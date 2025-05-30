@@ -1,5 +1,5 @@
 ---
-title: "Rebecca Martinez"
+title: "Meet Rebecca!"
 about:
   id: hero-heading
   template: solana

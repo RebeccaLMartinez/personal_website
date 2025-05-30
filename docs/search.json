@@ -9,7 +9,7 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "Rebecca Martinez",
+    "title": "Meet Rebecca!",
     "section": "",
     "text": "Email\n  \n  \n    \n     \n  \n\n      \nHi! I’m Rebecca — a mom of two, Environmental Studies major at the University of California, Santa Barbara (UCSB), and Marine Corps veteran. I’ve taken an unconventional path to college, but I’ve made every step count. I’m drawn to work that’s hands-on, community-centered, and rooted in care — whether that’s in the field, the classroom, or beyond.\nRight now, I’m focused on environmental research, mentorship, and exploring how undergraduate education can connect science, service, and real-world impact."
   },
@@ -79,7 +79,7 @@
   {
     "objectID": "about.html#my-path",
     "href": "about.html#my-path",
-    "title": "Rebecca Martinez",
+    "title": "Meet Rebecca!",
     "section": "🛤️ My Path",
     "text": "🛤️ My Path\nBefore returning to school, I spent two decades working, raising two kids, and serving in the Marine Corps Reserves. I began my academic journey at community college, where I rediscovered my passion for science and service. Now, as an Environmental Studies major at UCSB, I’m combining research, education, and community engagement into a path that feels both meaningful and practical.\n\n\n\nOnce Upon a Time.\n\n\n\n\n\nAllan Hancock College."
   },
@@ -100,7 +100,7 @@
   {
     "objectID": "about.html#family-life",
     "href": "about.html#family-life",
-    "title": "Rebecca Martinez",
+    "title": "Meet Rebecca!",
     "section": "👩‍👧‍👦😺 Family & Life",
     "text": "👩‍👧‍👦😺 Family & Life\nI’m a proud mom to two incredible teenagers. They’ve grown up alongside my journey, and honestly, they’re my biggest motivation. Outside of school, I love volunteering, spending time in nature, and hanging out with my cats, Chester and Leo.\n\n\n\nMy Family.\n\n\n\n\n\nChester and Leo.\n\n\nCurious about Chester and Leo? You can find more fluffiness here."
   },
@@ -121,14 +121,14 @@
   {
     "objectID": "about.html#fieldwork-adventures",
     "href": "about.html#fieldwork-adventures",
-    "title": "Rebecca Martinez",
+    "title": "Meet Rebecca!",
     "section": "🌿 Fieldwork Adventures",
     "text": "🌿 Fieldwork Adventures\nI’m happiest when I’m outside, learning by doing. Hands-on environmental work helps me connect what I’m learning in the classroom to real ecosystems and real people. I believe fieldwork is one of the most powerful ways to teach and inspire others — especially students and community members who may not see themselves in science yet.\n\n\n\nHarvesting lavender to distill into oil.\n\n\n\n\n\nWith Kayla Anctil-Geronimo on Santa Cruz Island Reserve.\n\n\nYou can explore my projects and photos pages to see what I’ve been up to."
   },
   {
     "objectID": "about.html#work-that-matters",
     "href": "about.html#work-that-matters",
-    "title": "Rebecca Martinez",
+    "title": "Meet Rebecca!",
     "section": "❤️ Work That Matters",
     "text": "❤️ Work That Matters\nCommunity involvement has always been a meaningful part of my life. Whether it’s through mentoring, volunteering, or helping behind the scenes, I try to contribute where I can — not because I have all the answers, but because I believe in being part of something that gives back. Over the years, I’ve stayed involved with efforts that reflect those values, like Toys for Tots, campus and local outreach, and She Raised Her Hand.\nTo me, meaningful work is about showing up — and trusting that what we offer contributes to something bigger than ourselves.\n\n\n\nToys for Tots Event (holding the unicorn).\n\n\n\n\n\nProclamation presented by the City of Santa Maria to She Raised Her Hand.\n\n\nPlease visit She Raised Her Hand for more information and upcoming events.\nIf you’d like to support seasonal giving efforts, donations can be made through Toys for Tots."
   },
@@ -137,7 +137,7 @@
     "href": "projects.html#service-light-data-project",
     "title": "Projects",
     "section": "💡 Service Light Data Project",
-    "text": "💡 Service Light Data Project\nCourse: ENVS 193DS\nAs part of Data Science for Environmental Studies at UCSB, I explored the relationship between lighting conditions and service calls using a custom dataset of 108 observations. This included bar charts, a summary table, and a blinking lightboard animation.\n\n\n\nAnimated blinking lightboard\n\n\n\n\n\n\n\n\nProject Links\n\n\n\n\n📁 GitHub Repository\n\n🌐 Rendered HTML Output\n\n\n\n\n\nTools + Skills\n\nTools: R (ggplot2, dplyr, gganimate), Quarto, Adobe Photoshop\n\nSkills: Data cleaning, animation, visual storytelling, spatial reasoning\n\n\n\n\nDataset Overview\n\ndate – Date of the call\n\ntime_interval – Time block of the call\n\nhelp – Whether help was needed\n\nworking – Whether the light worked\n\nevent – Event nearby (e.g., holiday, show)\n\nmachines_active, staff_total, weekday\n\n\n\n\nArtist Statement (Excerpt)\nThis project shows service lights as a grid, using colors to show if they were working, broken, or unknown. It also uses symbols to show if help was needed. I was inspired by lightboards, slot machines, and visualizations that use color, or lack thereof, to represent data in unique ways. I made this using R code, with tools like ggplot, gganimate, and ggfx. The final result is an animated GIF. I cleaned my data and grouped each light by status. I gave each one a color and symbol, then added animation to make the working lights blink and glow.\n\n\n\nReflection\nThis project was eye-opening. It was my first soft attempt at collecting and using my own data. Lessons were learned. Tears were shed. I will forever think more critically about my data."
+    "text": "💡 Service Light Data Project\nCourse: ENVS 193DS\nAs part of Data Science for Environmental Studies at UCSB, I explored the relationship between lighting conditions and service calls using a custom dataset of 108 observations. This included bar charts, a summary table, and a blinking lightboard animation.\n\n\n\nAnimated blinking lightboard\n\n\n🔗 Project Links\n- 📁 GitHub Repository\n- 🌐 Rendered HTML Output\n\n\nTools + Skills\n\nTools: R (ggplot2, dplyr, gganimate), Quarto, Adobe Photoshop\n\nSkills: Data cleaning, animation, visual storytelling, spatial reasoning\n\n\n\nDataset Overview\n\ndate – Date of the call\n\ntime_interval – Time block of the call\n\nhelp – Whether help was needed\n\nworking – Whether the light worked\n\nevent – Event nearby (e.g., holiday, show)\n\nmachines_active, staff_total, weekday\n\n\n\nArtist Statement (Excerpt)\nThis project shows service lights as a grid, using colors to show if they were working, broken, or unknown… (your full excerpt here)\n\n\nReflection\nThis project was eye-opening. It was my first soft attempt at collecting and using my own data. Lessons were learned. Tears were shed. I will forever think more critically about my data."
   },
   {
     "objectID": "projects.html#research-projects",

@@ -1,7 +1,9 @@
 ---
 title: "Projects"
 format: html
-
+2toc: false
+about:
+  template: marquee
 ---
 
 > "It requires you to actually ***think*** about your data."  
@@ -38,6 +40,7 @@ As part of *Data Science for Environmental Studies* at UCSB, I explored the rela
 :::
 
 ::: {.details}
+
 ### Artist Statement (Excerpt)
 This project shows service lights as a grid, using colors to show if they were working, broken, or unknown... (your full excerpt here)
 :::

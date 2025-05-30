@@ -4,6 +4,9 @@ project:
 
 website:
   title: "Rebecca Martinez"
+  search:
+    location: navbar
+    type: overlay
   # navbar:
   #  left:
   #    - href: index.qmd
