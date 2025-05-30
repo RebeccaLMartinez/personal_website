@@ -17,7 +17,6 @@ Wondering where the photos are?
 
 Chester and Leo got into the code again.
 
-But we’re working on it — check back soon for more feline mischief, fluff, and fun.
 
 
 ## Are You More Like Chester or Leo?
@@ -139,6 +138,12 @@ function showResult() {
 showQuestion();
 </script>
 </details>
+
+
+
+Check back soon for more feline mischief, fluff, and fun!
+
+
 
 
 
