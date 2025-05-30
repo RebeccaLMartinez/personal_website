@@ -26,7 +26,7 @@ Right now, I’m focused on environmental research, mentorship, and exploring ho
 
 ## 🛤️ My Path
 
-Before returning to school, I spent two decades working, raising two incredible kids, and navigating life’s many responsibilities — including time in the Marine Corps Reserves and nearly two decades in a civilian job. I started my academic journey at community college, where I reconnected with my love for science and service. Now, as an Environmental Studies major at UCSB, I’m combining research, search, and community engagement into a path that feels both meaningful and practical.
+Before returning to school, I spent two decades working, raising two kids, and serving in the Marine Corps Reserves. I began my academic journey at community college, where I rediscovered my passion for science and service. Now, as an Environmental Studies major at UCSB, I’m combining research, search, and community engagement into a path that feels both meaningful and practical.
 
 photo
 photo
@@ -46,8 +46,9 @@ Curious about Chester and Leo? You can find more fluffiness [here.](cats.qmd)
 I’m happiest when I’m outside, learning by doing. Hands-on environmental work helps me connect what I’m learning in the classroom to real ecosystems and real people.
 I believe fieldwork is one of the most powerful ways to teach and inspire others — especially students and community members who may not see themselves in science yet.
 
-field
-field
+![Harvesting lavender to distill into oil.](/media/lavendar.jpeg)
+
+![With Kayla Anctil-Geronimo on Santa Cruz Island Reserve.](/media/rebecca_kayla_sci.jpeg)
 
 You can explore my [projects](projects.qmd) and [photos](fieldphotos.qmd) pages to see what I’ve been up to.
 
@@ -59,7 +60,7 @@ Community involvement has always been a meaningful part of my life. Whether it�
 To me, meaningful work is about showing up — and trusting that what we offer contributes to something bigger than ourselves.
 
 
-![Proclamation presented by the City of Santa Maria to She Raised Her Hand.](/media/srhh.jpeg)
+![Proclamation presented by the City of Santa Maria to *She Raised Her Hand*.](/media/srhh.jpeg)
 
 photo
 
