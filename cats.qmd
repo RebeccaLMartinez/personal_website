@@ -1,5 +1,5 @@
 ---
-title: "Uh-Oh!"
+title: "😿Uh-Oh!😿"
 format: 
   html:
     theme: darkly
@@ -13,7 +13,7 @@ format:
   </video>
 </div>
 
-# Uh-oh... this page isn’t ready yet! 😿
+# Uh-oh... this page isn’t ready yet!
 
 Chester and Leo got into the code again.
 

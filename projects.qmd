@@ -1,41 +1,108 @@
 ---
 title: "Projects"
-format: html
-2toc: false
-about:
-  template: marquee
+format: 
+  html:
+    theme: darkly
+    toc: false
+    css: styles.css
 ---
 
+## 🏫 School Projects
 
-# 🌱 Projects
-
+####  Current
 
 <details>
   <summary><strong>💡 Service Light Data Project</strong></summary>
 
-  **Course:** ENVS 193DS  
-  **Tools:** RStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto
-  
-  
-  [📁 GitHub Repo](https://github.com/RebeccaLMartinez/ENVS-193DS_homework-03)  
-  [🌐 View Live](https://rebeccalmartinez.github.io/ENVS-193DS_homework-03/code/ENVS-193DS_homework-03.html)
+**Course:** ENVS 193DS – Data Science for Environmental Studies  
 
-  <img src="media/blinking_lights.gif" width="400px" style="margin: 15px 0;" />
-
-  <blockquote>
-    “It requires you to actually <em>think</em> about your data.” – An Bui
-  </blockquote>
+<details>
+    <summary><strong>**Tools**</strong></summary>
+    RStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto  
 </details>
 
----
-
+I explored the relationship between lighting conditions and service calls using a custom dataset of 108 observations. Deliverables included bar charts, a summary table, and a blinking lightboard animation.
 
 
 <details>
-  <summary><strong>🦨 Skunk Monitoring Project</strong></summary>
-<img src="media/sci.jpg" width="300px" style="margin-top: 30px;" />
+    <summary><strong>**Reflection**</strong></summary>
+<blockquote>
+  “It requires you to actually <em>think</em> about your data.” – An Bui
+</blockquote>
 
-  *(UCSB Office of Education Partnerships)*  
-  *Coming soon*
+This project made me think harder about data than I expected. After attempting to collect AND use my own data, I am humbled. Lessons were learned. Tears were shed.
+</details>
+
+<details>
+    <summary><strong>💻 Example Code</strong></summary>
+    
+Code for cleaning data:
+
+```r
+
+clean_service_data <- service_data |>  # using service_data set
+  mutate(
+    help = toupper(help),
+    working = toupper(working),
+    # Convert the uppercase text to logical TRUE/FALSE values
+     help = as.logical(help), 
+    working = as.logical(working))
+``` 
+</details>
+
+[📁 GitHub Repo](https://github.com/RebeccaLMartinez/ENVS-193DS_homework-03)  
+[🌐 View Live](https://rebeccalmartinez.github.io/ENVS-193DS_homework-03/code/ENVS-193DS_homework-03.html)
+
+**Visuals**
+
+![Service Light Table](/media/light_table.jpg)
+
+
+![Service Light Graph.](/media/service_light_bar.jpg)
+
+
+  <img src="media/blinking_lights.gif" width="400px" style="margin: 10px 0;" />
 
 </details>
+
+#### Past
+
+*Coming soon*
+
+---
+
+## 🔍 Research Projects
+
+#### Current
+
+<details>
+  <summary><strong>💧 Fogwater Monitoring Device</strong></summary>
+
+**Affiliation:** UCSB Office of Education Partnerships  
+
+Designing and field-testing fogwater monitoring devices to  evaluate sustainable water sourcing in fog-dependent regions.
+
+</details>
+
+<details>
+  <summary><strong>🦨 Skunk Population Monitoring</strong></summary>
+
+**Affiliation:** UCSB-Smithsonian Scholars Program (OEP) 
+
+Using camera traps to monitor skunk activity and movement patterns across reserve sites. Aims to inform local population ecology and habitat use.
+
+</details>
+
+<details>
+  <summary><strong>🌱 Soil Bioturbation by Mammals</strong></summary>
+
+**Affiliation:** UCNRS Field Science Fellowship  
+**Mentor:** Dr. Iris Holzer  
+
+Investigating how small mammals like gophers and ground squirrels influence soil processes through bioturbation. Includes paired site comparisons, soil sampling, vegetation surveys, and motion-activated cameras to measure ecosystem impacts.
+
+</details>
+
+#### Past
+
+*Coming soon*
