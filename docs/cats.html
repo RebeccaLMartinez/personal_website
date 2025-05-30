@@ -117,7 +117,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="are-you-more-like-chester-or-leo">Are You More Like Chester or Leo?</h2>
 <details>
 <summary>
-<strong><strong>Find out now!</strong>&nbsp;</strong>
+<strong>Find out now!</strong>
 </summary>
 <div id="quiz-container">
 <p id="question">
@@ -163,7 +163,7 @@ const quiz = [
     ]
   },
   {
-    question: "Final question: Litter box etiquette?",
+    question: "Litter box etiquette?",
     answers: [
       { text: "Um… I try, okay? But I might need help.", type: "chester" },
       { text: "I’ve got it covered. Literally.", type: "leo" }
@@ -219,15 +219,15 @@ function showResult() {
 
   if (scores.chester > scores.leo) {
     resultText = "You're more like Chester 🐈 — calm, kind, and quietly brilliant.";
-    imgSrc = "/media/chester.jpg";
+    imgSrc = "media/chester.jpeg";
     imgAlt = "Photo of Chester the cat";
   } else if (scores.leo > scores.chester) {
     resultText = "You're more like Leo 🐾 — bold, affectionate, and full of life.";
-    imgSrc = "/media/leo.jpg";
+    imgSrc = "media/leo.jpeg";
     imgAlt = "Photo of Leo the cat";
   } else {
     resultText = "You're a perfect mix of Chester and Leo — the best of both cats!";
-    imgSrc = "/media/cats.jpg";
+    imgSrc = "media/cats.jpeg";
     imgAlt = "Photo of Chester and Leo together";
   }
 
