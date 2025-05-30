@@ -14,7 +14,7 @@ format:
 
 
 
-
+[Go back home 🏡](index.qmd)
 
 
 
