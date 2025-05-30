@@ -1,7 +1,12 @@
 ---
-title: "resume"
-format: html
+title: "Resume"
+format: 
+  html:
+    theme: darkly
+    toc: false
+    css: styles.css
 ---
+
 
 # ***Under Construction***
 
@@ -30,19 +35,4 @@ format: html
 
 
 
-
-
-
-
-
-
-
-<div class="footer-nav">
-  <a href="index.html" class="nav-button">Home</a>
-  <a href="about.html" class="nav-button">Rebecca</a>
-  <a href="projects.html" class="nav-button">Projects</a>
-  <a href="fieldphotos.html" class="nav-button">Photos</a>
-  <a href="resume.html" class="nav-button">Résumé</a>
-  <a href="cv.html" class="nav-button">CV</a>
-[Email ](mailto:rebecca_martinez@ucsb.edu)
 

@@ -22,8 +22,6 @@ I explored the relationship between lighting conditions and service calls using 
   RStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto  
 </details>
 
-I explored the relationship between lighting conditions and service calls using a custom dataset of 108 observations. Deliverables included bar charts, a summary table, and a blinking lightboard animation.
-
 <details>
   <summary><strong>Reflection</strong></summary>
 

@@ -58,9 +58,9 @@
   {
     "objectID": "fieldphotos.html",
     "href": "fieldphotos.html",
-    "title": "PHoto Gallery",
+    "title": "Photo Gallery",
     "section": "",
-    "text": "Not much to see here…\nUnder construction\nGo back home 🏡"
+    "text": "Where are all the photos she promised??\nSorry:\n#Under construction\nGo back home 🏡"
   },
   {
     "objectID": "cv.html",
@@ -74,7 +74,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "💡 Service Light Data Project\n\nUCSB Course: ENVS 193DS – Data Science for Environmental Studies\n\n\nTools\n\nRStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto\n\nI explored the relationship between lighting conditions and service calls using a custom dataset of 108 observations. Deliverables included bar charts, a summary table, and a blinking lightboard animation.\n\n\nReflection\n\n\n“It requires you to actually think about your data.” – An Bui\n\nThis project made me think harder about data than I expected. After attempting to collect AND use my own data, I am humbled. Lessons were learned. Tears were shed.\n\n\n\n💻 Example Code\n\n# Clean and standardize help and working columns\nclean_service_data &lt;- service_data |&gt;  # using service_data set\n  mutate(\n    help = toupper(help),\n    working = toupper(working),\n    # Convert the uppercase text to logical TRUE/FALSE values\n    help = as.logical(help), \n    working = as.logical(working)\n  )\n\n\n\nVisuals\n\n\n\n\nService Light Table\n\n\n\n\n\nService Light Graph.\n\n\n\n\n\nService Light Visual\n\n\n\n📁 GitHub Repo\n🌐 View Live\n\n\n\n\nComing soon"
+    "text": "💡 Service Light Data Project\n\nUCSB Course: ENVS 193DS – Data Science for Environmental Studies\nI explored the relationship between lighting conditions and service calls using a custom dataset of 108 observations. Deliverables included bar charts, a summary table, and a blinking lightboard animation.\n\n\nTools\n\nRStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto\n\nI explored the relationship between lighting conditions and service calls using a custom dataset of 108 observations. Deliverables included bar charts, a summary table, and a blinking lightboard animation.\n\n\nReflection\n\n\n“It requires you to actually think about your data.” – An Bui\n\nThis project made me think harder about data than I expected. After attempting to collect AND use my own data, I am humbled. Lessons were learned. Tears were shed.\n\n\n\n💻 Example Code\n\n# Clean and standardize help and working columns\nclean_service_data &lt;- service_data |&gt;  # using service_data set\n  mutate(\n    help = toupper(help),\n    working = toupper(working),\n    # Convert the uppercase text to logical TRUE/FALSE values\n    help = as.logical(help), \n    working = as.logical(working)\n  )\n\n\n\nVisuals\n\n\n\n\nService Light Table\n\n\n\n\n\nService Light Graph\n\n\n\n\n\nService Light Visual\n\n\n\nGitHub Repo\nView Live"
   },
   {
     "objectID": "about.html#my-path",
@@ -144,7 +144,7 @@
     "href": "projects.html#research-projects",
     "title": "Projects",
     "section": "🔍 Research Projects",
-    "text": "🔍 Research Projects\n\nCurrent\n\n\n💧 Fogwater Monitoring Device\n\nAffiliation: UCSB Office of Education Partnerships\nDesigning and field-testing fogwater monitoring devices to evaluate sustainable water sourcing in fog-dependent regions.\n\n\n\n🦨 Skunk Population Monitoring\n\nAffiliation: UCSB-Smithsonian Scholars Program (OEP)\nUsing camera traps to monitor skunk activity and movement patterns across reserve sites. Aims to inform local population ecology and habitat use.\n\n\n\n🌱 Soil Bioturbation by Mammals\n\nAffiliation: UCNRS Field Science Fellowship\nMentor: Dr. Iris Holzer\nInvestigating how small mammals like gophers and ground squirrels influence soil processes through bioturbation. Includes paired site comparisons.\n\n\n\nPast\nComing soon"
+    "text": "🔍 Research Projects\n\n\n💧 Fogwater Monitoring Device\n\nAffiliation: UCSB Office of Education Partnerships\nDesigning and field-testing fogwater monitoring devices to evaluate sustainable water sourcing in fog-dependent regions.\n\n\n\n🦨 Skunk Population Monitoring\n\nAffiliation: UCSB-Smithsonian Scholars Program (OEP)\nUsing camera traps to monitor skunk activity and movement patterns across reserve sites. Aims to inform local population ecology and habitat use.\n\n\n\n🌱 Soil Bioturbation by Mammals\n\nAffiliation: UCNRS Field Science Fellowship\nMentor: Dr. Iris Holzer\nInvestigating how small mammals like gophers and ground squirrels influence soil processes through bioturbation. Includes paired site comparisons."
   },
   {
     "objectID": "cats.html",
@@ -158,7 +158,7 @@
     "href": "projects.html#school-projects",
     "title": "Projects",
     "section": "",
-    "text": "💡 Service Light Data Project\n\nUCSB Course: ENVS 193DS – Data Science for Environmental Studies\n\n\nTools\n\nRStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto\n\nI explored the relationship between lighting conditions and service calls using a custom dataset of 108 observations. Deliverables included bar charts, a summary table, and a blinking lightboard animation.\n\n\nReflection\n\n\n“It requires you to actually think about your data.” – An Bui\n\nThis project made me think harder about data than I expected. After attempting to collect AND use my own data, I am humbled. Lessons were learned. Tears were shed.\n\n\n\n💻 Example Code\n\n# Clean and standardize help and working columns\nclean_service_data &lt;- service_data |&gt;  # using service_data set\n  mutate(\n    help = toupper(help),\n    working = toupper(working),\n    # Convert the uppercase text to logical TRUE/FALSE values\n    help = as.logical(help), \n    working = as.logical(working)\n  )\n\n\n\nVisuals\n\n\n\n\nService Light Table\n\n\n\n\n\nService Light Graph.\n\n\n\n\n\nService Light Visual\n\n\n\n📁 GitHub Repo\n🌐 View Live\n\n\n\n\nComing soon"
+    "text": "💡 Service Light Data Project\n\nUCSB Course: ENVS 193DS – Data Science for Environmental Studies\nI explored the relationship between lighting conditions and service calls using a custom dataset of 108 observations. Deliverables included bar charts, a summary table, and a blinking lightboard animation.\n\n\nTools\n\nRStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto\n\nI explored the relationship between lighting conditions and service calls using a custom dataset of 108 observations. Deliverables included bar charts, a summary table, and a blinking lightboard animation.\n\n\nReflection\n\n\n“It requires you to actually think about your data.” – An Bui\n\nThis project made me think harder about data than I expected. After attempting to collect AND use my own data, I am humbled. Lessons were learned. Tears were shed.\n\n\n\n💻 Example Code\n\n# Clean and standardize help and working columns\nclean_service_data &lt;- service_data |&gt;  # using service_data set\n  mutate(\n    help = toupper(help),\n    working = toupper(working),\n    # Convert the uppercase text to logical TRUE/FALSE values\n    help = as.logical(help), \n    working = as.logical(working)\n  )\n\n\n\nVisuals\n\n\n\n\nService Light Table\n\n\n\n\n\nService Light Graph\n\n\n\n\n\nService Light Visual\n\n\n\nGitHub Repo\nView Live"
   },
   {
     "objectID": "projects.html#past-projects",

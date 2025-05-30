@@ -1,6 +1,10 @@
 ---
-title: "cv"
-format: html
+title: "CV"
+format: 
+  html:
+    theme: darkly
+    toc: false
+    css: styles.css
 ---
 
 # ***Under Construction***

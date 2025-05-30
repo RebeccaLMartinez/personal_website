@@ -10,9 +10,8 @@ format:
 
 Where are all the photos she promised??
 
-Sorry: 
 
-#*Under construction*
+# *Under construction*
 
 
 [Go back home 🏡](index.qmd)
