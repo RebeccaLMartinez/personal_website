@@ -1,36 +1,9 @@
----
-title: "😿Uh-Oh!😿"
-format: 
-  html:
-    theme: darkly
-    css: styles.css
----
+## 🐾 Are You More Like Chester or Leo?
 
-<div class="video-wrapper">
-  <video autoplay loop muted playsinline class="circle-video">
-    <source src="/media/crazycat.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
-
-Wondering where the photos are?
-
-Chester and Leo got into the code again.
-
-But we’re working on it — check back soon for more feline mischief, fluff, and fun.
-
-
-## Are You More Like Chester or Leo?
-<details>
-  <summary><strong>**Find out now!**\ </strong></summary>
-  
-  
-  
 <div id="quiz-container">
   <p id="question"></p>
   <div id="answers"></div>
-  <div id="result" style="font-weight: bold; font-size: 1.2em; margin-top: 1em;"></div>
-  <div id="result-image" style="margin-top: 1em;"></div>
+  <p id="result" style="font-weight: bold; font-size: 1.2em;"></p>
 </div>
 
 <script>
@@ -79,19 +52,17 @@ function showQuestion() {
   const questionEl = document.getElementById("question");
   const answersEl = document.getElementById("answers");
   const resultEl = document.getElementById("result");
-  const imageEl = document.getElementById("result-image");
   resultEl.innerHTML = "";
-  imageEl.innerHTML = "";
 
   const q = quiz[currentQuestion];
   questionEl.innerText = q.question;
   answersEl.innerHTML = "";
 
-  q.answers.forEach((answer) => {
+  q.answers.forEach((answer, index) => {
     const btn = document.createElement("button");
     btn.innerText = answer.text;
     btn.style.margin = "0.5em";
-    btn.className = "btn btn-custom-green";
+    btn.className = "btn btn-primary";
     btn.onclick = () => {
       scores[answer.type]++;
       currentQuestion++;
@@ -107,38 +78,24 @@ function showQuestion() {
 
 function showResult() {
   const resultEl = document.getElementById("result");
-  const imageEl = document.getElementById("result-image");
+  const container = document.getElementById("quiz-container");
   const questionEl = document.getElementById("question");
   const answersEl = document.getElementById("answers");
 
   questionEl.innerHTML = "";
   answersEl.innerHTML = "";
 
-  let resultText = "";
-  let imgSrc = "";
-  let imgAlt = "";
-
+  let result;
   if (scores.chester > scores.leo) {
-    resultText = "You're more like Chester 🐈 — calm, kind, and quietly brilliant.";
-    imgSrc = "media/chester.jpg";
-    imgAlt = "Photo of Chester the cat";
+    result = "You're more like Chester 🐈 — calm, kind, and quietly brilliant.";
   } else if (scores.leo > scores.chester) {
-    resultText = "You're more like Leo 🐾 — bold, affectionate, and full of life.";
-    imgSrc = "media/leo.jpg";
-    imgAlt = "Photo of Leo the cat";
+    result = "You're more like Leo 🐾 — bold, affectionate, and full of life.";
   } else {
-    resultText = "You're a perfect mix of Chester and Leo — the best of both cats!";
-    imgSrc = "media/cats.jpg";
-    imgAlt = "Photo of Chester and Leo together";
+    result = "You're a perfect mix of Chester and Leo — the best of both cats!";
   }
 
-  resultEl.innerText = resultText;
-  imageEl.innerHTML = `<img src="${imgSrc}" alt="${imgAlt}" style="max-width: 300px; border-radius: 12px; margin-top: 1em;">`;
+  resultEl.innerText = result;
 }
 
 showQuestion();
 </script>
-</details>
-
-
-

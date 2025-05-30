@@ -29,7 +29,7 @@ I explored the relationship between lighting conditions and service calls using 
   <summary><strong>Reflection</strong></summary>
 
 <blockquote>
-  “It requires you to actually <em>think</em> about your data.” – An Bui
+  “It requires you to actually <em>think</em> about your data.” – An Bui, said before every statistical test ever
 </blockquote>
 
 This project made me think harder about data than I expected. After attempting to collect AND use my own data, I am humbled. Lessons were learned. Tears were shed.

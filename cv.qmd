@@ -7,17 +7,9 @@ format:
     css: styles.css
 ---
 
-# ***Under Construction***
 
+*Under Construction*
 
-
-
-
-
-
-
-
-[Go back home 🏡](index.qmd)
 
 
 

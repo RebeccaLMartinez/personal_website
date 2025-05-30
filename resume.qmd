@@ -8,20 +8,7 @@ format:
 ---
 
 
-# ***Under Construction***
-
-
-
-
-
-[Go back home 🏡](index.qmd)
-
-
-
-
-
-
-
+*Under Construction*
 
 
 

@@ -1,6 +1,5 @@
 /* css styles */
 
-
 /* Fixed footer styling */
 .fixed-footer {
   position: fixed;
@@ -8,14 +7,14 @@
   left: 0;
   right: 0;
   background-color: #222;
-  color: white; /* general text in footer stays white */
+  color: white;
   padding: 12px 20px;
   z-index: 9999;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
   text-align: center;
 }
 
-/* Ensure body content doesn't get hidden behind the fixed footer */
+/* Prevent footer overlap */
 body {
   padding-bottom: 70px;
   margin: 0;
@@ -30,9 +29,9 @@ body {
   gap: 16px;
 }
 
-/* Navigation link styling */
+/* Footer navigation buttons */
 .nav-button {
-  color: #2ecc71; /* green text */
+  color: #4FA78D;
   text-decoration: none;
   font-weight: 600;
   padding: 6px 12px;
@@ -42,14 +41,12 @@ body {
 
 .nav-button:hover,
 .nav-button:focus {
-  background-color: #2ecc71; /* green background on hover */
-  color: #111;               /* dark text on hover for contrast */
+  background-color: #4FA78D;
+  color: #111;
   outline: none;
 }
 
-
-
-
+/* Floating icon buttons (bottom-right) */
 #fixed-icons {
   position: fixed;
   bottom: 1rem;
@@ -60,16 +57,16 @@ body {
 }
 
 #fixed-icons a {
-  color: #2ecc71;
+  color: #4FA78D;
   font-size: 1.5rem;
   transition: color 0.2s;
 }
 
 #fixed-icons a:hover {
-  color: #27ae60;
+  color: #418c76;
 }
 
-
+/* Centered circular video display */
 .video-wrapper {
   display: flex;
   justify-content: center;
@@ -81,14 +78,26 @@ body {
   height: 350px;
   border-radius: 50%;
   object-fit: cover;
-  border: 4px solid #5cb85c; /* Bootstrap "success" green from Darkly */
+  border: 4px solid #4FA78D;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
-
-
+/* Headshot image border (About page) */
 .about-page #hero-heading img {
-  border: 4px solid #5cb85c; /* Bootstrap green from Darkly theme */
+  border: 4px solid #4FA78D;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   object-fit: cover;
+}
+
+/* Custom button (used in quizzes, CTAs, etc.) */
+.btn-custom-green {
+  background-color: #4FA78D;
+  border-color: #418c76;
+  color: white;
+}
+
+.btn-custom-green:hover {
+  background-color: #418c76;
+  border-color: #377a67;
+  color: white;
 }

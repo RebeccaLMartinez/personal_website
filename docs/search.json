@@ -53,14 +53,14 @@
     "href": "resume.html",
     "title": "Resume",
     "section": "",
-    "text": "Under Construction\nGo back home 🏡"
+    "text": "Under Construction"
   },
   {
     "objectID": "fieldphotos.html",
     "href": "fieldphotos.html",
     "title": "Photo Gallery",
     "section": "",
-    "text": "Where are all the photos she promised??\n\nUnder construction\nGo back home 🏡"
+    "text": "Where are all the photos she promised??\n\nUnder construction"
   },
   {
     "objectID": "cv.html",
@@ -74,7 +74,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "💡 Service Light Data Project\n\nUCSB Course: ENVS 193DS – Data Science for Environmental Studies\nI explored the relationship between lighting conditions and service calls using a custom dataset of 108 observations. Deliverables included bar charts, a summary table, and a blinking lightboard animation.\n\n\nTools\n\nRStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto\n\n\n\nReflection\n\n\n“It requires you to actually think about your data.” – An Bui\n\nThis project made me think harder about data than I expected. After attempting to collect AND use my own data, I am humbled. Lessons were learned. Tears were shed.\n\n\n\n💻 Example Code\n\n# Clean and standardize help and working columns\nclean_service_data &lt;- service_data |&gt;  # using service_data set\n  mutate(\n    help = toupper(help),\n    working = toupper(working),\n    # Convert the uppercase text to logical TRUE/FALSE values\n    help = as.logical(help), \n    working = as.logical(working)\n  )\n\n\n\nVisuals\n\n\n\n\nService Light Table\n\n\n\n\n\nService Light Graph\n\n\n\n\n\nService Light Visual\n\n\n\nGitHub Repo\nView Live"
+    "text": "This page highlights some of my work from classes and research. It includes data projects, fieldwork, and tools I’ve used."
   },
   {
     "objectID": "about.html#my-path",
@@ -151,14 +151,14 @@
     "href": "cats.html",
     "title": "😿Uh-Oh!😿",
     "section": "",
-    "text": "Your browser does not support the video tag. \n\n\nUh-oh… this page isn’t ready yet!\nChester and Leo got into the code again.\nWe’re working on it — check back soon for more feline mischief, fluff, and fun.\nGo back home 🏡"
+    "text": "Your browser does not support the video tag.\nWondering where the photos are?\nChester and Leo got into the code again.\nBut we’re working on it — check back soon for more feline mischief, fluff, and fun."
   },
   {
     "objectID": "projects.html#school-projects",
     "href": "projects.html#school-projects",
     "title": "Projects",
-    "section": "",
-    "text": "💡 Service Light Data Project\n\nUCSB Course: ENVS 193DS – Data Science for Environmental Studies\nI explored the relationship between lighting conditions and service calls using a custom dataset of 108 observations. Deliverables included bar charts, a summary table, and a blinking lightboard animation.\n\n\nTools\n\nRStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto\n\n\n\nReflection\n\n\n“It requires you to actually think about your data.” – An Bui\n\nThis project made me think harder about data than I expected. After attempting to collect AND use my own data, I am humbled. Lessons were learned. Tears were shed.\n\n\n\n💻 Example Code\n\n# Clean and standardize help and working columns\nclean_service_data &lt;- service_data |&gt;  # using service_data set\n  mutate(\n    help = toupper(help),\n    working = toupper(working),\n    # Convert the uppercase text to logical TRUE/FALSE values\n    help = as.logical(help), \n    working = as.logical(working)\n  )\n\n\n\nVisuals\n\n\n\n\nService Light Table\n\n\n\n\n\nService Light Graph\n\n\n\n\n\nService Light Visual\n\n\n\nGitHub Repo\nView Live"
+    "section": "🏫 School Projects",
+    "text": "🏫 School Projects\n\n\n💡 Service Light Data Project\n\nUCSB Course: ENVS 193DS – Data Science for Environmental Studies\nI explored the relationship between lighting conditions and service calls using a custom dataset of 108 observations. Deliverables included bar charts, a summary table, and a blinking lightboard animation.\n\n\nTools\n\nRStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto\n\n\n\nReflection\n\n\n“It requires you to actually think about your data.” – An Bui, said before every statistical test ever\n\nThis project made me think harder about data than I expected. After attempting to collect AND use my own data, I am humbled. Lessons were learned. Tears were shed.\n\n\n\n Example Code\n\n# Clean and standardize help and working columns\nclean_service_data &lt;- service_data |&gt;  # using service_data set\n  mutate(\n    help = toupper(help),\n    working = toupper(working),\n    # Convert the uppercase text to logical TRUE/FALSE values\n    help = as.logical(help), \n    working = as.logical(working)\n  )\n\n\n\nVisuals\n\n\n\n\nService Light Table\n\n\n\n\n\nService Light Graph\n\n\n\n\n\nService Light Visual\n\n\n\nGitHub Repo\nView Live"
   },
   {
     "objectID": "projects.html#past-projects",
@@ -166,5 +166,12 @@
     "title": "Projects",
     "section": "📁 Past Projects",
     "text": "📁 Past Projects\nComing soon"
+  },
+  {
+    "objectID": "cats.html#are-you-more-like-chester-or-leo",
+    "href": "cats.html#are-you-more-like-chester-or-leo",
+    "title": "😿Uh-Oh!😿",
+    "section": "Are You More Like Chester or Leo?",
+    "text": "Are You More Like Chester or Leo?\n\n\nFind out now!"
   }
 ]
