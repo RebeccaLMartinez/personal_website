@@ -101,3 +101,43 @@ body {
   border-color: #377a67;
   color: white;
 }
+
+
+/* Main container for the comment box */
+.commentbox {
+  background-color: #2b7a78;  /* Dark teal background */
+  color: #ffffff;             /* White text */
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+}
+
+/* All inner elements like input fields and text areas */
+.commentbox input,
+.commentbox textarea {
+  background-color: #ffffff;
+  color: #111111;
+  border: 1px solid #ccc;
+}
+
+/* Submit button style */
+.commentbox button {
+  background-color: #ffffff;  /* White button */
+  color: #2b7a78;             /* Teal text */
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Button hover effect */
+.commentbox button:hover {
+  background-color: #def2f1;  /* Light seafoam hover */
+}
+
+/* Link colors inside comment box */
+.commentbox a {
+  color: #ffffff;
+  text-decoration: underline;
+}
