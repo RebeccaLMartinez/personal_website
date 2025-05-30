@@ -9,56 +9,61 @@ about:
     - icon: envelope
       text: Email
       href: mailto:rebecca_martinez@ucsb.edu
-     - icon: github
-        href: https://github.com/RebeccaLMartinez
-        aria-label: GitHub
+    - icon: github
+      href: https://github.com/RebeccaLMartinez
+      aria-label: GitHub
+      
 ---
 
 :::{#hero-heading}
 
-Hi! I’m Rebecca — a Marine Corps veteran, mom of two, and Environmental Studies major at UCSB. I didn’t take the usual path to college, but I’ve made every step count. I love working outside, solving real-world problems, and giving back through service and mentorship.
+Hi! I'm Rebecca — a mom of two, Environmental Studies major at the University of California, Santa Barbara (UCSB), and Marine Corps veteran. I’ve taken an unconventional path to college, but I’ve made every step count. I’m drawn to work that’s hands-on, community-centered, and rooted in care — whether that’s in the field, the classroom, or beyond.
+
+Right now, I’m focused on environmental research, mentorship, and exploring how undergraduate education can connect science, service, and real-world impact.
 
 :::
-
----
 
 
 ## 🛤️ My Path
 
-After years of working, raising two amazing teens, and serving in the Marine Corps Reserves, I returned to school to study environmental systems and sustainability. I’m currently majoring in Environmental Studies at UCSB, where I’m combining [fieldwork and research](projects.qmd), along with community service, into a path that feels meaningful and practical.
+Before returning to school, I spent two decades working, raising two incredible kids, and navigating life’s many responsibilities — including time in the Marine Corps Reserves and nearly two decades in a civilian job. I started my academic journey at community college, where I reconnected with my love for science and service. Now, as an Environmental Studies major at UCSB, I’m combining research, search, and community engagement into a path that feels both meaningful and practical.
 
-![Collecting data at Santa Cruz Island](media/sci-sunset.jpg)
-![UCSB Field Trip](media/fieldwork2.jpg)
+photo
+photo
 
-
----
 
 ## 👩‍👧‍👦😺 Family & Life
 
 I’m a proud mom to two incredible teenagers. They've grown up alongside my journey, and honestly, they’re my biggest motivation. Outside of school, I love volunteering, spending time in nature, and hanging out with my cats, Chester and Leo.
 
-![Me with my kids](media/rebecca-kids.jpg)
-![Chester & Leo](media/cats.jpg)
+kids
+cats
+
+Curious about Chester and Leo? You can find more fluffiness [here.](cats.qmd)
 
 ## 🌿 Fieldwork Adventures
 
-Some of my favorite days have been in the field — whether hiking through Sedgwick Reserve, working on a fog harp at Santa Cruz Island, or collecting water samples in Panama. These experiences remind me why I chose this path.
+I’m happiest when I’m outside, learning by doing. Hands-on environmental work helps me connect what I’m learning in the classroom to real ecosystems and real people.
+I believe fieldwork is one of the most powerful ways to teach and inspire others — especially students and community members who may not see themselves in science yet.
 
-![Sedgwick Reserve](media/sedgwick.jpg)
-![Panama Project](media/panama.jpg)
+field
+field
 
----
+You can explore my [projects](projects.qmd) and [photos](fieldphotos.qmd) pages to see what I’ve been up to.
 
----
 
 ## ❤️ Work That Matters
 
-Community connection is at the heart of everything I do — whether it’s through volunteer work, environmental research, or supporting fellow students and veterans. I believe that science and service go hand in hand, and that meaningful change starts with care, curiosity, and showing up for others in practical ways.
+Community involvement has always been a meaningful part of my life. Whether it’s through mentoring, volunteering, or helping behind the scenes, I try to contribute where I can — not because I have all the answers, but because I believe in being part of something that gives back. Over the years, I’ve stayed involved with efforts that reflect those values, like Toys for Tots, campus and local outreach, and *She Raised Her Hand*.
+
+To me, meaningful work is about showing up — and trusting that what we offer contributes to something bigger than ourselves.
 
 
-![Toys for Tots event](media/toysfortots.jpg)
-![Community cleanup](media/cleanup.jpg)
+photo
+photo
+
+Please visit [**She Raised Her Hand**](https://www.sheraisedherhand.com) for more information and upcoming events.  
+If you’d like to support seasonal giving efforts, donations can be made through [**Toys for Tots**](https://www.toysfortots.org).
+
 
 ---
-
-Thanks for visiting! You can explore my [projects](projects.qmd) and [photos](photos.qmd) pages to see what I’ve been up to.
