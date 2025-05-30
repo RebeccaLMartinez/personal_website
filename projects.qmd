@@ -9,100 +9,97 @@ format:
 
 This page highlights some of my work from classes and research. It includes data projects, fieldwork, and tools I’ve used.
 
-
 ## 🏫 School Projects
 
-<details>
-  <summary><strong>💡 Service Light Data Project</strong></summary>
+<div class="project">
+  <h3 onclick="toggleContent('proj1', this)">💡 Service Light Data Project</h3>
+  <div id="proj1" class="project-details">
 
-**UCSB**
+**School:** UCSB  
 **Course:** ENVS 193DS – Data Science for Environmental Studies  
 
-I explored the relationship between lighting conditions and service calls using a custom dataset of 108 observations. Deliverables included bar charts, a summary table, and a blinking lightboard animation.
+Explored the relationship between lighting conditions and service calls using a self-collected dataset (n=108). Created a bar chart, summary table, and a blinking lightboard animation (gif). See visuals.
 
-<details>
-  <summary><strong>Tools</strong></summary>
-  RStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto  
-</details>
+**Tools Used:**  
+RStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto
 
-<details>
-  <summary><strong>Reflection</strong></summary>
+**Reflection:**  
+This project made me think harder about data than I expected. After collecting and working with my own dataset, I gained a deeper respect for the messiness of real-world data.
 
-This project made me think harder about data than I expected. After attempting to collect AND use my own data, I am humbled. Lessons were learned. Tears were shed.
-</details>
-
-<details>
-  <summary><strong> Example Code</strong></summary>
-
+**Code Snippet:**
 ```r
-# Clean and standardize help and working columns
-clean_service_data <- service_data |>  # using service_data set
+clean_service_data <- service_data |>
   mutate(
-    help = toupper(help),
-    working = toupper(working),
-    # Convert the uppercase text to logical TRUE/FALSE values
-    help = as.logical(help), 
-    working = as.logical(working)
+    help = as.logical(toupper(help)),
+    working = as.logical(toupper(working))
   )
-``` 
-</details>
-
-<details>
-  <summary><strong>Visuals</strong></summary>
-  
-![Service Light Table](/media/light_table.jpg)
+```
+**Visuals:**  
+![Service Light Table](/media/light_table.jpg)  
 
 
-![Service Light Graph](/media/service_light_bar.jpg)
 
 
-<figure style="text-align: left;">
-  <img src="media/blinking_lights.gif" width="400px" style="margin: 10px 0;" />
-  <figcaption style="margin-top: 5px;">Service Light Visual</figcaption>
-</figure>
-</details>
+![Service Light Graph](/media/service_light_bar.jpg)  
+
+
+<figure style="text-align: left;"> <img src="media/blinking_lights.gif" width="400px" style="margin: 10px 0;" /> <figcaption style="margin-top: 5px;">Service Light Visual</figcaption> </figure>
+
+**Resources**
 
 [GitHub Repo](https://github.com/RebeccaLMartinez/ENVS-193DS_homework-03)  
 [View Live](https://rebeccalmartinez.github.io/ENVS-193DS_homework-03/code/ENVS-193DS_homework-03.html)
+  </div>
+</div>
 
-
-</details>
-
-
-
+---
 
 ## 🔍 Research Projects
 
-
-
-<details>
-  <summary><strong>💧 Fog Harp Device</strong></summary>
+<div class="project">
+  <h3 onclick="toggleContent('proj2', this)">💧 Fog Harp Device</h3>
+  <div id="proj2" class="project-details">
 
 **Affiliation:** UCSB Office of Education Partnerships  
 
-Designing and field-testing fogwater monitoring devices (fog harp) to measure fog water lveels.
+Designing and field-testing fogwater monitoring devices (fog harp) to measure fog water levels.
+  </div>
+</div>
 
-</details>
+<div class="project">
+  <h3 onclick="toggleContent('proj3', this)">🦨 Skunk Population</h3>
+  <div id="proj3" class="project-details">
 
-<details>
-  <summary><strong>🦨 Skunk Population</strong></summary>
-
-**Affiliation:** UCSB-Smithsonian Scholars Program (OEP) 
+**Affiliation:** UCSB-Smithsonian Scholars Program (OEP)  
 
 Undergraduate research using camera traps to monitor and quantify skunk populations on Santa Cruz Island.
+  </div>
+</div>
 
-</details>
-
-<details>
-  <summary><strong>🌱 Soil Bioturbation by Mammals</strong></summary>
+<div class="project">
+  <h3 onclick="toggleContent('proj4', this)">🌱 Soil Bioturbation by Mammals</h3>
+  <div id="proj4" class="project-details">
 
 **Affiliation:** UCNRS Field Science Fellowship  
 **Mentor:** Dr. Iris Holzer  
 
 Investigating how small mammals like gophers and ground squirrels influence soil processes through bioturbation. Includes paired site comparisons.
+  </div>
+</div>
 
-</details>
+---
 
 ## 📁 Past Projects
 
 *Coming soon*
+
+---
+
+<script>
+  function toggleContent(id, el) {
+    const content = document.getElementById(id);
+    const isOpen = content.style.display === "block";
+    content.style.display = isOpen ? "none" : "block";
+    el.classList.toggle("open", !isOpen);
+  }
+</script>

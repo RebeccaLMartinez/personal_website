@@ -137,48 +137,26 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>This page highlights some of my work from classes and research. It includes data projects, fieldwork, and tools I’ve used.</p>
 <section id="school-projects" class="level2">
 <h2 class="anchored" data-anchor-id="school-projects">🏫 School Projects</h2>
-<details>
-<summary>
-<strong>💡 Service Light Data Project</strong>
-</summary>
-<p><strong>UCSB</strong> <strong>Course:</strong> ENVS 193DS – Data Science for Environmental Studies</p>
-<p>I explored the relationship between lighting conditions and service calls using a custom dataset of 108 observations. Deliverables included bar charts, a summary table, and a blinking lightboard animation.</p>
-<details>
-<summary>
-<strong>Tools</strong>
-</summary>
-RStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto
-</details>
-<details>
-<summary>
-<strong>Reflection</strong>
-</summary>
-This project made me think harder about data than I expected. After attempting to collect AND use my own data, I am humbled. Lessons were learned. Tears were shed.
-</details>
-<details>
-<summary>
-<strong> Example Code</strong>
-</summary>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Clean and standardize help and working columns</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>clean_service_data <span class="ot">&lt;-</span> service_data <span class="sc">|&gt;</span>  <span class="co"># using service_data set</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">help =</span> <span class="fu">toupper</span>(help),</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">working =</span> <span class="fu">toupper</span>(working),</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Convert the uppercase text to logical TRUE/FALSE values</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">help =</span> <span class="fu">as.logical</span>(help), </span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">working =</span> <span class="fu">as.logical</span>(working)</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<details>
-<summary>
-<strong>Visuals</strong>
-</summary>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src=".\media/light_table.jpg" class="img-fluid figure-img"></p>
-<figcaption>Service Light Table</figcaption>
-</figure>
-</div>
+<div class="project">
+<h3 onclick="toggleContent('proj1', this)" class="anchored">
+💡 Service Light Data Project
+</h3>
+<div id="proj1" class="project-details">
+<p><strong>School:</strong> UCSB<br>
+<strong>Course:</strong> ENVS 193DS – Data Science for Environmental Studies</p>
+<p>Explored the relationship between lighting conditions and service calls using a self-collected dataset (n=108). Created a bar chart, summary table, and a blinking lightboard animation (gif). See visuals.</p>
+<p><strong>Tools Used:</strong><br>
+RStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto</p>
+<p><strong>Reflection:</strong><br>
+This project made me think harder about data than I expected. After collecting and working with my own dataset, I gained a deeper respect for the messiness of real-world data.</p>
+<p><strong>Code Snippet:</strong></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>clean_service_data <span class="ot">&lt;-</span> service_data <span class="sc">|&gt;</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="at">help =</span> <span class="fu">as.logical</span>(<span class="fu">toupper</span>(help)),</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">working =</span> <span class="fu">as.logical</span>(<span class="fu">toupper</span>(working))</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>Visuals:</strong><br>
+<img src=".\media/light_table.jpg" class="img-fluid" alt="Service Light Table"></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src=".\media/service_light_bar.jpg" class="img-fluid figure-img"></p>
@@ -191,39 +169,57 @@ This project made me think harder about data than I expected. After attempting t
 Service Light Visual
 </figcaption>
 </figure>
-</details>
-<p><a href="https://github.com/RebeccaLMartinez/ENVS-193DS_homework-03">GitHub Repo</a><br>
-<a href="https://rebeccalmartinez.github.io/ENVS-193DS_homework-03/code/ENVS-193DS_homework-03.html">View Live</a></p>
-</details>
+<p><strong>Resources</strong></p>
+<a href="https://github.com/RebeccaLMartinez/ENVS-193DS_homework-03">GitHub Repo</a><br>
+<a href="https://rebeccalmartinez.github.io/ENVS-193DS_homework-03/code/ENVS-193DS_homework-03.html">View Live</a>
+</div>
+</div>
+<hr>
 </section>
 <section id="research-projects" class="level2">
 <h2 class="anchored" data-anchor-id="research-projects">🔍 Research Projects</h2>
-<details>
-<summary>
-<strong>💧 Fog Harp Device</strong>
-</summary>
+<div class="project">
+<h3 onclick="toggleContent('proj2', this)" class="anchored">
+💧 Fog Harp Device
+</h3>
+<div id="proj2" class="project-details">
 <p><strong>Affiliation:</strong> UCSB Office of Education Partnerships</p>
-<p>Designing and field-testing fogwater monitoring devices (fog harp) to measure fog water lveels.</p>
-</details>
-<details>
-<summary>
-<strong>🦨 Skunk Population</strong>
-</summary>
+Designing and field-testing fogwater monitoring devices (fog harp) to measure fog water levels.
+</div>
+</div>
+<div class="project">
+<h3 onclick="toggleContent('proj3', this)" class="anchored">
+🦨 Skunk Population
+</h3>
+<div id="proj3" class="project-details">
 <p><strong>Affiliation:</strong> UCSB-Smithsonian Scholars Program (OEP)</p>
-<p>Undergraduate research using camera traps to monitor and quantify skunk populations on Santa Cruz Island.</p>
-</details>
-<details>
-<summary>
-<strong>🌱 Soil Bioturbation by Mammals</strong>
-</summary>
+Undergraduate research using camera traps to monitor and quantify skunk populations on Santa Cruz Island.
+</div>
+</div>
+<div class="project">
+<h3 onclick="toggleContent('proj4', this)" class="anchored">
+🌱 Soil Bioturbation by Mammals
+</h3>
+<div id="proj4" class="project-details">
 <p><strong>Affiliation:</strong> UCNRS Field Science Fellowship<br>
 <strong>Mentor:</strong> Dr.&nbsp;Iris Holzer</p>
-<p>Investigating how small mammals like gophers and ground squirrels influence soil processes through bioturbation. Includes paired site comparisons.</p>
-</details>
+Investigating how small mammals like gophers and ground squirrels influence soil processes through bioturbation. Includes paired site comparisons.
+</div>
+</div>
+<hr>
 </section>
 <section id="past-projects" class="level2">
 <h2 class="anchored" data-anchor-id="past-projects">📁 Past Projects</h2>
 <p><em>Coming soon</em></p>
+<hr>
+<script>
+  function toggleContent(id, el) {
+    const content = document.getElementById(id);
+    const isOpen = content.style.display === "block";
+    content.style.display = isOpen ? "none" : "block";
+    el.classList.toggle("open", !isOpen);
+  }
+</script>
 
 
 </section>

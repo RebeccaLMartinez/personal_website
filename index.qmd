@@ -1,10 +1,11 @@
 ---
 title: "Hi, and welcome!"
 image: media/sci-sunset.jpeg
-2toc: false
+format:
+  html:
+    toc: false
 about:
   template: marquee
-
 ---
 
 I’m Rebecca Martinez — a student researcher and environmental studies major based in California. 
@@ -12,35 +13,17 @@ I’m Rebecca Martinez — a student researcher and environmental studies major 
 This site highlights the projects I’m working on, the experiences shaping my academic path, and the ways I stay involved beyond the classroom. Whether you’re here to browse, collaborate, or just learn more, I’m glad you stopped by!
 
 
-
----
-
-
-
-*Note: Some sections are still in progress as I add new content. Thanks for your patience!*
-
 ---
 
 
 
 
-<details>
-  <summary><strong>**Leave a comment**</strong></summary>
-
-
-::: {.commentbox}
-<div class="Leave a comment"></div>
-
-<script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
-<script>
-  commentBox('5736895317278720-proj');
-</script>
-:::
 
 
 
 
 
+*Note: Some sections are still under construction. Thanks for your patience!*
 
 
-</details>
+

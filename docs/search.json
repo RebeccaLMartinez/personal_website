@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Hi, and welcome!",
     "section": "",
-    "text": "I’m Rebecca Martinez — a student researcher and environmental studies major based in California.\nThis site highlights the projects I’m working on, the experiences shaping my academic path, and the ways I stay involved beyond the classroom. Whether you’re here to browse, collaborate, or just learn more, I’m glad you stopped by!\n\nNote: Some sections are still in progress as I add new content. Thanks for your patience!\n\n\n\nLeave a comment"
+    "text": "I’m Rebecca Martinez — a student researcher and environmental studies major based in California.\nThis site highlights the projects I’m working on, the experiences shaping my academic path, and the ways I stay involved beyond the classroom. Whether you’re here to browse, collaborate, or just learn more, I’m glad you stopped by!\n\nNote: Some sections are still under construction. Thanks for your patience!"
   },
   {
     "objectID": "about.html",
@@ -60,7 +60,7 @@
     "href": "fieldphotos.html",
     "title": "Photo Gallery",
     "section": "",
-    "text": "Where are all the photos she promised??\n\nUnder construction"
+    "text": "Where are all the photos she promised??\nUnder construction"
   },
   {
     "objectID": "cv.html",
@@ -144,7 +144,7 @@
     "href": "projects.html#research-projects",
     "title": "Projects",
     "section": "🔍 Research Projects",
-    "text": "🔍 Research Projects\n\n\n💧 Fog Harp Device\n\nAffiliation: UCSB Office of Education Partnerships\nDesigning and field-testing fogwater monitoring devices (fog harp) to measure fog water lveels.\n\n\n\n🦨 Skunk Population\n\nAffiliation: UCSB-Smithsonian Scholars Program (OEP)\nUndergraduate research using camera traps to monitor and quantify skunk populations on Santa Cruz Island.\n\n\n\n🌱 Soil Bioturbation by Mammals\n\nAffiliation: UCNRS Field Science Fellowship\nMentor: Dr. Iris Holzer\nInvestigating how small mammals like gophers and ground squirrels influence soil processes through bioturbation. Includes paired site comparisons."
+    "text": "🔍 Research Projects\n\n\n💧 Fog Harp Device\n\n\nAffiliation: UCSB Office of Education Partnerships\nDesigning and field-testing fogwater monitoring devices (fog harp) to measure fog water levels.\n\n\n\n\n🦨 Skunk Population\n\n\nAffiliation: UCSB-Smithsonian Scholars Program (OEP)\nUndergraduate research using camera traps to monitor and quantify skunk populations on Santa Cruz Island.\n\n\n\n\n🌱 Soil Bioturbation by Mammals\n\n\nAffiliation: UCNRS Field Science Fellowship\nMentor: Dr. Iris Holzer\nInvestigating how small mammals like gophers and ground squirrels influence soil processes through bioturbation. Includes paired site comparisons."
   },
   {
     "objectID": "cats.html",
@@ -158,7 +158,7 @@
     "href": "projects.html#school-projects",
     "title": "Projects",
     "section": "🏫 School Projects",
-    "text": "🏫 School Projects\n\n\n💡 Service Light Data Project\n\nUCSB Course: ENVS 193DS – Data Science for Environmental Studies\nI explored the relationship between lighting conditions and service calls using a custom dataset of 108 observations. Deliverables included bar charts, a summary table, and a blinking lightboard animation.\n\n\nTools\n\nRStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto\n\n\n\nReflection\n\nThis project made me think harder about data than I expected. After attempting to collect AND use my own data, I am humbled. Lessons were learned. Tears were shed.\n\n\n\n Example Code\n\n# Clean and standardize help and working columns\nclean_service_data &lt;- service_data |&gt;  # using service_data set\n  mutate(\n    help = toupper(help),\n    working = toupper(working),\n    # Convert the uppercase text to logical TRUE/FALSE values\n    help = as.logical(help), \n    working = as.logical(working)\n  )\n\n\n\nVisuals\n\n\n\n\nService Light Table\n\n\n\n\n\nService Light Graph\n\n\n\n\n\nService Light Visual\n\n\n\nGitHub Repo\nView Live"
+    "text": "🏫 School Projects\n\n\n💡 Service Light Data Project\n\n\nSchool: UCSB\nCourse: ENVS 193DS – Data Science for Environmental Studies\nExplored the relationship between lighting conditions and service calls using a self-collected dataset (n=108). Created a bar chart, summary table, and a blinking lightboard animation (gif). See visuals.\nTools Used:\nRStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto\nReflection:\nThis project made me think harder about data than I expected. After collecting and working with my own dataset, I gained a deeper respect for the messiness of real-world data.\nCode Snippet:\nclean_service_data &lt;- service_data |&gt;\n  mutate(\n    help = as.logical(toupper(help)),\n    working = as.logical(toupper(working))\n  )\nVisuals:\n\n\n\n\nService Light Graph\n\n\n\n\n\nService Light Visual\n\n\nResources\nGitHub Repo\nView Live"
   },
   {
     "objectID": "projects.html#past-projects",
@@ -173,5 +173,19 @@
     "title": "😿Uh-Oh!😿",
     "section": "Are You More Like Chester or Leo?",
     "text": "Are You More Like Chester or Leo?\n\n\nCheck back soon for more feline mischief, fluff, and fun!"
+  },
+  {
+    "objectID": "index.html#comments",
+    "href": "index.html#comments",
+    "title": "Hi, and welcome!",
+    "section": "💬 Comments",
+    "text": "💬 Comments\nClick here to leave a comment\nComments open in a new tab via CommentBox.io. 5736895317278720-proj"
+  },
+  {
+    "objectID": "index.html#comments-1",
+    "href": "index.html#comments-1",
+    "title": "Hi, and welcome!",
+    "section": "💬 Comments",
+    "text": "💬 Comments\nClick here to leave a comment\nComments open in a new tab via CommentBox.io."
   }
 ]

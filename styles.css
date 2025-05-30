@@ -140,77 +140,59 @@ body {
   height: auto;
 }
 
-/* === Start Screen Styling === */
-#start-screen {
-  text-align: center;
-  margin: 2em auto;
-  color: #ffffff; /* Make text white */
-}
-
-#start-screen h2 {
-  font-size: 1.5em;
-  margin-bottom: 1em;
-  color: #ffffff; /* Ensure heading is white */
-}
-
-/* Match quiz button styles */
-#start-button {
-  padding: 0.6em 1.2em;
-  margin: 0.4em;
-  border-radius: 6px;
-  border: 2px solid #4FA78D;
-  background-color: #2b7a78; /* dark teal */
-  color: #fff;
-  font-weight: bold;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-  cursor: pointer;
-}
-
-#start-button:hover {
-  background-color: #418c76;
-  transform: translateY(-2px);
-}
 
 
 /* Comment box formatting*/
 
-
-/* Main container for the comment box */
-.commentbox {
-  background-color: #2b7a78;  /* Dark teal background */
-  color: #ffffff;             /* White text */
-  padding: 1em;
-  border-radius: 8px;
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
-}
-
-/* All inner elements like input fields and text areas */
-.commentbox input,
-.commentbox textarea {
-  background-color: #ffffff;
-  color: #111111;
-  border: 1px solid #ccc;
-}
-
-/* Submit button style */
-.commentbox button {
-  background-color: #ffffff;  /* White button */
-  color: #2b7a78;             /* Teal text */
-  border: none;
-  padding: 0.5em 1em;
-  border-radius: 4px;
+.comment-link {
+  display: inline-block;
+  background-color: #4FA78D;
+  color: #111;
+  padding: 0.6em 1.2em;
+  border-radius: 6px;
+  text-decoration: none;
   font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.comment-link:hover {
+  background-color: #418c76;
+  color: white;
+}
+
+/*project page format */
+
+/* === Project Page Format === */
+
+.project h3 {
   cursor: pointer;
+  color: #4FA78D; /* lighter teal */
+  transition: color 0.2s ease;
+  font-weight: bold;
 }
 
-/* Button hover effect */
-.commentbox button:hover {
-  background-color: #def2f1;  /* Light seafoam hover */
+.project h3:hover {
+  color: #fff; /* white on hover */
 }
 
-/* Link colors inside comment box */
-.commentbox a {
+.project h3.open::after {
+  content: " ▲";
+  color: #def2f1; /* soft seafoam */
+}
+
+.project h3:not(.open)::after {
+  content: " ▼";
+  color: #def2f1;
+}
+
+.project-details {
+  display: none;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+  border-left: 3px solid #4FA78D; /* matches button hover color */
   color: #ffffff;
-  text-decoration: underline;
+  background-color: #black; /* dark teal bg */
+  padding: 1rem;
+  border-radius: 6px;
 }
-
