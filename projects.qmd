@@ -9,13 +9,13 @@ format:
 
 ## 🏫 School Projects
 
-####  Current
-
 <details>
   <summary><strong>💡 Service Light Data Project</strong></summary>
 
 **UCSB**
 **Course:** ENVS 193DS – Data Science for Environmental Studies  
+
+I explored the relationship between lighting conditions and service calls using a custom dataset of 108 observations. Deliverables included bar charts, a summary table, and a blinking lightboard animation.
 
 <details>
   <summary><strong>Tools</strong></summary>
@@ -65,21 +65,19 @@ clean_service_data <- service_data |>  # using service_data set
 </figure>
 </details>
 
-[📁 GitHub Repo](https://github.com/RebeccaLMartinez/ENVS-193DS_homework-03)  
-[🌐 View Live](https://rebeccalmartinez.github.io/ENVS-193DS_homework-03/code/ENVS-193DS_homework-03.html)
+[GitHub Repo](https://github.com/RebeccaLMartinez/ENVS-193DS_homework-03)  
+[View Live](https://rebeccalmartinez.github.io/ENVS-193DS_homework-03/code/ENVS-193DS_homework-03.html)
 
 
 </details>
 
-#### Past
 
-*Coming soon*
 
----
+
 
 ## 🔍 Research Projects
 
-#### Current
+
 
 <details>
   <summary><strong>💧 Fogwater Monitoring Device</strong></summary>
@@ -109,6 +107,6 @@ Investigating how small mammals like gophers and ground squirrels influence soil
 
 </details>
 
-#### Past
+## 📁 Past Projects
 
 *Coming soon*
