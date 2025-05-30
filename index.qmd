@@ -1,31 +1,17 @@
 ---
-title: "Welcome!"
-image: media/headshot.jpeg
+title: "Hi, and welcome!"
+image: media/sci-sunset.jpeg
 2toc: false
 about:
-  template: trestles
-  image-width: 10em
-  image-shape: round
+  template: marquee
+
 ---
 
+I’m Rebecca Martinez — a student researcher and environmental studies major based in California. 
 
-
-# Hi, and welcome!
-
-I’m Rebecca Martinez — a student researcher and environmental studies major based in California. My work spans field science, , and educational outreach, with a focus on projects that connect people to place and data to impact.
-
-This site highlights the projects I’m working on, the experiences shaping my academic path, and the ways I stay involved beyond the classroom. Whether you’re here to browse, collaborate, or just learn more, I’m glad you stopped by.
+This site highlights the projects I’m working on, the experiences shaping my academic path, and the ways I stay involved beyond the classroom. Whether you’re here to browse, collaborate, or just learn more, I’m glad you stopped by!
 
 *Note: Some sections are still in progress as I add new content. Thanks for your patience!*
 
 
 ---
-
-### Quick Links
-
-- [About Me](about.qmd)
-- [Projects](projects.qmd)
-- [Résumé](resume.qmd)
-- [CV](cv.qmd)
-- [GitHub](https://github.com/RebeccaLMartinez)
-- [Email Me](mailto:rebecca_martinez@ucsb.edu)

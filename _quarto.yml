@@ -1,32 +1,30 @@
 project:
   type: website
   output-dir: docs
+
 website:
   title: "Rebecca Martinez"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - href: about.qmd
-        text: About
-      - href: projects.qmd
-        text: Projects
-      - href: field_photos
-        text: Field Photos
-      - href: resume.qmd
-        text: Resume
-      - href: cv.qmd
-        text: CV
-    right:
-      - icon: github
-        href: https://github.com/RebeccaLMartinez
-        aria-label: GitHub
+  # navbar:
+  #  left:
+  #    - href: index.qmd
+  #      text: Home
+  #    - href: about.qmd
+  #      text: About
+  #    - href: projects.qmd
+  #      text: Projects
+  #    - href: resume.qmd
+  #      text: Résumé
+  #    - href: cv.qmd
+  #      text: CV
+  page-footer:
+    center: |
+      [📧](mailto:rebecca_martinez@ucsb.edu)
+      [GitHub](https://github.com/RebeccaLMartinez)
+      <div class="footer-nav">
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: darkly
     css: styles.css
     toc: true
-
+    include-after-body: _footer.html

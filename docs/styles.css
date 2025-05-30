@@ -1,1 +1,9 @@
 /* css styles */
+
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  padding: 12px 0;
+  gap: 16px;
+ }

@@ -1,9 +1,64 @@
 ---
-title: "About"
+title: "Rebecca Martinez"
+about:
+  id: hero-heading
+  template: solana
+  image: media/headshot.jpeg
+  image-shape: round
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:rebecca_martinez@ucsb.edu
+     - icon: github
+        href: https://github.com/RebeccaLMartinez
+        aria-label: GitHub
 ---
 
-About this site
+:::{#hero-heading}
 
-```{r}
-1 + 1
-```
+Hi! I’m Rebecca — a Marine Corps veteran, mom of two, and Environmental Studies major at UCSB. I didn’t take the usual path to college, but I’ve made every step count. I love working outside, solving real-world problems, and giving back through service and mentorship.
+
+:::
+
+---
+
+
+## 🛤️ My Path
+
+After years of working, raising two amazing teens, and serving in the Marine Corps Reserves, I returned to school to study environmental systems and sustainability. I’m currently majoring in Environmental Studies at UCSB, where I’m combining [fieldwork and research](projects.qmd), along with community service, into a path that feels meaningful and practical.
+
+![Collecting data at Santa Cruz Island](media/sci-sunset.jpg)
+![UCSB Field Trip](media/fieldwork2.jpg)
+
+
+---
+
+## 👩‍👧‍👦😺 Family & Life
+
+I’m a proud mom to two incredible teenagers. They've grown up alongside my journey, and honestly, they’re my biggest motivation. Outside of school, I love volunteering, spending time in nature, and hanging out with my cats, Chester and Leo.
+
+![Me with my kids](media/rebecca-kids.jpg)
+![Chester & Leo](media/cats.jpg)
+
+## 🌿 Fieldwork Adventures
+
+Some of my favorite days have been in the field — whether hiking through Sedgwick Reserve, working on a fog harp at Santa Cruz Island, or collecting water samples in Panama. These experiences remind me why I chose this path.
+
+![Sedgwick Reserve](media/sedgwick.jpg)
+![Panama Project](media/panama.jpg)
+
+---
+
+---
+
+## ❤️ Work That Matters
+
+Community connection is at the heart of everything I do — whether it’s through volunteer work, environmental research, or supporting fellow students and veterans. I believe that science and service go hand in hand, and that meaningful change starts with care, curiosity, and showing up for others in practical ways.
+
+
+![Toys for Tots event](media/toysfortots.jpg)
+![Community cleanup](media/cleanup.jpg)
+
+---
+
+Thanks for visiting! You can explore my [projects](projects.qmd) and [photos](photos.qmd) pages to see what I’ve been up to.

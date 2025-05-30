@@ -2,16 +2,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome!",
+    "title": "Hi, and welcome!",
     "section": "",
-    "text": "Hi, and welcome!\nI’m Rebecca Martinez — a student researcher and environmental studies major based in California. My work spans field science, , and educational outreach, with a focus on projects that connect people to place and data to impact.\nThis site highlights the projects I’m working on, the experiences shaping my academic path, and the ways I stay involved beyond the classroom. Whether you’re here to browse, collaborate, or just learn more, I’m glad you stopped by.\nNote: Some sections are still in progress as I add new content. Thanks for your patience!\n\n\nQuick Links\n\nAbout Me\nProjects\nRésumé\nCV\nGitHub\nEmail Me"
+    "text": "I’m Rebecca Martinez — a student researcher and environmental studies major based in California.\nThis site highlights the projects I’m working on, the experiences shaping my academic path, and the ways I stay involved beyond the classroom. Whether you’re here to browse, collaborate, or just learn more, I’m glad you stopped by!\nNote: Some sections are still in progress as I add new content. Thanks for your patience!"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Rebecca Martinez",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Email\n  \n  \n    \n     GitHub\n  \n\n      \nHi! I’m Rebecca — a Marine Corps veteran, mom of two, and Environmental Studies major at UCSB. I didn’t take the usual path to college, but I’ve made every step count. I love working outside, solving real-world problems, and giving back through service and mentorship."
   },
   {
     "objectID": "index.html#quick-links",
@@ -33,5 +33,103 @@
     "title": "Meet Rebecca!",
     "section": "",
     "text": "Coming soon: Fieldwork photos, behind-the-scenes moments, and more!\n\nThanks for stopping by — last updated: May 2025"
+  },
+  {
+    "objectID": "about.html#my-interests",
+    "href": "about.html#my-interests",
+    "title": "About Rebecca",
+    "section": "My Interests",
+    "text": "My Interests"
+  },
+  {
+    "objectID": "about.html#my-life",
+    "href": "about.html#my-life",
+    "title": "About Rebecca",
+    "section": "My Life",
+    "text": "My Life\n\nHome Rebecca Projects Photos Résumé CV Email"
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "resume",
+    "section": "",
+    "text": "Under Construction\n\nHome Rebecca Projects Photos Résumé CV Email"
+  },
+  {
+    "objectID": "fieldphotos.html",
+    "href": "fieldphotos.html",
+    "title": "fieldphotos",
+    "section": "",
+    "text": "Under Construction"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "cv",
+    "section": "",
+    "text": "Under Construction"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "projects",
+    "section": "",
+    "text": "Under Construction"
+  },
+  {
+    "objectID": "about.html#my-path",
+    "href": "about.html#my-path",
+    "title": "Rebecca Martinez",
+    "section": "🛤️ My Path",
+    "text": "🛤️ My Path\nAfter years of working, raising two amazing teens, and serving in the Marine Corps Reserves, I returned to school to study environmental systems and sustainability. I’m currently majoring in Environmental Studies at UCSB, where I’m combining fieldwork and research, along with community service, into a path that feels meaningful and practical."
+  },
+  {
+    "objectID": "about.html#life-beyond-the-books",
+    "href": "about.html#life-beyond-the-books",
+    "title": "About Rebecca",
+    "section": "Life Beyond the Books",
+    "text": "Life Beyond the Books\nWhen I’m not in class or out collecting data, you’ll probably find me outdoors, at a local event, or hanging out with my two cats — Chester and Leo. I like building things, learning new tools, and being part of projects that make a difference. I’m also a fan of spontaneous road trips, science memes, and really good coffee.\n\n\n\nChester and Leo"
+  },
+  {
+    "objectID": "about.html#things-i-care-about",
+    "href": "about.html#things-i-care-about",
+    "title": "Rebecca Martinez",
+    "section": "❤️ Things I Care About",
+    "text": "❤️ Things I Care About\nI’m passionate about science that serves the community. From organizing donation drives with AGS at Hancock College to launching outreach for women veterans in Santa Barbara, I believe the best work is rooted in care and collaboration.\n \n\nThanks for visiting! You can explore my projects and photos pages to see what I’ve been up to."
+  },
+  {
+    "objectID": "about.html#family-life",
+    "href": "about.html#family-life",
+    "title": "Rebecca Martinez",
+    "section": "👩‍👧‍👦😺 Family & Life",
+    "text": "👩‍👧‍👦😺 Family & Life\nI’m a proud mom to two incredible teenagers. They’ve grown up alongside my journey, and honestly, they’re my biggest motivation. Outside of school, I love volunteering, spending time in nature, and hanging out with my cats, Chester and Leo."
+  },
+  {
+    "objectID": "about.html#fieldwork-favorites",
+    "href": "about.html#fieldwork-favorites",
+    "title": "About Rebecca",
+    "section": "Fieldwork Favorites",
+    "text": "Fieldwork Favorites\n\n\n\nSome of my most memorable experiences have been in the field — at places like Santa Cruz Island Reserve, Sedgwick Reserve, Rancho Marino, and even Panama. I love combining science, nature, and hands-on learning. These moments keep me grounded and curious.\n\n\n\nThanks for stopping by! Feel free to explore the other pages to learn more about my projects and see more photos!"
+  },
+  {
+    "objectID": "about.html#fieldwork-research",
+    "href": "about.html#fieldwork-research",
+    "title": "About Rebecca",
+    "section": "Fieldwork & Research",
+    "text": "Fieldwork & Research\n\n\n\nSome of my most memorable experiences have come through hands-on work — from the [Santa Cruz Island Reserve](projects.qmd) to Sedgwick and Rancho Marino, and even Panama. I enjoy connecting academic research with real-world ecosystems, and these projects help me stay grounded, curious, and engaged.\n\n\n\nThanks for stopping by! Feel free to explore the other pages to learn more about my projects and see more photos!"
+  },
+  {
+    "objectID": "about.html#fieldwork-adventures",
+    "href": "about.html#fieldwork-adventures",
+    "title": "Rebecca Martinez",
+    "section": "🌿 Fieldwork Adventures",
+    "text": "🌿 Fieldwork Adventures\nSome of my favorite days have been in the field — whether hiking through Sedgwick Reserve, working on a fog harp at Santa Cruz Island, or collecting water samples in Panama. These experiences remind me why I chose this path."
+  },
+  {
+    "objectID": "about.html#work-that-matters",
+    "href": "about.html#work-that-matters",
+    "title": "Rebecca Martinez",
+    "section": "❤️ Work That Matters",
+    "text": "❤️ Work That Matters\nCommunity connection is at the heart of everything I do — whether it’s through volunteer work, environmental research, or supporting fellow students and veterans. I believe that science and service go hand in hand, and that meaningful change starts with care, curiosity, and showing up for others in practical ways.\n \n\nThanks for visiting! You can explore my projects and photos pages to see what I’ve been up to."
   }
 ]
