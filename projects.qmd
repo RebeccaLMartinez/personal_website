@@ -7,6 +7,9 @@ format:
     css: styles.css
 ---
 
+This page highlights some of my work from classes and research. It includes data projects, fieldwork, and tools I’ve used.
+
+
 ## 🏫 School Projects
 
 <details>
