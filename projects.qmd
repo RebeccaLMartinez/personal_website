@@ -28,6 +28,7 @@ I explored the relationship between lighting conditions and service calls using 
 <details>
   <summary><strong>Reflection</strong></summary>
 
+
 <blockquote>
   “It requires you to actually <em>think</em> about your data.” – An Bui, said before every statistical test ever
 </blockquote>
@@ -80,11 +81,11 @@ clean_service_data <- service_data |>  # using service_data set
 
 
 <details>
-  <summary><strong>💧 Fogwater Monitoring Device</strong></summary>
+  <summary><strong>💧 Fog Harp Device</strong></summary>
 
 **Affiliation:** UCSB Office of Education Partnerships  
 
-Designing and field-testing fogwater monitoring devices to  evaluate sustainable water sourcing in fog-dependent regions.
+Designing and field-testing fogwater monitoring devices (fog harp) to measure fog water lveels.
 
 </details>
 
@@ -93,7 +94,7 @@ Designing and field-testing fogwater monitoring devices to  evaluate sustainable
 
 **Affiliation:** UCSB-Smithsonian Scholars Program (OEP) 
 
-Using camera traps to monitor skunk activity and movement patterns across reserve sites. Aims to inform local population ecology and habitat use.
+Undergraduate research using camera traps to monitor and quantify skunk populations on Santa Cruz Island.
 
 </details>
 
