@@ -46,3 +46,42 @@ body {
   color: #111;               /* dark text on hover for contrast */
   outline: none;
 }
+
+
+
+
+#fixed-icons {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  display: flex;
+  gap: 1rem;
+  z-index: 1000;
+}
+
+#fixed-icons a {
+  color: #2ecc71;
+  font-size: 1.5rem;
+  transition: color 0.2s;
+}
+
+#fixed-icons a:hover {
+  color: #27ae60;
+}
+
+
+.video-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.circle-video {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #5cb85c; /* Bootstrap "success" green from Darkly */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+

@@ -6,46 +6,36 @@ about:
   template: marquee
 ---
 
-> "It requires you to actually ***think*** about your data."  
-> – An Bui, probably before every single statistical test ever invented
 
-## 💡 Service Light Data Project
+# 🌱 Projects
 
-**Course:** ENVS 193DS  
 
-As part of *Data Science for Environmental Studies* at UCSB, I explored the relationship between lighting conditions and service calls using a custom dataset of 108 observations. This included bar charts, a summary table, and a blinking lightboard animation.
+<details>
+  <summary><strong>💡 Service Light Data Project</strong></summary>
 
-![Animated blinking lightboard](media/blinking_lights.gif){width=400px .center}
+  **Course:** ENVS 193DS  
+  **Tools:** RStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto
+  
+  
+  [📁 GitHub Repo](https://github.com/RebeccaLMartinez/ENVS-193DS_homework-03)  
+  [🌐 View Live](https://rebeccalmartinez.github.io/ENVS-193DS_homework-03/code/ENVS-193DS_homework-03.html)
 
-**🔗 Project Links**  
-- [📁 GitHub Repository](https://github.com/RebeccaLMartinez/ENVS-193DS_homework-03)  
-- [🌐 Rendered HTML Output](https://rebeccalmartinez.github.io/ENVS-193DS_homework-03/code/ENVS-193DS_homework-03.html)
+  <img src="media/blinking_lights.gif" width="400px" style="margin: 15px 0;" />
+
+  <blockquote>
+    “It requires you to actually <em>think</em> about your data.” – An Bui
+  </blockquote>
+</details>
 
 ---
 
-::: {.details}
-### Tools + Skills
-- **Tools:** R (ggplot2, dplyr, gganimate), Quarto, Adobe Photoshop  
-- **Skills:** Data cleaning, animation, visual storytelling, spatial reasoning
-:::
 
-::: {.details}
-### Dataset Overview
-- `date` – Date of the call  
-- `time_interval` – Time block of the call  
-- `help` – Whether help was needed  
-- `working` – Whether the light worked  
-- `event` – Event nearby (e.g., holiday, show)  
-- `machines_active`, `staff_total`, `weekday`
-:::
 
-::: {.details}
+<details>
+  <summary><strong>🦨 Skunk Monitoring Project</strong></summary>
+<img src="media/sci.jpg" width="300px" style="margin-top: 30px;" />
 
-### Artist Statement (Excerpt)
-This project shows service lights as a grid, using colors to show if they were working, broken, or unknown... (your full excerpt here)
-:::
+  *(UCSB Office of Education Partnerships)*  
+  *Coming soon*
 
-::: {.details}
-### Reflection
-This project was eye-opening. It was my first soft attempt at collecting and using my own data. Lessons were learned. Tears were shed. I will forever think more critically about my data.
-:::
+</details>

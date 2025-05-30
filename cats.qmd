@@ -1,5 +1,22 @@
 ---
-title: "cats"
-format: html
+title: "Uh-Oh!"
+format: 
+  html:
+    theme: darkly
+    css: styles.css
 ---
 
+<div class="video-wrapper">
+  <video autoplay loop muted playsinline class="circle-video">
+    <source src="/media/crazycat.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+# Uh-oh... this page isn’t ready yet! 😿
+
+Chester and Leo got into the code again.
+
+We’re working on it — check back soon for more feline mischief, fluff, and fun.
+
+[Go back home 🏡](index.qmd)

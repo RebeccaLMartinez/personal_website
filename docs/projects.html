@@ -38,17 +38,18 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-2a7528f117d075273fca3a0b09f3bef2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
+  "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
+  "panel-placement": "start",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
     "s"
   ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -63,6 +64,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
 
 <link rel="stylesheet" href="styles.css">
@@ -79,13 +81,7 @@ ul.task-list li input[type="checkbox"] {
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
   <ul>
-  <li><a href="#service-light-data-project" id="toc-service-light-data-project" class="nav-link active" data-scroll-target="#service-light-data-project">💡 Service Light Data Project</a>
-  <ul class="collapse">
-  <li><a href="#tools-skills" id="toc-tools-skills" class="nav-link" data-scroll-target="#tools-skills">Tools + Skills</a></li>
-  <li><a href="#dataset-overview" id="toc-dataset-overview" class="nav-link" data-scroll-target="#dataset-overview">Dataset Overview</a></li>
-  <li><a href="#artist-statement-excerpt" id="toc-artist-statement-excerpt" class="nav-link" data-scroll-target="#artist-statement-excerpt">Artist Statement (Excerpt)</a></li>
-  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection">Reflection</a></li>
-  </ul></li>
+  <li><a href="#projects" id="toc-projects" class="nav-link active" data-scroll-target="#projects">🌱 Projects</a></li>
   </ul>
 </nav>
     </div>
@@ -102,56 +98,32 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </header> <main class="content" id="quarto-document-content">
 
+<section id="projects" class="level1">
+<h1>🌱 Projects</h1>
+<details>
+<summary>
+<strong>💡 Service Light Data Project</strong>
+</summary>
+<p><strong>Course:</strong> ENVS 193DS<br>
+<strong>Tools:</strong> R (tidyverse, ggtext, gganimate), Quarto</p>
 <blockquote class="blockquote">
-<p>“It requires you to actually <strong><em>think</em></strong> about your data.”<br>
-– An Bui, probably before every single statistical test ever invented</p>
+<p>“It requires you to actually <em>think</em> about your data.”<br>
+– An Bui, probably before every statistical test ever invented</p>
 </blockquote>
-<section id="service-light-data-project" class="level2">
-<h2 data-anchor-id="service-light-data-project">💡 Service Light Data Project</h2>
-<p><strong>Course:</strong> ENVS 193DS</p>
-<p>As part of <em>Data Science for Environmental Studies</em> at UCSB, I explored the relationship between lighting conditions and service calls using a custom dataset of 108 observations. This included bar charts, a summary table, and a blinking lightboard animation.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="media/blinking_lights.gif" class="center img-fluid figure-img" width="400"></p>
-<figcaption>Animated blinking lightboard</figcaption>
-</figure>
-</div>
-<p><strong>🔗 Project Links</strong><br>
-- <a href="https://github.com/RebeccaLMartinez/ENVS-193DS_homework-03">📁 GitHub Repository</a><br>
-- <a href="https://rebeccalmartinez.github.io/ENVS-193DS_homework-03/code/ENVS-193DS_homework-03.html">🌐 Rendered HTML Output</a></p>
-<hr>
-<section id="tools-skills" class="level3 details">
-<h3 data-anchor-id="tools-skills">Tools + Skills</h3>
-<ul>
-<li><strong>Tools:</strong> R (ggplot2, dplyr, gganimate), Quarto, Adobe Photoshop<br>
-</li>
-<li><strong>Skills:</strong> Data cleaning, animation, visual storytelling, spatial reasoning</li>
-</ul>
-</section>
-<section id="dataset-overview" class="level3 details">
-<h3 data-anchor-id="dataset-overview">Dataset Overview</h3>
-<ul>
-<li><code>date</code> – Date of the call<br>
-</li>
-<li><code>time_interval</code> – Time block of the call<br>
-</li>
-<li><code>help</code> – Whether help was needed<br>
-</li>
-<li><code>working</code> – Whether the light worked<br>
-</li>
-<li><code>event</code> – Event nearby (e.g., holiday, show)<br>
-</li>
-<li><code>machines_active</code>, <code>staff_total</code>, <code>weekday</code></li>
-</ul>
-</section>
-<section id="artist-statement-excerpt" class="level3 details">
-<h3 data-anchor-id="artist-statement-excerpt">Artist Statement (Excerpt)</h3>
-<p>This project shows service lights as a grid, using colors to show if they were working, broken, or unknown… (your full excerpt here)</p>
-</section>
-<section id="reflection" class="level3 details">
-<h3 data-anchor-id="reflection">Reflection</h3>
-<p>This project was eye-opening. It was my first soft attempt at collecting and using my own data. Lessons were learned. Tears were shed. I will forever think more critically about my data.</p>
-</section>
+<p><a href="https://github.com/RebeccaLMartinez/ENVS-193DS_homework-03">📁 GitHub Repo</a><br>
+<a href="https://rebeccalmartinez.github.io/ENVS-193DS_homework-03/code/ENVS-193DS_homework-03.html">🌐 View Live</a></p>
+<p><img src="media/blinking_lights.gif" width="300px" style="margin-bottom: 10px;"></p>
+</details>
+<details>
+<summary>
+<strong>🦨 Skunk Monitoring Project</strong>
+</summary>
+<p><img src="media/sci.jpg" width="300px" style="margin-top: 30px;"></p>
+<p><em>(UCSB Office of Education Partnerships)</em><br>
+<em>Coming soon</em></p>
+</details>
+
+
 </section>
 </main> 
   </div>
@@ -587,21 +559,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
-    <div class="nav-footer-left">
-      &nbsp;
-    </div>   
-    <div class="nav-footer-center">
-<a href="mailto:rebecca_martinez@ucsb.edu">📧</a> <a href="https://github.com/RebeccaLMartinez">GitHub</a>
-<div class="footer-nav">
-<p>:::</p>
-<p>:::</p>
-
-
-</div>
-</div>
-</div></footer>
 
 
 
