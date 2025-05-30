@@ -33,7 +33,7 @@ This project made me think harder about data than I expected. After attempting t
 </details>
 
 <details>
-  <summary><strong>💻 Example Code</strong></summary>
+  <summary><strong> Example Code</strong></summary>
 
 ```r
 # Clean and standardize help and working columns
@@ -68,7 +68,6 @@ clean_service_data <- service_data |>  # using service_data set
 
 
 </details>
-
 
 
 
