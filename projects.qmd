@@ -90,7 +90,7 @@ Designing and field-testing fogwater monitoring devices (fog harp) to measure fo
 </details>
 
 <details>
-  <summary><strong>🦨 Skunk Population Monitoring</strong></summary>
+  <summary><strong>🦨 Skunk Population</strong></summary>
 
 **Affiliation:** UCSB-Smithsonian Scholars Program (OEP) 
 
