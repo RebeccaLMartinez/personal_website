@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>projects – Rebecca Martinez</title>
+<title>Projects – Rebecca Martinez</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -34,10 +34,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b53751a350365c71b6c909e95f209ed1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-ddd961a2510921635943dfbbd19534c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-2a7528f117d075273fca3a0b09f3bef2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -82,7 +82,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#under-construction" id="toc-under-construction" class="nav-link active" data-scroll-target="#under-construction"><strong><em>Under Construction</em></strong></a></li>
+  <li><a href="#service-light-data-project" id="toc-service-light-data-project" class="nav-link active" data-scroll-target="#service-light-data-project">💡 Service Light Data Project</a></li>
+  <li><a href="#research-projects" id="toc-research-projects" class="nav-link" data-scroll-target="#research-projects">Research Projects</a>
+  <ul class="collapse">
+  <li><a href="#fog-harp-fieldwork" id="toc-fog-harp-fieldwork" class="nav-link" data-scroll-target="#fog-harp-fieldwork">Fog Harp Fieldwork</a></li>
+  <li><a href="#skunk-monitoring" id="toc-skunk-monitoring" class="nav-link" data-scroll-target="#skunk-monitoring">Skunk Monitoring</a></li>
+  <li><a href="#bioturbation-project" id="toc-bioturbation-project" class="nav-link" data-scroll-target="#bioturbation-project">Bioturbation Project</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -91,7 +97,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">projects</h1>
+<h1 class="title">Projects</h1>
 </div>
 
 
@@ -108,26 +114,115 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="under-construction" class="level1">
-<h1><strong><em>Under Construction</em></strong></h1>
+<blockquote class="blockquote">
+<p>“It requires you to actually <strong><em>think</em></strong> about your data.”<br>
+– An Bui, probably before every single statistical test ever invented</p>
+</blockquote>
+<section id="service-light-data-project" class="level2">
+<h2 class="anchored" data-anchor-id="service-light-data-project">💡 Service Light Data Project</h2>
+<p><strong>Course:</strong> ENVS 193DS</p>
+<p>As part of <em>Data Science for Environmental Studies</em> at UCSB, I explored the relationship between lighting conditions and service calls using a custom dataset of 108 observations. This included bar charts, a summary table, and a blinking lightboard animation.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="media/blinking_lights.gif" class="center img-fluid figure-img" width="400"></p>
+<figcaption>Animated blinking lightboard</figcaption>
+</figure>
+</div>
+<div class="callout callout-style-default callout-note callout-titled" title="Project Links">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Project Links
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><a href="https://github.com/RebeccaLMartinez/ENVS-193DS_homework-03">📁 GitHub Repository</a><br>
+</li>
+<li><a href="https://rebeccalmartinez.github.io/ENVS-193DS_homework-03/code/ENVS-193DS_homework-03.html">🌐 Rendered HTML Output</a></li>
+</ul>
+</div>
+</div>
+<div class="accordion">
+<section id="tools-skills" class="level3">
+<h3 class="anchored" data-anchor-id="tools-skills">Tools + Skills</h3>
+<ul>
+<li><strong>Tools:</strong> R (ggplot2, dplyr, gganimate), Quarto, Adobe Photoshop<br>
+</li>
+<li><strong>Skills:</strong> Data cleaning, animation, visual storytelling, spatial reasoning</li>
+</ul>
+<hr>
+</section>
+<section id="dataset-overview" class="level3">
+<h3 class="anchored" data-anchor-id="dataset-overview">Dataset Overview</h3>
+<ul>
+<li><code>date</code> – Date of the call<br>
+</li>
+<li><code>time_interval</code> – Time block of the call<br>
+</li>
+<li><code>help</code> – Whether help was needed<br>
+</li>
+<li><code>working</code> – Whether the light worked<br>
+</li>
+<li><code>event</code> – Event nearby (e.g., holiday, show)<br>
+</li>
+<li><code>machines_active</code>, <code>staff_total</code>, <code>weekday</code></li>
+</ul>
+<hr>
+</section>
+<section id="artist-statement-excerpt" class="level3">
+<h3 class="anchored" data-anchor-id="artist-statement-excerpt">Artist Statement (Excerpt)</h3>
+<p><em>This project shows service lights as a grid, using colors to show if they were working, broken, or unknown. It also uses symbols to show if help was needed. I was inspired by lightboards, slot machines, and visualizations that use color, or lack thereof, to represent data in unique ways. I made this using R code, with tools like ggplot, gganimate, and ggfx. The final result is an animated GIF. I cleaned my data and grouped each light by status. I gave each one a color and symbol, then added animation to make the working lights blink and glow.</em></p>
+<hr>
+</section>
+<section id="reflection" class="level3">
+<h3 class="anchored" data-anchor-id="reflection">Reflection</h3>
+<p>This project was eye-opening. It was my first soft attempt at collecting and using my own data. Lessons were learned. Tears were shed. I will forever think more critically about my data.</p>
+</section>
+</div>
+</section>
+<section id="research-projects" class="level2">
+<h2 class="anchored" data-anchor-id="research-projects">Research Projects</h2>
+<section id="fog-harp-fieldwork" class="level3">
+<h3 class="anchored" data-anchor-id="fog-harp-fieldwork">Fog Harp Fieldwork</h3>
+<p><em>(UCSB Office of Education Partnerships – Santa Cruz Island)</em><br>
+<em>Coming soon</em></p>
+</section>
+<section id="skunk-monitoring" class="level3">
+<h3 class="anchored" data-anchor-id="skunk-monitoring">Skunk Monitoring</h3>
+<p><em>(UCSB Office of Education Partnerships)</em><br>
+<em>Coming soon</em></p>
+</section>
+<section id="bioturbation-project" class="level3">
+<h3 class="anchored" data-anchor-id="bioturbation-project">Bioturbation Project</h3>
+<p><em>(Natural Reserve System Field Science Fellowship)</em><br>
+<em>Coming soon</em></p>
 
+</section>
 </section>
 
 </main> <!-- /main -->
-<div class="footer-nav">
+<footer class="fixed-footer">
 
-  <a href="index.html" class="nav-button">Home</a>
+  <div class="footer-nav">
 
-  <a href="about.html" class="nav-button">Rebecca</a>
+    <a href="index.html" class="nav-button">Home</a>
 
-  <a href="projects.html" class="nav-button">Projects</a>
+    <a href="about.html" class="nav-button">Rebecca</a>
 
-  <a href="fieldphotos.html" class="nav-button">Photos</a>
+    <a href="projects.html" class="nav-button">Projects</a>
 
-  <a href="resume.html" class="nav-button">Résumé</a>
+    <a href="fieldphotos.html" class="nav-button">Photos</a>
 
-  <a href="cv.html" class="nav-button">CV</a>
+    <a href="resume.html" class="nav-button">Resume</a>
 
+    <a href="cv.html" class="nav-button">CV</a>
+
+  </div>
+
+</footer>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -564,4 +659,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-</div></body></html>
+</body></html>

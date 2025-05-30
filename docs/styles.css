@@ -1,9 +1,48 @@
 /* css styles */
 
 
+/* Fixed footer styling */
+.fixed-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #222;
+  color: white; /* general text in footer stays white */
+  padding: 12px 20px;
+  z-index: 9999;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+/* Ensure body content doesn't get hidden behind the fixed footer */
+body {
+  padding-bottom: 70px;
+  margin: 0;
+}
+
+/* Footer navigation container */
 .footer-nav {
   display: flex;
   justify-content: center;
-  padding: 12px 0;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 16px;
- }
+}
+
+/* Navigation link styling */
+.nav-button {
+  color: #2ecc71; /* green text */
+  text-decoration: none;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-button:hover,
+.nav-button:focus {
+  background-color: #2ecc71; /* green background on hover */
+  color: #111;               /* dark text on hover for contrast */
+  outline: none;
+}

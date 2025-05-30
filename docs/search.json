@@ -72,16 +72,16 @@
   {
     "objectID": "projects.html",
     "href": "projects.html",
-    "title": "projects",
+    "title": "Projects",
     "section": "",
-    "text": "Under Construction"
+    "text": "“It requires you to actually think about your data.”\n– An Bui, probably before every single statistical test ever invented"
   },
   {
     "objectID": "about.html#my-path",
     "href": "about.html#my-path",
     "title": "Rebecca Martinez",
     "section": "🛤️ My Path",
-    "text": "🛤️ My Path\nBefore returning to school, I spent two decades working, raising two incredible kids, and navigating life’s many responsibilities — including time in the Marine Corps Reserves and nearly two decades in a civilian job. I started my academic journey at community college, where I reconnected with my love for science and service. Now, as an Environmental Studies major at UCSB, I’m combining research, search, and community engagement into a path that feels both meaningful and practical.\nphoto photo"
+    "text": "🛤️ My Path\nBefore returning to school, I spent two decades working, raising two kids, and serving in the Marine Corps Reserves. I began my academic journey at community college, where I rediscovered my passion for science and service. Now, as an Environmental Studies major at UCSB, I’m combining research, education, and community engagement into a path that feels both meaningful and practical.\n\n\n\nOnce Upon a Time.\n\n\n\n\n\nAllan Hancock College."
   },
   {
     "objectID": "about.html#life-beyond-the-books",
@@ -102,7 +102,7 @@
     "href": "about.html#family-life",
     "title": "Rebecca Martinez",
     "section": "👩‍👧‍👦😺 Family & Life",
-    "text": "👩‍👧‍👦😺 Family & Life\nI’m a proud mom to two incredible teenagers. They’ve grown up alongside my journey, and honestly, they’re my biggest motivation. Outside of school, I love volunteering, spending time in nature, and hanging out with my cats, Chester and Leo.\nkids cats\nCurious about Chester and Leo? You can find more fluffiness here."
+    "text": "👩‍👧‍👦😺 Family & Life\nI’m a proud mom to two incredible teenagers. They’ve grown up alongside my journey, and honestly, they’re my biggest motivation. Outside of school, I love volunteering, spending time in nature, and hanging out with my cats, Chester and Leo.\n\n\n\nMy Family.\n\n\n\n\n\nChester and Leo.\n\n\nCurious about Chester and Leo? You can find more fluffiness here."
   },
   {
     "objectID": "about.html#fieldwork-favorites",
@@ -130,6 +130,20 @@
     "href": "about.html#work-that-matters",
     "title": "Rebecca Martinez",
     "section": "❤️ Work That Matters",
-    "text": "❤️ Work That Matters\nCommunity involvement has always been a meaningful part of my life. Whether it’s through mentoring, volunteering, or helping behind the scenes, I try to contribute where I can — not because I have all the answers, but because I believe in being part of something that gives back. Over the years, I’ve stayed involved with efforts that reflect those values, like Toys for Tots, campus and local outreach, and She Raised Her Hand.\nTo me, meaningful work is about showing up — and trusting that what we offer contributes to something bigger than ourselves.\n\n\n\nProclamation presented by the City of Santa Maria to She Raised Her Hand.\n\n\nphoto\nPlease visit She Raised Her Hand for more information and upcoming events.\nIf you’d like to support seasonal giving efforts, donations can be made through Toys for Tots."
+    "text": "❤️ Work That Matters\nCommunity involvement has always been a meaningful part of my life. Whether it’s through mentoring, volunteering, or helping behind the scenes, I try to contribute where I can — not because I have all the answers, but because I believe in being part of something that gives back. Over the years, I’ve stayed involved with efforts that reflect those values, like Toys for Tots, campus and local outreach, and She Raised Her Hand.\nTo me, meaningful work is about showing up — and trusting that what we offer contributes to something bigger than ourselves.\n\n\n\nToys for Tots Event (holding the unicorn).\n\n\n\n\n\nProclamation presented by the City of Santa Maria to She Raised Her Hand.\n\n\nPlease visit She Raised Her Hand for more information and upcoming events.\nIf you’d like to support seasonal giving efforts, donations can be made through Toys for Tots."
+  },
+  {
+    "objectID": "projects.html#service-light-data-project",
+    "href": "projects.html#service-light-data-project",
+    "title": "Projects",
+    "section": "💡 Service Light Data Project",
+    "text": "💡 Service Light Data Project\nCourse: ENVS 193DS\nAs part of Data Science for Environmental Studies at UCSB, I explored the relationship between lighting conditions and service calls using a custom dataset of 108 observations. This included bar charts, a summary table, and a blinking lightboard animation.\n\n\n\nAnimated blinking lightboard\n\n\n\n\n\n\n\n\nProject Links\n\n\n\n\n📁 GitHub Repository\n\n🌐 Rendered HTML Output\n\n\n\n\n\nTools + Skills\n\nTools: R (ggplot2, dplyr, gganimate), Quarto, Adobe Photoshop\n\nSkills: Data cleaning, animation, visual storytelling, spatial reasoning\n\n\n\n\nDataset Overview\n\ndate – Date of the call\n\ntime_interval – Time block of the call\n\nhelp – Whether help was needed\n\nworking – Whether the light worked\n\nevent – Event nearby (e.g., holiday, show)\n\nmachines_active, staff_total, weekday\n\n\n\n\nArtist Statement (Excerpt)\nThis project shows service lights as a grid, using colors to show if they were working, broken, or unknown. It also uses symbols to show if help was needed. I was inspired by lightboards, slot machines, and visualizations that use color, or lack thereof, to represent data in unique ways. I made this using R code, with tools like ggplot, gganimate, and ggfx. The final result is an animated GIF. I cleaned my data and grouped each light by status. I gave each one a color and symbol, then added animation to make the working lights blink and glow.\n\n\n\nReflection\nThis project was eye-opening. It was my first soft attempt at collecting and using my own data. Lessons were learned. Tears were shed. I will forever think more critically about my data."
+  },
+  {
+    "objectID": "projects.html#research-projects",
+    "href": "projects.html#research-projects",
+    "title": "Projects",
+    "section": "Research Projects",
+    "text": "Research Projects\n\nFog Harp Fieldwork\n(UCSB Office of Education Partnerships – Santa Cruz Island)\nComing soon\n\n\nSkunk Monitoring\n(UCSB Office of Education Partnerships)\nComing soon\n\n\nBioturbation Project\n(Natural Reserve System Field Science Fellowship)\nComing soon"
   }
 ]

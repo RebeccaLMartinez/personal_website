@@ -26,20 +26,22 @@ Right now, I’m focused on environmental research, mentorship, and exploring ho
 
 ## 🛤️ My Path
 
-Before returning to school, I spent two decades working, raising two kids, and serving in the Marine Corps Reserves. I began my academic journey at community college, where I rediscovered my passion for science and service. Now, as an Environmental Studies major at UCSB, I’m combining research, search, and community engagement into a path that feels both meaningful and practical.
+Before returning to school, I spent two decades working, raising two kids, and serving in the Marine Corps Reserves. I began my academic journey at community college, where I rediscovered my passion for science and service. Now, as an Environmental Studies major at UCSB, I’m combining research, education, and community engagement into a path that feels both meaningful and practical.
 
-photo
-photo
+![Once Upon a Time.](/media/usmc.jpg)
+
+![Allan Hancock College.](/media/ahc.jpg)
 
 
 ## 👩‍👧‍👦😺 Family & Life
 
 I’m a proud mom to two incredible teenagers. They've grown up alongside my journey, and honestly, they’re my biggest motivation. Outside of school, I love volunteering, spending time in nature, and hanging out with my cats, Chester and Leo.
 
-kids
-cats
+![My Family.](/media/kids.jpg)
 
-Curious about Chester and Leo? You can find more fluffiness [here.](cats.qmd)
+![Chester and Leo.](/media/cats.jpg)
+
+*Curious about Chester and Leo? You can find more fluffiness [here.](cats.qmd)*
 
 ## 🌿 Fieldwork Adventures
 
@@ -50,7 +52,7 @@ I believe fieldwork is one of the most powerful ways to teach and inspire others
 
 ![With Kayla Anctil-Geronimo on Santa Cruz Island Reserve.](/media/rebecca_kayla_sci.jpeg)
 
-You can explore my [projects](projects.qmd) and [photos](fieldphotos.qmd) pages to see what I’ve been up to.
+*You can explore my [projects](projects.qmd) and [photos](fieldphotos.qmd) pages to see what I’ve been up to.*
 
 
 ## ❤️ Work That Matters
@@ -59,13 +61,12 @@ Community involvement has always been a meaningful part of my life. Whether it�
 
 To me, meaningful work is about showing up — and trusting that what we offer contributes to something bigger than ourselves.
 
+![Toys for Tots Event (holding the unicorn).](/media/toysfortots.jpg)
 
 ![Proclamation presented by the City of Santa Maria to *She Raised Her Hand*.](/media/srhh.jpeg)
 
-photo
-
-Please visit [**She Raised Her Hand**](https://www.sheraisedherhand.com) for more information and upcoming events.  
-If you’d like to support seasonal giving efforts, donations can be made through [**Toys for Tots**](https://www.toysfortots.org).
+*Please visit [**She Raised Her Hand**](https://www.sheraisedherhand.com) for more information and upcoming events.*  
+*If you’d like to support seasonal giving efforts, donations can be made through [**Toys for Tots**](https://www.toysfortots.org).*
 
 
 ---

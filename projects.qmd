@@ -1,22 +1,48 @@
 ---
-title: "projects"
+title: "Projects"
 format: html
+
 ---
 
-# ***Under Construction***
+> "It requires you to actually ***think*** about your data."  
+> – An Bui, probably before every single statistical test ever invented
 
+## 💡 Service Light Data Project
 
+**Course:** ENVS 193DS  
 
+As part of *Data Science for Environmental Studies* at UCSB, I explored the relationship between lighting conditions and service calls using a custom dataset of 108 observations. This included bar charts, a summary table, and a blinking lightboard animation.
 
+![Animated blinking lightboard](media/blinking_lights.gif){width=400px .center}
 
+**🔗 Project Links**  
+- [📁 GitHub Repository](https://github.com/RebeccaLMartinez/ENVS-193DS_homework-03)  
+- [🌐 Rendered HTML Output](https://rebeccalmartinez.github.io/ENVS-193DS_homework-03/code/ENVS-193DS_homework-03.html)
 
+---
 
+::: {.details}
+### Tools + Skills
+- **Tools:** R (ggplot2, dplyr, gganimate), Quarto, Adobe Photoshop  
+- **Skills:** Data cleaning, animation, visual storytelling, spatial reasoning
+:::
 
+::: {.details}
+### Dataset Overview
+- `date` – Date of the call  
+- `time_interval` – Time block of the call  
+- `help` – Whether help was needed  
+- `working` – Whether the light worked  
+- `event` – Event nearby (e.g., holiday, show)  
+- `machines_active`, `staff_total`, `weekday`
+:::
 
+::: {.details}
+### Artist Statement (Excerpt)
+This project shows service lights as a grid, using colors to show if they were working, broken, or unknown... (your full excerpt here)
+:::
 
-
-
-
-
-
-
+::: {.details}
+### Reflection
+This project was eye-opening. It was my first soft attempt at collecting and using my own data. Lessons were learned. Tears were shed. I will forever think more critically about my data.
+:::
