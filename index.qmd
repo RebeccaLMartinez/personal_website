@@ -37,4 +37,10 @@ This site highlights the projects I’m working on, the experiences shaping my a
 </script>
 :::
 
+
+
+
+
+
+
 </details>
