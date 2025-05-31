@@ -1,5 +1,5 @@
 ---
-title: "Hi, and welcome!"
+title: "Greetings!"
 image: media/sci-sunset.jpeg
 format:
   html:
@@ -7,11 +7,14 @@ format:
 about:
   template: marquee
 ---
+:::{#hero-heading}
 
-I’m Rebecca Martinez — a student researcher and environmental studies major based in California. 
+Welcome to the digital habitat of Rebecca Martinez — where curiosity leads the way and muddy boots are just part of the journey.  
 
-This site highlights the projects I’m working on, the experiences shaping my academic path, and the ways I stay involved beyond the classroom. Whether you’re here to browse, collaborate, or just learn more, I’m glad you stopped by!
+This space is a growing collection of projects, fieldwork, adventures, and the occasional feline cameo. Whether it’s research, reflections, or unexpected detours, it’s all part of the exploration.
 
+Feel free to wander, stay curious — and thanks for visiting.
+:::
 
 ---
 
@@ -19,11 +22,6 @@ This site highlights the projects I’m working on, the experiences shaping my a
 
 
 
-
-
-
-
-*Note: Some sections are still under construction. Thanks for your patience!*
-
+*This site is still evolving — kind of like everything else. Thanks for your patience!*
 
 

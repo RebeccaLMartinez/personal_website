@@ -35,15 +35,19 @@ clean_service_data <- service_data |>
   )
 ```
 **Visuals:**  
-![Service Light Table](/media/light_table.jpg)  
 
+<img src="/media/light_table.jpg" alt="Service Light Table" style="width: 100%; max-width: 400px; margin-bottom: 1rem; transition: transform 0.3s ease; cursor: zoom-in;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
 
+<img src="/media/service_light_bar.jpg" alt="Service Light Graph" style="width: 100%; max-width: 400px; margin-bottom: 1rem; transition: transform 0.3s ease; cursor: zoom-in;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
 
+<figure style="text-align: left;">
+  <img src="media/blinking_lights.gif" width="400px"
+       style="margin: 10px 0; transition: transform 0.3s ease; cursor: zoom-in;"
+       onmouseover="this.style.transform='scale(1.05)'"
+       onmouseout="this.style.transform='scale(1)'"/>
+  <figcaption style="margin-top: 5px;">Service Light Visual</figcaption>
+</figure>
 
-![Service Light Graph](/media/service_light_bar.jpg)  
-
-
-<figure style="text-align: left;"> <img src="media/blinking_lights.gif" width="400px" style="margin: 10px 0;" /> <figcaption style="margin-top: 5px;">Service Light Visual</figcaption> </figure>
 
 **Resources**
 
