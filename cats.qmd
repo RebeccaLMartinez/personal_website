@@ -1,6 +1,6 @@
 ---
-title: "Chester and Leo"
-format: 
+title: "Meet Chester and Leo"
+format:
   html:
     theme: darkly
     css: styles.css
@@ -13,18 +13,63 @@ format:
   </video>
 </div>
 
+Welcome to the page of Chester and Leo.
 
-Welcome to the page of Chester and Leo. Bios coming soon...
+# Biographies
 
+<div class="cat-profiles">
 
-# Gallery
+  <!-- Button for Chester's profile -->
+  <div class="cat-button" onclick="toggleContent('chester-profile', this)">
+    <img src="/media/chester.jpeg" alt="Chester Odin" class="cat-thumb">
+    <span>Chester Odin</span>
+  </div>
+  
+  <!-- Chester's detailed profile (initially hidden) -->
+  <div id="chester-profile" class="cat-details">
+    <strong>“Chester the Cheetah”</strong><br>
+    <em>More info coming soon</em>
+    <br><br>
+    <img src="/media/chester-fun.jpeg" alt="Chester playing" 
+         style="max-width: 300px; border-radius: 12px; border: 3px solid #ffc107;">
+  </div>
 
-*Wondering where the photos are? Chester and Leo got into the code again.*
+  <!-- Button for Leo's profile -->
+  <div class="cat-button" onclick="toggleContent('leo-profile', this)">
+    <img src="/media/leo.jpeg" alt="Leonel Vili" class="cat-thumb">
+    <span>Leonel Vili</span>
+  </div>
+  
+  <!-- Leo's detailed profile (initially hidden) -->
+  <div id="leo-profile" class="cat-details">
+    <strong>“Leo the Lion”</strong><br>
+    Leo is a playful polydactyl whose two great loves are meowing and hunting hair-ties.
+    <br><br>
+    <img src="/media/leo-fun.jpeg" alt="Leo with hair-tie" 
+         style="max-width: 300px; border-radius: 12px; border: 3px solid #ffc107;">
+  </div>
+
+</div>
+
+# Photo Gallery
+
+_Wondering where the photos are? Chester and Leo got into the code again._
+
+# More Fluff
+
+<iframe src="quiz.html" width="100%" height="700" style="border:none;"></iframe>
 
 Check back soon for more feline mischief, fluff, and fun!
 
-
-
-# Fluff
-<iframe src="quiz.html" width="100%" height="600" style="border: none;"></iframe>
-
+<script>
+  // JavaScript function to toggle visibility of profiles
+  function toggleContent(id, el) {
+    const content = document.getElementById(id);
+    // Check if content is currently visible
+    const isOpen = content.style.display === "block";
+    // Toggle display property between 'block' and 'none'
+    content.style.display = isOpen ? "none" : "block";
+    // Toggle 'open' class on the clicked element for styling
+    el.classList.toggle("open", !isOpen);
+  }
+</script>

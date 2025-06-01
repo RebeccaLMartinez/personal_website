@@ -1,26 +1,24 @@
-/* css styles */
+/* ========== GLOBAL STYLES ========== */
+body {
+  padding-bottom: 120px;  /* Prevents content from being covered by fixed footer */
+  margin: 0;
+  font-family: system-ui, sans-serif; /* Use system font for better performance */
+}
 
-/* Fixed footer styling */
+/* ========== FIXED FOOTER STYLING ========== */
 .fixed-footer {
   position: fixed;
   bottom: 0;
-  left: 0;
-  right: 0;
+  left: 0; right: 0;
   background-color: #222;
   color: white;
   padding: 12px 20px;
-  z-index: 9999;
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+  z-index: 9999; /* Stay on top */
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.5);
   text-align: center;
 }
 
-/* Prevent footer overlap */
-body {
-  padding-bottom: 120px;
-  margin: 0;
-}
-
-/* Footer navigation container */
+/* Footer navigation buttons */
 .footer-nav {
   display: flex;
   justify-content: center;
@@ -29,7 +27,6 @@ body {
   gap: 16px;
 }
 
-/* Footer navigation buttons */
 .nav-button {
   color: #4FA78D;
   text-decoration: none;
@@ -38,7 +35,6 @@ body {
   border-radius: 4px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
-
 .nav-button:hover,
 .nav-button:focus {
   background-color: #4FA78D;
@@ -46,7 +42,7 @@ body {
   outline: none;
 }
 
-/* Floating icon buttons (bottom-right) */
+/* ========== FLOATING ICONS AT BOTTOM RIGHT ========== */
 #fixed-icons {
   position: fixed;
   bottom: 1rem;
@@ -55,86 +51,72 @@ body {
   gap: 1rem;
   z-index: 1000;
 }
-
 #fixed-icons a {
   color: #4FA78D;
   font-size: 1.5rem;
   transition: color 0.2s;
 }
-
 #fixed-icons a:hover {
   color: #418c76;
 }
 
-/* Centered circular video display */
+/* ========== CIRCULAR VIDEO STYLING ========== */
 .video-wrapper {
   display: flex;
   justify-content: center;
   margin-top: 2rem;
 }
-
 .circle-video {
   width: 350px;
   height: 350px;
-  border-radius: 50%;
-  object-fit: cover;
+  border-radius: 50%; /* Makes video circular */
+  object-fit: cover;  /* Ensures video fills shape */
   border: 4px solid #4FA78D;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
 
-/* Headshot image border (About page) */
+/* ========== ABOUT PAGE IMAGE STYLING ========== */
 .about-page #hero-heading img {
   border: 4px solid #4FA78D;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
   object-fit: cover;
 }
 
-/* Quiz formatting === */
-
-
-/* === Quiz Container === */
+/* ========== QUIZ COMPONENT STYLING ========== */
 #quiz-container {
-  background-color: #222;         /* match your fixed footer */
-  color: #ffffff;
+  background-color: #222;
+  color: #fff;
   padding: 1.5em;
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
-  font-family: system-ui, sans-serif;
+  max-width: 600px;
+  margin: auto;
 }
-
-/* === Question Text === */
 #quiz-container #question {
   font-size: 1.2em;
   margin-bottom: 1em;
 }
-
-/* === Answer Buttons === */
 #quiz-container .btn {
   padding: 0.6em 1.2em;
   margin: 0.4em;
   border-radius: 6px;
   border: 2px solid #4FA78D;
-  background-color: #2b7a78; /* dark teal */
+  background-color: #2b7a78;
   color: #fff;
   font-weight: bold;
-  transition: background-color 0.3s ease, transform 0.2s ease;
   cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
-
 #quiz-container .btn:hover {
   background-color: #418c76;
   transform: translateY(-2px);
 }
-
-/* === Result Text === */
 #quiz-container #result {
   margin-top: 1.2em;
   font-size: 1.3em;
   color: #4FA78D;
   text-shadow: 1px 1px 2px #111;
 }
-
-/* === Result Image Styling === */
 #quiz-container #result-image img {
   margin-top: 1em;
   border: 3px solid #4FA78D;
@@ -143,51 +125,98 @@ body {
   height: auto;
 }
 
-
-
-/*project page format */
-
-/* === Project Page Format === */
-
+/* ========== PROJECT TOGGLE ========== */
 .project h3 {
   cursor: pointer;
-  color: #4FA78D; /* lighter teal */
-  transition: color 0.2s ease;
+  color: #4FA78D;
   font-weight: bold;
+  transition: color 0.2s ease;
 }
-
 .project h3:hover {
-  color: #fff; /* white on hover */
+  color: #fff;
 }
-
 .project h3.open::after {
-  content: " ▲";
-  color: #def2f1; /* soft seafoam */
-}
-
-.project h3:not(.open)::after {
-  content: " ▼";
+  content: " ";
   color: #def2f1;
 }
-
+.project h3:not(.open)::after {
+  content: " ";
+  color: #def2f1;
+}
 .project-details {
   display: none;
   margin-top: 0.5rem;
   margin-bottom: 1.5rem;
   padding-left: 1rem;
-  border-left: 3px solid #4FA78D; /* matches button hover color */
-  color: #ffffff;
-  background-color: #black; /* dark teal bg */
+  border-left: 3px solid #4FA78D;
+  background-color: #343a40;
+  color: #fff;
   padding: 1rem;
   border-radius: 6px;
 }
 
+/* ========== RESPONSIVE DESIGN FOR SMALL SCREENS ========== */
+@media screen and (max-width: 600px) {
+  #quiz-container {
+    padding: 1em;
+  }
+  #quiz-container .btn {
+    width: 100%;
+    margin: 0.3em 0;
+  }
+  .circle-video {
+    width: 250px;
+    height: 250px;
+  }
+  .footer-nav {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .nav-button {
+    width: 100%;
+    text-align: center;
+  }
+  #fixed-icons {
+    flex-direction: column;
+  }
+}
 
-/* might help with images appearing */
-
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 1em auto;
+/* ========== CAT PROFILES ========== */
+.cat-profiles {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+.cat-button {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  background: #343a40;
+  padding: 0.75rem 1rem;
+  border-radius: 1rem;
+  transition: background 0.25s;
+}
+.cat-button:hover,
+.cat-button.open {
+  background: #495057;
+}
+.cat-thumb {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+}
+.cat-details {
+  display: none; /* Hidden by default */
+  margin-left: 5rem; /* Indent under the photo */
+  margin-top: -1rem;
+  padding: 0.6rem 1rem;
+  border-left: 3px solid #ffc107;
+  background: #23272b;
+  border-radius: 0 8px 8px 0;
+  color: #f1f1f1;
 }

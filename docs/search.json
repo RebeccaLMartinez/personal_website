@@ -149,9 +149,9 @@
   {
     "objectID": "cats.html",
     "href": "cats.html",
-    "title": "Chester and Leo",
+    "title": "Meet Chester and Leo",
     "section": "",
-    "text": "Your browser does not support the video tag. \n\nWelcome to the page of Chester and Leo. Bios coming soon…\n\nGallery\nWondering where the photos are? Chester and Leo got into the code again.\nCheck back soon for more feline mischief, fluff, and fun!"
+    "text": "Your browser does not support the video tag. \n\nWelcome to the page of Chester and Leo.\n\nBiographies\n\n\n\n&lt;img src=\"/media/chester.jpeg\" alt=\"Chester Odin\" class=\"cat-thumb\"&gt;\n&lt;span&gt;Chester Odin&lt;/span&gt;\n\n\n\n&lt;strong&gt;“Chester the Cheetah”&lt;/strong&gt;&lt;br&gt;\n&lt;em&gt;More info coming soon&lt;/em&gt;\n&lt;br&gt;&lt;br&gt;\n&lt;img src=\"/media/chester-fun.jpeg\" alt=\"Chester playing\" \n     style=\"max-width: 300px; border-radius: 12px; border: 3px solid #ffc107;\"&gt;\n\n\n\n&lt;img src=\"/media/leo.jpeg\" alt=\"Leonel Vili\" class=\"cat-thumb\"&gt;\n&lt;span&gt;Leonel Vili&lt;/span&gt;\n\n\n\n&lt;strong&gt;“Leo the Lion”&lt;/strong&gt;&lt;br&gt;\nLeo is a playful polydactyl whose two great loves are meowing and hunting hair-ties.\n&lt;br&gt;&lt;br&gt;\n&lt;img src=\"/media/leo-fun.jpeg\" alt=\"Leo with hair-tie\" \n     style=\"max-width: 300px; border-radius: 12px; border: 3px solid #ffc107;\"&gt;\n\n\n\n\nPhoto Gallery\nWondering where the photos are? Chester and Leo got into the code again.\n\n\nMore Fluff\n\n\nCheck back soon for more feline mischief, fluff, and fun!"
   },
   {
     "objectID": "projects.html#school-projects",
@@ -187,5 +187,40 @@
     "title": "Hi, and welcome!",
     "section": "💬 Comments",
     "text": "💬 Comments\nClick here to leave a comment\nComments open in a new tab via CommentBox.io."
+  },
+  {
+    "objectID": "cats.html#chester-the-cheetah",
+    "href": "cats.html#chester-the-cheetah",
+    "title": "Meet Chester and Leo",
+    "section": "“Chester the Cheetah”",
+    "text": "“Chester the Cheetah”\nBio coming soon"
+  },
+  {
+    "objectID": "cats.html#leo-the-lion",
+    "href": "cats.html#leo-the-lion",
+    "title": "Meet Chester and Leo",
+    "section": "“Leo the Lion”",
+    "text": "“Leo the Lion”\nBio coming soon"
+  },
+  {
+    "objectID": "experience.html",
+    "href": "experience.html",
+    "title": "Experience",
+    "section": "",
+    "text": "Under Construction"
+  },
+  {
+    "objectID": "cats.html#chester-odin",
+    "href": "cats.html#chester-odin",
+    "title": "Meet Chester and Leo",
+    "section": "Chester Odin",
+    "text": "Chester Odin\n“Chester the Cheetah”\nBio coming soon"
+  },
+  {
+    "objectID": "cats.html#leonel-vili",
+    "href": "cats.html#leonel-vili",
+    "title": "Meet Chester and Leo",
+    "section": "Leonel Vili",
+    "text": "Leonel Vili\n“Leo the Lion”\nBio coming soon"
   }
 ]
