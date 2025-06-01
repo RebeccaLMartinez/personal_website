@@ -143,17 +143,45 @@ body {
   content: " ";
   color: #def2f1;
 }
-.project-details {
-  display: none;
-  margin-top: 0.5rem;
-  margin-bottom: 1.5rem;
-  padding-left: 1rem;
-  border-left: 3px solid #4FA78D;
-  background-color: transparent;
-  color: #fff;
-  padding: 1rem;
-  border-radius: 6px;
+.project-details img, .project-details figure img {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
 }
+
+.image-modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background: rgba(0, 0, 0, 0.85);
+  justify-content: center;
+  align-items: center;
+}
+
+.image-modal img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.image-modal.active {
+  display: flex;
+}
+
+.image-modal-close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+}
+
 
 /* ========== RESPONSIVE DESIGN FOR SMALL SCREENS ========== */
 @media screen and (max-width: 600px) {

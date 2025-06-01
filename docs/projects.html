@@ -156,10 +156,10 @@ This project made me think harder about data than I expected. After collecting a
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">working =</span> <span class="fu">as.logical</span>(<span class="fu">toupper</span>(working))</span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><strong>Visuals:</strong></p>
-<p><img src="./media/light_table.jpg" alt="Service Light Table" style="width: 100%; max-width: 400px; margin-bottom: 1rem; transition: transform 0.3s ease; cursor: zoom-in;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"></p>
-<p><img src="./media/service_light_bar.jpg" alt="Service Light Graph" style="width: 100%; max-width: 400px; margin-bottom: 1rem; transition: transform 0.3s ease; cursor: zoom-in;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"></p>
+<p><img src="./media/light_table.jpg" alt="Service Light Table"></p>
+<p><img src="./media/service_light_bar.jpg" alt="Service Light Graph"></p>
 <figure style="text-align: left;" class="figure">
-<img src="media/blinking_lights.gif" width="400px" style="margin: 10px 0; transition: transform 0.3s ease; cursor: zoom-in;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" class="figure-img">
+<img src="media/blinking_lights.gif" alt="Service Light Visual" class="figure-img">
 <figcaption style="margin-top: 5px;">
 Service Light Visual
 </figcaption>
@@ -208,12 +208,30 @@ Investigating how small mammals like gophers and ground squirrels influence soil
 <p><em>Coming soon</em></p>
 <hr>
 <script>
-  function toggleContent(id, el) {
-    const content = document.getElementById(id);
-    const isOpen = content.style.display === "block";
-    content.style.display = isOpen ? "none" : "block";
-    el.classList.toggle("open", !isOpen);
-  }
+  document.addEventListener("DOMContentLoaded", function () {
+    const modal = document.createElement("div");
+    modal.classList.add("image-modal");
+    modal.innerHTML = `
+      <span class="image-modal-close">&times;</span>
+      <img src="" alt="Expanded Image">
+    `;
+    document.body.appendChild(modal);
+
+    const modalImg = modal.querySelector("img");
+    const closeBtn = modal.querySelector(".image-modal-close");
+
+    document.querySelectorAll(".project-details img").forEach(img => {
+      img.addEventListener("click", () => {
+        modalImg.src = img.src;
+        modal.classList.add("active");
+      });
+    });
+
+    closeBtn.addEventListener("click", () => modal.classList.remove("active"));
+    modal.addEventListener("click", (e) => {
+      if (e.target === modal) modal.classList.remove("active");
+    });
+  });
 </script>
 
 
