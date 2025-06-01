@@ -11,7 +11,7 @@
     "href": "about.html",
     "title": "Meet Rebecca!",
     "section": "",
-    "text": "Email\n  \n  \n    \n     \n  \n\n      \nHi! I’m Rebecca — a student researcher, Environmental Studies major at the University of California, Santa Barbara (UCSB), mom of two, and Marine Corps veteran. I’ve taken an unconventional path to college, but I’ve made every step count. I’m drawn to work that’s hands-on, community-centered, and rooted in care — whether that’s in the field, the classroom, or beyond.\nRight now, I’m focused on environmental research, mentorship, and exploring how undergraduate education can connect science, service, and real-world impact."
+    "text": "Hi! I’m Rebecca — an Environmental Studies major at the University of California, Santa Barbara (UCSB), student researcher, and mom of two incredible teenagers. I’ve taken an unconventional path to college, but I’ve made every step count. I’m drawn to work that’s hands-on, community-centered, and rooted in care — whether that’s in the field, the classroom, or beyond.\nRight now, I’m focused on environmental research, mentorship, and exploring how undergraduate education can connect science, service, and real-world impact."
   },
   {
     "objectID": "index.html#quick-links",
@@ -81,7 +81,7 @@
     "href": "about.html#my-path",
     "title": "Meet Rebecca!",
     "section": "🛤️ My Path",
-    "text": "🛤️ My Path\nBefore returning to school, I spent two decades working, raising two kids, and serving in the Marine Corps Reserves. I began my academic journey at community college, where I rediscovered my passion for science and service. Now, as an Environmental Studies major at UCSB, I’m combining research, education, and community engagement into a path that feels both meaningful and practical.\n\n\n\nOnce Upon a Time.\n\n\n\n\n\nAllan Hancock College."
+    "text": "🛤️ My Path\nBefore returning to school, I spent about two decades working, raising my family as well as serving 5 years in the Marine Corps Reserves. Community college helped me rediscover my interest in science and service. Now, as an Environmental Studies student at UCSB, I hope to blend research, education, and community work into a path that feels useful and rewarding.\n\n\n\nOnce Upon a Time.\n\n\n\n\n\nAllan Hancock College."
   },
   {
     "objectID": "about.html#life-beyond-the-books",
@@ -102,7 +102,7 @@
     "href": "about.html#family-life",
     "title": "Meet Rebecca!",
     "section": "👩‍👧‍👦😺 Family & Life",
-    "text": "👩‍👧‍👦😺 Family & Life\nI’m a proud mom to two incredible teenagers. They’ve grown up alongside my journey, and honestly, they’re my biggest motivation. Outside of school, I love volunteering, spending time in nature, and hanging out with my cats, Chester and Leo.\n\n\n\nMy Family.\n\n\n\n\n\nChester and Leo.\n\n\nCurious about Chester and Leo? You can find more fluffiness here."
+    "text": "👩‍👧‍👦😺 Family & Life\nI’m a proud mom to two incredible teenagers. They’ve grown up alongside my journey and they’re my biggest motivation. When I’m not studying or working, I like volunteering, being outdoors, and spending time with my cats, Chester and Leo.\n\n\n\nMy Family.\n\n\n\n\n\nChester and Leo.\n\n\nCurious about Chester and Leo? You can find more fluffiness here."
   },
   {
     "objectID": "about.html#fieldwork-favorites",
@@ -123,14 +123,14 @@
     "href": "about.html#fieldwork-adventures",
     "title": "Meet Rebecca!",
     "section": "🌿 Fieldwork Adventures",
-    "text": "🌿 Fieldwork Adventures\nI’m happiest when I’m outside, learning by doing. Hands-on environmental work helps me connect what I’m learning in the classroom to real ecosystems and real people. I believe fieldwork is one of the most powerful ways to teach and inspire others — especially students and community members who may not see themselves in science yet.\n\n\n\nHarvesting lavender to distill into oil.\n\n\n\n\n\nWith Kayla Geronimo-Anctil on Santa Cruz Island Reserve.\n\n\nYou can explore my projects and photos pages to see what I’ve been up to."
+    "text": "🌿 Fieldwork Adventures\nI learn best by doing, especially outdoors. Fieldwork helps me connect what I study with real ecosystems and real people. I think hands-on experience is one of the best ways to inspire students and communities who might not yet see themselves in science.\n\n\n\nHarvesting lavender to distill into oil.\n\n\n\n\n\nWith Kayla Geronimo-Anctil on Santa Cruz Island Reserve.\n\n\nYou can explore my projects and photos pages to see what I’ve been up to."
   },
   {
     "objectID": "about.html#work-that-matters",
     "href": "about.html#work-that-matters",
     "title": "Meet Rebecca!",
     "section": "❤️ Work That Matters",
-    "text": "❤️ Work That Matters\nCommunity involvement has always been a meaningful part of my life. Whether it’s through mentoring, volunteering, or helping behind the scenes, I try to contribute where I can — not because I have all the answers, but because I believe in being part of something that gives back. Over the years, I’ve stayed involved with efforts that reflect those values, like Toys for Tots, campus and local outreach, and She Raised Her Hand.\nTo me, meaningful work is about showing up — and trusting that what we offer contributes to something bigger than ourselves.\n\n\n\nToys for Tots Event (holding the unicorn).\n\n\n\n\n\nProclamation presented by the City of Santa Maria to She Raised Her Hand.\n\n\nPlease visit She Raised Her Hand for more information and upcoming events.\nIf you’d like to support seasonal giving efforts, donations can be made through Toys for Tots."
+    "text": "❤️ Work That Matters\nGiving back to the community has always been important to me. Whether mentoring, volunteering, or helping behind the scenes, I try to contribute where I can. Over the years, I’ve been involved with groups like Toys for Tots, local outreach, and She Raised Her Hand.\nTo me, meaningful work is about showing up — and trusting that what we offer contributes to something bigger than ourselves.\n\n\n\nToys for Tots Event (holding the unicorn).\n\n\n\n\n\nProclamation presented by the City of Santa Maria to She Raised Her Hand.\n\n\nPlease visit She Raised Her Hand for more information and upcoming events.\nIf you’d like to support seasonal giving efforts, donations can be made through Toys for Tots."
   },
   {
     "objectID": "projects.html#service-light-data-project",
@@ -158,14 +158,14 @@
     "href": "projects.html#school-projects",
     "title": "Projects",
     "section": "🏫 School Projects",
-    "text": "🏫 School Projects\n\n\n💡 Service Light Data Project\n\n\nSchool: UCSB\nCourse: ENVS 193DS – Data Science for Environmental Studies\nExplored the relationship between lighting conditions and service calls using a self-collected dataset (n=108). Created a bar chart, summary table, and a blinking lightboard animation (gif). See visuals.\nTools Used:\nRStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto\nReflection:\nThis project made me think harder about data than I expected. After collecting and working with my own dataset, I gained a deeper respect for the messiness of real-world data.\nCode Snippet:\nclean_service_data &lt;- service_data |&gt;\n  mutate(\n    help = as.logical(toupper(help)),\n    working = as.logical(toupper(working))\n  )\nVisuals:\n\n\n\n\n\nService Light Visual\n\n\nResources\nGitHub Repo\nView Live"
+    "text": "🏫 School Projects\n\n\n💡 Service Light Data Project\n\n\nSchool: UCSB\nCourse: ENVS 193DS – Data Science for Environmental Studies\nExplored the relationship between lighting conditions and service calls using a self-collected dataset (n=108). Created a bar chart, summary table, and a blinking lightboard animation (gif). See visuals.\nTools Used:\nRStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto\nReflection:\nThis project made me think harder about data than I expected. After collecting and working with my own dataset, I gained a deeper respect for the messiness of real-world data.\nCode Snippet: r clean_service_data &lt;- service_data |&gt; mutate( help = as.logical(toupper(help)), working = as.logical(toupper(working)) )\nVisuals:\n\n\n\n\n\nService Light Visual\n\n\nResources\nGitHub Repo\nView Live"
   },
   {
     "objectID": "projects.html#past-projects",
     "href": "projects.html#past-projects",
     "title": "Projects",
     "section": "📁 Past Projects",
-    "text": "📁 Past Projects\nComing soon"
+    "text": "📁 Past Projects\nComing soon\n\n\n\n×"
   },
   {
     "objectID": "cats.html#are-you-more-like-chester-or-leo",
@@ -250,5 +250,26 @@
     "title": "Meet Rebecca!",
     "section": "❤️ Work That Matters",
     "text": "❤️ Work That Matters\nCommunity involvement has always been a meaningful part of my life. Whether it’s through mentoring, volunteering, or helping behind the scenes, I try to contribute where I can — not because I have all the answers, but because I believe in being part of something that gives back. Over the years, I’ve stayed involved with efforts that reflect those values, like Toys for Tots, campus and local outreach, and She Raised Her Hand.\nTo me, meaningful work is about showing up — and trusting that what we offer contributes to something bigger than ourselves.\n\n\n\nToys for Tots Event (holding the unicorn).\n\n\n\n\n\nProclamation presented by the City of Santa Maria to She Raised Her Hand.\n\n\nPlease visit She Raised Her Hand for more information and upcoming events.\nIf you’d like to support seasonal giving efforts, donations can be made through Toys for Tots."
+  },
+  {
+    "objectID": "projects.html#school",
+    "href": "projects.html#school",
+    "title": "Projects",
+    "section": "School",
+    "text": "School\n\n\n💡 Service Light Data Project\n\n\nSchool: UCSB\nCourse: ENVS 193DS – Data Science for Environmental Studies\nOngoing project that explores the relationship between lighting conditions and service calls using a self-collected dataset (n=108). Created a bar chart, summary table, and a blinking lightboard animation (gif). See visuals.\nTools Used:\nRStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto\nReflection:\nThis project made me think harder about data than I expected. After collecting and working with my own dataset, I gained a deeper respect for the messiness of real-world data.\nCode Snippet:\nclean_service_data &lt;- service_data |&gt;\n  mutate(\n    help = as.logical(toupper(help)),\n    working = as.logical(toupper(working))\n  )\nVisuals:\n\n\n\n\n\nService Light Visual\n\n\nResources\nGitHub Repo\nView Live"
+  },
+  {
+    "objectID": "projects.html#research",
+    "href": "projects.html#research",
+    "title": "Projects",
+    "section": "Research",
+    "text": "Research\n\n\n💧 Fog Harp Device\n\n\nAffiliation: UCSB Office of Education Partnerships\nDesigning and field-testing fogwater monitoring devices (fog harp) to measure fog water levels.\n\n\n\n\n🦨 Skunk Population\n\n\nAffiliation: UCSB-Smithsonian Scholars Program (OEP)\nUndergraduate research using camera traps to monitor and quantify skunk populations on Santa Cruz Island.\n\n\n\n\n🌱 Soil Bioturbation by Mammals\n\n\nAffiliation: UCNRS Field Science Fellowship\nMentor: Dr. Iris Holzer\nInvestigating how small mammals like gophers and ground squirrels influence soil processes through bioturbation. Includes paired site comparisons."
+  },
+  {
+    "objectID": "projects.html#other",
+    "href": "projects.html#other",
+    "title": "Projects",
+    "section": "Other",
+    "text": "Other\nComing soon\n\n\n\n×"
   }
 ]

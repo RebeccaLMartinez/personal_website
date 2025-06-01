@@ -1,250 +1,266 @@
 /* ========== GLOBAL STYLES ========== */
 body {
-  padding-bottom: 120px;  /* Prevents content from being covered by fixed footer */
-  margin: 0;
-  font-family: system-ui, sans-serif; /* Use system font for better performance */
+  padding-bottom: 120px;  /* Prevent page content from being hidden behind fixed footer */
+  margin: 0;              /* Remove default margin */
+  font-family: system-ui, arial; /* Use system default UI font for better performance */
+  font-size: 18px; /* Increase base font size slightly from default 16px */
 }
 
 /* ========== FIXED FOOTER STYLING ========== */
 .fixed-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0; right: 0;
-  background-color: #222;
-  color: white;
-  padding: 12px 20px;
-  z-index: 9999; /* Stay on top */
-  box-shadow: 0 -2px 5px rgba(0,0,0,0.5);
-  text-align: center;
+  position: fixed;        /* Fix footer to viewport */
+  bottom: 0;              /* Stick to bottom */
+  left: 0; right: 0;      /* Stretch full width */
+  background-color: #222; /* Dark background color */
+  color: white;           /* White text */
+  padding: 12px 20px;     /* Space inside footer */
+  z-index: 9999;          /* High stacking order so it stays on top */
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.5); /* Subtle shadow above footer */
+  text-align: center;     /* Center text horizontally */
 }
 
-/* Footer navigation buttons */
+/* Footer navigation container */
 .footer-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 16px;
+  display: flex;          /* Use flexbox layout */
+  justify-content: center;/* Center buttons horizontally */
+  align-items: center;    /* Center buttons vertically */
+  flex-wrap: wrap;        /* Allow buttons to wrap to next line */
+  gap: 16px;              /* Space between buttons */
 }
 
+/* Individual footer navigation buttons */
 .nav-button {
-  color: #4FA78D;
-  text-decoration: none;
-  font-weight: 600;
-  padding: 6px 12px;
-  border-radius: 4px;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  color: #4FA78D;         /* Button text color */
+  text-decoration: none;  /* Remove underline */
+  font-weight: 600;       /* Semi-bold text */
+  padding: 6px 12px;      /* Button padding */
+  border-radius: 4px;     /* Rounded corners */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth color changes */
 }
 .nav-button:hover,
 .nav-button:focus {
-  background-color: #4FA78D;
-  color: #111;
-  outline: none;
+  background-color: #4FA78D; /* Highlight background on hover/focus */
+  color: #111;               /* Dark text on hover */
+  outline: none;             /* Remove focus outline */
 }
 
 /* ========== FLOATING ICONS AT BOTTOM RIGHT ========== */
 #fixed-icons {
-  position: fixed;
-  bottom: 1rem;
-  right: 1rem;
-  display: flex;
-  gap: 1rem;
-  z-index: 1000;
+  position: fixed;        /* Fix icons to viewport */
+  bottom: 1rem;           /* 1 rem from bottom */
+  right: 1rem;            /* 1 rem from right edge */
+  display: flex;          /* Arrange icons in a row */
+  gap: 1rem;              /* Space between icons */
+  z-index: 1000;          /* Above most content but below footer */
 }
 #fixed-icons a {
-  color: #4FA78D;
-  font-size: 1.5rem;
-  transition: color 0.2s;
+  color: #4FA78D;         /* Icon color */
+  font-size: 1.5rem;      /* Icon size */
+  transition: color 0.2s; /* Smooth color changes */
 }
 #fixed-icons a:hover {
-  color: #418c76;
+  color: #418c76;         /* Darker green on hover */
 }
 
 /* ========== CIRCULAR VIDEO STYLING ========== */
 .video-wrapper {
-  display: flex;
-  justify-content: center;
-  margin-top: 2rem;
+  display: flex;          /* Use flexbox to center video */
+  justify-content: center;/* Center horizontally */
+  margin-top: 2rem;       /* Space above the video */
 }
 .circle-video {
-  width: 350px;
-  height: 350px;
-  border-radius: 50%; /* Makes video circular */
-  object-fit: cover;  /* Ensures video fills shape */
-  border: 4px solid #4FA78D;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  width: 350px;           /* Fixed width */
+  height: 350px;          /* Fixed height, equal for circle */
+  border-radius: 50%;     /* Makes the video circular */
+  object-fit: cover;      /* Scale video to fill circle without distortion */
+  border: 4px solid #4FA78D; /* Green border */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3); /* Subtle shadow */
 }
 
 /* ========== ABOUT PAGE IMAGE STYLING ========== */
 .about-page #hero-heading img {
-  border: 4px solid #4FA78D;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-  object-fit: cover;
+  border: 4px solid #4FA78D; /* Green border around image */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3); /* Shadow for depth */
+  object-fit: cover;      /* Maintain aspect ratio */
 }
 
 /* ========== QUIZ COMPONENT STYLING ========== */
 #quiz-container {
-  background-color: #222;
-  color: #fff;
-  padding: 1.5em;
-  border-radius: 12px;
-  box-shadow: none;
-  max-width: 600px;
-  margin: auto;
+  background-color: #222; /* Dark background */
+  color: #fff;            /* White text */
+  padding: 1.5em;         /* Inner padding */
+  border-radius: 12px;    /* Rounded corners */
+  box-shadow: none;       /* No shadow */
+  max-width: 600px;       /* Max width for readability */
+  margin: auto;           /* Center horizontally */
 }
 #quiz-container #question {
-  font-size: 1.2em;
-  margin-bottom: 1em;
+  font-size: 1.2em;       /* Slightly larger font */
+  margin-bottom: 1em;     /* Space below question */
 }
 #quiz-container .btn {
-  padding: 0.6em 1.2em;
-  margin: 0.4em;
-  border-radius: 6px;
-  border: 2px solid #4FA78D;
-  background-color: #2b7a78;
-  color: #fff;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  padding: 0.6em 1.2em;   /* Button padding */
+  margin: 0.4em;          /* Space around buttons */
+  border-radius: 6px;     /* Rounded corners */
+  border: 2px solid #4FA78D; /* Green border */
+  background-color: #2b7a78; /* Dark teal background */
+  color: #fff;            /* White text */
+  font-weight: bold;      /* Bold text */
+  cursor: pointer;        /* Pointer cursor on hover */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effects */
 }
 #quiz-container .btn:hover {
-  background-color: #418c76;
-  transform: translateY(-2px);
+  background-color: #418c76; /* Lighter teal on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
 }
 #quiz-container #result {
-  margin-top: 1.2em;
-  font-size: 1.3em;
-  color: #4FA78D;
-  text-shadow: 1px 1px 2px #111;
+  margin-top: 1.2em;      /* Space above result */
+  font-size: 1.3em;       /* Larger font */
+  color: #4FA78D;         /* Green text */
+  text-shadow: 1px 1px 2px #111; /* Subtle shadow for readability */
 }
 #quiz-container #result-image img {
-  margin-top: 1em;
-  border: 3px solid #4FA78D;
-  border-radius: 10px;
-  max-width: 100%;
-  height: auto;
+  margin-top: 1em;        /* Space above image */
+  border: 3px solid #4FA78D; /* Green border */
+  border-radius: 10px;    /* Rounded corners */
+  max-width: 100%;        /* Responsive width */
+  height: auto;           /* Maintain aspect ratio */
 }
 
 /* ========== PROJECT TOGGLE ========== */
+/* Clickable project titles */
 .project h3 {
-  cursor: pointer;
-  color: #4FA78D;
-  font-weight: bold;
-  transition: color 0.2s ease;
+  cursor: pointer;        /* Pointer cursor indicates clickable */
+  color: #4FA78D;         /* Green color */
+  font-weight: bold;      /* Bold text */
+  transition: color 0.2s ease; /* Smooth color transition */
 }
 .project h3:hover {
-  color: #fff;
-}
-.project h3.open::after {
-  content: " ";
-  color: #def2f1;
-}
-.project h3:not(.open)::after {
-  content: " ";
-  color: #def2f1;
-}
-.project-details img, .project-details figure img {
-  width: 100%;
-  max-width: 500px;
-  margin-bottom: 1rem;
-  cursor: pointer;
-  transition: opacity 0.3s ease;
+  color: #fff;            /* White text on hover */
 }
 
+/* Project images */
+.project-details img {
+  cursor: pointer;        /* Pointer cursor for interactivity */
+  transition: opacity 0.3s ease; /* Smooth fade effects */
+  margin: 10px 0;         /* Vertical spacing */
+  max-width: 100%;        /* Responsive images */
+  height: auto;           /* Maintain aspect ratio */
+}
+
+/* Smaller project images */
+.project-details img.small {
+  max-width: 300px;       /* Max width for small images */
+  width: auto;            /* Keep natural width */
+}
+
+/* Larger project figure images with effects */
+.project-details figure img {
+  max-width: 500px;       /* Larger max width */
+  width: 100%;            /* Fill container */
+  border-radius: 10px;    /* Rounded corners */
+  box-shadow: 0 0 15px rgba(0,0,0,0.5); /* Shadow for depth */
+}
+
+/* ========== IMAGE MODAL ========== */
 .image-modal {
-  display: none;
-  position: fixed;
-  z-index: 9999;
-  top: 0; left: 0;
-  width: 100vw; height: 100vh;
-  background: rgba(0, 0, 0, 0.85);
-  justify-content: center;
-  align-items: center;
-}
-
-.image-modal img {
-  max-width: 90%;
-  max-height: 90%;
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  display: none;          /* Hidden by default */
+  position: fixed;        /* Fixed overlay */
+  z-index: 9999;          /* Top-most */
+  top: 0; left: 0;        /* Cover entire viewport */
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.85); /* Dark semi-transparent background */
+  justify-content: center; /* Center content horizontally */
+  align-items: center;     /* Center content vertically */
+  flex-direction: column;  /* Stack items vertically */
 }
 
 .image-modal.active {
-  display: flex;
+  display: flex;          /* Show modal when active */
+}
+
+.image-modal img {
+  max-width: 90%;         /* Responsive max width */
+  max-height: 90%;        /* Responsive max height */
+  border-radius: 10px;    /* Rounded corners */
+  box-shadow: 0 0 20px rgba(0,0,0,0.5); /* Shadow for depth */
 }
 
 .image-modal-close {
-  position: absolute;
-  top: 20px;
-  right: 30px;
-  font-size: 2rem;
-  color: #fff;
-  cursor: pointer;
+  position: absolute;     /* Positioned relative to viewport */
+  top: 20px;              /* Distance from top */
+  right: 30px;            /* Distance from right */
+  font-size: 2rem;        /* Large close button */
+  color: #fff;            /* White color */
+  cursor: pointer;        /* Pointer cursor */
+  user-select: none;      /* Disable text selection on click */
 }
-
 
 /* ========== RESPONSIVE DESIGN FOR SMALL SCREENS ========== */
 @media screen and (max-width: 600px) {
   #quiz-container {
-    padding: 1em;
+    padding: 1em;         /* Reduce padding for small screens */
   }
   #quiz-container .btn {
-    width: 100%;
-    margin: 0.3em 0;
+    width: 100%;          /* Make buttons full width on small screens */
+    margin: 0.3em 0;      /* Vertical margin between buttons */
   }
   .circle-video {
-    width: 250px;
+    width: 250px;         /* Smaller video size on small screens */
     height: 250px;
   }
   .footer-nav {
-    flex-direction: column;
-    gap: 8px;
+    flex-direction: row;  /* Arrange footer nav buttons in a row */
+    flex-wrap: wrap;      /* Wrap buttons to next line if needed */
+    gap: 8px;             /* Smaller gap on small screens */
   }
   .nav-button {
-    width: 100%;
-    text-align: center;
+    width: auto;          /* Reset width to automatic */
+    text-align: center;   /* Center text */
+    min-width: 140px;     /* Minimum button width for usability */
   }
   #fixed-icons {
-    flex-direction: column;
+    flex-direction: column; /* Stack floating icons vertically */
   }
 }
 
 /* ========== CAT PROFILES ========== */
 .cat-profiles {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  max-width: 600px;
-  margin: 2rem auto;
+  display: flex;          /* Use flexbox */
+  flex-direction: column; /* Stack cat profiles vertically */
+  gap: 1.5rem;            /* Space between profiles */
+  max-width: 600px;       /* Limit width */
+  margin: 2rem auto;      /* Center container with vertical margin */
 }
 .cat-button {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  cursor: pointer;
-  background: transparent;
-  padding: 0.75rem 1rem;
-  border-radius: 1rem;
-  transition: background 0.25s;
+  display: flex;          /* Arrange contents horizontally */
+  align-items: center;    /* Vertically center content */
+  gap: 1rem;              /* Space between thumbnail and text */
+  cursor: pointer;        /* Pointer cursor for interactivity */
+  background: transparent;/* Transparent background */
+  padding: 0.75rem 1rem;  /* Padding inside button */
+  border-radius: 1rem;    /* Rounded pill shape */
+  transition: background 0.25s; /* Smooth background transition */
 }
 .cat-button:hover,
 .cat-button.open {
-  background: #495057;
+  background: #495057;    /* Darker background on hover/open */
 }
 .cat-thumb {
-  width: 65px;
+  width: 65px;            /* Fixed thumbnail size */
   height: 65px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid #fff;
+  border-radius: 50%;     /* Circular thumbnail */
+  object-fit: cover;      /* Crop image to fill circle */
+  border: 2px solid #fff; /* White border around thumbnail */
 }
 .cat-details {
-  display: none; /* Hidden by default */
-  margin-left: 5rem; /* Indent under the photo */
-  margin-top: -1rem;
-  padding: 0.6rem 1rem;
-  border-left: 3px solid #4FA78D;
-  background: #23272b;
-  border-radius: 0 8px 8px 0;
-  color: #f1f1f1;
+  display: none;          /* Hidden initially */
+  margin-left: 5rem;      /* Indent text under thumbnail */
+  margin-top: -1rem;      /* Pull up slightly */
+  padding: 0.6rem 1rem;   /* Padding inside detail box */
+  border-left: 3px solid #4FA78D; /* Green left border */
+  background: #23272b;    /* Dark background */
+  border-radius: 0 8px 8px 0; /* Rounded corners on right side */
+  color: #f1f1f1;         /* Light text */
 }

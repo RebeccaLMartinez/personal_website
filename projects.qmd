@@ -1,65 +1,93 @@
 ---
-title: "Meet Rebecca!"
+title: "Projects"
 format: 
   html:
     theme: darkly
     toc: false
     css: styles.css
-about:
-  id: hero-heading
-  template: solana
-  image: media/headshot.jpeg
-  image-shape: round
-  links:
-    - icon: envelope
-      text: Email
-      href: mailto:rebecca_martinez@ucsb.edu
-    - icon: github
-      href: https://github.com/RebeccaLMartinez
-      aria-label: GitHub
 ---
 
-Hi! I'm Rebecca — a student researcher, Environmental Studies major at the University of California, Santa Barbara (UCSB), mom of two, and Marine Corps veteran. I’ve taken an unconventional path to college, but I’ve made every step count. I’m drawn to work that’s hands-on, community-centered, and rooted in care — whether that’s in the field, the classroom, or beyond.
+This page highlights some of my work from classes and research. It includes data projects, fieldwork, and tools I’ve used.
 
-Right now, I’m focused on environmental research, mentorship, and exploring how undergraduate education can connect science, service, and real-world impact.
+## School
 
-## 🛤️ My Path
+<div class="project">
+  <h3 onclick="toggleContent('proj1', this)" style="cursor:pointer;">💡 Service Light Data Project</h3>
+  <div id="proj1" class="project-details" hidden>
 
-Before returning to school, I spent two decades working, raising two kids, and serving in the Marine Corps Reserves. I began my academic journey at community college, where I rediscovered my passion for science and service. Now, as an Environmental Studies major at UCSB, I’m combining research, education, and community engagement into a path that feels both meaningful and practical.
+**School:** UCSB  
+**Course:** ENVS 193DS – Data Science for Environmental Studies  
 
-![Once Upon a Time.](/media/usmc.jpg)
+Ongoing project that explores the relationship between lighting conditions and service calls using a self-collected dataset (n=108). Created a bar chart, summary table, and a blinking lightboard animation (gif). See visuals.
 
-![Allan Hancock College.](/media/ahc.jpg)
+**Tools Used:**  
+RStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto
 
-## 👩‍👧‍👦😺 Family & Life
+**Reflection:**  
+This project made me think harder about data than I expected. After collecting and working with my own dataset, I gained a deeper respect for the messiness of real-world data.
 
-I’m a proud mom to two incredible teenagers. They've grown up alongside my journey, and honestly, they’re my biggest motivation. Outside of school, I love volunteering, spending time in nature, and hanging out with my cats, Chester and Leo.
+**Code Snippet:**
+```r
+clean_service_data <- service_data |>
+  mutate(
+    help = as.logical(toupper(help)),
+    working = as.logical(toupper(working))
+  )
+```
+**Visuals:**  
 
-![My Family.](/media/kids.jpg)
+<img src="/media/light_table.jpg" alt="Service Light Table" onclick="showImage(this.src)" style="cursor:pointer; max-width:300px; margin:10px 0;">
 
-![Chester and Leo.](/media/cats.jpeg)
+<img src="/media/service_light_bar.jpg" alt="Service Light Graph" onclick="showImage(this.src)" style="cursor:pointer; max-width:300px; margin:10px 0;">
 
-*Curious about Chester and Leo? You can find more fluffiness [here.](cats.html)*
+<figure style="text-align: left;">
+  <img src="media/blinking_lights.gif" alt="Service Light Visual" onclick="showImage(this.src)" style="cursor:pointer; max-width:300px;">
+  <figcaption style="margin-top: 5px;">Service Light Visual</figcaption>
+</figure>
 
-## 🌿 Fieldwork Adventures
+**Resources**
 
-I’m happiest when I’m outside, learning by doing. Hands-on environmental work helps me connect what I’m learning in the classroom to real ecosystems and real people. I believe fieldwork is one of the most powerful ways to teach and inspire others — especially students and community members who may not see themselves in science yet.
+[GitHub Repo](https://github.com/RebeccaLMartinez/ENVS-193DS_homework-03)  
+[View Live](https://rebeccalmartinez.github.io/ENVS-193DS_homework-03/code/ENVS-193DS_homework-03.html)
 
-![Harvesting lavender to distill into oil.](/media/lavendar.jpeg)
+  </div>
+</div>
 
-![With Kayla Geronimo-Anctil on Santa Cruz Island Reserve.](/media/rebecca_kayla_sci.jpeg)
+---
 
-*You can explore my [projects](projects.html) and [photos](fieldphotos.html) pages to see what I’ve been up to.*
+## Research
 
-## ❤️ Work That Matters
+<div class="project"> <h3 onclick="toggleContent('proj2', this)" style="cursor:pointer;">💧 Fog Harp Device</h3> <div id="proj2" class="project-details" hidden>
 
-Community involvement has always been a meaningful part of my life. Whether it’s through mentoring, volunteering, or helping behind the scenes, I try to contribute where I can — not because I have all the answers, but because I believe in being part of something that gives back. Over the years, I’ve stayed involved with efforts that reflect those values, like Toys for Tots, campus and local outreach, and *She Raised Her Hand*.
+**Affiliation:** UCSB Office of Education Partnerships  
 
-To me, meaningful work is about showing up — and trusting that what we offer contributes to something bigger than ourselves.
+Designing and field-testing fogwater monitoring devices (fog harp) to measure fog water levels.
+  </div>
+</div>
 
-![Toys for Tots Event (holding the unicorn).](/media/toysfortots.jpg)
+<div class="project"> <h3 onclick="toggleContent('proj3', this)" style="cursor:pointer;">🦨 Skunk Population</h3> <div id="proj3" class="project-details" hidden>
 
-![Proclamation presented by the City of Santa Maria to *She Raised Her Hand*.](/media/srhh.jpeg)
+**Affiliation:** UCSB-Smithsonian Scholars Program (OEP)  
 
-*Please visit [**She Raised Her Hand**](https://www.sheraisedherhand.com) for more information and upcoming events.*  
-*If you’d like to support seasonal giving efforts, donations can be made through [**Toys for Tots**](https://www.toysfortots.org).*
+Undergraduate research using camera traps to monitor and quantify skunk populations on Santa Cruz Island.
+  </div>
+</div>
+
+<div class="project"> <h3 onclick="toggleContent('proj4', this)" style="cursor:pointer;">🌱 Soil Bioturbation by Mammals</h3> <div id="proj4" class="project-details" hidden>
+
+**Affiliation:** UCNRS Field Science Fellowship  
+**Mentor:** Dr. Iris Holzer  
+
+Investigating how small mammals like gophers and ground squirrels influence soil processes through bioturbation. Includes paired site comparisons.
+  </div>
+</div>
+
+---
+
+## Other
+
+*Coming soon*
+
+---
+
+<!-- Image Modal HTML --> <div id="imageModal"> <span onclick="document.getElementById('imageModal').style.display='none'" class="image-modal-close">&times;</span> <img id="modalImage" src="" /> </div> <script> function showImage(src) { const modal = document.getElementById("imageModal"); document.getElementById("modalImage").src = src; modal.style.display = "flex"; } function toggleContent(id, element) { const content = document.getElementById(id); const isHidden = content.hasAttribute('hidden'); if (isHidden) { content.removeAttribute('hidden'); element.classList.add('open'); } else { content.setAttribute('hidden', ''); element.classList.remove('open'); } } </script>

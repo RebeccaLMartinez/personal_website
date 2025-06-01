@@ -17,52 +17,44 @@ about:
     - icon: github
       href: https://github.com/RebeccaLMartinez
       aria-label: GitHub
-      
 ---
 
-:::{#hero-heading}
-
-Hi! I'm Rebecca — a student researcher, Environmental Studies major at the University of California, Santa Barbara (UCSB), mom of two, and Marine Corps veteran. I’ve taken an unconventional path to college, but I’ve made every step count. I’m drawn to work that’s hands-on, community-centered, and rooted in care — whether that’s in the field, the classroom, or beyond.
+Hi! I'm Rebecca — an Environmental Studies major at the University of California, Santa Barbara (UCSB), student researcher, and mom of two incredible teenagers. I’ve taken an unconventional path to college, but I’ve made every step count. I’m drawn to work that’s hands-on, community-centered, and rooted in care — whether that’s in the field, the classroom, or beyond.
 
 Right now, I’m focused on environmental research, mentorship, and exploring how undergraduate education can connect science, service, and real-world impact.
 
-:::
-
-
 ## 🛤️ My Path
 
-Before returning to school, I spent two decades working, raising two kids, and serving in the Marine Corps Reserves. I began my academic journey at community college, where I rediscovered my passion for science and service. Now, as an Environmental Studies major at UCSB, I’m combining research, education, and community engagement into a path that feels both meaningful and practical.
+Before returning to school, I spent about two decades working, raising my family as well as serving 5 years in the Marine Corps Reserves. Community college helped me rediscover my interest in science and service. Now, as an Environmental Studies student at UCSB, I hope to blend research, education, and community work into a path that feels useful and rewarding.
 
 ![Once Upon a Time.](/media/usmc.jpg)
 
 ![Allan Hancock College.](/media/ahc.jpg)
 
-
 ## 👩‍👧‍👦😺 Family & Life
 
-I’m a proud mom to two incredible teenagers. They've grown up alongside my journey, and honestly, they’re my biggest motivation. Outside of school, I love volunteering, spending time in nature, and hanging out with my cats, Chester and Leo.
+I’m a proud mom to two incredible teenagers. They've grown up alongside my journey and they’re my biggest motivation. When I’m not studying or working, I like volunteering, being outdoors, and spending time with my cats, Chester and Leo.
 
 ![My Family.](/media/kids.jpg)
 
 ![Chester and Leo.](/media/cats.jpeg)
 
-*Curious about Chester and Leo? You can find more fluffiness [here.](cats.qmd)*
+*Curious about Chester and Leo? You can find more fluffiness [here.](cats.html)*
 
 ## 🌿 Fieldwork Adventures
 
-I’m happiest when I’m outside, learning by doing. Hands-on environmental work helps me connect what I’m learning in the classroom to real ecosystems and real people.
-I believe fieldwork is one of the most powerful ways to teach and inspire others — especially students and community members who may not see themselves in science yet.
+I learn best by doing, especially outdoors. Fieldwork helps me connect what I study with real ecosystems and real people. I think hands-on experience is one of the best ways to inspire students and communities who might not yet see themselves in science.
+
 
 ![Harvesting lavender to distill into oil.](/media/lavendar.jpeg)
 
 ![With Kayla Geronimo-Anctil on Santa Cruz Island Reserve.](/media/rebecca_kayla_sci.jpeg)
 
-*You can explore my [projects](projects.qmd) and [photos](fieldphotos.qmd) pages to see what I’ve been up to.*
-
+*You can explore my [projects](projects.html) and [photos](fieldphotos.html) pages to see what I’ve been up to.*
 
 ## ❤️ Work That Matters
 
-Community involvement has always been a meaningful part of my life. Whether it’s through mentoring, volunteering, or helping behind the scenes, I try to contribute where I can — not because I have all the answers, but because I believe in being part of something that gives back. Over the years, I’ve stayed involved with efforts that reflect those values, like Toys for Tots, campus and local outreach, and *She Raised Her Hand*.
+Giving back to the community has always been important to me. Whether mentoring, volunteering, or helping behind the scenes, I try to contribute where I can. Over the years, I’ve been involved with groups like Toys for Tots, local outreach, and *She Raised Her Hand*.
 
 To me, meaningful work is about showing up — and trusting that what we offer contributes to something bigger than ourselves.
 
@@ -72,6 +64,3 @@ To me, meaningful work is about showing up — and trusting that what we offer c
 
 *Please visit [**She Raised Her Hand**](https://www.sheraisedherhand.com) for more information and upcoming events.*  
 *If you’d like to support seasonal giving efforts, donations can be made through [**Toys for Tots**](https://www.toysfortots.org).*
-
-
----

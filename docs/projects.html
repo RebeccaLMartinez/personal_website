@@ -135,16 +135,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <p>This page highlights some of my work from classes and research. It includes data projects, fieldwork, and tools I’ve used.</p>
-<section id="school-projects" class="level2">
-<h2 class="anchored" data-anchor-id="school-projects">🏫 School Projects</h2>
+<section id="school" class="level2">
+<h2 class="anchored" data-anchor-id="school">School</h2>
 <div class="project">
-<h3 onclick="toggleContent('proj1', this)" class="anchored">
+<h3 onclick="toggleContent('proj1', this)" style="cursor:pointer;" class="anchored">
 💡 Service Light Data Project
 </h3>
-<div id="proj1" class="project-details">
+<div id="proj1" class="project-details" hidden="">
 <p><strong>School:</strong> UCSB<br>
 <strong>Course:</strong> ENVS 193DS – Data Science for Environmental Studies</p>
-<p>Explored the relationship between lighting conditions and service calls using a self-collected dataset (n=108). Created a bar chart, summary table, and a blinking lightboard animation (gif). See visuals.</p>
+<p>Ongoing project that explores the relationship between lighting conditions and service calls using a self-collected dataset (n=108). Created a bar chart, summary table, and a blinking lightboard animation (gif). See visuals.</p>
 <p><strong>Tools Used:</strong><br>
 RStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto</p>
 <p><strong>Reflection:</strong><br>
@@ -156,46 +156,46 @@ This project made me think harder about data than I expected. After collecting a
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">working =</span> <span class="fu">as.logical</span>(<span class="fu">toupper</span>(working))</span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><strong>Visuals:</strong></p>
-<p><img src="./media/light_table.jpg" alt="Service Light Table"></p>
-<p><img src="./media/service_light_bar.jpg" alt="Service Light Graph"></p>
+<p><img src="./media/light_table.jpg" alt="Service Light Table" onclick="showImage(this.src)" style="cursor:pointer; max-width:300px; margin:10px 0;"></p>
+<p><img src="./media/service_light_bar.jpg" alt="Service Light Graph" onclick="showImage(this.src)" style="cursor:pointer; max-width:300px; margin:10px 0;"></p>
 <figure style="text-align: left;" class="figure">
-<img src="media/blinking_lights.gif" alt="Service Light Visual" class="figure-img">
+<img src="media/blinking_lights.gif" alt="Service Light Visual" onclick="showImage(this.src)" style="cursor:pointer; max-width:300px;" class="figure-img">
 <figcaption style="margin-top: 5px;">
 Service Light Visual
 </figcaption>
 </figure>
 <p><strong>Resources</strong></p>
-<a href="https://github.com/RebeccaLMartinez/ENVS-193DS_homework-03">GitHub Repo</a><br>
-<a href="https://rebeccalmartinez.github.io/ENVS-193DS_homework-03/code/ENVS-193DS_homework-03.html">View Live</a>
+<p><a href="https://github.com/RebeccaLMartinez/ENVS-193DS_homework-03">GitHub Repo</a><br>
+<a href="https://rebeccalmartinez.github.io/ENVS-193DS_homework-03/code/ENVS-193DS_homework-03.html">View Live</a></p>
 </div>
 </div>
 <hr>
 </section>
-<section id="research-projects" class="level2">
-<h2 class="anchored" data-anchor-id="research-projects">🔍 Research Projects</h2>
+<section id="research" class="level2">
+<h2 class="anchored" data-anchor-id="research">Research</h2>
 <div class="project">
-<h3 onclick="toggleContent('proj2', this)" class="anchored">
+<h3 onclick="toggleContent('proj2', this)" style="cursor:pointer;" class="anchored">
 💧 Fog Harp Device
 </h3>
-<div id="proj2" class="project-details">
+<div id="proj2" class="project-details" hidden="">
 <p><strong>Affiliation:</strong> UCSB Office of Education Partnerships</p>
 Designing and field-testing fogwater monitoring devices (fog harp) to measure fog water levels.
 </div>
 </div>
 <div class="project">
-<h3 onclick="toggleContent('proj3', this)" class="anchored">
+<h3 onclick="toggleContent('proj3', this)" style="cursor:pointer;" class="anchored">
 🦨 Skunk Population
 </h3>
-<div id="proj3" class="project-details">
+<div id="proj3" class="project-details" hidden="">
 <p><strong>Affiliation:</strong> UCSB-Smithsonian Scholars Program (OEP)</p>
 Undergraduate research using camera traps to monitor and quantify skunk populations on Santa Cruz Island.
 </div>
 </div>
 <div class="project">
-<h3 onclick="toggleContent('proj4', this)" class="anchored">
+<h3 onclick="toggleContent('proj4', this)" style="cursor:pointer;" class="anchored">
 🌱 Soil Bioturbation by Mammals
 </h3>
-<div id="proj4" class="project-details">
+<div id="proj4" class="project-details" hidden="">
 <p><strong>Affiliation:</strong> UCNRS Field Science Fellowship<br>
 <strong>Mentor:</strong> Dr.&nbsp;Iris Holzer</p>
 Investigating how small mammals like gophers and ground squirrels influence soil processes through bioturbation. Includes paired site comparisons.
@@ -203,36 +203,15 @@ Investigating how small mammals like gophers and ground squirrels influence soil
 </div>
 <hr>
 </section>
-<section id="past-projects" class="level2">
-<h2 class="anchored" data-anchor-id="past-projects">📁 Past Projects</h2>
+<section id="other" class="level2">
+<h2 class="anchored" data-anchor-id="other">Other</h2>
 <p><em>Coming soon</em></p>
 <hr>
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const modal = document.createElement("div");
-    modal.classList.add("image-modal");
-    modal.innerHTML = `
-      <span class="image-modal-close">&times;</span>
-      <img src="" alt="Expanded Image">
-    `;
-    document.body.appendChild(modal);
-
-    const modalImg = modal.querySelector("img");
-    const closeBtn = modal.querySelector(".image-modal-close");
-
-    document.querySelectorAll(".project-details img").forEach(img => {
-      img.addEventListener("click", () => {
-        modalImg.src = img.src;
-        modal.classList.add("active");
-      });
-    });
-
-    closeBtn.addEventListener("click", () => modal.classList.remove("active"));
-    modal.addEventListener("click", (e) => {
-      if (e.target === modal) modal.classList.remove("active");
-    });
-  });
-</script>
+<!-- Image Modal HTML -->
+<div id="imageModal">
+<span class="image-modal-close" onclick="document.getElementById('imageModal').style.display='none'">×</span> <img id="modalImage" src="">
+</div>
+<script> function showImage(src) { const modal = document.getElementById("imageModal"); document.getElementById("modalImage").src = src; modal.style.display = "flex"; } function toggleContent(id, element) { const content = document.getElementById(id); const isHidden = content.hasAttribute('hidden'); if (isHidden) { content.removeAttribute('hidden'); element.classList.add('open'); } else { content.setAttribute('hidden', ''); element.classList.remove('open'); } } </script>
 
 
 </section>
