@@ -1,5 +1,5 @@
 ---
-title: "Resume"
+title: "Experience"
 format: 
   html:
     theme: darkly

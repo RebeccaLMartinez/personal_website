@@ -181,3 +181,13 @@ body {
   padding: 1rem;
   border-radius: 6px;
 }
+
+
+/* might help with images appearing */
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1em auto;
+}

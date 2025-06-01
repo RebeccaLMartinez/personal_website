@@ -1,18 +1,29 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-  <meta charset="UTF-10" />
+  <meta charset="UTF-8" />
   <title>Are you more like Chester or Leo?</title>
+
+  <!-- Link to external CSS file for button styling and layout -->
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
+<!-- Container that holds the entire quiz interface -->
 <div id="quiz-container">
+  <!-- Element for displaying the current question -->
   <p id="question"></p>
+
+  <!-- Container where answer buttons will be dynamically added -->
   <div id="answers"></div>
+
+  <!-- Element for showing the final result (e.g., personality match) -->
   <div id="result"></div>
+
+  <!-- Container for displaying the image that corresponds to the result -->
   <div id="result-image"></div>
+
+  <!-- Hidden restart button shown after quiz completion -->
   <div id="restart-btn-container" style="margin-top: 1.5em; display: none;">
     <button id="restart-quiz-btn" class="btn">Restart Quiz</button>
   </div>
@@ -20,68 +31,84 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
+  // Quiz data: array of question objects, each with text and answer options
   const quiz = [
-  {
-    question: "Are you more like Chester or Leo?",
-    answers: [
-      { text: "🐾 Unleash My Inner Cat", type: "none" }
-    ]
-  },
-  {
-    question: "How do you feel about new places or people?",
-    answers: [
-      { text: "A little shy at first — I like to observe before jumping in.", type: "chester" },
-      { text: "LOVE IT! I want to be the center of attention!", type: "leo" }
-    ]
-  },
-  {
-    question: "What’s your social style?",
-    answers: [
-      { text: "Quiet and loyal once I trust you.", type: "chester" },
-      { text: "Energetic and always nearby. Like, always.", type: "leo" }
-    ]
-  },
-  {
-    question: "How would your friends describe you?",
-    answers: [
-      { text: "Low-key and kind — a quiet comfort to have around.", type: "chester" },
-      { text: "Loud, lovable, and impossible to ignore!", type: "leo" }
-    ]
-  },
-  {
-    question: "Your approach to solving problems?",
-    answers: [
-      { text: "Take a step back, think, and go quietly.", type: "chester" },
-      { text: "Charge in. Confidence over strategy!", type: "leo" }
-    ]
-  },
-  {
-    question: "Final question: Litter box etiquette?",
-    answers: [
-      { text: "Um… I try, okay? But I might need help.", type: "chester" },
-      { text: "I’ve got it covered. Literally.", type: "leo" }
-    ]
-  }
-];
+    {
+      question: "Are you more like Chester or Leo?",
+      answers: [
+        { text: "🐾 Unleash My Inner Cat", type: "none" }  // This is the quiz intro button
+      ]
+    },
+    {
+      question: "How do you feel about new places or people?",
+      answers: [
+        { text: "A little shy at first — I like to observe before jumping in.", type: "chester" },
+        { text: "LOVE IT! I want to be the center of attention!", type: "leo" }
+      ]
+    },
+    {
+      question: "What’s your social style?",
+      answers: [
+        { text: "Quiet and loyal once I trust you.", type: "chester" },
+        { text: "Energetic and always nearby. Like, always.", type: "leo" }
+      ]
+    },
+    {
+      question: "How would your friends describe you?",
+      answers: [
+        { text: "Low-key and kind — a quiet comfort to have around.", type: "chester" },
+        { text: "Loud, lovable, and impossible to ignore!", type: "leo" }
+      ]
+    },
+    {
+      question: "Your approach to solving problems?",
+      answers: [
+        { text: "Take a step back, think, and go quietly.", type: "chester" },
+        { text: "Charge in. Confidence over strategy!", type: "leo" }
+      ]
+    },
+    {
+      question: "Final question: Litter box etiquette?",
+      answers: [
+        { text: "Um… I try, okay? But I might need help.", type: "chester" },
+        { text: "I’ve got it covered. Literally.", type: "leo" }
+      ]
+    }
+  ];
 
+  // Keeps track of the current question index
   let currentQuestion = 0;
+
+  // Keeps track of how many times each cat type is selected
   const scores = { chester: 0, leo: 0 };
 
+  // Function to display a question and its answer choices
   function showQuestion() {
     const q = quiz[currentQuestion];
+
+    // Clear previous result display (if any)
     document.getElementById("result").innerHTML = "";
     document.getElementById("result-image").innerHTML = "";
+
+    // Set question text
     document.getElementById("question").innerText = q.question;
 
+    // Clear previous answers
     const answersEl = document.getElementById("answers");
     answersEl.innerHTML = "";
 
+    // Create a button for each answer option
     q.answers.forEach(answer => {
       const btn = document.createElement("button");
       btn.innerText = answer.text;
       btn.className = "btn";
+      
+      // When an answer is clicked:
       btn.onclick = () => {
-        scores[answer.type]++;
+        // Increment score for Chester or Leo unless it's the intro question
+        if (answer.type !== "none") scores[answer.type]++;
+
+        // Move to the next question or show results if finished
         currentQuestion++;
         if (currentQuestion < quiz.length) {
           showQuestion();
@@ -89,10 +116,12 @@ document.addEventListener("DOMContentLoaded", function () {
           showResult();
         }
       };
+
       answersEl.appendChild(btn);
     });
   }
 
+  // Function to calculate and display the final quiz result
   function showResult() {
     const resultEl = document.getElementById("result");
     const imageEl = document.getElementById("result-image");
@@ -100,32 +129,38 @@ document.addEventListener("DOMContentLoaded", function () {
     const answersEl = document.getElementById("answers");
     const restartBtnContainer = document.getElementById("restart-btn-container");
 
+    // Clear question and answer display
     questionEl.innerHTML = "";
     answersEl.innerHTML = "";
 
+    // Set result message and image based on which score is higher
     let resultText = "";
     let imgSrc = "";
     let imgAlt = "";
 
     if (scores.chester > scores.leo) {
       resultText = "You're more like Chester 🐈 — calm, kind, and quietly brilliant.";
-      imgSrc = "/media/chester.jpeg";
+      imgSrc = "/media/chester.jpeg";  // Replace with actual path to Chester's photo
       imgAlt = "Photo of Chester the cat";
     } else if (scores.leo > scores.chester) {
       resultText = "You're more like Leo 🐾 — bold, affectionate, and full of life.";
-      imgSrc = "/media/leo.jpeg";
+      imgSrc = "/media/leo.jpeg";  // Replace with actual path to Leo's photo
       imgAlt = "Photo of Leo the cat";
     } else {
       resultText = "You're a perfect mix of Chester and Leo — the best of both cats!";
-      imgSrc = "/media/cats.jpeg";
+      imgSrc = "/media/cats.jpeg";  // Replace with actual path to photo of both cats
       imgAlt = "Photo of Chester and Leo together";
     }
 
+    // Display result text and image
     resultEl.innerText = resultText;
     imageEl.innerHTML = `<img src="${imgSrc}" alt="${imgAlt}" style="max-width: 300px; border-radius: 12px;">`;
+
+    // Show the restart button so the user can retake the quiz
     restartBtnContainer.style.display = "block";
   }
 
+  // Restart logic: resets state and starts quiz over
   document.getElementById("restart-quiz-btn").addEventListener("click", function () {
     currentQuestion = 0;
     scores.chester = 0;
@@ -134,7 +169,7 @@ document.addEventListener("DOMContentLoaded", function () {
     showQuestion();
   });
 
-  // Start the quiz right away
+  // Automatically start quiz when page loads
   showQuestion();
 });
 </script>
