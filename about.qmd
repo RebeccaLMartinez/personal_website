@@ -1,5 +1,10 @@
 ---
 title: "Meet Rebecca!"
+format: 
+  html:
+    theme: darkly
+    toc: false
+    css: styles.css
 about:
   id: hero-heading
   template: solana
