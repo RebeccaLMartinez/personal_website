@@ -72,7 +72,7 @@ clean_service_data <- service_data |>
 <!-- Fog Harp Device -->
 <div class="project">
   <h3 onclick="toggleContent('proj2', this)" style="cursor:pointer;">
-    💧 Fog Harp Device
+    💧 Fog Harp
   </h3>
   <div id="proj2" class="project-details" hidden>
 _Under construction…_
@@ -90,7 +90,7 @@ _Under construction…_
 
 <div class="project">
   <h3 onclick="toggleContent('proj4', this)" style="cursor:pointer;">
-    🌱 Soil Bioturbation by Mammals
+    🌱 Soil Bioturbation
   </h3>
   <div id="proj4" class="project-details" hidden>
 _Under construction…_
