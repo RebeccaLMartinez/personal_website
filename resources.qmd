@@ -6,6 +6,7 @@ format:
     css: styles.css
 ---
 
+--- 
 
 # Anatomy Resources
 
@@ -19,13 +20,26 @@ For a detailed and interactive 3D exploration of the human body, check out **Zyg
 [Explore Zygote Body](https://www.zygotebody.com/)
 
  
-
 ## Quizlet Flashcard Folders
 
 Created for Dr. Len Miyahara's BIO 124 course in 2021. Material may differ. 
 
-[Histology](https://quizlet.com/user/Th3b3ckst3r/folders/histology-and-integumentary-system?i=2236oh&x=1xqt)
+- [Histology & Integumentary Systems](https://quizlet.com/user/Th3b3ckst3r/folders/histology-and-integumentary-system?i=2236oh&x=1xqt)
 
-[Digestive, Urinary, & Reproductive Systems](https://quizlet.com/user/Th3b3ckst3r/folders/digestive-urinary-reproductive-systems)
+- [Skeletal System](https://quizlet.com/user/Th3b3ckst3r/folders/skeletal-system?i=2236oh&x=1xqt)
 
-[Heart, Circulatory, & Respiratory Systems](https://quizlet.com/user/Th3b3ckst3r/folders/heart-circulatory-respiratory-systems)
+- [Muscular System](https://quizlet.com/user/Th3b3ckst3r/folders/muscles?i=2236oh&x=1xqt)
+
+- [Heart, Circulatory, & Respiratory Systems](https://quizlet.com/user/Th3b3ckst3r/folders/heart-circulatory-respiratory-systems?i=2236oh&x=1xqt)
+
+
+- [Digestive, Urinary, & Reproductive Systems](https://quizlet.com/user/Th3b3ckst3r/folders/digestive-urinary-reproductive-systems?i=2236oh&x=1xqt)
+
+- [Brain, Special Senses, & Nervous System](https://quizlet.com/user/Th3b3ckst3r/folders/nervous-system-brain-special-senses?i=2236oh&x=1xqt)
+
+
+## Visual Guides
+
+*Coming soon...*
+
+---
