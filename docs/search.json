@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Greetings!",
     "section": "",
-    "text": "Welcome to the digital habitat of Rebecca Martinez — where curiosity leads the way and muddy boots are just part of the journey.\nThis space is a growing collection of projects, fieldwork, adventures, and the occasional feline cameo. Whether it’s research, reflections, or unexpected detours, it’s all part of the exploration.\nFeel free to wander, stay curious — and thanks for visiting.\n\n\nThis site is still evolving — kind of like everything else. Thanks for your patience!"
+    "text": "Welcome to the digital habitat of Rebecca Martinez — where curiosity leads the way and muddy boots are just part of the journey.\nThis space is a growing collection of projects, fieldwork, adventures, and the occasional feline cameo. Whether it’s research, reflections, or unexpected detours, it’s all part of the exploration.\nFeel free to wander, stay curious — and thanks for visiting.\n\n\nThis site is still evolving. Thanks for your patience!"
   },
   {
     "objectID": "about.html",
@@ -305,21 +305,21 @@
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "Welcome to the Anatomy section of my resource page!\nHere you’ll find materials to support learning various body systems.\n\n\nFor a detailed and interactive 3D exploration of the human body, check out Zygote Body. This website allows you to zoom, rotate, and isolate specific parts of the body, making it an excellent tool for visual learning.\nExplore Zygote Body\n\n\n\nCreated for Dr. Len Miyahara’s BIO 124 course in 2021. Material may differ.\nHistology\nDigestive, Urinary, & Reproductive Systems\nHeart, Circulatory, & Respiratory Systems"
+    "text": "Welcome to my resource page!"
   },
   {
     "objectID": "resources.html#interactive-3d-anatomy",
     "href": "resources.html#interactive-3d-anatomy",
     "title": "Resources",
-    "section": "",
-    "text": "For a detailed and interactive 3D exploration of the human body, check out Zygote Body. This website allows you to zoom, rotate, and isolate specific parts of the body, making it an excellent tool for visual learning.\nExplore Zygote Body"
+    "section": "Interactive 3D Anatomy",
+    "text": "Interactive 3D Anatomy\nFor a detailed and interactive 3D exploration of the human body, check out Zygote Body. This website allows you to zoom, rotate, and isolate specific parts of the body, making it an excellent tool for visual learning.\nExplore Zygote Body"
   },
   {
     "objectID": "resources.html#quizlet-flashcard-folders",
     "href": "resources.html#quizlet-flashcard-folders",
     "title": "Resources",
-    "section": "",
-    "text": "Created for Dr. Len Miyahara’s BIO 124 course in 2021. Material may differ.\nHistology\nDigestive, Urinary, & Reproductive Systems\nHeart, Circulatory, & Respiratory Systems"
+    "section": "Quizlet Flashcard Folders",
+    "text": "Quizlet Flashcard Folders\nCreated for Dr. Len Miyahara’s BIO 124 course at Allan Hancock College in 2021. Material may differ.\n\nHistology & Integumentary Systems\nSkeletal System\nMuscular System\nHeart, Circulatory, & Respiratory Systems\nDigestive, Urinary, & Reproductive Systems\nBrain, Special Senses, & Nervous System"
   },
   {
     "objectID": "resources.html#visual-guides",

@@ -6,11 +6,12 @@ format:
     css: styles.css
 ---
 
+Welcome to my resource page!   
+
 --- 
 
 # Anatomy Resources
 
-Welcome to the Anatomy section of my resource page!  
 Here you'll find materials to support learning various body systems.  
 
 ## Interactive 3D Anatomy
@@ -22,7 +23,7 @@ For a detailed and interactive 3D exploration of the human body, check out **Zyg
  
 ## Quizlet Flashcard Folders
 
-Created for Dr. Len Miyahara's BIO 124 course in 2021. Material may differ. 
+Created for Dr. Len Miyahara's BIO 124 course at Allan Hancock College in 2021. Material may differ. 
 
 - [Histology & Integumentary Systems](https://quizlet.com/user/Th3b3ckst3r/folders/histology-and-integumentary-system?i=2236oh&x=1xqt)
 
