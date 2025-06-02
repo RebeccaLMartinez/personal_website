@@ -11,7 +11,7 @@
     "href": "about.html",
     "title": "Meet Rebecca!",
     "section": "",
-    "text": "Hi! I’m Rebecca — an Environmental Studies major at the University of California, Santa Barbara (UCSB), student researcher, and mom of two incredible teenagers. I’ve taken an unconventional path to college, but I’ve made every step count. I’m drawn to work that’s hands-on, community-centered, and rooted in care — whether that’s in the field, the classroom, or beyond.\nRight now, I’m focused on environmental research, mentorship, and exploring how undergraduate education can connect science, service, and real-world impact."
+    "text": "Hi! I’m Rebecca — an Environmental Studies major at the University of California, Santa Barbara (UCSB), student researcher, and mom of two incredible teenagers. I’ve taken an unconventional path to college, but every step has shaped who I am today. I’m passionate about hands-on learning and finding meaningful ways to connect science with the world around us.\n\n\n🛤️ My Path\nBefore returning to school, I balanced work, family life, and five years serving in the Marine Corps Reserves. Community college rekindled my love for science and service. At Allan Hancock College, I worked as a tutor and mentor, helping other students as I grew in my own studies. Now at UCSB, I’m blending research, education, and community involvement to build a path that feels purposeful and rewarding.\n\n\n\n\n\nOnce Upon a Time.\n\n\n\n\n\nAllan Hancock College.\n\n\n\n\n\n× \n\n\n\n\n\n\n🌿 Learning by Doing\nSometimes the best way to learn is by jumping in and experiencing it firsthand. Fieldwork brings my studies to life by connecting science with real environments and showing how those environments impact our world. I believe hands-on experience is one of the best ways to inspire students and anyone who’s still finding their place in science.\n\n\n\n\nHarvesting lavender to distill into oil.\n\n\n\n\n\nWith Kayla Geronimo-Anctil on Santa Cruz Island Reserve.\n\n\n\nYou can explore my projects and photos pages to see what I’ve been up to.\n\n\n\n👩‍👧‍👦 Life & Inspiration\nI’m a proud mom of two amazing teenagers who inspire me every day. When I’m not studying or working, I enjoy volunteering, spending time outdoors, and relaxing with my cats, Chester and Leo.\n\n\n\n\nMy Family.\n\n\n\n\n\nChester and Leo.\n\n\n\nCurious about Chester and Leo? You can find more fluffiness here.\n\n\n\n❤️ Giving Back\nGiving back has always been a priority for me. Whether mentoring, volunteering, or supporting community efforts behind the scenes, I believe showing up and contributing makes a difference. Over the years, I’ve been involved with groups like Toys for Tots, local outreach, and She Raised Her Hand.\n\n\n\n\nToys for Tots Event (holding the unicorn).\n\n\n\n\n\nProclamation presented by the City of Santa Maria to She Raised Her Hand.\n\n\n\nPlease visit She Raised Her Hand for more information and upcoming events.\nIf you’d like to support seasonal giving efforts, donations can be made through Toys for Tots."
   },
   {
     "objectID": "index.html#quick-links",
@@ -74,7 +74,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "This page highlights some of my work from classes and research. It includes data projects, fieldwork, and tools I’ve used."
+    "text": "This page highlights some of my work from classes and research. It includes data projects, fieldwork, and tools I’ve used.\n\n\nSchool\n\n\n\n💡 Service Light Data Project\n\n\n\nSchool: UCSB\nCourse: ENVS 193DS – Data Science for Environmental Studies\nOngoing project that explores the relationship between lighting conditions and service calls using a self-collected dataset (n=108). Created a bar chart, summary table, and a blinking lightboard animation (gif). See visuals.\nTools Used:\nRStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto\nReflection:\nThis project made me think harder about data than I expected. After collecting and working with my own dataset, I gained a deeper respect for the messiness of real-world data.\nCode Snippet:\nclean_service_data &lt;- service_data |&gt;\n  mutate(\n    help = as.logical(toupper(help)),\n    working = as.logical(toupper(working))\n  )\nVisuals:\n\n  \n  \n  \nResources\nGitHub Repo\nView Live\n\n\n\n\n\nResearch Projects\n\n\n\n💧 Fog Harp Device\n\n\n&lt;em&gt;Under construction…&lt;/em&gt;\n\n\n\n\n🦨 Skunk Population\n\n\n&lt;em&gt;Under construction…&lt;/em&gt;\n\n\n\n\n🌱 Soil Bioturbation by Mammals\n\n\n&lt;em&gt;Under construction…&lt;/em&gt;\n\n\n\n\n\nOther\nComing soon…\n\n\n\n×"
   },
   {
     "objectID": "about.html#my-path",
@@ -151,7 +151,7 @@
     "href": "cats.html",
     "title": "Meet Chester and Leo",
     "section": "",
-    "text": "Your browser does not support the video tag. \n\nWelcome to the page of Chester and Leo. # Biographies\n\n\n\n Chester Odin\n\n\n\n“Chester the Cheetah” Though docile and timid, Chester’s gentle and sweet nature shines through to anyone who takes the time to get to know him.  \n\n\n\n Leonel Vili\n\n\n\n“Leo the Lion” Leo is a playful polydactyl whose two great loves are meowing and hunting hair-ties.  \n\n\n\nPhoto Gallery\nWondering where the photos are? Chester and Leo got into the code again.\n\n\nMore Fluff\n\n\n\nCheck back soon for more feline mischief, fluff, and fun!"
+    "text": "Your browser does not support the video tag. \n\nWelcome to the page of Chester and Leo.\n\n\nBiographies\n\n\n\n Chester Odin\n\n\n\n“Chester the Cheetah” Though docile and timid, Chester’s gentle and sweet nature shines through to anyone who takes the time to get to know him.  \n\n\n\n Leonel Vili\n\n\n\n“Leo the Lion” Leo is a playful polydactyl whose two great loves are meowing and hunting hair-ties.  \n\n\n\n\n\nPhoto Gallery\nWondering where the photos are? Chester and Leo got into the code again.\n\n\n\nMore Fluff\n\n\n\n\nCheck back soon for more feline mischief, fluff, and fun!"
   },
   {
     "objectID": "projects.html#school-projects",
@@ -256,14 +256,14 @@
     "href": "projects.html#school",
     "title": "Projects",
     "section": "School",
-    "text": "School\n\n\n💡 Service Light Data Project\n\n\nSchool: UCSB\nCourse: ENVS 193DS – Data Science for Environmental Studies\nOngoing project that explores the relationship between lighting conditions and service calls using a self-collected dataset (n=108). Created a bar chart, summary table, and a blinking lightboard animation (gif). See visuals.\nTools Used:\nRStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto\nReflection:\nThis project made me think harder about data than I expected. After collecting and working with my own dataset, I gained a deeper respect for the messiness of real-world data.\nCode Snippet:\nclean_service_data &lt;- service_data |&gt;\n  mutate(\n    help = as.logical(toupper(help)),\n    working = as.logical(toupper(working))\n  )\nVisuals:\n\n\n\n\n\nService Light Visual\n\n\nResources\nGitHub Repo\nView Live"
+    "text": "School\n\n\n\n💡 Service Light Data Project\n\n\n\nSchool: UCSB\nCourse: ENVS 193DS – Data Science for Environmental Studies\nOngoing project that explores the relationship between lighting conditions and service calls using a self-collected dataset (n=108). Created a bar chart, summary table, and a blinking lightboard animation (gif). See visuals.\nTools Used:\nRStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto\nReflection:\nThis project made me think harder about data than I expected. After collecting and working with my own dataset, I gained a deeper respect for the messiness of real-world data.\nCode Snippet:\nclean_service_data &lt;- service_data |&gt;\n  mutate(\n    help = as.logical(toupper(help)),\n    working = as.logical(toupper(working))\n  )\nVisuals:\n\n\n\nService Light Table\n\n\n\n\n\nService Light Graph\n\n\n\n Service Light Visual\n\nResources\nGitHub Repo\nView Live"
   },
   {
     "objectID": "projects.html#research",
     "href": "projects.html#research",
     "title": "Projects",
     "section": "Research",
-    "text": "Research\n\n\n💧 Fog Harp Device\n\n\nAffiliation: UCSB Office of Education Partnerships\nDesigning and field-testing fogwater monitoring devices (fog harp) to measure fog water levels.\n\n\n\n\n🦨 Skunk Population\n\n\nAffiliation: UCSB-Smithsonian Scholars Program (OEP)\nUndergraduate research using camera traps to monitor and quantify skunk populations on Santa Cruz Island.\n\n\n\n\n🌱 Soil Bioturbation by Mammals\n\n\nAffiliation: UCNRS Field Science Fellowship\nMentor: Dr. Iris Holzer\nInvestigating how small mammals like gophers and ground squirrels influence soil processes through bioturbation. Includes paired site comparisons."
+    "text": "Research\n\n\n\n💧 Fog Harp Device\n\n\nAffiliation: UCSB Office of Education Partnerships\nDesigning and testing fogwater (fog harp) monitoring devices.\n\n\n\n\n🦨 Skunk Population\n\n\nAffiliation: UCSB-Smithsonian Scholars Program (OEP)\nUndergraduate research using camera traps to monitor and quantify skunk populations on Santa Cruz Island.\n\n\n\n\n🌱 Soil Bioturbation by Mammals\n\n\ns\n\n\nAffiliation: UCNRS Field Science Fellowship\nMentor: Dr. Iris Holzer\nInvestigating how small mammals like gophers and ground squirrels influence soil processes through bioturbation. Includes paired site comparisons.\n\n\n\n\nOther\nComing soon\n\n\n\n×"
   },
   {
     "objectID": "projects.html#other",
@@ -271,5 +271,33 @@
     "title": "Projects",
     "section": "Other",
     "text": "Other\nComing soon\n\n\n\n×"
+  },
+  {
+    "objectID": "about.html#my-journey",
+    "href": "about.html#my-journey",
+    "title": "Meet Rebecca!",
+    "section": "🛤️ My Journey",
+    "text": "🛤️ My Journey\nBefore returning to school, I balanced work, family life, and five years serving in the Marine Corps Reserves. Community college rekindled my love for science and service. At Allan Hancock College, I worked as a tutor and mentor, helping other students as I grew in my own studies. Now at UCSB, I’m blending research, education, and community involvement to build a path that feels purposeful and rewarding.\n\n\n\n\n\nOnce Upon a Time.\n\n\n\n\n\nAllan Hancock College.\n\n\n\n\n\n×"
+  },
+  {
+    "objectID": "about.html#learning-by-doing",
+    "href": "about.html#learning-by-doing",
+    "title": "Meet Rebecca!",
+    "section": "🌿 Learning by Doing",
+    "text": "🌿 Learning by Doing\nSometimes the best way to learn is by jumping in and experiencing it firsthand. Fieldwork brings my studies to life by connecting science with real environments and showing how those environments impact our world. I believe hands-on experience is one of the best ways to inspire students and anyone who’s still finding their place in science.\n\n\n\n\nHarvesting lavender to distill into oil.\n\n\n\n\n\nWith Kayla Geronimo-Anctil on Santa Cruz Island Reserve.\n\n\n\nYou can explore my projects and photos pages to see what I’ve been up to."
+  },
+  {
+    "objectID": "about.html#life-inspiration",
+    "href": "about.html#life-inspiration",
+    "title": "Meet Rebecca!",
+    "section": "👩‍👧‍👦 Life & Inspiration",
+    "text": "👩‍👧‍👦 Life & Inspiration\nI’m a proud mom of two amazing teenagers who inspire me every day. When I’m not studying or working, I enjoy volunteering, spending time outdoors, and relaxing with my cats, Chester and Leo.\n\n\n\n\nMy Family.\n\n\n\n\n\nChester and Leo.\n\n\n\nCurious about Chester and Leo? You can find more fluffiness here."
+  },
+  {
+    "objectID": "about.html#giving-back",
+    "href": "about.html#giving-back",
+    "title": "Meet Rebecca!",
+    "section": "❤️ Giving Back",
+    "text": "❤️ Giving Back\nGiving back has always been a priority for me. Whether mentoring, volunteering, or supporting community efforts behind the scenes, I believe showing up and contributing makes a difference. Over the years, I’ve been involved with groups like Toys for Tots, local outreach, and She Raised Her Hand.\n\n\n\n\nToys for Tots Event (holding the unicorn).\n\n\n\n\n\nProclamation presented by the City of Santa Maria to She Raised Her Hand.\n\n\n\nPlease visit She Raised Her Hand for more information and upcoming events.\nIf you’d like to support seasonal giving efforts, donations can be made through Toys for Tots."
   }
 ]

@@ -15,6 +15,9 @@ format:
 </div>
 
 Welcome to the page of Chester and Leo.
+
+---
+
 # Biographies
 
 <div class="cat-profiles">
@@ -49,16 +52,24 @@ Welcome to the page of Chester and Leo.
 
 </div>
 
+---
 
 # Photo Gallery
 
 _Wondering where the photos are? Chester and Leo got into the code again._
 
+---
+
 # More Fluff
 
 <!-- Embed an external quiz page using an iframe -->
 <iframe src="quiz.html" width="100%" height="700" style="border:none;"></iframe>
+
+---
+
 _Check back soon for more feline mischief, fluff, and fun!_
+
+---
 
 <script>
   // JavaScript function to toggle visibility of profiles

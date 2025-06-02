@@ -1,133 +1,235 @@
-/* ========== GLOBAL STYLES ========== */
+/* ========== global styles ========== */
 body {
-  padding-bottom: 120px;  /* Prevent page content from being hidden behind fixed footer */
-  margin: 0;              /* Remove default margin */
-  font-family: system-ui, arial; /* Use system default UI font for better performance */
-  font-size: 18px; /* Increase base font size slightly from default 16px */
+  padding-bottom: 120px;  /* prevent page content from hiding behind fixed footer */
+  margin: 0;              /* remove default margin */
+  font-family: system-ui, arial; /* use system UI font for better performance */
+  font-size: 18px;        /* increase base font size slightly */
 }
 
-/* ========== FIXED FOOTER STYLING ========== */
+/* ========== fixed footer styling ========== */
 .fixed-footer {
-  position: fixed;        /* Fix footer to viewport */
-  bottom: 0;              /* Stick to bottom */
-  left: 0; right: 0;      /* Stretch full width */
-  background-color: #222; /* Dark background color */
-  color: white;           /* White text */
-  padding: 12px 20px;     /* Space inside footer */
-  z-index: 9999;          /* High stacking order so it stays on top */
-  box-shadow: 0 -2px 5px rgba(0,0,0,0.5); /* Subtle shadow above footer */
-  text-align: center;     /* Center text horizontally */
+  position: fixed;        /* fix footer to viewport */
+  bottom: 0;              /* stick to bottom */
+  left: 0; right: 0;      /* stretch full width */
+  background-color: #222; /* dark background color */
+  color: white;           /* white text */
+  padding: 12px 20px;     /* inner spacing */
+  z-index: 9999;          /* high stacking order */
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.5); /* subtle shadow above footer */
+  text-align: center;     /* center text horizontally */
 }
 
-/* Footer navigation container */
+/* footer navigation container */
 .footer-nav {
-  display: flex;          /* Use flexbox layout */
-  justify-content: center;/* Center buttons horizontally */
-  align-items: center;    /* Center buttons vertically */
-  flex-wrap: wrap;        /* Allow buttons to wrap to next line */
-  gap: 16px;              /* Space between buttons */
+  display: flex;          /* flexbox layout */
+  justify-content: center;/* center buttons horizontally */
+  align-items: center;    /* center buttons vertically */
+  flex-wrap: wrap;        /* allow buttons to wrap */
+  gap: 16px;              /* space between buttons */
 }
 
-/* Individual footer navigation buttons */
+/* individual footer navigation buttons */
 .nav-button {
-  color: #4FA78D;         /* Button text color */
-  text-decoration: none;  /* Remove underline */
-  font-weight: 600;       /* Semi-bold text */
-  padding: 6px 12px;      /* Button padding */
-  border-radius: 4px;     /* Rounded corners */
-  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth color changes */
+  color: #4FA78D;         /* button text color */
+  text-decoration: none;  /* remove underline */
+  font-weight: 600;       /* semi-bold text */
+  padding: 6px 12px;      /* button padding */
+  border-radius: 4px;     /* rounded corners */
+  transition: background-color 0.3s ease, color 0.3s ease; /* smooth color changes */
 }
 .nav-button:hover,
 .nav-button:focus {
-  background-color: #4FA78D; /* Highlight background on hover/focus */
-  color: #111;               /* Dark text on hover */
-  outline: none;             /* Remove focus outline */
+  background-color: #4FA78D; /* highlight background on hover/focus */
+  color: #111;               /* dark text on hover */
+  outline: none;             /* remove focus outline */
 }
 
-/* ========== FLOATING ICONS AT BOTTOM RIGHT ========== */
+/* ========== floating icons at bottom right ========== */
 #fixed-icons {
-  position: fixed;        /* Fix icons to viewport */
+  position: fixed;        /* fix icons to viewport */
   bottom: 1rem;           /* 1 rem from bottom */
-  right: 1rem;            /* 1 rem from right edge */
-  display: flex;          /* Arrange icons in a row */
-  gap: 1rem;              /* Space between icons */
-  z-index: 1000;          /* Above most content but below footer */
+  right: 1rem;            /* 1 rem from right */
+  display: flex;          /* arrange icons in a row */
+  gap: 1rem;              /* space between icons */
+  z-index: 1000;          /* above most content but below footer */
 }
 #fixed-icons a {
-  color: #4FA78D;         /* Icon color */
-  font-size: 1.5rem;      /* Icon size */
-  transition: color 0.2s; /* Smooth color changes */
+  color: #4FA78D;         /* icon color */
+  font-size: 1.5rem;      /* icon size */
+  transition: color 0.2s; /* smooth color changes */
 }
 #fixed-icons a:hover {
-  color: #418c76;         /* Darker green on hover */
+  color: #418c76;         /* darker green on hover */
 }
 
-/* ========== CIRCULAR VIDEO STYLING ========== */
+/* ========== circular video styling ========== */
 .video-wrapper {
-  display: flex;          /* Use flexbox to center video */
-  justify-content: center;/* Center horizontally */
-  margin-top: 2rem;       /* Space above the video */
+  display: flex;          /* flexbox to center video */
+  justify-content: center;/* center horizontally */
+  margin-top: 2rem;       /* space above video */
 }
 .circle-video {
-  width: 350px;           /* Fixed width */
-  height: 350px;          /* Fixed height, equal for circle */
-  border-radius: 50%;     /* Makes the video circular */
-  object-fit: cover;      /* Scale video to fill circle without distortion */
-  border: 4px solid #4FA78D; /* Green border */
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3); /* Subtle shadow */
+  width: 350px;           /* fixed width */
+  height: 350px;          /* fixed height for circle */
+  border-radius: 50%;     /* make video circular */
+  object-fit: cover;      /* scale video to fill circle */
+  border: 4px solid #4FA78D; /* green border */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3); /* subtle shadow */
 }
 
-/* ========== ABOUT PAGE IMAGE STYLING ========== */
+/* ========== about page image styling ========== */
 .about-page #hero-heading img {
-  border: 4px solid #4FA78D; /* Green border around image */
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3); /* Shadow for depth */
-  object-fit: cover;      /* Maintain aspect ratio */
+  border: 4px solid #4FA78D; /* green border */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3); /* shadow for depth */
+  object-fit: cover;      /* maintain aspect ratio */
 }
 
-/* ========== QUIZ COMPONENT STYLING ========== */
+/* ========== quiz component styling ========== */
 #quiz-container {
-  background-color: #222; /* Dark background */
-  color: #fff;            /* White text */
-  padding: 1.5em;         /* Inner padding */
-  border-radius: 12px;    /* Rounded corners */
-  box-shadow: none;       /* No shadow */
-  max-width: 600px;       /* Max width for readability */
-  margin: auto;           /* Center horizontally */
+  background-color: #222; /* dark background */
+  color: #fff;            /* white text */
+  padding: 1.5em;         /* inner padding */
+  border-radius: 12px;    /* rounded corners */
+  box-shadow: none;       /* no shadow */
+  max-width: 600px;       /* max width for readability */
+  margin: auto;           /* center horizontally */
 }
 #quiz-container #question {
-  font-size: 1.2em;       /* Slightly larger font */
-  margin-bottom: 1em;     /* Space below question */
+  font-size: 1.2em;       /* slightly larger font */
+  margin-bottom: 1em;     /* space below question */
 }
 #quiz-container .btn {
-  padding: 0.6em 1.2em;   /* Button padding */
-  margin: 0.4em;          /* Space around buttons */
-  border-radius: 6px;     /* Rounded corners */
-  border: 2px solid #4FA78D; /* Green border */
-  background-color: #2b7a78; /* Dark teal background */
-  color: #fff;            /* White text */
-  font-weight: bold;      /* Bold text */
-  cursor: pointer;        /* Pointer cursor on hover */
-  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effects */
+  padding: 0.6em 1.2em;   /* button padding */
+  margin: 0.4em;          /* space around buttons */
+  border-radius: 6px;     /* rounded corners */
+  border: 2px solid #4FA78D; /* green border */
+  background-color: #2b7a78; /* dark teal background */
+  color: #fff;            /* white text */
+  font-weight: bold;      /* bold text */
+  cursor: pointer;        /* pointer cursor */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* smooth hover effects */
 }
 #quiz-container .btn:hover {
-  background-color: #418c76; /* Lighter teal on hover */
-  transform: translateY(-2px); /* Slight lift on hover */
+  background-color: #418c76; /* lighter teal on hover */
+  transform: translateY(-2px); /* slight lift on hover */
 }
 #quiz-container #result {
-  margin-top: 1.2em;      /* Space above result */
-  font-size: 1.3em;       /* Larger font */
-  color: #4FA78D;         /* Green text */
-  text-shadow: 1px 1px 2px #111; /* Subtle shadow for readability */
+  margin-top: 1.2em;      /* space above result */
+  font-size: 1.3em;       /* larger font */
+  color: #4FA78D;         /* green text */
+  text-shadow: 1px 1px 2px #111; /* subtle shadow */
 }
 #quiz-container #result-image img {
-  margin-top: 1em;        /* Space above image */
-  border: 3px solid #4FA78D; /* Green border */
-  border-radius: 10px;    /* Rounded corners */
-  max-width: 100%;        /* Responsive width */
-  height: auto;           /* Maintain aspect ratio */
+  margin-top: 1em;        /* space above image */
+  border: 3px solid #4FA78D; /* green border */
+  border-radius: 10px;    /* rounded corners */
+  max-width: 100%;        /* responsive width */
+  height: auto;           /* maintain aspect ratio */
 }
 
+/* ========== image grid ========== */
+
+/* Ensure image tiles display side-by-side inside the grid */
+.image-grid {
+  display: flex;             /* enables flex layout */
+  flex-wrap: wrap;           /* allows items to wrap */
+  justify-content: center;   /* center content horizontally */
+  gap: 1em;                 /* spacing between tiles */
+}
+
+/* Image tile container */
+
+.image-tile {
+  flex: 1 1 120px;          /* Shrinks down to 120px if needed */
+  max-width: 200px;         /* Prevents huge images */
+  min-width: 100px;         /* Prevents unreadably small tiles */
+  margin: 0.5em;
+  text-align: center;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: none;
+  transition: transform 0.2s ease;
+}
+
+.image-tile:hover {
+  transform: scale(1.05);
+}
+
+.image-tile img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+/* Make sure figcaptions don't appear below thumbnails */
+.image-tile figcaption {
+  display: none; /* hides caption text */
+}
+
+/* ========== modal styles ========== */
+.modal {
+  display: none;          /* hidden by default */
+  position: fixed;        /* fixed viewport */
+  z-index: 10000;         /* very high stacking order */
+  left: 0; top: 0;
+  width: 100vw;           /* full viewport width */
+  height: 100vh;          /* full viewport height */
+  background-color: rgba(0,0,0,0.85); /* translucent dark background */
+  justify-content: center; /* flex center horizontally */
+  align-items: center;     /* flex center vertically */
+  flex-direction: column;  /* vertical stacking */
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.modal-content {
+  max-width: 90vw;
+  max-height: 80vh;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.8);
+  object-fit: contain;
+  user-select: none;
+}
+
+#modal-caption {
+  margin-top: 12px;
+  color: #ccc;
+  font-style: italic;
+  font-size: 1.1rem;
+  text-align: center;
+  max-width: 90vw;
+  user-select: text;
+}
+
+/* close button */
+.modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1.25rem;
+  color: #eee;
+  font-size: 2.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.3s ease;
+  z-index: 11000;
+}
+.modal-close:hover,
+.modal-close:focus {
+  color: #4FA78D;
+  outline: none;
+}
+
+/* Responsive tweaks */
+@media (max-width: 480px) {
+  .image-tile {
+    max-width: 100%;
+  }
+}
+
+
+
 /* ========== PROJECT TOGGLE ========== */
+
 /* Clickable project titles */
 .project h3 {
   cursor: pointer;        /* Pointer cursor indicates clickable */
@@ -162,40 +264,44 @@ body {
   box-shadow: 0 0 15px rgba(0,0,0,0.5); /* Shadow for depth */
 }
 
-/* ========== IMAGE MODAL ========== */
-.image-modal {
-  display: none;          /* Hidden by default */
-  position: fixed;        /* Fixed overlay */
-  z-index: 9999;          /* Top-most */
-  top: 0; left: 0;        /* Cover entire viewport */
-  width: 100vw;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.85); /* Dark semi-transparent background */
-  justify-content: center; /* Center content horizontally */
-  align-items: center;     /* Center content vertically */
-  flex-direction: column;  /* Stack items vertically */
+/* ========== PROJECT TOGGLE - POP OUT PANEL ========== */
+
+.project-popup {
+  display: none;
+  opacity: 0;
+  /* other styles */
 }
 
-.image-modal.active {
-  display: flex;          /* Show modal when active */
+.project-popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 600px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  border-radius: 12px;
+  z-index: 1000;
 }
 
-.image-modal img {
-  max-width: 90%;         /* Responsive max width */
-  max-height: 90%;        /* Responsive max height */
-  border-radius: 10px;    /* Rounded corners */
-  box-shadow: 0 0 20px rgba(0,0,0,0.5); /* Shadow for depth */
+.project-popup.open {
+  transform: translateX(0);
 }
 
-.image-modal-close {
-  position: absolute;     /* Positioned relative to viewport */
-  top: 20px;              /* Distance from top */
-  right: 30px;            /* Distance from right */
-  font-size: 2rem;        /* Large close button */
-  color: #fff;            /* White color */
-  cursor: pointer;        /* Pointer cursor */
-  user-select: none;      /* Disable text selection on click */
+/* Optional close button inside popup */
+.project-popup .close-btn {
+  cursor: pointer;
+  color: #4FA78D;
+  font-weight: bold;
+  float: right;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
 }
+
+
 
 /* ========== RESPONSIVE DESIGN FOR SMALL SCREENS ========== */
 @media screen and (max-width: 600px) {
@@ -222,6 +328,14 @@ body {
   }
   #fixed-icons {
     flex-direction: column; /* Stack floating icons vertically */
+  }
+
+  /* For image tiles */
+
+  .image-tile img {
+    width: 100%;           /* Ensure image fills tile */
+    height: auto;          /* Maintain aspect ratio */
+    display: block;        /* Prevent inline spacing issues */
   }
 }
 

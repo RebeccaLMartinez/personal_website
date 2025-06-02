@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Projects – Rebecca Martinez</title>
+<title>projects – Rebecca Martinez</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -104,14 +104,24 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="fullcontent">
+<body>
 
 <div id="quarto-search-results"></div>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#school" id="toc-school" class="nav-link active" data-scroll-target="#school">School</a></li>
+  <li><a href="#research-projects" id="toc-research-projects" class="nav-link" data-scroll-target="#research-projects">Research Projects</a></li>
+  <li><a href="#other" id="toc-other" class="nav-link" data-scroll-target="#other">Other</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -135,12 +145,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <p>This page highlights some of my work from classes and research. It includes data projects, fieldwork, and tools I’ve used.</p>
-<section id="school" class="level2">
-<h2 class="anchored" data-anchor-id="school">School</h2>
+<hr>
+<section id="school" class="level1">
+<h1>School</h1>
+<!-- Container for the first project with clickable title to toggle details -->
 <div class="project">
-<h3 onclick="toggleContent('proj1', this)" style="cursor:pointer;" class="anchored">
+<h3 onclick="toggleContent('proj1', this)" style="cursor:pointer;" class="anchored" data-anchor-id="school">
 💡 Service Light Data Project
 </h3>
+<!-- Hidden content details for project 1, toggled by clicking the title -->
 <div id="proj1" class="project-details" hidden="">
 <p><strong>School:</strong> UCSB<br>
 <strong>Course:</strong> ENVS 193DS – Data Science for Environmental Studies</p>
@@ -156,14 +169,10 @@ This project made me think harder about data than I expected. After collecting a
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">working =</span> <span class="fu">as.logical</span>(<span class="fu">toupper</span>(working))</span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><strong>Visuals:</strong></p>
-<p><img src="./media/light_table.jpg" alt="Service Light Table" onclick="showImage(this.src)" style="cursor:pointer; max-width:300px; margin:10px 0;"></p>
-<p><img src="./media/service_light_bar.jpg" alt="Service Light Graph" onclick="showImage(this.src)" style="cursor:pointer; max-width:300px; margin:10px 0;"></p>
-<figure style="text-align: left;" class="figure">
-<img src="media/blinking_lights.gif" alt="Service Light Visual" onclick="showImage(this.src)" style="cursor:pointer; max-width:300px;" class="figure-img">
-<figcaption style="margin-top: 5px;">
-Service Light Visual
-</figcaption>
-</figure>
+<!-- Thumbnails with modal popups -->
+<p><a href="javascript:void(0)" onclick="openModal('/media/light_table.jpg', 'Service Light Table')"> <img src="./media/light_table.jpg" alt="Service Light Table" width="150" style="border-radius:8px; margin-right:10px;"> </a></p>
+<p><a href="javascript:void(0)" onclick="openModal('/media/service_light_bar.jpg', 'Bar Chart')"> <img src="./media/service_light_bar.jpg" alt="Bar Chart" width="150" style="border-radius:8px; margin-right:10px;"> </a></p>
+<p><a href="javascript:void(0)" onclick="openModal('/media/blinking_lights.gif', 'Blinking Lights Animation')"> <img src="./media/blinking_lights.gif" alt="Blinking Lights Animation" width="150" style="border-radius:8px;"> </a></p>
 <p><strong>Resources</strong></p>
 <p><a href="https://github.com/RebeccaLMartinez/ENVS-193DS_homework-03">GitHub Repo</a><br>
 <a href="https://rebeccalmartinez.github.io/ENVS-193DS_homework-03/code/ENVS-193DS_homework-03.html">View Live</a></p>
@@ -171,15 +180,15 @@ Service Light Visual
 </div>
 <hr>
 </section>
-<section id="research" class="level2">
-<h2 class="anchored" data-anchor-id="research">Research</h2>
+<section id="research-projects" class="level1">
+<h1>Research Projects</h1>
+<!-- Fog Harp Device -->
 <div class="project">
-<h3 onclick="toggleContent('proj2', this)" style="cursor:pointer;" class="anchored">
+<h3 onclick="toggleContent('proj2', this)" style="cursor:pointer;" class="anchored" data-anchor-id="research-projects">
 💧 Fog Harp Device
 </h3>
 <div id="proj2" class="project-details" hidden="">
-<p><strong>Affiliation:</strong> UCSB Office of Education Partnerships</p>
-Designing and field-testing fogwater monitoring devices (fog harp) to measure fog water levels.
+<pre><code>&lt;em&gt;Under construction…&lt;/em&gt;</code></pre>
 </div>
 </div>
 <div class="project">
@@ -187,8 +196,7 @@ Designing and field-testing fogwater monitoring devices (fog harp) to measure fo
 🦨 Skunk Population
 </h3>
 <div id="proj3" class="project-details" hidden="">
-<p><strong>Affiliation:</strong> UCSB-Smithsonian Scholars Program (OEP)</p>
-Undergraduate research using camera traps to monitor and quantify skunk populations on Santa Cruz Island.
+<pre><code>&lt;em&gt;Under construction…&lt;/em&gt;</code></pre>
 </div>
 </div>
 <div class="project">
@@ -196,22 +204,53 @@ Undergraduate research using camera traps to monitor and quantify skunk populati
 🌱 Soil Bioturbation by Mammals
 </h3>
 <div id="proj4" class="project-details" hidden="">
-<p><strong>Affiliation:</strong> UCNRS Field Science Fellowship<br>
-<strong>Mentor:</strong> Dr.&nbsp;Iris Holzer</p>
-Investigating how small mammals like gophers and ground squirrels influence soil processes through bioturbation. Includes paired site comparisons.
+<pre><code>&lt;em&gt;Under construction…&lt;/em&gt;</code></pre>
 </div>
 </div>
 <hr>
 </section>
-<section id="other" class="level2">
-<h2 class="anchored" data-anchor-id="other">Other</h2>
-<p><em>Coming soon</em></p>
+<section id="other" class="level1">
+<h1>Other</h1>
+<p><em>Coming soon…</em></p>
 <hr>
-<!-- Image Modal HTML -->
-<div id="imageModal">
-<span class="image-modal-close" onclick="document.getElementById('imageModal').style.display='none'">×</span> <img id="modalImage" src="">
+<!-- Modal markup -->
+<div id="modal" onclick="closeModal(event)" style="display:none;position:fixed;inset:0;
+            background:rgba(0,0,0,.85);
+            justify-content:center;align-items:center;
+            flex-direction:column;z-index:1000;">
+<span class="modal-close" style="position:absolute;top:10px;right:20px;
+               color:#fff;font-size:2rem;cursor:pointer;">×</span> <img id="modal-img" alt="Enlarged visual" style="max-width:90vw;max-height:80vh;border-radius:8px;">
+<div id="modal-caption" style="color:#eee;margin-top:10px;font-style:italic;text-align:center;">
+
 </div>
-<script> function showImage(src) { const modal = document.getElementById("imageModal"); document.getElementById("modalImage").src = src; modal.style.display = "flex"; } function toggleContent(id, element) { const content = document.getElementById(id); const isHidden = content.hasAttribute('hidden'); if (isHidden) { content.removeAttribute('hidden'); element.classList.add('open'); } else { content.setAttribute('hidden', ''); element.classList.remove('open'); } } </script>
+</div>
+<!-- JavaScript -->
+<script>
+  // Toggle open/close project details
+  function toggleContent(id, header) {
+    const block = document.getElementById(id);
+    block.toggleAttribute('hidden');
+    header.style.fontWeight = block.hasAttribute('hidden') ? 'normal' : 'bold';
+  }
+
+  // Open image modal
+  function openModal(src, captionText) {
+    const modal = document.getElementById('modal');
+    modal.style.display = 'flex';
+    document.getElementById('modal-img').src = src;
+    document.getElementById('modal-caption').textContent = captionText || '';
+  }
+
+  // Close modal if clicking outside image or on X
+  function closeModal(e) {
+    const modal = document.getElementById('modal');
+    if (e.target === modal || e.target.classList.contains('modal-close')) {
+      modal.style.display = 'none';
+      document.getElementById('modal-img').removeAttribute('src'); // Clear image
+      document.getElementById('modal-caption').textContent = '';    // Clear caption
+    }
+  }
+</script>
 
 
 </section>

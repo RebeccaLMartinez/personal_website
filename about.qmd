@@ -19,48 +19,124 @@ about:
       aria-label: GitHub
 ---
 
-Hi! I'm Rebecca — an Environmental Studies major at the University of California, Santa Barbara (UCSB), student researcher, and mom of two incredible teenagers. I’ve taken an unconventional path to college, but I’ve made every step count. I’m drawn to work that’s hands-on, community-centered, and rooted in care — whether that’s in the field, the classroom, or beyond.
+Hi! I'm Rebecca — an Environmental Studies major at the University of California, Santa Barbara (UCSB), student researcher, and mom of two incredible teenagers. I’ve taken an unconventional path to college, but every step has shaped who I am today. I’m passionate about hands-on learning and finding meaningful ways to connect science with the world around us.
 
-Right now, I’m focused on environmental research, mentorship, and exploring how undergraduate education can connect science, service, and real-world impact.
+---
 
-## 🛤️ My Path
+# 🛤️ My Path
 
-Before returning to school, I spent about two decades working, raising my family as well as serving 5 years in the Marine Corps Reserves. Community college helped me rediscover my interest in science and service. Now, as an Environmental Studies student at UCSB, I hope to blend research, education, and community work into a path that feels useful and rewarding.
+Before returning to school, I balanced work, family life, and five years serving in the Marine Corps Reserves. Community college rekindled my love for science and service. At Allan Hancock College, I worked as a tutor and mentor, helping other students as I grew in my own studies. Now at UCSB, I’m blending research, education, and community involvement to build a path that feels purposeful and rewarding.
 
-![Once Upon a Time.](/media/usmc.jpg)
+<!-- Image grid with clickable images -->
+<div class="image-grid">
+  <figure class="image-tile" onclick="openModal('/media/usmc.jpg', 'Once Upon a Time')">
+    <img src="/media/usmc.jpg" alt="Once Upon a Time">
+    <figcaption>Once Upon a Time.</figcaption>
+  </figure>
 
-![Allan Hancock College.](/media/ahc.jpg)
+  <figure class="image-tile" onclick="openModal('/media/ahc.jpg', 'Allan Hancock College')">
+    <img src="/media/ahc.jpg" alt="Allan Hancock College">
+    <figcaption>Allan Hancock College.</figcaption>
+  </figure>
+</div>
 
-## 👩‍👧‍👦😺 Family & Life
+<!-- Modal container for displaying clicked images -->
+<div id="modal" class="modal" onclick="closeModal(event)">
+  <span class="modal-close" onclick="closeModal(event)">&times;</span>
+  <img class="modal-content" id="modal-img" alt="">
+  <div id="modal-caption"></div>
+</div>
 
-I’m a proud mom to two incredible teenagers. They've grown up alongside my journey and they’re my biggest motivation. When I’m not studying or working, I like volunteering, being outdoors, and spending time with my cats, Chester and Leo.
+---
 
-![My Family.](/media/kids.jpg)
-
-![Chester and Leo.](/media/cats.jpeg)
-
-*Curious about Chester and Leo? You can find more fluffiness [here.](cats.html)*
-
-## 🌿 Fieldwork Adventures
-
-I learn best by doing, especially outdoors. Fieldwork helps me connect what I study with real ecosystems and real people. I think hands-on experience is one of the best ways to inspire students and communities who might not yet see themselves in science.
+# 🌿 Learning by Doing
 
 
-![Harvesting lavender to distill into oil.](/media/lavendar.jpeg)
+Sometimes the best way to learn is by jumping in and experiencing it firsthand. Fieldwork brings my studies to life by connecting science with real environments and showing how those environments impact our world. I believe hands-on experience is one of the best ways to inspire students and anyone who’s still finding their place in science.
 
-![With Kayla Geronimo-Anctil on Santa Cruz Island Reserve.](/media/rebecca_kayla_sci.jpeg)
+<div class="image-grid">
+  <figure class="image-tile" onclick="openModal('/media/lavendar.jpeg', 'Harvesting lavender to distill into oil.')">
+    <img src="/media/lavendar.jpeg" alt="Harvesting lavender">
+    <figcaption>Harvesting lavender to distill into oil.</figcaption>
+  </figure>
+
+  <figure class="image-tile" onclick="openModal('/media/rebecca_kayla_sci.jpeg', 'With Kayla Geronimo-Anctil on Santa Cruz Island Reserve.')">
+    <img src="/media/rebecca_kayla_sci.jpeg" alt="Santa Cruz Island">
+    <figcaption>With Kayla Geronimo-Anctil on Santa Cruz Island Reserve.</figcaption>
+  </figure>
+</div>
 
 *You can explore my [projects](projects.html) and [photos](fieldphotos.html) pages to see what I’ve been up to.*
 
-## ❤️ Work That Matters
+---
 
-Giving back to the community has always been important to me. Whether mentoring, volunteering, or helping behind the scenes, I try to contribute where I can. Over the years, I’ve been involved with groups like Toys for Tots, local outreach, and *She Raised Her Hand*.
+# 👩‍👧‍👦 Life & Inspiration
 
-To me, meaningful work is about showing up — and trusting that what we offer contributes to something bigger than ourselves.
+I’m a proud mom of two amazing teenagers who inspire me every day. When I’m not studying or working, I enjoy volunteering, spending time outdoors, and relaxing with my cats, Chester and Leo.
 
-![Toys for Tots Event (holding the unicorn).](/media/toysfortots.jpg)
+<div class="image-grid">
+  <figure class="image-tile" onclick="openModal('/media/kids.jpg', 'My Family')">
+    <img src="/media/kids.jpg" alt="My Family">
+    <figcaption>My Family.</figcaption>
+  </figure>
 
-![Proclamation presented by the City of Santa Maria to *She Raised Her Hand*.](/media/srhh.jpeg)
+  <figure class="image-tile" onclick="openModal('/media/cats.jpeg', 'Chester and Leo')">
+    <img src="/media/cats.jpeg" alt="Chester and Leo">
+    <figcaption>Chester and Leo.</figcaption>
+  </figure>
+</div>
+
+
+*Curious about Chester and Leo? You can find more fluffiness [here.](cats.html)*
+
+---
+
+# ❤️ Giving Back
+
+Giving back has always been a priority for me. Whether mentoring, volunteering, or supporting community efforts behind the scenes, I believe showing up and contributing makes a difference. Over the years, I’ve been involved with groups like Toys for Tots, local outreach, and *She Raised Her Hand*.
+
+<div class="image-grid">
+  <figure class="image-tile" onclick="openModal('/media/toysfortots.jpg', 'Toys for Tots Event (holding the unicorn).')">
+    <img src="/media/toysfortots.jpg" alt="Toys for Tots">
+    <figcaption>Toys for Tots Event (holding the unicorn).</figcaption>
+  </figure>
+
+  <figure class="image-tile" onclick="openModal('/media/srhh.jpeg', 'Proclamation presented by the City of Santa Maria to She Raised Her Hand.')">
+    <img src="/media/srhh.jpeg" alt="She Raised Her Hand Proclamation">
+    <figcaption>Proclamation presented by the City of Santa Maria to <em>She Raised Her Hand</em>.</figcaption>
+  </figure>
+</div>
+
 
 *Please visit [**She Raised Her Hand**](https://www.sheraisedherhand.com) for more information and upcoming events.*  
 *If you’d like to support seasonal giving efforts, donations can be made through [**Toys for Tots**](https://www.toysfortots.org).*
+
+---
+
+<!-- Modal JavaScript to open and close image modal -->
+<script>
+  // Open modal and set image src and caption
+  function openModal(src, caption) {
+    const modal = document.getElementById('modal');
+    const modalImg = document.getElementById('modal-img');
+    const modalCaption = document.getElementById('modal-caption');
+
+    modal.style.display = 'flex';          // Show modal (flex for centering)
+    modalImg.src = src;                    // Set modal image source
+    modalCaption.textContent = caption;    // Set caption text
+  }
+
+  // Close modal when clicking outside image or on close button
+  function closeModal(event) {
+    const modal = document.getElementById('modal');
+    // Close only if clicking modal background or close icon
+    if (
+      event.target === modal || 
+      event.target.classList.contains('modal-close')
+    ) {
+      modal.style.display = 'none';
+      const modalImg = document.getElementById('modal-img');
+      modalImg.src = ''; // Clear image src on close to avoid stale image
+    }
+  }
+</script>

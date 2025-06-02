@@ -1,4 +1,4 @@
----
+ ---
 title: "Projects"
 format: 
   html:
@@ -9,10 +9,17 @@ format:
 
 This page highlights some of my work from classes and research. It includes data projects, fieldwork, and tools I’ve used.
 
-## School
+---
 
+# School
+
+<!-- Container for the first project with clickable title to toggle details -->
 <div class="project">
-  <h3 onclick="toggleContent('proj1', this)" style="cursor:pointer;">💡 Service Light Data Project</h3>
+  <h3 onclick="toggleContent('proj1', this)" style="cursor:pointer;">
+    💡 Service Light Data Project
+  </h3>
+
+  <!-- Hidden content details for project 1, toggled by clicking the title -->
   <div id="proj1" class="project-details" hidden>
 
 **School:** UCSB  
@@ -27,6 +34,7 @@ RStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext)
 This project made me think harder about data than I expected. After collecting and working with my own dataset, I gained a deeper respect for the messiness of real-world data.
 
 **Code Snippet:**
+
 ```r
 clean_service_data <- service_data |>
   mutate(
@@ -36,14 +44,18 @@ clean_service_data <- service_data |>
 ```
 **Visuals:**  
 
-<img src="/media/light_table.jpg" alt="Service Light Table" onclick="showImage(this.src)" style="cursor:pointer; max-width:300px; margin:10px 0;">
+<!-- Thumbnails with modal popups -->
+<a href="javascript:void(0)" onclick="openModal('/media/light_table.jpg', 'Service Light Table')">
+  <img src="/media/light_table.jpg" alt="Service Light Table" width="150" style="border-radius:8px; margin-right:10px;">
+</a>
 
-<img src="/media/service_light_bar.jpg" alt="Service Light Graph" onclick="showImage(this.src)" style="cursor:pointer; max-width:300px; margin:10px 0;">
+<a href="javascript:void(0)" onclick="openModal('/media/service_light_bar.jpg', 'Bar Chart')">
+  <img src="/media/service_light_bar.jpg" alt="Bar Chart" width="150" style="border-radius:8px; margin-right:10px;">
+</a>
 
-<figure style="text-align: left;">
-  <img src="media/blinking_lights.gif" alt="Service Light Visual" onclick="showImage(this.src)" style="cursor:pointer; max-width:300px;">
-  <figcaption style="margin-top: 5px;">Service Light Visual</figcaption>
-</figure>
+<a href="javascript:void(0)" onclick="openModal('/media/blinking_lights.gif', 'Blinking Lights Animation')">
+  <img src="/media/blinking_lights.gif" alt="Blinking Lights Animation" width="150" style="border-radius:8px;">
+</a>
 
 **Resources**
 
@@ -55,39 +67,85 @@ clean_service_data <- service_data |>
 
 ---
 
-## Research
+# Research
 
-<div class="project"> <h3 onclick="toggleContent('proj2', this)" style="cursor:pointer;">💧 Fog Harp Device</h3> <div id="proj2" class="project-details" hidden>
-
-**Affiliation:** UCSB Office of Education Partnerships  
-
-Designing and field-testing fogwater monitoring devices (fog harp) to measure fog water levels.
+<!-- Fog Harp Device -->
+<div class="project">
+  <h3 onclick="toggleContent('proj2', this)" style="cursor:pointer;">
+    💧 Fog Harp Device
+  </h3>
+  <div id="proj2" class="project-details" hidden>
+_Under construction…_
   </div>
 </div>
 
-<div class="project"> <h3 onclick="toggleContent('proj3', this)" style="cursor:pointer;">🦨 Skunk Population</h3> <div id="proj3" class="project-details" hidden>
-
-**Affiliation:** UCSB-Smithsonian Scholars Program (OEP)  
-
-Undergraduate research using camera traps to monitor and quantify skunk populations on Santa Cruz Island.
+<div class="project">
+  <h3 onclick="toggleContent('proj3', this)" style="cursor:pointer;">
+    🦨 Skunk Population
+  </h3>
+  <div id="proj3" class="project-details" hidden>
+_Under construction…_
   </div>
 </div>
 
-<div class="project"> <h3 onclick="toggleContent('proj4', this)" style="cursor:pointer;">🌱 Soil Bioturbation by Mammals</h3> <div id="proj4" class="project-details" hidden>
-
-**Affiliation:** UCNRS Field Science Fellowship  
-**Mentor:** Dr. Iris Holzer  
-
-Investigating how small mammals like gophers and ground squirrels influence soil processes through bioturbation. Includes paired site comparisons.
+<div class="project">
+  <h3 onclick="toggleContent('proj4', this)" style="cursor:pointer;">
+    🌱 Soil Bioturbation by Mammals
+  </h3>
+  <div id="proj4" class="project-details" hidden>
+_Under construction…_
   </div>
 </div>
 
 ---
 
-## Other
+# Other  
 
-*Coming soon*
+*Coming soon…*
 
 ---
 
-<!-- Image Modal HTML --> <div id="imageModal"> <span onclick="document.getElementById('imageModal').style.display='none'" class="image-modal-close">&times;</span> <img id="modalImage" src="" /> </div> <script> function showImage(src) { const modal = document.getElementById("imageModal"); document.getElementById("modalImage").src = src; modal.style.display = "flex"; } function toggleContent(id, element) { const content = document.getElementById(id); const isHidden = content.hasAttribute('hidden'); if (isHidden) { content.removeAttribute('hidden'); element.classList.add('open'); } else { content.setAttribute('hidden', ''); element.classList.remove('open'); } } </script>
+<!-- Modal markup -->
+<div id="modal"
+     onclick="closeModal(event)"
+     style="display:none;position:fixed;inset:0;
+            background:rgba(0,0,0,.85);
+            justify-content:center;align-items:center;
+            flex-direction:column;z-index:1000;">
+  <span class="modal-close"
+        style="position:absolute;top:10px;right:20px;
+               color:#fff;font-size:2rem;cursor:pointer;">&times;</span>
+  <img id="modal-img"
+       alt="Enlarged visual"
+       style="max-width:90vw;max-height:80vh;border-radius:8px;">
+  <div id="modal-caption"
+       style="color:#eee;margin-top:10px;font-style:italic;text-align:center;"></div>
+</div>
+
+<!-- JavaScript -->
+<script>
+  // Toggle open/close project details
+  function toggleContent(id, header) {
+    const block = document.getElementById(id);
+    block.toggleAttribute('hidden');
+    header.style.fontWeight = block.hasAttribute('hidden') ? 'normal' : 'bold';
+  }
+
+  // Open image modal
+  function openModal(src, captionText) {
+    const modal = document.getElementById('modal');
+    modal.style.display = 'flex';
+    document.getElementById('modal-img').src = src;
+    document.getElementById('modal-caption').textContent = captionText || '';
+  }
+
+  // Close modal if clicking outside image or on X
+  function closeModal(e) {
+    const modal = document.getElementById('modal');
+    if (e.target === modal || e.target.classList.contains('modal-close')) {
+      modal.style.display = 'none';
+      document.getElementById('modal-img').removeAttribute('src'); // Clear image
+      document.getElementById('modal-caption').textContent = '';    // Clear caption
+    }
+  }
+</script>
