@@ -7,6 +7,19 @@ format:
     css: styles.css
 ---
 
-[Digestive, Urinary, & Reproductive](https://quizlet.com/user/Th3b3ckst3r/folders/digestive-urinary-reproductive-systems?i=2236oh&x=1xqt)
 
-[Heart, Circulatory, & Respiratory](https://quizlet.com/user/Th3b3ckst3r/folders/heart-circulatory-respiratory-systems?i=2236oh&x=1xqt)
+# Anatomy Resources
+
+Welcome to the Anatomy section of my resource page!  
+Here you'll find helpful Quizlet flashcard folders to support your learning on various body systems.  
+Feel free to explore these flashcard sets to review key concepts and prepare for your exams.
+
+## Interactive 3D Anatomy
+
+For a detailed and interactive 3D exploration of the human body, check out **Zygote Body**. This website allows you to zoom, rotate, and isolate specific parts of the body, making it an excellent tool for visual learning.
+
+[Explore Zygote Body](https://www.zygotebody.com/)
+
+## Quizlet Flashcard Folders
+
+<iframe src="https://quizlet.com/1050436299/learn/embed?i=2236oh&x=1jj1" height="500" width="100%" style="border:0"></iframe>
