@@ -2,8 +2,8 @@
 title: "Meet Chester and Leo"
 format:
   html:
-    theme: darkly   <!-- Using a dark theme for the HTML output -->
-    css: styles.css <!-- Custom CSS file to style the page -->
+    theme: darkly   
+    css: styles.css 
 ---
 
 <!-- Video wrapper container with a circle-shaped video using CSS -->

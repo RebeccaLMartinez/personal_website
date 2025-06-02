@@ -6,6 +6,7 @@ body {
   font-size: 18px;        /* increase base font size slightly */
 }
 
+
 /* ========== fixed footer styling ========== */
 .fixed-footer {
   position: fixed;        /* fix footer to viewport */

@@ -2,12 +2,17 @@
 
 Welcome to my GitHub Pages site! This portfolio showcases my work across data science, environmental field research, and personal projects. Built with Quarto, HTML, CSS, and R.
 
-🌐 **Live Site**: [rebeccalmartinez.github.io](https://rebeccalmartinez.github.io/personal_website)
+[Live Site](https://rebeccalmartinez.github.io/personal_website)
+
+[GitHub Repository](https://github.com/RebeccaLMartinez/)
+
+
+ 
 
 ---
 
 
-## 📄 Pages & Files Overview
+## Pages & Files Overview
 
 ### `index.qmd` – Home  
 Landing page with a short introduction and welcome.
@@ -24,10 +29,10 @@ Highlights data science and research projects:
 - **Soil Bioturbation by Mammals** – Field study on mammal-driven soil disturbance (under construction).
 
 ### `cats.qmd` – Cat Page 🐱  
-A fun, themed page about my cats including a quiz.
+A fun, themed page about my cats, including a quiz.
 
 ### `fieldphotos.qmd` – Photos  
-Placeholder for photos from field research.  
+Placeholder for photos.  
 _Status: In progress_
 
 ### `experience.qmd` – Resume & CV  
@@ -38,7 +43,7 @@ _Status: In progress_
 Not created yet, but will host recommended educational resources including materials I've made.
 ---
 
-## 🧩 Supporting Files
+## Supporting Files
 
 ### `media/`  
 Folder containing images and GIFs used in projects (e.g., bar chart, table, blinking lights).
