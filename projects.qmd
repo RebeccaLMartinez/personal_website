@@ -7,7 +7,9 @@ format:
     css: styles.css
 ---
 
+
 This page highlights some of my work from classes and research.
+
 
 ---
 
