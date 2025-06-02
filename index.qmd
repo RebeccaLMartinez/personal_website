@@ -1,11 +1,15 @@
 ---
 title: "Greetings!"
-image: media/sci-sunset.jpeg
+website:
+  search:
+    location: footer
+    type: overlay
 format:
   html:
     toc: false
 about:
   template: marquee
+  image: media/sci-sunset.jpeg
 ---
 :::{#hero-heading}
 

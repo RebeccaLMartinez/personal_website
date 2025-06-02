@@ -6,7 +6,6 @@ format:
     toc: false
     css: styles.css
 about:
-  id: hero-heading
   template: solana
   image: media/headshot.jpeg
   image-shape: round
