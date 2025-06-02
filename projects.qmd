@@ -16,7 +16,7 @@ This page highlights some of my work from classes and research.
 <!-- Container for the first project with clickable title to toggle details -->
 <div class="project">
   <h3 onclick="toggleContent('proj1', this)" style="cursor:pointer;">
-    💡 Service Light Data Project
+    💡 Service Light Personal Data
   </h3>
 
   <!-- Hidden content details for project 1, toggled by clicking the title -->
