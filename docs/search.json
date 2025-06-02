@@ -74,7 +74,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "This page highlights some of my work from classes and research.\n\n\nSchool\n\n\n\n💡 Service Light Data Project\n\n\n\nSchool: UCSB\nCourse: ENVS 193DS – Data Science for Environmental Studies\nOngoing project that explores the relationship between lighting conditions and service calls using a self-collected dataset (n=108). Created a bar chart, summary table, and a blinking lightboard animation (gif). See visuals.\nTools Used:\nRStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto\nReflection:\nThis project made me think harder about data than I expected. After collecting and working with my own dataset, I gained a deeper respect for the messiness of real-world data.\nCode Snippet:\nclean_service_data &lt;- service_data |&gt;\n  mutate(\n    help = as.logical(toupper(help)),\n    working = as.logical(toupper(working))\n  )\nVisuals:\n\n  \n  \n  \nResources\nGitHub Repo\nView Live\n\n\n\n\n\nResearch\n\n\n\n💧 Fog Harp Device\n\n\nUnder construction…\n\n\n\n\n🦨 Skunk Population\n\n\nUnder construction…\n\n\n\n\n🌱 Soil Bioturbation by Mammals\n\n\nUnder construction…\n\n\n\n\n\nOther\nComing soon…\n\n\n\n×"
+    "text": "This page highlights some of my work from classes and research.\n\n\nSchool\n\n\n\n💡 Service Light Personal Data\n\n\n\nSchool: UCSB\nCourse: ENVS 193DS – Data Science for Environmental Studies\nOngoing project that explores the relationship between lighting conditions and service calls using a self-collected dataset (n=108). Created a bar chart, summary table, and a blinking lightboard animation (gif). See visuals.\nTools Used:\nRStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto\nReflection:\nThis project made me think harder about data than I expected. After collecting and working with my own dataset, I gained a deeper respect for the messiness of real-world data.\nCode Snippet:\nclean_service_data &lt;- service_data |&gt;\n  mutate(\n    help = as.logical(toupper(help)),\n    working = as.logical(toupper(working))\n  )\nVisuals:\n\n  \n  \n  \nResources\nGitHub Repo\nView Live\n\n\n\n\n\nResearch\n\n\n\n💧 Fog Harp\n\n\nUnder construction…\n\n\n\n\n🦨 Skunk Population\n\n\nUnder construction…\n\n\n\n\n🌱 Soil Bioturbation\n\n\nUnder construction…\n\n\n\n\n\nOther\nComing soon…\n\n\n\n×"
   },
   {
     "objectID": "about.html#my-path",
@@ -299,5 +299,12 @@
     "title": "Meet Rebecca!",
     "section": "❤️ Giving Back",
     "text": "❤️ Giving Back\nGiving back has always been a priority for me. Whether mentoring, volunteering, or supporting community efforts behind the scenes, I believe showing up and contributing makes a difference. Over the years, I’ve been involved with groups like Toys for Tots, local outreach, and She Raised Her Hand.\n\n\n\n\nToys for Tots Event (holding the unicorn).\n\n\n\n\n\nProclamation presented by the City of Santa Maria to She Raised Her Hand.\n\n\n\nPlease visit She Raised Her Hand for more information and upcoming events.\nIf you’d like to support seasonal giving efforts, donations can be made through Toys for Tots."
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Digestive, Urinary, & Reproductive\nHeart, Circulatory, & Respiratory"
   }
 ]

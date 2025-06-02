@@ -1,6 +1,6 @@
 # Rebecca L. Martinez – Personal Website
 
-Welcome to my GitHub Pages site! This portfolio showcases my work across data science, environmental field research, and personal projects. Built with Quarto, HTML, CSS, and R.
+Welcome to my personal website! This site showcases my work and life. Built with Quarto, RStudio, and lots of online searches.
 
 [Live Site](https://rebeccalmartinez.github.io/personal_website)
 

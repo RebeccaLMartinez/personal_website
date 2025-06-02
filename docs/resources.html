@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>projects – Rebecca Martinez</title>
+<title>Resources – Rebecca Martinez</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -104,30 +70,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body class="fullcontent">
 
 <div id="quarto-search-results"></div>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#school" id="toc-school" class="nav-link active" data-scroll-target="#school">School</a></li>
-  <li><a href="#research" id="toc-research" class="nav-link" data-scroll-target="#research">Research</a></li>
-  <li><a href="#other" id="toc-other" class="nav-link" data-scroll-target="#other">Other</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projects</h1>
+<h1 class="title">Resources</h1>
 </div>
 
 
@@ -144,116 +100,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>This page highlights some of my work from classes and research.</p>
-<hr>
-<section id="school" class="level1">
-<h1>School</h1>
-<!-- Container for the first project with clickable title to toggle details -->
-<div class="project">
-<h3 onclick="toggleContent('proj1', this)" style="cursor:pointer;" class="anchored" data-anchor-id="school">
-💡 Service Light Personal Data
-</h3>
-<!-- Hidden content details for project 1, toggled by clicking the title -->
-<div id="proj1" class="project-details" hidden="">
-<p><strong>School:</strong> UCSB<br>
-<strong>Course:</strong> ENVS 193DS – Data Science for Environmental Studies</p>
-<p>Ongoing project that explores the relationship between lighting conditions and service calls using a self-collected dataset (n=108). Created a bar chart, summary table, and a blinking lightboard animation (gif). See visuals.</p>
-<p><strong>Tools Used:</strong><br>
-RStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto</p>
-<p><strong>Reflection:</strong><br>
-This project made me think harder about data than I expected. After collecting and working with my own dataset, I gained a deeper respect for the messiness of real-world data.</p>
-<p><strong>Code Snippet:</strong></p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>clean_service_data <span class="ot">&lt;-</span> service_data <span class="sc">|&gt;</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="at">help =</span> <span class="fu">as.logical</span>(<span class="fu">toupper</span>(help)),</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">working =</span> <span class="fu">as.logical</span>(<span class="fu">toupper</span>(working))</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p><strong>Visuals:</strong></p>
-<!-- Thumbnails with modal popups -->
-<p><a href="javascript:void(0)" onclick="openModal('/media/light_table.jpg', 'Service Light Table')"> <img src="./media/light_table.jpg" alt="Service Light Table" width="150" style="border-radius:8px; margin-right:10px;"> </a></p>
-<p><a href="javascript:void(0)" onclick="openModal('/media/service_light_bar.jpg', 'Bar Chart')"> <img src="./media/service_light_bar.jpg" alt="Bar Chart" width="150" style="border-radius:8px; margin-right:10px;"> </a></p>
-<p><a href="javascript:void(0)" onclick="openModal('/media/blinking_lights.gif', 'Blinking Lights Animation')"> <img src="./media/blinking_lights.gif" alt="Blinking Lights Animation" width="150" style="border-radius:8px;"> </a></p>
-<p><strong>Resources</strong></p>
-<p><a href="https://github.com/RebeccaLMartinez/ENVS-193DS_homework-03">GitHub Repo</a><br>
-<a href="https://rebeccalmartinez.github.io/ENVS-193DS_homework-03/code/ENVS-193DS_homework-03.html">View Live</a></p>
-</div>
-</div>
-<hr>
-</section>
-<section id="research" class="level1">
-<h1>Research</h1>
-<!-- Fog Harp Device -->
-<div class="project">
-<h3 onclick="toggleContent('proj2', this)" style="cursor:pointer;" class="anchored" data-anchor-id="research">
-💧 Fog Harp
-</h3>
-<div id="proj2" class="project-details" hidden="">
-<em>Under construction…</em>
-</div>
-</div>
-<div class="project">
-<h3 onclick="toggleContent('proj3', this)" style="cursor:pointer;" class="anchored">
-🦨 Skunk Population
-</h3>
-<div id="proj3" class="project-details" hidden="">
-<em>Under construction…</em>
-</div>
-</div>
-<div class="project">
-<h3 onclick="toggleContent('proj4', this)" style="cursor:pointer;" class="anchored">
-🌱 Soil Bioturbation
-</h3>
-<div id="proj4" class="project-details" hidden="">
-<em>Under construction…</em>
-</div>
-</div>
-<hr>
-</section>
-<section id="other" class="level1">
-<h1>Other</h1>
-<p><em>Coming soon…</em></p>
-<hr>
-<!-- Modal markup -->
-<div id="modal" onclick="closeModal(event)" style="display:none;position:fixed;inset:0;
-            background:rgba(0,0,0,.85);
-            justify-content:center;align-items:center;
-            flex-direction:column;z-index:1000;">
-<span class="modal-close" style="position:absolute;top:10px;right:20px;
-               color:#fff;font-size:2rem;cursor:pointer;">×</span> <img id="modal-img" alt="Enlarged visual" style="max-width:90vw;max-height:80vh;border-radius:8px;">
-<div id="modal-caption" style="color:#eee;margin-top:10px;font-style:italic;text-align:center;">
-
-</div>
-</div>
-<!-- JavaScript -->
-<script>
-  // Toggle open/close project details
-  function toggleContent(id, header) {
-    const block = document.getElementById(id);
-    block.toggleAttribute('hidden');
-    header.style.fontWeight = block.hasAttribute('hidden') ? 'normal' : 'bold';
-  }
-
-  // Open image modal
-  function openModal(src, captionText) {
-    const modal = document.getElementById('modal');
-    modal.style.display = 'flex';
-    document.getElementById('modal-img').src = src;
-    document.getElementById('modal-caption').textContent = captionText || '';
-  }
-
-  // Close modal if clicking outside image or on X
-  function closeModal(e) {
-    const modal = document.getElementById('modal');
-    if (e.target === modal || e.target.classList.contains('modal-close')) {
-      modal.style.display = 'none';
-      document.getElementById('modal-img').removeAttribute('src'); // Clear image
-      document.getElementById('modal-caption').textContent = '';    // Clear caption
-    }
-  }
-</script>
 
 
-</section>
 
 </main> <!-- /main -->
 <footer class="fixed-footer">
@@ -269,6 +117,8 @@ This project made me think harder about data than I expected. After collecting a
     <a href="fieldphotos.html" class="nav-button">Photos</a>
 
     <a href="experience.html" class="nav-button">Experience</a>
+
+    <a href="resources.html" class="nav-button">Resources</a>
 
     <a href="cats.html" class="nav-button" title="Meet Chester and Leo 🐾">🐾 </a>
 

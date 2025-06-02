@@ -1,0 +1,12 @@
+---
+title: "Resources"
+format: 
+  html:
+    theme: darkly
+    toc: false
+    css: styles.css
+---
+
+[Digestive, Urinary, & Reproductive](https://quizlet.com/user/Th3b3ckst3r/folders/digestive-urinary-reproductive-systems?i=2236oh&x=1xqt)
+
+[Heart, Circulatory, & Respiratory](https://quizlet.com/user/Th3b3ckst3r/folders/heart-circulatory-respiratory-systems?i=2236oh&x=1xqt)
