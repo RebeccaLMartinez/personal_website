@@ -10,8 +10,7 @@ format:
 # Anatomy Resources
 
 Welcome to the Anatomy section of my resource page!  
-Here you'll find helpful Quizlet flashcard folders to support your learning on various body systems.  
-Feel free to explore these flashcard sets to review key concepts and prepare for your exams.
+Here you'll find materials to support learning various body systems.  
 
 ## Interactive 3D Anatomy
 
@@ -19,6 +18,14 @@ For a detailed and interactive 3D exploration of the human body, check out **Zyg
 
 [Explore Zygote Body](https://www.zygotebody.com/)
 
+ 
+
 ## Quizlet Flashcard Folders
 
-<iframe src="https://quizlet.com/1050436299/learn/embed?i=2236oh&x=1jj1" height="500" width="100%" style="border:0"></iframe>
+Created for Dr. Len Miyahara's BIO 124 course in 2021. Material may differ. 
+
+[Histology](https://quizlet.com/user/Th3b3ckst3r/folders/histology-and-integumentary-system?i=2236oh&x=1xqt)
+
+[Digestive, Urinary, & Reproductive Systems](https://quizlet.com/user/Th3b3ckst3r/folders/digestive-urinary-reproductive-systems)
+
+[Heart, Circulatory, & Respiratory Systems](https://quizlet.com/user/Th3b3ckst3r/folders/heart-circulatory-respiratory-systems)
