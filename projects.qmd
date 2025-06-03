@@ -48,18 +48,28 @@ clean_service_data <- service_data |>
 ```
 **Visuals:**  
 
-<!-- Thumbnails with modal popups -->
+:::{.panel-tabset}
+
+## Service Light Table
+
 <a href="javascript:void(0)" onclick="openModal('/media/light_table.jpg', 'Service Light Table')">
-  <img src="/media/light_table.jpg" alt="Service Light Table" width="150" style="border-radius:8px; margin-right:10px;">
+  <img src="/media/light_table.jpg" alt="Service Light Table" style="border-radius:8px; max-width:100%; cursor:pointer;">
 </a>
+
+## Service Light Bar Chart
 
 <a href="javascript:void(0)" onclick="openModal('/media/service_light_bar.jpg', 'Bar Chart')">
-  <img src="/media/service_light_bar.jpg" alt="Bar Chart" width="150" style="border-radius:8px; margin-right:10px;">
+  <img src="/media/service_light_bar.jpg" alt="Bar Chart" style="border-radius:8px; max-width:100%; cursor:pointer;">
 </a>
 
+## Blinking Lights
+
 <a href="javascript:void(0)" onclick="openModal('/media/blinking_lights.gif', 'Blinking Lights Animation')">
-  <img src="/media/blinking_lights.gif" alt="Blinking Lights Animation" width="150" style="border-radius:8px;">
+  <img src="/media/blinking_lights.gif" alt="Blinking Lights Animation" style="border-radius:8px; max-width:100%; cursor:pointer;">
 </a>
+
+:::
+
 
 **Resources**
 

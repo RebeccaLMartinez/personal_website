@@ -39,13 +39,13 @@ Environmental studies undergraduate with a strong background in mentorship and p
 ### Education
 
 **University of California, Santa Barbara (UCSB)** — Goleta, CA  
-*B.S. in Environmental Studies* | Expected 2026
+* B.S. in Environmental Studies | *Expected* 2026
 
 **Allan Hancock College** — Santa Maria, CA  
-- A.S. in Biology | May 2024  
-- A.A. in Biology | May 2023  
-- A.A. in Mathematics and Science | May 2021  
-- Information Technology Fundamentals (IT Certificate) | May 2024  
++  A.S. in Biology, *with honors* | May 2024  
++  A.A. in Biology, *with honors* | May 2023  
++  A.A. in Mathematics and Science, *with high honors* | May 2021  
++  Information Technology Fundamentals (IT Certificate) | May 2024  
 
 ---
 
@@ -89,7 +89,7 @@ Environmental studies undergraduate with a strong background in mentorship and p
 - Addressed guest concerns to maintain a positive and safe environment.
 
 *Security Officer* | June 2006 - June 2007  
-- Patrolled casino floor, staffed guard posts, and provided secure escorts.
+- Patrolled casino floor, staffed guard posts, and provided secure escorts.  
 - Handled chip drops and safeguarded money movements across the property.
 
 ---
@@ -119,7 +119,7 @@ Environmental studies undergraduate with a strong background in mentorship and p
 
 ## CV
 
-[Download Not Yet Available](){.btn}
+[Download Not Yet Available](){.btn target="_blank"}
 
 <details>
 <summary><strong>Expand to read full CV</strong></summary>
@@ -128,5 +128,3 @@ Environmental studies undergraduate with a strong background in mentorship and p
 *Coming soon*
 
 </details>
-
-</div>
