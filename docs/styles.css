@@ -2,8 +2,40 @@
 body {
   padding-bottom: 120px;  /* prevent page content from hiding behind fixed footer */
   margin: 0;              /* remove default margin */
-  font-family: system-ui, arial; /* use system UI font for better performance */
+  font-family: sans-serif, verdana; /* better visually accessible font */
   font-size: 18px;        /* increase base font size slightly */
+}
+
+
+/* Apply to all pages */
+
+/* Center the main document title */
+h1.title {
+  text-align: center;
+  font-size: 3rem;           /* Optional: adjust size */
+  font-weight: 700;          /* Optional: bold */
+  color: #4FA78D;            /* Optional: custom color */
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+
+/* Section headings h2 */
+h2 {
+  color: #4FA78D;  /* Darker teal */
+  border-bottom: 2px solid #4FA78D; /* Underline with darker teal */
+  padding-bottom: 4px;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Section headings h3 */
+h3 {
+  color: #4f8f6d;  /* Darker teal */
+  border-bottom: 2px solid #4f8f6d; /* Underline with darker teal */
+  padding-bottom: 4px;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 
@@ -13,7 +45,7 @@ body {
   bottom: 0;              /* stick to bottom */
   left: 0; right: 0;      /* stretch full width */
   background-color: #222; /* dark background color */
-  color: white;           /* white text */
+  color: #8bd9b1;           /* white text */
   padding: 12px 20px;     /* inner spacing */
   z-index: 9999;          /* high stacking order */
   box-shadow: 0 -2px 5px rgba(0,0,0,0.5); /* subtle shadow above footer */
@@ -78,12 +110,6 @@ body {
   box-shadow: 0 4px 12px rgba(0,0,0,0.3); /* subtle shadow */
 }
 
-/* ========== about page image styling ========== */
-.about-page #hero-heading img {
-  border: 4px solid #4FA78D; /* green border */
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3); /* shadow for depth */
-  object-fit: cover;      /* maintain aspect ratio */
-}
 
 /* ========== quiz component styling ========== */
 #quiz-container {
@@ -374,3 +400,26 @@ body {
   border-radius: 0 8px 8px 0; /* Rounded corners on right side */
   color: #f1f1f1;         /* Light text */
 }
+
+/* Style only links with class clickable-link */
+
+.clickable-links a {
+  color: #111;                 /* text */
+  background-color: #4FA78D;      /* background */
+  font-weight: 1000;
+  border: 3px ridge #4FA78D;      /* inset to look more like button */
+  padding: 0.4em 0.8em;           /* Padding for box shape */
+  text-decoration: none;          /* underline etc */
+  border-radius: 6px;             /* Slight rounding */
+  transition: all 0.2s ease-in-out;
+  display: inline-block;          /* Make the box wrap tightly */
+  cursor: pointer;
+}
+
+/* Hover and focus styles: invert the colors */
+.clickable-links a:hover,
+.clickable-links a:focus {
+  background-color: #367462;      /* Teal background */
+  color: #23272b;                    /* Dark text */
+  border: 3px groove #367462;      /* inset to look more like button */
+  text-decoration: none;

@@ -1,14 +1,18 @@
 ---
 title: "Resources"
-format: 
+format:
   html:
     theme: darkly
     css: styles.css
 ---
 
+
+
 Welcome to my resource page!   
 
 --- 
+
+<div class="clickable-links">
 
 # Anatomy Resources
 
@@ -25,18 +29,17 @@ For a detailed and interactive 3D exploration of the human body, check out **Zyg
 
 Created for Dr. Len Miyahara's BIO 124 course at Allan Hancock College in 2021. Material may differ. 
 
-- [Histology & Integumentary Systems](https://quizlet.com/user/Th3b3ckst3r/folders/histology-and-integumentary-system?i=2236oh&x=1xqt)
+[Histology & Integumentary Systems](https://quizlet.com/user/Th3b3ckst3r/folders/histology-and-integumentary-system?i=2236oh&x=1xqt)
 
-- [Skeletal System](https://quizlet.com/user/Th3b3ckst3r/folders/skeletal-system?i=2236oh&x=1xqt)
+[Skeletal System](https://quizlet.com/user/Th3b3ckst3r/folders/skeletal-system?i=2236oh&x=1xqt)
 
-- [Muscular System](https://quizlet.com/user/Th3b3ckst3r/folders/muscles?i=2236oh&x=1xqt)
+[Muscular System](https://quizlet.com/user/Th3b3ckst3r/folders/muscles?i=2236oh&x=1xqt)
 
-- [Heart, Circulatory, & Respiratory Systems](https://quizlet.com/user/Th3b3ckst3r/folders/heart-circulatory-respiratory-systems?i=2236oh&x=1xqt)
+[Heart, Circulatory, & Respiratory Systems](https://quizlet.com/user/Th3b3ckst3r/folders/heart-circulatory-respiratory-systems?i=2236oh&x=1xqt)
 
+[Digestive, Urinary, & Reproductive Systems](https://quizlet.com/user/Th3b3ckst3r/folders/digestive-urinary-reproductive-systems?i=2236oh&x=1xqt)
 
-- [Digestive, Urinary, & Reproductive Systems](https://quizlet.com/user/Th3b3ckst3r/folders/digestive-urinary-reproductive-systems?i=2236oh&x=1xqt)
-
-- [Brain, Special Senses, & Nervous System](https://quizlet.com/user/Th3b3ckst3r/folders/nervous-system-brain-special-senses?i=2236oh&x=1xqt)
+[Brain, Special Senses, & Nervous System](https://quizlet.com/user/Th3b3ckst3r/folders/nervous-system-brain-special-senses?i=2236oh&x=1xqt)
 
 
 ## Visual Guides
@@ -44,3 +47,5 @@ Created for Dr. Len Miyahara's BIO 124 course at Allan Hancock College in 2021. 
 *Coming soon...*
 
 ---
+
+</div>

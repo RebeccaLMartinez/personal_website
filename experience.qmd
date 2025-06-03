@@ -3,31 +3,39 @@ title: "Experience"
 format: 
   html:
     theme: darkly
-    toc: false
     css: styles.css
 ---
 
+
+<div class="experience-page">
 
 Welcome! Here you can view my professional resume and, soon, my detailed curriculum vitae (CV).  
 
 ---
 
 
-# Resume (Text Version)
+## Resume
+
+[Download Resume (PDF)](media/resume_rm.pdf){.btn}
+
+<details>
+<summary><strong>Expand to read full Resume</strong></summary>
+
 
 **Rebecca Martinez**  
 Goleta, CA 93117  
-rebecca_martinez@ucsb.edu | martinez.rl@hotmail.com  
+
+<span class="email" style="color:#8bd9b1;">rebecca_martinez@ucsb.edu | martinez.rl@hotmail.com</span> 
 
 ---
 
-## Objective
+### Objective
 
 Environmental studies undergraduate with a strong background in mentorship and peer support, dedicated to empowering academic growth through experiential learning and collaborative research. Committed to fostering curiosity, teamwork, and shared achievements to build resilient communities and drive lasting positive change.
 
 ---
 
-## Education
+### Education
 
 **University of California, Santa Barbara (UCSB)** — Goleta, CA  
 *B.S. in Environmental Studies* | Expected 2026
@@ -40,7 +48,7 @@ Environmental studies undergraduate with a strong background in mentorship and p
 
 ---
 
-## Experience
+### Experience
 
 **UCSB Office of Education Partnerships (OEP)** — Goleta, CA  
 *Student Assistant* | Sept 2024 – Present  
@@ -81,7 +89,7 @@ Environmental studies undergraduate with a strong background in mentorship and p
 
 ---
 
-## Skills
+### Skills
 
 - Data analysis & visualization (RStudio)  
 - Field research & data collection  
@@ -94,15 +102,26 @@ Environmental studies undergraduate with a strong background in mentorship and p
 
 ---
 
-## References
+### References
 
 *Please ask*
 
 
+</details>
 
 
+---
+
+## CV
+
+[Download Not Yet Available](){.btn}
+
+<details>
+<summary><strong>Expand to read full CV</strong></summary>
 
 
+*Coming soon*
 
+</details>
 
-
+</div>

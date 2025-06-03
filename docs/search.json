@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Greetings!",
     "section": "",
-    "text": "Welcome to the digital habitat of **Rebecca Martinez* - where curiosity leads the way and muddy boots are just part of the journey.\nThis site is a growing collection of projects, research, tutoring resources, adventure photos, and the occasional feline cameo."
+    "text": "A place where curiosity leads the way and muddy boots are just part of the journey.\nThis site is a growing collection of projects, research, tutoring resources, adventure photos, and the occasional feline cameo."
   },
   {
     "objectID": "about.html",
@@ -74,7 +74,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "This page highlights some of my work from classes and research.\n\n\nSchool\n\n\n\n💡 Service Light Personal Data\n\n\n\nSchool: UCSB\nCourse: ENVS 193DS – Data Science for Environmental Studies\nOngoing project that explores the relationship between lighting conditions and service calls using a self-collected dataset (n=108). Created a bar chart, summary table, and a blinking lightboard animation (gif). See visuals.\nTools Used:\nRStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto\nReflection:\nThis project made me think harder about data than I expected. After collecting and working with my own dataset, I gained a deeper respect for the messiness of real-world data.\nCode Snippet:\nclean_service_data &lt;- service_data |&gt;\n  mutate(\n    help = as.logical(toupper(help)),\n    working = as.logical(toupper(working))\n  )\nVisuals:\n\n  \n  \n  \nResources\nGitHub Repo\nView Live\n\n\n\n\n\nResearch\n\n\n\n💧 Fog Harp\n\n\nUnder construction…\n\n\n\n\n🦨 Skunk Population\n\n\nUnder construction…\n\n\n\n\n🌱 Soil Bioturbation\n\n\nUnder construction…\n\n\n\n\n\nOther\nComing soon…\n\n\n\n×"
+    "text": "This page highlights some of my work from classes and research.\n\n\nSchool\n\n\n\n💡 Service Light Personal Data\n\n\n\nSchool: UCSB\nCourse: ENVS 193DS – Data Science for Environmental Studies\nOngoing project that explores the relationship between lighting conditions and service calls using a self-collected dataset (n=108). Created a bar chart, summary table, and a blinking lightboard animation (gif). See visuals.\nTools Used:\nRStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto\nReflection:\nThis project made me think harder about data than I expected. After collecting and working with my own dataset, I gained a deeper respect for the messiness of real-world data.\nCode Snippet:\nclean_service_data &lt;- service_data |&gt;\n  mutate(\n    help = as.logical(toupper(help)),\n    working = as.logical(toupper(working))\n  )\nVisuals:\n\n  \n  \n  \nResources\nGitHub Repo\nView Live\n\n\n\n\nResearch\n\n\n\n💧 Fog Harp\n\n\nUnder construction…\n\n\n\n\n🦨 Skunk Population\n\n\nUnder construction…\n\n\n\n\n🌱 Soil Bioturbation\n\n\nUnder construction…\n\n\n\n\nOther\nComing soon…\n\n\n×"
   },
   {
     "objectID": "about.html#my-path",
@@ -207,7 +207,7 @@
     "href": "experience.html",
     "title": "Experience",
     "section": "",
-    "text": "Resume & CV\nWelcome! Here you can view my professional resume and, soon, my detailed curriculum vitae (CV).\n\n\n\nView Resume\n\n\n\n\nDownload Resume PDF\n\n\n\n\nView CV (Coming Soon)\n\n\nMy CV is currently a work in progress. Stay tuned!"
+    "text": "Welcome! Here you can view my professional resume and, soon, my detailed curriculum vitae (CV).\n\n\n\nDownload Resume (PDF)\n\n\nExpand to read full Resume\n\nRebecca Martinez\nGoleta, CA 93117\nrebecca_martinez@ucsb.edu | martinez.rl@hotmail.com\n\n\n\nEnvironmental studies undergraduate with a strong background in mentorship and peer support, dedicated to empowering academic growth through experiential learning and collaborative research. Committed to fostering curiosity, teamwork, and shared achievements to build resilient communities and drive lasting positive change.\n\n\n\n\nUniversity of California, Santa Barbara (UCSB) — Goleta, CA\nB.S. in Environmental Studies | Expected 2026\nAllan Hancock College — Santa Maria, CA\n- A.S. in Biology | Expected May 2024\n- A.A. in Biology | May 2023\n- A.A. in Mathematics and Science | May 2021\n- Information Technology Fundamentals (IT Certificate) | May 2024\n\n\n\n\nUCSB Office of Education Partnerships (OEP) — Goleta, CA\nStudent Assistant | Sept 2024 – Present\n- Contribute to data collection, field site maintenance, and equipment repair for Island Spotted Skunk & Fog Harp projects on Santa Cruz Island.\n- Assist with updating field protocols and project documentation to support ongoing research.\n- Collaborate with a team to enhance project logistics and operational efficiency.\nSmithsonian Office of the Chief Information Officer (OCIO) — Remote\nData Science Lab Intern | May 2024 – August 2024\n- Led weekly RStudio sessions, adapting teaching methods to improve learning outcomes.\n- Mentored peers in applying research methodologies to real-world datasets.\n- Developed and refined resources to enhance data science comprehension.\nAllan Hancock College — Santa Maria, CA\nTeaching Assistant | Jan 2024 – May 2024\n- Managed lab operations, including setup, compliance, and student support.\n- Provided and created supplemental study materials to enhance student learning.\nLead Tutor | Aug 2020 – May 2024\n- Coordinated tutor schedules and assisted in campus-wide training initiatives.\n- Developed and delivered workshops to improve study skills and academic performance.\n- Collaborated with campus centers to enhance tutoring services and resources.\nPeer Tutor | Aug 2019 – May 2024\n- Provided academic support in STEM subjects through one-on-one and group sessions.\n- Assisted students in developing effective study and time management strategies.\n- Served as an embedded tutor in multiple science courses.\nChumash Casino Resort — Santa Ynez, CA\nSlot Attendant | Jan 2012 - May 2025\n- Troubleshoot and resolve slot machine issues, address disputes promptly and tactfully to ensure a seamless guest experience.\n- Ensure machines and equipment are functioning properly, maintaining the integrity of the gaming environment and upholding tribal gaming compliance.\nFloor Operations Supervisor | June 2007 - Jan 2012\n- Supervised daily operations for the slot and beverage departments, overseeing up to 75 team members per shift.\n- Developed staff schedules and ensured operational efficiency during peak times.\n- Addressed guest concerns to maintain a positive and safe environment.\n\n\n\n\n\nData analysis & visualization (RStudio)\n\nField research & data collection\n\nLeadership & mentoring\n\nCommunication & presentation\n\nMicrosoft Office Suite\n\nProblem-solving & adaptability\n\nTime management\n\nTeam collaboration\n\n\n\n\n\nPlease ask\n\n\n\n\n\n\nDownload Not Yet Available\n\n\nExpand to read full CV\n\nComing soon"
   },
   {
     "objectID": "cats.html#chester-odin",
@@ -319,7 +319,7 @@
     "href": "resources.html#quizlet-flashcard-folders",
     "title": "Resources",
     "section": "Quizlet Flashcard Folders",
-    "text": "Quizlet Flashcard Folders\nCreated for Dr. Len Miyahara’s BIO 124 course at Allan Hancock College in 2021. Material may differ.\n\nHistology & Integumentary Systems\nSkeletal System\nMuscular System\nHeart, Circulatory, & Respiratory Systems\nDigestive, Urinary, & Reproductive Systems\nBrain, Special Senses, & Nervous System"
+    "text": "Quizlet Flashcard Folders\nCreated for Dr. Len Miyahara’s BIO 124 course at Allan Hancock College in 2021. Material may differ.\nHistology & Integumentary Systems\nSkeletal System\nMuscular System\nHeart, Circulatory, & Respiratory Systems\nDigestive, Urinary, & Reproductive Systems\nBrain, Special Senses, & Nervous System"
   },
   {
     "objectID": "resources.html#visual-guides",
@@ -339,7 +339,70 @@
     "objectID": "experience.html#resume",
     "href": "experience.html#resume",
     "title": "Experience",
-    "section": "Resume",
-    "text": "Resume\n\n\nView Resume"
+    "section": "",
+    "text": "Download Resume (PDF)\n\n\nExpand to read full Resume\n\nRebecca Martinez\nGoleta, CA 93117\nrebecca_martinez@ucsb.edu | martinez.rl@hotmail.com\n\n\n\nEnvironmental studies undergraduate with a strong background in mentorship and peer support, dedicated to empowering academic growth through experiential learning and collaborative research. Committed to fostering curiosity, teamwork, and shared achievements to build resilient communities and drive lasting positive change.\n\n\n\n\nUniversity of California, Santa Barbara (UCSB) — Goleta, CA\nB.S. in Environmental Studies | Expected 2026\nAllan Hancock College — Santa Maria, CA\n- A.S. in Biology | Expected May 2024\n- A.A. in Biology | May 2023\n- A.A. in Mathematics and Science | May 2021\n- Information Technology Fundamentals (IT Certificate) | May 2024\n\n\n\n\nUCSB Office of Education Partnerships (OEP) — Goleta, CA\nStudent Assistant | Sept 2024 – Present\n- Contribute to data collection, field site maintenance, and equipment repair for Island Spotted Skunk & Fog Harp projects on Santa Cruz Island.\n- Assist with updating field protocols and project documentation to support ongoing research.\n- Collaborate with a team to enhance project logistics and operational efficiency.\nSmithsonian Office of the Chief Information Officer (OCIO) — Remote\nData Science Lab Intern | May 2024 – August 2024\n- Led weekly RStudio sessions, adapting teaching methods to improve learning outcomes.\n- Mentored peers in applying research methodologies to real-world datasets.\n- Developed and refined resources to enhance data science comprehension.\nAllan Hancock College — Santa Maria, CA\nTeaching Assistant | Jan 2024 – May 2024\n- Managed lab operations, including setup, compliance, and student support.\n- Provided and created supplemental study materials to enhance student learning.\nLead Tutor | Aug 2020 – May 2024\n- Coordinated tutor schedules and assisted in campus-wide training initiatives.\n- Developed and delivered workshops to improve study skills and academic performance.\n- Collaborated with campus centers to enhance tutoring services and resources.\nPeer Tutor | Aug 2019 – May 2024\n- Provided academic support in STEM subjects through one-on-one and group sessions.\n- Assisted students in developing effective study and time management strategies.\n- Served as an embedded tutor in multiple science courses.\nChumash Casino Resort — Santa Ynez, CA\nSlot Attendant | Jan 2012 - May 2025\n- Troubleshoot and resolve slot machine issues, address disputes promptly and tactfully to ensure a seamless guest experience.\n- Ensure machines and equipment are functioning properly, maintaining the integrity of the gaming environment and upholding tribal gaming compliance.\nFloor Operations Supervisor | June 2007 - Jan 2012\n- Supervised daily operations for the slot and beverage departments, overseeing up to 75 team members per shift.\n- Developed staff schedules and ensured operational efficiency during peak times.\n- Addressed guest concerns to maintain a positive and safe environment.\n\n\n\n\n\nData analysis & visualization (RStudio)\n\nField research & data collection\n\nLeadership & mentoring\n\nCommunication & presentation\n\nMicrosoft Office Suite\n\nProblem-solving & adaptability\n\nTime management\n\nTeam collaboration\n\n\n\n\n\nPlease ask"
+  },
+  {
+    "objectID": "experience.html#objective",
+    "href": "experience.html#objective",
+    "title": "Experience",
+    "section": "Objective",
+    "text": "Objective\nEnvironmental studies undergraduate with a strong background in mentorship and peer support, dedicated to empowering academic growth through experiential learning and collaborative research. Committed to fostering curiosity, teamwork, and shared achievements to build resilient communities and drive lasting positive change."
+  },
+  {
+    "objectID": "experience.html#education",
+    "href": "experience.html#education",
+    "title": "Experience",
+    "section": "Education",
+    "text": "Education\nUniversity of California, Santa Barbara (UCSB) — Goleta, CA\nB.S. in Environmental Studies | Expected 2026\nAllan Hancock College — Santa Maria, CA\n- A.S. in Biology | Expected May 2024\n- A.A. in Biology | May 2023\n- A.A. in Mathematics and Science | May 2021\n- Information Technology Fundamentals (IT Certificate) | May 2024"
+  },
+  {
+    "objectID": "experience.html#experience",
+    "href": "experience.html#experience",
+    "title": "Experience",
+    "section": "Experience",
+    "text": "Experience\nUCSB Office of Education Partnerships (OEP) — Goleta, CA\nStudent Assistant | Sept 2024 – Present\n- Contribute to data collection, field site maintenance, and equipment repair for Island Spotted Skunk & Fog Harp projects on Santa Cruz Island.\n- Assist with updating field protocols and project documentation to support ongoing research.\n- Collaborate with a team to enhance project logistics and operational efficiency.\nSmithsonian Office of the Chief Information Officer (OCIO) — Remote\nData Science Lab Intern | May 2024 – August 2024\n- Led weekly RStudio sessions, adapting teaching methods to improve learning outcomes.\n- Mentored peers in applying research methodologies to real-world datasets.\n- Developed and refined resources to enhance data science comprehension.\nAllan Hancock College — Santa Maria, CA\nTeaching Assistant | Jan 2024 – May 2024\n- Managed lab operations, including setup, compliance, and student support.\n- Provided and created supplemental study materials to enhance student learning.\nLead Tutor | Aug 2020 – May 2024\n- Coordinated tutor schedules and assisted in campus-wide training initiatives.\n- Developed and delivered workshops to improve study skills and academic performance.\n- Collaborated with campus centers to enhance tutoring services and resources.\nPeer Tutor | Aug 2019 – May 2024\n- Provided academic support in STEM subjects through one-on-one and group sessions.\n- Assisted students in developing effective study and time management strategies.\n- Served as an embedded tutor in multiple science courses.\nChumash Casino Resort — Santa Ynez, CA\nSlot Attendant | Jan 2012 - May 2025\n- Troubleshoot and resolve slot machine issues, address disputes promptly and tactfully to ensure a seamless guest experience.\n- Ensure machines and equipment are functioning properly, maintaining the integrity of the gaming environment and upholding tribal gaming compliance.\nFloor Operations Supervisor | June 2007 - Jan 2012\n- Supervised daily operations for the slot and beverage departments, overseeing up to 75 team members per shift.\n- Developed staff schedules and ensured operational efficiency during peak times.\n- Addressed guest concerns to maintain a positive and safe environment."
+  },
+  {
+    "objectID": "experience.html#skills",
+    "href": "experience.html#skills",
+    "title": "Experience",
+    "section": "Skills",
+    "text": "Skills\n\nData analysis & visualization (RStudio)\n\nField research & data collection\n\nLeadership & mentoring\n\nCommunication & presentation\n\nMicrosoft Office Suite\n\nProblem-solving & adaptability\n\nTime management\n\nTeam collaboration"
+  },
+  {
+    "objectID": "experience.html#references",
+    "href": "experience.html#references",
+    "title": "Experience",
+    "section": "References",
+    "text": "References\nPlease ask"
+  },
+  {
+    "objectID": "experience.html#cv",
+    "href": "experience.html#cv",
+    "title": "Experience",
+    "section": "",
+    "text": "Download Not Yet Available\n\n\nExpand to read full CV\n\nComing soon"
+  },
+  {
+    "objectID": "index.html#explore-the-site",
+    "href": "index.html#explore-the-site",
+    "title": "Greetings!",
+    "section": "Explore the site:",
+    "text": "Explore the site:\nAbout Me\nLearn a bit more about who I am and what drives me.\nResume & Experience\nCheck out my professional background and skills.\nProjects\nSee what I’ve been working on — from class projects to research.\nResources\nEducational recommendations and resources I’ve put together.\nPhoto Gallery\nBrowse photos from my adventures and explorations.\nCat Corner\nMeet my feline friends and discover which cat matches your personality."
+  },
+  {
+    "objectID": "index.html#site-contents",
+    "href": "index.html#site-contents",
+    "title": "Greetings!",
+    "section": "Site Contents",
+    "text": "Site Contents\nAbout Me Learn a bit more about who I am and what drives me.\nProjects See what I’ve been working on — from class projects to research.\nResources Educational recommendations and resources I’ve put together.\nPhotos Browse photos from my adventures and explorations\nCat Corner Meet my feline friends and discover which cat matches your personality."
+  },
+  {
+    "objectID": "index.html#welcome-to-the-digital-habitat-of-rebecca-martinez",
+    "href": "index.html#welcome-to-the-digital-habitat-of-rebecca-martinez",
+    "title": "Greetings!",
+    "section": "",
+    "text": "A place where curiosity leads the way and muddy boots are just part of the journey.\nThis site is a growing collection of projects, research, tutoring resources, adventure photos, and the occasional feline cameo."
   }
 ]

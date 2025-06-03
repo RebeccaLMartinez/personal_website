@@ -3,7 +3,7 @@ title: "Meet Rebecca!"
 format: 
   html:
     theme: darkly
-    toc: false
+    toc: true
     css: styles.css
 about:
   template: solana

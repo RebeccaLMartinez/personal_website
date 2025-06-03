@@ -2,8 +2,9 @@
 title: "Meet Chester and Leo"
 format:
   html:
-    theme: darkly   
-    css: styles.css 
+    theme: darkly  
+    css: styles.css
+  
 ---
 
 <!-- Video wrapper container with a circle-shaped video using CSS -->

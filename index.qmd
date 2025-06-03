@@ -8,43 +8,58 @@ format:
 about:
   template: marquee
   image: media/sci-sunset.jpeg
-website:
-  search:
-    location: footer
 ---
 
-Welcome to the digital habitat of **Rebecca Martinez* - where curiosity leads the way and muddy boots are just part of the journey.
+
+<div style="text-align: center;">
+  
+## Welcome to the digital habitat of Rebecca Martinez
+
+A place where curiosity leads the way and muddy boots are just part of the journey.
 
 This site is a growing collection of projects, research, tutoring resources, adventure photos, and the occasional feline cameo.
 
+</div>
 
 ---
 
-## What you’ll find here:
+<div class="clickable-links">
 
-- **[About Me](about.qmd)**  
-  Learn a bit more about who I am and what drives me.
+**[About Me                                           ](about.qmd "Learn a bit more about who I am and what drives me.")**  Learn a bit more about who I am and what drives me.
 
-- **[Resume & Experience](experience.qmd)**  
-  Check out my professional background and skills.
 
-- **[Projects](projects.qmd)**  
-  See what I’ve been working on — from class projects to research.
 
-- **[Resources](resources.qmd)**  
-  Educational recommendations and resources I’ve put together.
+**[Projects](projects.qmd "See what I’ve been working on — from class projects to research.")**  See what I’ve been working on — from class projects to research.  
 
-- **[Photo Gallery](fieldphotos.qmd)**  
-  Browse photos from my adventures and explorations.
 
-- **[Cat Corner](cats.qmd)**  
-  Meet my feline friends and discover which cat matches your personality.
 
+**[Resources](resources.qmd  "Educational recommendations and resources I’ve put together.")**  Educational recommendations and resources I’ve put together.  
+
+
+
+**[Photos](fieldphotos.qmd "Browse photos from my adventures and explorations.")**  Browse photos from my adventures and explorations  
+
+
+
+**[Cat Corner](cats.qmd  "Meet my feline friends and discover which cat matches your personality.")**  Meet my feline friends and discover which cat matches your personality.
+
+
+
+
+</div>
+
+
+
+
+
+  
 ---
+
+<div style="text-align: center;">
 
 Feel free to wander, stay curious — and thanks for visiting!
 
 
 *This site is still evolving. Thanks for your patience!*
 
-
+</div>
