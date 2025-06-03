@@ -39,7 +39,7 @@ h3 {
 
 /* Section headings h4 */
 h4 {
-  color: #8bd9b1;  /* Darker teal */
+  color: #2b7a78;  /* Darker teal */
   padding-bottom: 4px;
   margin-top: 1.5rem;
   margin-bottom: 1rem;
@@ -431,8 +431,5 @@ h4 {
   color: #111;                    /* Dark text */
   border: 6px outset #3a6e61;      /* inset to look more like button */
   text-decoration: none;
-  
-  
-  
   
   

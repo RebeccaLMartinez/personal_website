@@ -17,11 +17,11 @@ Welcome! Here you can view my professional resume and, soon, my detailed curricu
 ## Resume
 
 
-[Download Resume (PDF)](media/resume_rm.pdf){.btn target="_blank"}
+[⬇️ Download Resume](media/resume_rm.pdf){.btn target="_blank"}
 
 
 <details>
-<summary><strong>Expand to read resume</strong></summary>
+  <summary style="color: #4FA78D; cursor: pointer;"><strong>Expand to view resume</strong></summary>
 
 
 **Rebecca Martinez**  
@@ -125,10 +125,10 @@ Environmental studies undergraduate with a strong background in mentorship and p
 
 ## CV
 
-[Download Not Yet Available](){.btn target="_blank"}
+[⬇️ Download Not Yet Available](){.btn target="_blank"}
 
 <details>
-<summary><strong>Expand to read full CV</strong></summary>
+  <summary style="color: #4FA78D; cursor: pointer;"><strong>Expand to view CV</strong></summary>
 
 
 *Coming soon*
