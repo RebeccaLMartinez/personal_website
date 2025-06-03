@@ -25,7 +25,7 @@ This site is a growing collection of projects, research, tutoring resources, adv
 
 <div class="clickable-links">
 
-**[About Me                                           ](about.qmd "Learn a bit more about who I am and what drives me.")**  Learn a bit more about who I am and what drives me.
+**[About Me](about.qmd "Learn a bit more about who I am and what drives me.")**  Learn a bit more about who I am and what drives me.
 
 
 

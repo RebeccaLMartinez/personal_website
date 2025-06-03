@@ -30,12 +30,21 @@ h2 {
 
 /* Section headings h3 */
 h3 {
-  color: #4f8f6d;  /* Darker teal */
-  border-bottom: 2px solid #4f8f6d; /* Underline with darker teal */
+  color: #4FA78D;  /* Darker teal */
+  border-bottom: 1px solid #4FA78D; /* Underline */
   padding-bottom: 4px;
   margin-top: 1.5rem;
   margin-bottom: 1rem;
 }
+
+/* Section headings h4 */
+h4 {
+  color: #8bd9b1;  /* Darker teal */
+  padding-bottom: 4px;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
 
 
 /* ========== fixed footer styling ========== */
@@ -44,7 +53,7 @@ h3 {
   bottom: 0;              /* stick to bottom */
   left: 0; right: 0;      /* stretch full width */
   background-color: #222; /* dark background color */
-  color: #8bd9b1;           /* white text */
+  color: #8bd9b1;           /* text color */
   padding: 12px 20px;     /* inner spacing */
   z-index: 9999;          /* high stacking order */
   box-shadow: 0 -2px 5px rgba(0,0,0,0.5); /* subtle shadow above footer */

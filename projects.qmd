@@ -84,7 +84,7 @@ clean_service_data <- service_data |>
 # Research
 
 
-<!-- Soil Bioturbation -->
+<-- Soil Bioturbation -->
 <div class="project">
   <h3 onclick="toggleContent('proj4', this)" style="cursor:pointer;">
     🌱 Soil Bioturbation
