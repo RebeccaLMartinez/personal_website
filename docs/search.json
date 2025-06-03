@@ -303,9 +303,9 @@
   {
     "objectID": "resources.html",
     "href": "resources.html",
-    "title": "Resources",
+    "title": "Resource Collection",
     "section": "",
-    "text": "Welcome to my resource page!"
+    "text": "Welcome to my growing collection of educational tools and resources I’ve gathered or created over time. Feel free to explore, use what’s helpful, and share with others."
   },
   {
     "objectID": "resources.html#interactive-3d-anatomy",
@@ -495,5 +495,19 @@
     "title": "Greetings!",
     "section": "Cat Corner Meet my feline friends and discover which cat matches your personality.",
     "text": "Cat Corner Meet my feline friends and discover which cat matches your personality.\n\nThis site is still evolving. Thanks for your patience!"
+  },
+  {
+    "objectID": "resources.html#human-anatomy-resources",
+    "href": "resources.html#human-anatomy-resources",
+    "title": "Resource Collection",
+    "section": "Human Anatomy Resources",
+    "text": "Human Anatomy Resources\nHere you’ll find materials to support learning the human body.\n\n\nInteractive 3D Anatomy Model\n\nExplore the human body in 3D with Zygote Body — an interactive tool that lets you zoom, rotate, and isolate individual structures.\n\nVisit Zygote Body\n\n\n\n\n\n\nQuizlet Flashcards\n\nCreated for Dr. Len Miyahara’s BIO 124 course at Allan Hancock College in 2021. Material may differ.\n\n\nHistology & Integumentary Systems\n\n\nSkeletal System\n\n\nMuscular System\n\n\nHeart, Circulatory, & Respiratory Systems\n\n\nDigestive, Urinary, & Reproductive Systems\n\n\nBrain, Special Senses, & Nervous System\n\n\n\n\n\nVisual Guides\n\n\nComing soon…"
+  },
+  {
+    "objectID": "resources.html#section",
+    "href": "resources.html#section",
+    "title": "Resources",
+    "section": "",
+    "text": "Welcome to my resource page!\n## ## Human Anatomy Resources\nHere you’ll find materials to support learning various body systems.\n\n\nInteractive 3D Anatomy Model\n\nFor a detailed and interactive 3D exploration of the human body, check out Zygote Body. This website allows you to zoom, rotate, and isolate specific parts of the body, making it an excellent tool for visual learning.\n\nExplore Zygote Body\n\n\n\nQuizlet Flashcards\n\nCreated for Dr. Len Miyahara’s BIO 124 course at Allan Hancock College in 2021. Material may differ.\nHistology & Integumentary Systems\nSkeletal System\nMuscular System\nHeart, Circulatory, & Respiratory Systems\nDigestive, Urinary, & Reproductive Systems\nBrain, Special Senses, & Nervous System\n\n\n\nVisual Guides\n\nComing soon…"
   }
 ]

@@ -1,51 +1,63 @@
 ---
-title: "Resources"
+title: "Resource Collection"
 format:
   html:
     theme: darkly
     css: styles.css
 ---
 
+Welcome to my growing collection of educational tools and resources I’ve gathered or created over time. Feel free to explore, use what’s helpful, and share with others.
 
+## Human Anatomy Resources
 
-Welcome to my resource page!   
+Here you'll find materials to support learning the human body.  
 
---- 
+ <details>
+  <summary style="color: #4FA78D; cursor: pointer;"><strong>Interactive 3D Anatomy Model</strong></summary>
+
+Explore the human body in 3D with Zygote Body — an interactive tool that lets you zoom, rotate, and isolate individual structures.
 
 <div class="clickable-links">
 
-# Anatomy Resources
+#### [Visit Zygote Body](https://www.zygotebody.com/)
 
-Here you'll find materials to support learning various body systems.  
+</div>
 
-## Interactive 3D Anatomy
+<iframe width="1110" height="740" src="https://www.zygotebody.com" frameborder="0" ></iframe>
 
-For a detailed and interactive 3D exploration of the human body, check out **Zygote Body**. This website allows you to zoom, rotate, and isolate specific parts of the body, making it an excellent tool for visual learning.
+</details>
 
-[Explore Zygote Body](https://www.zygotebody.com/)
-
- 
-## Quizlet Flashcard Folders
+   
+<details>
+  <summary style="color: #4FA78D; cursor: pointer;"><strong>Quizlet Flashcards</strong></summary>
 
 Created for Dr. Len Miyahara's BIO 124 course at Allan Hancock College in 2021. Material may differ. 
 
-[Histology & Integumentary Systems](https://quizlet.com/user/Th3b3ckst3r/folders/histology-and-integumentary-system?i=2236oh&x=1xqt)
+<div class="clickable-links">
 
-[Skeletal System](https://quizlet.com/user/Th3b3ckst3r/folders/skeletal-system?i=2236oh&x=1xqt)
+#### [Histology & Integumentary Systems](https://quizlet.com/user/Th3b3ckst3r/folders/histology-and-integumentary-system?i=2236oh&x=1xqt)
 
-[Muscular System](https://quizlet.com/user/Th3b3ckst3r/folders/muscles?i=2236oh&x=1xqt)
+#### [Skeletal System](https://quizlet.com/user/Th3b3ckst3r/folders/skeletal-system?i=2236oh&x=1xqt)
 
-[Heart, Circulatory, & Respiratory Systems](https://quizlet.com/user/Th3b3ckst3r/folders/heart-circulatory-respiratory-systems?i=2236oh&x=1xqt)
+#### [Muscular System](https://quizlet.com/user/Th3b3ckst3r/folders/muscles?i=2236oh&x=1xqt)
 
-[Digestive, Urinary, & Reproductive Systems](https://quizlet.com/user/Th3b3ckst3r/folders/digestive-urinary-reproductive-systems?i=2236oh&x=1xqt)
+#### [Heart, Circulatory, & Respiratory Systems](https://quizlet.com/user/Th3b3ckst3r/folders/heart-circulatory-respiratory-systems?i=2236oh&x=1xqt)
 
-[Brain, Special Senses, & Nervous System](https://quizlet.com/user/Th3b3ckst3r/folders/nervous-system-brain-special-senses?i=2236oh&x=1xqt)
+#### [Digestive, Urinary, & Reproductive Systems](https://quizlet.com/user/Th3b3ckst3r/folders/digestive-urinary-reproductive-systems?i=2236oh&x=1xqt)
+
+#### [Brain, Special Senses, & Nervous System](https://quizlet.com/user/Th3b3ckst3r/folders/nervous-system-brain-special-senses?i=2236oh&x=1xqt)
+
+</div>
+</details>
 
 
-## Visual Guides
+<details>
+  <summary style="color: #4FA78D; cursor: pointer;"><strong>Visual Guides</strong></summary>
+  
+<div class="clickable-links">
 
 *Coming soon...*
 
----
-
 </div>
+</details>
+###
