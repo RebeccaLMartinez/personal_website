@@ -34,7 +34,7 @@ Welcome to the page of Chester and Leo.
   <strong>“Chester the Cheetah”</strong><br>
   <em>Though docile and timid, Chester’s gentle and sweet nature shines through to anyone who takes the time to get to know him.</em>
   <br><br>
-  ![Chester Odin](/media/chester3.jpg){style="max-width:300px; border-radius:12px; border:3px solid #4FA78D;"}
+  ![Chester](/media/chester3.jpg){style="max-width:300px; border-radius:12px; border:3px solid #4FA78D;"}
 </div>
 
 <!-- Button for Leo's profile -->
