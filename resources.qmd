@@ -8,9 +8,9 @@ format:
 
 Welcome to my growing collection of educational tools and resources I’ve gathered or created over time. Feel free to explore, use what’s helpful, and share with others.
 
-## Human Anatomy Resources
+## Human Anatomy
 
-Here you'll find materials to support learning the human body.  
+Here you'll find resources to help you learn structures of the human body.   
 
  <details>
   <summary style="color: #4FA78D; cursor: pointer;"><strong>Interactive 3D Anatomy Model</strong></summary>
@@ -60,4 +60,31 @@ Created for Dr. Len Miyahara's BIO 124 course at Allan Hancock College in 2021. 
 
 </div>
 </details>
-###
+
+
+## Chemistry
+
+Here are resources to help you learn basic chemistry.
+
+<details>
+  <summary style="color: #4FA78D; cursor: pointer;"><strong>PhET Chemistry Simulations</strong></summary>
+Explore interactive chemistry simulations that help make abstract concepts visible and understandable.
+
+<div class="clickable-links">
+
+#### [More PhET Simulations](https://phet.colorado.edu/en/simulations/filter?type=html)
+
+</div>
+
+#### Molecule Shapes
+
+<iframe src="https://phet.colorado.edu/sims/html/molecule-shapes/latest/molecule-shapes_en.html"
+        width="800"
+        height="600"
+        allowfullscreen>
+</iframe>
+
+
+
+</div>
+</details>
