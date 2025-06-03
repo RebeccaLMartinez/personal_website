@@ -8,12 +8,95 @@ format:
 ---
 
 
-*Under Construction*
+Welcome! Here you can view my professional resume and, soon, my detailed curriculum vitae (CV).  
+
+---
 
 
+# Resume (Text Version)
 
+**Rebecca Martinez**  
+Goleta, CA 93117  
+rebecca_martinez@ucsb.edu | martinez.rl@hotmail.com  
 
+---
 
+## Objective
+
+Environmental studies undergraduate with a strong background in mentorship and peer support, dedicated to empowering academic growth through experiential learning and collaborative research. Committed to fostering curiosity, teamwork, and shared achievements to build resilient communities and drive lasting positive change.
+
+---
+
+## Education
+
+**University of California, Santa Barbara (UCSB)** — Goleta, CA  
+*B.S. in Environmental Studies* | Expected 2026
+
+**Allan Hancock College** — Santa Maria, CA  
+- A.S. in Biology | Expected May 2024  
+- A.A. in Biology | May 2023  
+- A.A. in Mathematics and Science | May 2021  
+- Information Technology Fundamentals (IT Certificate) | May 2024  
+
+---
+
+## Experience
+
+**UCSB Office of Education Partnerships (OEP)** — Goleta, CA  
+*Student Assistant* | Sept 2024 – Present  
+- Contribute to data collection, field site maintenance, and equipment repair for Island Spotted Skunk & Fog Harp projects on Santa Cruz Island.  
+- Assist with updating field protocols and project documentation to support ongoing research.  
+- Collaborate with a team to enhance project logistics and operational efficiency.
+
+**Smithsonian Office of the Chief Information Officer (OCIO)** — Remote  
+*Data Science Lab Intern* | May 2024 – August 2024  
+- Led weekly RStudio sessions, adapting teaching methods to improve learning outcomes.  
+- Mentored peers in applying research methodologies to real-world datasets.  
+- Developed and refined resources to enhance data science comprehension.
+
+**Allan Hancock College** — Santa Maria, CA  
+*Teaching Assistant* | Jan 2024 – May 2024  
+- Managed lab operations, including setup, compliance, and student support.  
+- Provided and created supplemental study materials to enhance student learning.
+
+*Lead Tutor* | Aug 2020 – May 2024  
+- Coordinated tutor schedules and assisted in campus-wide training initiatives.  
+- Developed and delivered workshops to improve study skills and academic performance.  
+- Collaborated with campus centers to enhance tutoring services and resources.
+
+*Peer Tutor* | Aug 2019 – May 2024  
+- Provided academic support in STEM subjects through one-on-one and group sessions.  
+- Assisted students in developing effective study and time management strategies.  
+- Served as an embedded tutor in multiple science courses.
+
+**Chumash Casino Resort** — Santa Ynez, CA  
+*Slot Attendant* | Jan 2012 - May 2025  
+- Troubleshoot and resolve slot machine issues, address disputes promptly and tactfully to ensure a seamless guest experience.  
+- Ensure machines and equipment are functioning properly, maintaining the integrity of the gaming environment and upholding tribal gaming compliance.
+
+*Floor Operations Supervisor* | June 2007 - Jan 2012  
+- Supervised daily operations for the slot and beverage departments, overseeing up to 75 team members per shift.  
+- Developed staff schedules and ensured operational efficiency during peak times.  
+- Addressed guest concerns to maintain a positive and safe environment.
+
+---
+
+## Skills
+
+- Data analysis & visualization (RStudio)  
+- Field research & data collection  
+- Leadership & mentoring  
+- Communication & presentation  
+- Microsoft Office Suite  
+- Problem-solving & adaptability  
+- Time management  
+- Team collaboration  
+
+---
+
+## References
+
+*Please ask*
 
 
 
