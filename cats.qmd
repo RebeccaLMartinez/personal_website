@@ -25,7 +25,7 @@ Welcome to the page of Chester and Leo.
 
 <!-- Button for Chester's profile -->
 <div class="cat-button" onclick="toggleContent('chester-profile', this)">
-  ![Chester Odin](/media/chester.jpeg){.cat-thumb}
+  ![Chester Odin](/media/chester3.jpg){.cat-thumb}
   <span>Chester Odin</span>
 </div>
 
@@ -34,12 +34,12 @@ Welcome to the page of Chester and Leo.
   <strong>“Chester the Cheetah”</strong><br>
   <em>Though docile and timid, Chester’s gentle and sweet nature shines through to anyone who takes the time to get to know him.</em>
   <br><br>
-  ![Chester playing](/media/chester.jpeg){style="max-width:300px; border-radius:12px; border:3px solid #4FA78D;"}
+  ![Chester Odin](/media/chester3.jpg){style="max-width:300px; border-radius:12px; border:3px solid #4FA78D;"}
 </div>
 
 <!-- Button for Leo's profile -->
 <div class="cat-button" onclick="toggleContent('leo-profile', this)">
-  ![Leonel Vili](/media/leo.jpeg){.cat-thumb}
+  ![Leonel Vili](/media/leomeow.jpg){.cat-thumb}
   <span>Leonel Vili</span>
 </div>
 
@@ -48,7 +48,7 @@ Welcome to the page of Chester and Leo.
   <strong>“Leo the Lion”</strong><br>
   Leo is a playful polydactyl whose two great loves are meowing and hunting hair-ties.
   <br><br>
-  ![Leo with hair-tie](/media/leo.jpeg){style="max-width:300px; border-radius:12px; border:3px solid #4FA78D;"}
+  ![Leo Vili](/media/leomeow.jpg){style="max-width:300px; border-radius:12px; border:3px solid #4FA78D;"}
 </div>
 
 </div>

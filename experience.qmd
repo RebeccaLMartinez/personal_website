@@ -7,7 +7,6 @@ format:
 ---
 
 
-<div class="experience-page">
 
 Welcome! Here you can view my professional resume and, soon, my detailed curriculum vitae (CV).  
 
@@ -16,7 +15,9 @@ Welcome! Here you can view my professional resume and, soon, my detailed curricu
 
 ## Resume
 
-[Download Resume (PDF)](media/resume_rm.pdf){.btn}
+
+[Download Resume (PDF)](media/resume_rm.pdf){.btn target="_blank"}
+
 
 <details>
 <summary><strong>Expand to read full Resume</strong></summary>

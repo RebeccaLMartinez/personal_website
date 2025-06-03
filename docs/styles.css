@@ -11,9 +11,8 @@ body {
 
 /* Center the main document title */
 h1.title {
-  text-align: center;
-  font-size: 3rem;           /* Optional: adjust size */
-  font-weight: 700;          /* Optional: bold */
+    font-size: 3rem;           /* adjust size */
+  font-weight: 800;          /* bold */
   color: #4FA78D;            /* Optional: custom color */
   margin-top: 1rem;
   margin-bottom: 0.5rem;
@@ -22,8 +21,8 @@ h1.title {
 
 /* Section headings h2 */
 h2 {
-  color: #4FA78D;  /* Darker teal */
-  border-bottom: 2px solid #4FA78D; /* Underline with darker teal */
+  color: #4FA78D;  
+  border-bottom: 2px solid #4FA78D; /* Underline  */
   padding-bottom: 4px;
   margin-top: 1.5rem;
   margin-bottom: 1rem;
@@ -407,10 +406,10 @@ h3 {
   color: #111;                 /* text */
   background-color: #4FA78D;      /* background */
   font-weight: 1000;
-  border: 3px ridge #4FA78D;      /* inset to look more like button */
+  border: 6px outset #4FA78D;      /* outset to look more like button */
   padding: 0.4em 0.8em;           /* Padding for box shape */
   text-decoration: none;          /* underline etc */
-  border-radius: 6px;             /* Slight rounding */
+  border-radius: 12px;             /* Slight rounding */
   transition: all 0.2s ease-in-out;
   display: inline-block;          /* Make the box wrap tightly */
   cursor: pointer;
@@ -419,7 +418,12 @@ h3 {
 /* Hover and focus styles: invert the colors */
 .clickable-links a:hover,
 .clickable-links a:focus {
-  background-color: #367462;      /* Teal background */
-  color: #23272b;                    /* Dark text */
-  border: 3px groove #367462;      /* inset to look more like button */
+  background-color: #3a6e61;      /* Teal background */
+  color: #111;                    /* Dark text */
+  border: 6px outset #3a6e61;      /* inset to look more like button */
   text-decoration: none;
+  
+  
+  
+  
+  
