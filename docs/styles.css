@@ -270,11 +270,6 @@ body {
 .project-popup {
   display: none;
   opacity: 0;
-  /* other styles */
-}
-
-.project-popup {
-  display: none;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -363,7 +358,7 @@ body {
   background: #495057;    /* Darker background on hover/open */
 }
 .cat-thumb {
-  width: 65px;            /* Fixed thumbnail size */
+  width: 65px;            /* Smaller thumbnail size */
   height: 65px;
   border-radius: 50%;     /* Circular thumbnail */
   object-fit: cover;      /* Crop image to fill circle */

@@ -1,11 +1,14 @@
- ---
+---
 title: "Projects"
 format: 
   html:
     theme: darkly
     toc: false
     css: styles.css
+    includes:
+      after-body: modal.js
 ---
+
 
 
 This page highlights some of my work from classes and research.
