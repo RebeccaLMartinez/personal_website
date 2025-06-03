@@ -83,25 +83,8 @@ clean_service_data <- service_data |>
 
 # Research
 
-<!-- Fog Harp Device -->
-<div class="project">
-  <h3 onclick="toggleContent('proj2', this)" style="cursor:pointer;">
-    💧 Fog Harp
-  </h3>
-  <div id="proj2" class="project-details" hidden>
-_Under construction…_
-  </div>
-</div>
 
-<div class="project">
-  <h3 onclick="toggleContent('proj3', this)" style="cursor:pointer;">
-    🦨 Skunk Population
-  </h3>
-  <div id="proj3" class="project-details" hidden>
-_Under construction…_
-  </div>
-</div>
-
+<!-- Soil Bioturbation -->
 <div class="project">
   <h3 onclick="toggleContent('proj4', this)" style="cursor:pointer;">
     🌱 Soil Bioturbation
@@ -111,6 +94,25 @@ _Under construction…_
   </div>
 </div>
 
+
+<!-- Fog Harp Device -->
+<div class="project">
+  <h3 onclick="toggleContent('proj2', this)" style="cursor:pointer;">
+    💧 Fog Harp
+  </h3>
+  <div id="proj2" class="project-details" hidden>
+_Under construction…_
+  </div>
+</div>
+<!-- Skunk Camera -->
+<div class="project">
+  <h3 onclick="toggleContent('proj3', this)" style="cursor:pointer;">
+    🦨 Skunk Population
+  </h3>
+  <div id="proj3" class="project-details" hidden>
+_Under construction…_
+  </div>
+</div>
 
 
 # Other  
