@@ -15,51 +15,44 @@ about:
   
 ## Welcome to the digital habitat of Rebecca Martinez
 
-A place where curiosity leads the way and muddy boots are just part of the journey.
-
-This site is a growing collection of projects, research, tutoring resources, adventure photos, and the occasional feline cameo.
+A place where curiosity leads the way and muddy boots are just part of the journey. Feel free to wander, stay curious — and thanks for visiting!
 
 </div>
-
----
+   
+   
+###    
+   
+This site is a growing collection of projects, research, tutoring resources, adventure photos, and the occasional feline cameo. Checkout the site contents below:
+    
+    
+   
 
 <div class="clickable-links">
 
-**[About Me](about.qmd "Learn a bit more about who I am and what drives me.")**  Learn a bit more about who I am and what drives me.
+##### **[About Me](about.qmd "Learn a bit more about who I am and what drives me.")**  Learn a bit more about who I am and what drives me.
 
-
-
-**[Projects](projects.qmd "See what I’ve been working on — from class projects to research.")**  See what I’ve been working on — from class projects to research.  
-
-
-
-**[Resources](resources.qmd  "Educational recommendations and resources I’ve put together.")**  Educational recommendations and resources I’ve put together.  
-
-
-
-**[Photos](fieldphotos.qmd "Browse photos from my adventures and explorations.")**  Browse photos from my adventures and explorations  
-
-
-
-**[Cat Corner](cats.qmd  "Meet my feline friends and discover which cat matches your personality.")**  Meet my feline friends and discover which cat matches your personality.
-
-
-
-
-</div>
-
-
-
-
-
-  
----
-
-<div style="text-align: center;">
-
-Feel free to wander, stay curious — and thanks for visiting!
-
-
+   
+    
+##### **[Projects](projects.qmd "See what I’ve been working on — from class projects to research.")** See what I’ve been working on — from class projects to research.  
+   
+   
+##### **[Resources](resources.qmd  "Educational recommendations and resources I’ve put together.")** Educational recommendations and resources I’ve put together.  
+   
+    
+##### **[Photos](fieldphotos.qmd "Browse photos from my adventures and explorations.")** Browse photos from my adventures and explorations  
+   
+    
+##### **[Cat Corner](cats.qmd  "Meet my feline friends and discover which cat matches your personality.")**  Meet my feline friends and discover which cat matches your personality.
+    
+    
+   
+###
+   
+   
+   
+   
+   
 *This site is still evolving. Thanks for your patience!*
-
+    
+ </div>
 </div>

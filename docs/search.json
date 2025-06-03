@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Greetings!",
     "section": "",
-    "text": "A place where curiosity leads the way and muddy boots are just part of the journey.\nThis site is a growing collection of projects, research, tutoring resources, adventure photos, and the occasional feline cameo."
+    "text": "A place where curiosity leads the way and muddy boots are just part of the journey. Feel free to wander, stay curious — and thanks for visiting!"
   },
   {
     "objectID": "about.html",
@@ -396,14 +396,14 @@
     "href": "index.html#site-contents",
     "title": "Greetings!",
     "section": "Site Contents",
-    "text": "Site Contents\nAbout Me Learn a bit more about who I am and what drives me.\nProjects See what I’ve been working on — from class projects to research.\nResources Educational recommendations and resources I’ve put together.\nPhotos Browse photos from my adventures and explorations\nCat Corner Meet my feline friends and discover which cat matches your personality."
+    "text": "Site Contents\nThis site is a growing collection of projects, research, tutoring resources, adventure photos, and the occasional feline cameo. Checkout the links below:\n\n\nAbout Me Learn a bit more about who I am and what drives me.\nProjects\n\nSee what I’ve been working on — from class projects to research.\nResources\n\n\nEducational recommendations and resources I’ve put together.\nPhotos\n\n\nBrowse photos from my adventures and explorations\nCat Corner\n\n\nMeet my feline friends and discover which cat matches your personality.\n\nThis site is still evolving. Thanks for your patience!"
   },
   {
     "objectID": "index.html#welcome-to-the-digital-habitat-of-rebecca-martinez",
     "href": "index.html#welcome-to-the-digital-habitat-of-rebecca-martinez",
     "title": "Greetings!",
     "section": "",
-    "text": "A place where curiosity leads the way and muddy boots are just part of the journey.\nThis site is a growing collection of projects, research, tutoring resources, adventure photos, and the occasional feline cameo."
+    "text": "A place where curiosity leads the way and muddy boots are just part of the journey. Feel free to wander, stay curious — and thanks for visiting!"
   },
   {
     "objectID": "experience.html#expand-to-read-resume",
@@ -411,5 +411,89 @@
     "title": "Experience",
     "section": "Expand to read Resume",
     "text": "Expand to read Resume\nRebecca Martinez\nGoleta, CA 93117\nrebecca_martinez@ucsb.edu | martinez.rl@hotmail.com\n\n\nObjective\nEnvironmental studies undergraduate with a strong background in mentorship and peer support, dedicated to empowering academic growth through experiential learning and collaborative research. Committed to fostering curiosity, teamwork, and shared achievements to build resilient communities and drive lasting positive change.\n\n\n\nEducation\nUniversity of California, Santa Barbara (UCSB) — Goleta, CA\n&gt; B.S. in Environmental Studies | Expected 2026\nAllan Hancock College — Santa Maria, CA\n&gt; A.S. in Biology, with honors | May 2024\n&gt; A.A. in Biology, with honors | May 2023\n&gt; A.A. in Mathematics and Science, with high honors | May 2021\n&gt; Information Technology Fundamentals (IT Certificate) | May 2024\n\n\n\nExperience\nUCSB Office of Education Partnerships (OEP) — Goleta, CA\nStudent Assistant | Sept 2024 – Present\n- Contribute to data collection, field site maintenance, and equipment repair for Island Spotted Skunk & Fog Harp projects on Santa Cruz Island.\n- Assist with updating field protocols and project documentation to support ongoing research.\n- Collaborate with a team to enhance project logistics and operational efficiency.\nSmithsonian Office of the Chief Information Officer (OCIO) — Remote\nData Science Lab Intern | May 2024 – August 2024\n- Led weekly RStudio sessions, adapting teaching methods to improve learning outcomes.\n- Mentored peers in applying research methodologies to real-world datasets.\n- Developed and refined resources to enhance data science comprehension.\nAllan Hancock College — Santa Maria, CA\nTeaching Assistant | Jan 2024 – May 2024\n- Managed lab operations, including setup, compliance, and student support.\n- Provided and created supplemental study materials to enhance student learning.\nLead Tutor | Aug 2020 – May 2024\n- Coordinated tutor schedules and assisted in campus-wide training initiatives.\n- Developed and delivered workshops to improve study skills and academic performance.\n- Collaborated with campus centers to enhance tutoring services and resources.\nPeer Tutor | Aug 2019 – May 2024\n- Provided academic support in STEM subjects through one-on-one and group sessions.\n- Assisted students in developing effective study and time management strategies.\n- Served as an embedded tutor in multiple science courses.\nChumash Casino Resort — Santa Ynez, CA\nSlot Attendant | Jan 2012 - May 2025\n- Troubleshoot and resolve slot machine issues, address disputes promptly and tactfully to ensure a seamless guest experience.\n- Ensure machines and equipment are functioning properly, maintaining the integrity of the gaming environment and upholding tribal gaming compliance.\nFloor Operations Supervisor | June 2007 - Jan 2012\n- Supervised daily operations for the slot and beverage departments, overseeing up to 75 team members per shift.\n- Developed staff schedules and ensured operational efficiency during peak times.\n- Addressed guest concerns to maintain a positive and safe environment.\nSecurity Officer | June 2006 - June 2007\n- Patrolled casino floor, staffed guard posts, and provided secure escorts.\n- Handled chip drops and safeguarded money movements across the property.\n\n\n\nSkills\n\nData analysis & visualization (RStudio)\n\nField research & data collection\n\nLeadership & mentoring\n\nCommunication & presentation\n\nMicrosoft Office Suite\n\nProblem-solving & adaptability\n\nTime management\n\nTeam collaboration\n\n\n\n\nReferences\nAvailable upon request."
+  },
+  {
+    "objectID": "index.html#section-1",
+    "href": "index.html#section-1",
+    "title": "Greetings!",
+    "section": "",
+    "text": "About Me\nLearn a bit more about who I am and what drives me."
+  },
+  {
+    "objectID": "index.html#section-2",
+    "href": "index.html#section-2",
+    "title": "Greetings!",
+    "section": "",
+    "text": "Projects\nSee what I’ve been working on — from class projects to research."
+  },
+  {
+    "objectID": "index.html#section-3",
+    "href": "index.html#section-3",
+    "title": "Greetings!",
+    "section": "",
+    "text": "Resources\nEducational recommendations and resources I’ve put together."
+  },
+  {
+    "objectID": "index.html#section-4",
+    "href": "index.html#section-4",
+    "title": "Greetings!",
+    "section": "",
+    "text": "Photos\nBrowse photos from my adventures and explorations"
+  },
+  {
+    "objectID": "index.html#section-5",
+    "href": "index.html#section-5",
+    "title": "Greetings!",
+    "section": "",
+    "text": "Cat Corner\nMeet my feline friends and discover which cat matches your personality."
+  },
+  {
+    "objectID": "index.html#section",
+    "href": "index.html#section",
+    "title": "Greetings!",
+    "section": "",
+    "text": "See what I’ve been working on — from class projects to research"
+  },
+  {
+    "objectID": "index.html#here-youll-find",
+    "href": "index.html#here-youll-find",
+    "title": "Greetings!",
+    "section": "Here you’ll find:",
+    "text": "Here you’ll find:\nLearn a bit more about who I am and what drives me"
+  },
+  {
+    "objectID": "index.html#about-me-learn-a-bit-more-about-who-i-am-and-what-drives-me.",
+    "href": "index.html#about-me-learn-a-bit-more-about-who-i-am-and-what-drives-me.",
+    "title": "Greetings!",
+    "section": "About Me Learn a bit more about who I am and what drives me.",
+    "text": "About Me Learn a bit more about who I am and what drives me."
+  },
+  {
+    "objectID": "index.html#projects-see-what-ive-been-working-on-from-class-projects-to-research.",
+    "href": "index.html#projects-see-what-ive-been-working-on-from-class-projects-to-research.",
+    "title": "Greetings!",
+    "section": "Projects See what I’ve been working on — from class projects to research.",
+    "text": "Projects See what I’ve been working on — from class projects to research."
+  },
+  {
+    "objectID": "index.html#resources-educational-recommendations-and-resources-ive-put-together.",
+    "href": "index.html#resources-educational-recommendations-and-resources-ive-put-together.",
+    "title": "Greetings!",
+    "section": "Resources Educational recommendations and resources I’ve put together.",
+    "text": "Resources Educational recommendations and resources I’ve put together."
+  },
+  {
+    "objectID": "index.html#photos-browse-photos-from-my-adventures-and-explorations",
+    "href": "index.html#photos-browse-photos-from-my-adventures-and-explorations",
+    "title": "Greetings!",
+    "section": "Photos Browse photos from my adventures and explorations",
+    "text": "Photos Browse photos from my adventures and explorations"
+  },
+  {
+    "objectID": "index.html#cat-corner-meet-my-feline-friends-and-discover-which-cat-matches-your-personality.",
+    "href": "index.html#cat-corner-meet-my-feline-friends-and-discover-which-cat-matches-your-personality.",
+    "title": "Greetings!",
+    "section": "Cat Corner Meet my feline friends and discover which cat matches your personality.",
+    "text": "Cat Corner Meet my feline friends and discover which cat matches your personality.\n\nThis site is still evolving. Thanks for your patience!"
   }
 ]
