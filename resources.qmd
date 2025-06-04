@@ -8,18 +8,22 @@ format:
 
 Welcome to my growing collection of educational tools and resources I’ve gathered or created over time. Feel free to explore, use what’s helpful, and share with others.
 
-## Human Anatomy
+***
+
+## **Human Anatomy**
 
 Here you'll find resources to help you learn structures of the human body.   
 
- <details>
-  <summary style="color: #4FA78D; cursor: pointer;"><strong>Interactive 3D Anatomy Model</strong></summary>
+### Interactive 3D Anatomy Model {.no-underline}
 
 Explore the human body in 3D with Zygote Body — an interactive tool that lets you zoom, rotate, and isolate individual structures.
 
+<details>
+  <summary style="color: #4FA78D; cursor: pointer;"><strong>Click to expand</strong></summary>
+
 <div class="clickable-links">
 
-#### [Visit Zygote Body](https://www.zygotebody.com/)
+[Visit Zygote Body](https://www.zygotebody.com/)
 
 </div>
 
@@ -27,48 +31,65 @@ Explore the human body in 3D with Zygote Body — an interactive tool that lets 
 
 </details>
 
-   
-<details>
-  <summary style="color: #4FA78D; cursor: pointer;"><strong>Quizlet Flashcards</strong></summary>
+---
+
+### Quizlet Flashcards {.no-underline}
 
 Created for Dr. Len Miyahara's BIO 124 course at Allan Hancock College in 2021. Material may differ. 
 
+<details>
+  <summary style="color: #4FA78D; cursor: pointer;"><strong>Click to expand</strong></summary>
+
+   
+   
+
 <div class="clickable-links">
 
-#### [Histology & Integumentary Systems](https://quizlet.com/user/Th3b3ckst3r/folders/histology-and-integumentary-system?i=2236oh&x=1xqt)
+[Histology & Integumentary Systems](https://quizlet.com/user/Th3b3ckst3r/folders/histology-and-integumentary-system?i=2236oh&x=1xqt)
 
-#### [Skeletal System](https://quizlet.com/user/Th3b3ckst3r/folders/skeletal-system?i=2236oh&x=1xqt)
+[Skeletal System](https://quizlet.com/user/Th3b3ckst3r/folders/skeletal-system?i=2236oh&x=1xqt)
 
-#### [Muscular System](https://quizlet.com/user/Th3b3ckst3r/folders/muscles?i=2236oh&x=1xqt)
+[Muscular System](https://quizlet.com/user/Th3b3ckst3r/folders/muscles?i=2236oh&x=1xqt)
 
-#### [Heart, Circulatory, & Respiratory Systems](https://quizlet.com/user/Th3b3ckst3r/folders/heart-circulatory-respiratory-systems?i=2236oh&x=1xqt)
+[Heart, Circulatory, & Respiratory Systems](https://quizlet.com/user/Th3b3ckst3r/folders/heart-circulatory-respiratory-systems?i=2236oh&x=1xqt)
 
-#### [Digestive, Urinary, & Reproductive Systems](https://quizlet.com/user/Th3b3ckst3r/folders/digestive-urinary-reproductive-systems?i=2236oh&x=1xqt)
+[Digestive, Urinary, & Reproductive Systems](https://quizlet.com/user/Th3b3ckst3r/folders/digestive-urinary-reproductive-systems?i=2236oh&x=1xqt)
 
-#### [Brain, Special Senses, & Nervous System](https://quizlet.com/user/Th3b3ckst3r/folders/nervous-system-brain-special-senses?i=2236oh&x=1xqt)
+[Brain, Special Senses, & Nervous System](https://quizlet.com/user/Th3b3ckst3r/folders/nervous-system-brain-special-senses?i=2236oh&x=1xqt)
 
 </div>
+
 </details>
 
+----
+
+### Visual Guides {.no-underline}
+
+*Under construction*
 
 <details>
-  <summary style="color: #4FA78D; cursor: pointer;"><strong>Visual Guides</strong></summary>
+  <summary style="color: #4FA78D; cursor: pointer;"><strong>Click to expand</strong></summary>
   
 <div class="clickable-links">
 
 *Coming soon...*
 
 </div>
+
 </details>
 
+---
 
-## Chemistry
+## **Chemistry**
 
 Here are resources to help you learn basic chemistry.
 
+### PhET Chemistry Simulations {.no-underline}
+
+Explore interactive chemistry simulations that help with understanding through visualizing.
+
 <details>
-  <summary style="color: #4FA78D; cursor: pointer;"><strong>PhET Chemistry Simulations</strong></summary>
-Explore interactive chemistry simulations that help make abstract concepts visible and understandable.
+  <summary style="color: #4FA78D; cursor: pointer;"><strong>Click to expand</strong></summary>
 
 <div class="clickable-links">
 
@@ -76,25 +97,25 @@ Explore interactive chemistry simulations that help make abstract concepts visib
 
 </div>
 
-#### Molecule Shapes
+#### Molecule Shapes {.no-underline}
 
 <iframe src="https://phet.colorado.edu/sims/html/molecule-shapes/latest/molecule-shapes_en.html" width="800"  height="600" allowfullscreen></iframe>
 
-
 </details>
 
+---
 
-## Math 
+## **Math**
 
 Explore a collection of helpful math tools and materials. 
 
 
+### Calculators {.no-underline}
+
+Below you will find a collection of free online calculators from desmos.
+
 <details>
-  <summary style="color: #4FA78D; cursor: pointer;"><strong>Calculators</strong></summary>
-
-### Calculators
-
-Below you will find a collection of free calculators by desmos.
+  <summary style="color: #4FA78D; cursor: pointer;"><strong>Click to expand</strong></summary>
 
 <div class="clickable-links">
 
@@ -102,52 +123,51 @@ Below you will find a collection of free calculators by desmos.
 
 </div>
 
-#### **Scientific**
+<b>Scientific</b>
 
-<iframe src="https://www.desmos.com/scientific"  height="500px" width="800px" allowfullscreen></iframe> 
+<iframe src="https://www.desmos.com/scientific" height="500px" width="800px" allowfullscreen></iframe>
 
-#### **Graphing**
+<b>Graphing</b>
 
-<iframe src="https://www.desmos.com/calculator"  height="500px" width="800px" allowfullscreen></iframe> 
+<iframe src="https://www.desmos.com/calculator" height="500px" width="800px" allowfullscreen></iframe>
+
 
 </details>
+
+---
+
+### Videos {.no-underline}
+
+These videos by Professor Leonard have been very helpful for learning math. If you find them useful, consider supporting him on [Patreon](https://patreon.com/ProfessorLeonard){target="_blank"}.
 
 <details>
-  <summary style="color: #4FA78D; cursor: pointer;"><strong>Videos</strong></summary>
+  <summary style="color: #4FA78D; cursor: pointer;"><strong>Click to expand</strong></summary>
 
-  <p>These playlists by Professor Leonard have been very helpful for understanding math concepts. If you find them useful, consider supporting him on <a href="https://patreon.com/ProfessorLeonard" target="_blank">Patreon</a>.</p>
+Prealgebra 
 
-<div class="video-gallery">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=NEOhx8UfkJX0yqzS&amp;list=PL4C9296DF81B9EF13" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
 
-  <div class="video-item">
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=NEOhx8UfkJX0yqzS&amp;list=PL4C9296DF81B9EF13" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <div class="video-caption">Prealgebra</div>
-  </div>
+Intermediate Algebra
 
-  <div class="video-item">
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=EHAp3F4FxbVPqf65&amp;list=PLC292123722B1B450" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <div class="video-caption">Intermediate Algebra</div>
-  </div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=EHAp3F4FxbVPqf65&amp;list=PLC292123722B1B450" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
 
-  <div class="video-item">
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=kQM-f31fKhrvQGyj&amp;list=PLF797E961509B4EB5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <div class="video-caption">Calculus 1</div>
-  </div>
+Calculus 1
 
-  <div class="video-item">
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=3zZp7AUIs7zTSfct&amp;list=PLDesaqWTN6EQ2J4vgsN1HyBeRADEh4Cw-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <div class="video-caption">Calculus 2</div>
-  </div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=kQM-f31fKhrvQGyj&amp;list=PLF797E961509B4EB5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
 
-  <div class="video-item">
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=SQBY7C57X3EQuWt3&amp;list=PLDesaqWTN6ESk16YRmzuJ8f6-rnuy0Ry7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <div class="video-caption">Calculus 3</div>
-  </div>
+Calculus 2
 
-  <div class="video-item">
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=n7DWTG6KgBmrtFDP&amp;list=PL5102DFDC6790F3D0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <div class="video-caption">Statistics</div>
-  </div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=3zZp7AUIs7zTSfct&amp;list=PLDesaqWTN6EQ2J4vgsN1HyBeRADEh4Cw-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
 
-</div>
+Calculus 3
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=SQBY7C57X3EQuWt3&amp;list=PLDesaqWTN6ESk16YRmzuJ8f6-rnuy0Ry7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
+
+Statistics
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=n7DWTG6KgBmrtFDP&amp;list=PL5102DFDC6790F3D0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 </details>
+
+---
+

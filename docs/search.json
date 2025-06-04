@@ -324,9 +324,9 @@
   {
     "objectID": "resources.html#visual-guides",
     "href": "resources.html#visual-guides",
-    "title": "Resources",
+    "title": "Resource Collection",
     "section": "Visual Guides",
-    "text": "Visual Guides\nComing soon…"
+    "text": "Visual Guides\nUnder construction\n\n\nClick to expand\n\n\nComing soon…\n\n\n\n\nChemistry\n\nHere are resources to help you learn basic chemistry."
   },
   {
     "objectID": "index.html#what-youll-find-here",
@@ -515,14 +515,14 @@
     "href": "resources.html#human-anatomy",
     "title": "Resource Collection",
     "section": "Human Anatomy",
-    "text": "Human Anatomy\nHere you’ll find resources to help you learn structures of the human body.\n\n\nInteractive 3D Anatomy Model\n\nExplore the human body in 3D with Zygote Body — an interactive tool that lets you zoom, rotate, and isolate individual structures.\n\nVisit Zygote Body\n\n\n\n\n\n\nQuizlet Flashcards\n\nCreated for Dr. Len Miyahara’s BIO 124 course at Allan Hancock College in 2021. Material may differ.\n\n\nHistology & Integumentary Systems\n\n\nSkeletal System\n\n\nMuscular System\n\n\nHeart, Circulatory, & Respiratory Systems\n\n\nDigestive, Urinary, & Reproductive Systems\n\n\nBrain, Special Senses, & Nervous System\n\n\n\n\n\nVisual Guides\n\n\nComing soon…"
+    "text": "Human Anatomy\nHere you’ll find resources to help you learn structures of the human body.\n\nInteractive 3D Anatomy Model\nExplore the human body in 3D with Zygote Body — an interactive tool that lets you zoom, rotate, and isolate individual structures.\n\n\nClick to expand\n\n\nVisit Zygote Body\n\n\n\n\n\n\n\nQuizlet Flashcards\nCreated for Dr. Len Miyahara’s BIO 124 course at Allan Hancock College in 2021. Material may differ.\n\n\nClick to expand\n\n\nHistology & Integumentary Systems\nSkeletal System\nMuscular System\nHeart, Circulatory, & Respiratory Systems\nDigestive, Urinary, & Reproductive Systems\nBrain, Special Senses, & Nervous System\n\n\n\n\n\nVisual Guides\nUnder construction\n\n\nClick to expand\n\n\nComing soon…"
   },
   {
     "objectID": "resources.html#chemistry",
     "href": "resources.html#chemistry",
     "title": "Resource Collection",
     "section": "Chemistry",
-    "text": "Chemistry\nHere are resources to help you learn basic chemistry.\n\n\nPhET Chemistry Simulations\n\nExplore interactive chemistry simulations that help make abstract concepts visible and understandable.\n\nMore PhET Simulations\n\n\nMolecule Shapes"
+    "text": "Chemistry\nHere are resources to help you learn basic chemistry.\n\nPhET Chemistry Simulations\nExplore interactive chemistry simulations that help with understanding through visualizing.\n\n\nClick to expand\n\n\nMore PhET Simulations\n\n\nMolecule Shapes"
   },
   {
     "objectID": "projects.html#school-ucsb",
@@ -543,14 +543,14 @@
     "href": "resources.html#calculators",
     "title": "Resource Collection",
     "section": "Calculators",
-    "text": "Calculators\nHere are free online calculators by desmos.\n\n\nScientific\n\n\n\n\n\n\nGraphing"
+    "text": "Calculators\nBelow you will find a collection of free online calculators from desmos.\n\n\nClick to expand\n\n\nDesmos Website\n\n\nScientific\n\n\n\n\nGraphing"
   },
   {
     "objectID": "resources.html#math",
     "href": "resources.html#math",
     "title": "Resource Collection",
     "section": "Math",
-    "text": "Math\nExplore a collection of helpful math tools and materials.\n\n\nCalculators\n\n\nCalculators\nBelow you will find a collection of free calculators by desmos.\n\nDesmos Website\n\n\nScientific\n\n\n\n\nGraphing\n\n\n\n\n\nVideos\n\n\nThese playlists by Professor Leonard have been very helpful for understanding math concepts. If you find them useful, consider supporting him on Patreon.\n\n\n\n\n\nPrealgebra\n\n\n\n\n\nIntermediate Algebra\n\n\n\n\n\nCalculus 1\n\n\n\n\n\nCalculus 2\n\n\n\n\n\nCalculus 3\n\n\n\n\n\nStatistics"
+    "text": "Math\nExplore a collection of helpful math tools and materials.\n\nCalculators\nBelow you will find a collection of free online calculators from desmos.\n\n\nClick to expand\n\n\nDesmos Website\n\nScientific\n\n\nGraphing\n\n\n\n\n\n\nVideos\nThese videos by Professor Leonard have been very helpful for learning math. If you find them useful, consider supporting him on Patreon.\n\n\nClick to expand\n\nPrealgebra\n\n\nIntermediate Algebra\n\n\nCalculus 1\n\n\nCalculus 2\n\n\nCalculus 3\n\n\nStatistics"
   },
   {
     "objectID": "resources.html#math-video-resources",
@@ -684,5 +684,40 @@
     "title": "Projects",
     "section": "UCSB ENVS 193DS – Data Science for Environmental Studies",
     "text": "UCSB ENVS 193DS – Data Science for Environmental Studies\nOngoing project that explores the relationship between lighting conditions and service calls using a self-collected dataset (n=108). Created a bar chart, summary table, and a blinking lightboard animation (gif). See visuals.\n\nTools Used:\nRStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto\n\n\nReflection:\nThis project made me think harder about data than I expected. After collecting and working with my own dataset, I gained a deeper respect for the messiness of real-world data.\n\n\nCode Snippet:\nclean_service_data &lt;- service_data |&gt;\n  mutate(\n    help = as.logical(toupper(help)),\n    working = as.logical(toupper(working))\n  )\n\n\nVisuals:\n\nService Light TableService Light Bar ChartBlinking Lights Animation\n\n\n\n\n\nService Light Table\n\n\n\n\n\n\n\nBar Chart\n\n\n\n\n\n\n\nBlinking Lights Animation\n\n\n\n\n\n\n\nResources\nGitHub Repo\nView Live"
+  },
+  {
+    "objectID": "resources.html#videos",
+    "href": "resources.html#videos",
+    "title": "Resource Collection",
+    "section": "Videos",
+    "text": "Videos\nThese videos by Professor Leonard have been very helpful for learning math. If you find them useful, consider supporting him on Patreon.\n\n\nClick to expand\n\n\nPrealgebra\n\n\n\n\nIntermediate Algebra\n\n\n\n\nCalculus 1\n\n\n\n\nCalculus 2\n\n\n\n\nCalculus 3\n\n\n\n\nStatistics"
+  },
+  {
+    "objectID": "resources.html#interactive-3d-anatomy-model",
+    "href": "resources.html#interactive-3d-anatomy-model",
+    "title": "Resource Collection",
+    "section": "Interactive 3D Anatomy Model",
+    "text": "Interactive 3D Anatomy Model\nExplore the human body in 3D with Zygote Body — an interactive tool that lets you zoom, rotate, and isolate individual structures.\n\n\nClick to expand\n\n\nVisit Zygote Body\n\n\n\n\n\n\nQuizlet Flashcards\nCreated for Dr. Len Miyahara’s BIO 124 course at Allan Hancock College in 2021. Material may differ.\n\n\nClick to expand\n\n\nHistology & Integumentary Systems\nSkeletal System\nMuscular System\nHeart, Circulatory, & Respiratory Systems\nDigestive, Urinary, & Reproductive Systems\nBrain, Special Senses, & Nervous System\n\n\n\n\n\nVisual Guides\nUnder construction\n\n\nClick to expand\n\n\nComing soon…"
+  },
+  {
+    "objectID": "resources.html#quizlet-flashcards",
+    "href": "resources.html#quizlet-flashcards",
+    "title": "Resource Collection",
+    "section": "Quizlet Flashcards",
+    "text": "Quizlet Flashcards\nCreated for Dr. Len Miyahara’s BIO 124 course at Allan Hancock College in 2021. Material may differ.\n\n\nClick to expand\n\n\nHistology & Integumentary Systems\nSkeletal System\nMuscular System\nHeart, Circulatory, & Respiratory Systems\nDigestive, Urinary, & Reproductive Systems\nBrain, Special Senses, & Nervous System"
+  },
+  {
+    "objectID": "resources.html#phet-chemistry-simulations",
+    "href": "resources.html#phet-chemistry-simulations",
+    "title": "Resource Collection",
+    "section": "PhET Chemistry Simulations",
+    "text": "PhET Chemistry Simulations\nExplore interactive chemistry simulations that help with understanding through visualizing.\n\n\nClick to expand\n\n\nMore PhET Simulations\n\n\nMolecule Shapes\n\n\n\n\n\nMath\n\nExplore a collection of helpful math tools and materials."
+  },
+  {
+    "objectID": "resources.html#Calculators",
+    "href": "resources.html#Calculators",
+    "title": "Resource Collection",
+    "section": "Calculators",
+    "text": "Calculators\nBelow you will find a collection of free online calculators from desmos.\n\n\nClick to expand\n\n\nDesmos Website\n\n\nScientific\n\n\n\n\nGraphing"
   }
 ]

@@ -35,6 +35,13 @@ h2 { border-bottom: 2px solid #4FA78D; }
 h3 { border-bottom: 1px solid #4FA78D; }
 h4 { color: #2b7a78; }       /* Slightly darker teal */
 
+.no-underline {
+  border-bottom: none !important;
+  text-decoration: none !important;
+  padding-bottom: 0 !important;
+}
+
+
 /* 
 ====================================
 FIXED FOOTER & NAVIGATION
@@ -384,31 +391,3 @@ Styled like interactive buttons
   }
 }
 
-.video-gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1rem;
-  padding: 1rem 0;
-}
-
-.video-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.video-item iframe {
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  border: none;
-  border-radius: 8px;
-  box-shadow: 0 0 8px rgba(0,0,0,0.1);
-}
-
-.video-caption {
-  margin-top: 0.5rem;
-  font-size: 0.9rem;
-  color: #4FA78D;
-  font-weight: 600;
-  text-align: center;
-}
