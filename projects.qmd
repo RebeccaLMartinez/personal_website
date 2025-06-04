@@ -5,6 +5,7 @@ format:
     theme: darkly
     css: styles.css
     includes:
+      in-body: fontawesome.html
       after-body: modal.js
 ---
 
@@ -12,27 +13,24 @@ format:
 
 This page highlights some of my work from classes and research.
 
-
 ***
 
-# Academic
+# 💡 Service Light (Personal Data) 
+<details>
+  <summary style="color: #4FA78D; cursor: pointer;">Click to expand</summary>
 
- <details>
-  <summary style="color: #4FA78D; cursor: pointer;"><strong>💡 Service Light (Personal Data)</strong></summary>
-
-### UCSB
-
-#### **Course:** ENVS 193DS – Data Science for Environmental Studies  
+**University of California, Santa Barbara (UCSB)**  
+*ENVS 193DS – Data Science for Environmental Studies*
 
 Ongoing project that explores the relationship between lighting conditions and service calls using a self-collected dataset (n=108). Created a bar chart, summary table, and a blinking lightboard animation (gif). See visuals.
 
-#### **Tools Used:**  
+### **Tools Used:**  
 RStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto
 
-#### **Reflection:**  
+### **Reflection:**  
 This project made me think harder about data than I expected. After collecting and working with my own dataset, I gained a deeper respect for the messiness of real-world data.
 
-#### **Code Snippet:**
+### **Code Snippet:**
 
 ```r
 clean_service_data <- service_data |>
@@ -41,59 +39,94 @@ clean_service_data <- service_data |>
     working = as.logical(toupper(working))
   )
 ```
-#### **Visuals:**  
+
+### **Visuals:**  
 
 :::{.panel-tabset}
 
-## Service Light Table
+#### Service Light Table
 
 [![Service Light Table](/media/light_table.jpg)](/media/light_table.jpg){target="_blank"}
 
-## Service Light Bar Chart
+#### Service Light Bar Chart
 
 [![Bar Chart](/media/service_light_bar.jpg)](/media/service_light_bar.jpg){target="_blank"}
 
-## Blinking Lights Animation
+#### Blinking Lights Animation
 
 [![Blinking Lights Animation](/media/blinking_lights.gif)](/media/blinking_lights.gif){target="_blank"}
 
 :::
 
 
-#### **Resources**
+### **Resources**
 
-[GitHub Repo](https://github.com/RebeccaLMartinez/ENVS-193DS_homework-03) 
+<a href="https://rebeccalmartinez.github.io/ENVS-193DS_homework-03/code/ENVS-193DS_homework-03.html" target="_blank" style="
+    color: white; 
+    padding: 8px 12px; 
+    cursor: pointer; 
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    border-radius: 4px;
+    display: inline-block;
+" 
+   onmouseover="this.style.backgroundColor='#4FA78D';" 
+   onmouseout="this.style.backgroundColor='transparent';">
+  View Live
+</a>
+|
+<a href="https://github.com/RebeccaLMartinez/ENVS-193DS_homework-03" target="_blank" style="
+    color: white; 
+    padding: 8px 12px; 
+    cursor: pointer; 
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    border-radius: 4px;
+    display: inline-block;
+" 
+   onmouseover="this.style.backgroundColor='#4FA78D';" 
+   onmouseout="this.style.backgroundColor='transparent';">
+  GitHub Repo
+</a>
 
-[View Live](https://rebeccalmartinez.github.io/ENVS-193DS_homework-03/code/ENVS-193DS_homework-03.html)
+---
 
 </details>
 
 
-# Research
+# 🌱 Soil Bioturbation
 
-
-<!-- Soil Bioturbation -->
 <details>
-  <summary style="color: #4FA78D; cursor: pointer;"><strong>🌱 Soil Bioturbation</strong></summary>
-_Under construction…_  
-   </details>
+  <summary style="color: #4FA78D; cursor: pointer;">Click to expand</summary>
+  
+_Under construction…_
+
+---
+
+</details>
 
 
-<!-- Fog Harp Device -->
+# 💧 Fog Harp
+
 <details>
-  <summary style="color: #4FA78D; cursor: pointer;"><strong> 💧 Fog Harp</strong></summary>
-_Under construction…_  
-   </details>
+  <summary style="color: #4FA78D; cursor: pointer;">Click to expand</summary>
+  
+_Under construction…_
 
-<!-- Skunk Camera -->
+---
+
+</details>
+
+
+# 🦨 Skunk Population
+
 <details>
-  <summary style="color: #4FA78D; cursor: pointer;"><strong> 🦨 Skunk Population</strong></summary>
-_Under construction…_  
-   </details>
+  <summary style="color: #4FA78D; cursor: pointer;">Click to expand</summary>
 
+_Under construction…_
 
-# Other  
+---
 
-*Coming soon…*
+</details>
 
-
+--- 

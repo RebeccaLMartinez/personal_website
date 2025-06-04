@@ -17,17 +17,22 @@ Welcome! Here you can view my professional resume and, soon, my detailed curricu
 ## Resume
 
 
-[⬇️ Download Resume](media/resume_rm.pdf){.btn target="_blank"}
+[⬇ Download Resume](media/resume_rm.pdf){.btn target="_blank"}
 
 
 <details>
   <summary style="color: #4FA78D; cursor: pointer;"><strong>Expand to view resume</strong></summary>
-
-
-**Rebecca Martinez**  
+  
+<div style="text-align: center;">
+   
+---
+   
+<p style="font-size: 26px;color: #4FA78D;">**Rebecca Martinez**</p>  
 Goleta, CA 93117  
 
-<span class="email" style="color:#8bd9b1;">rebecca_martinez@ucsb.edu | martinez.rl@hotmail.com</span> 
+  <a href="mailto:rebecca_martinez@ucsb.edu" style="text-decoration: none;">📧</a>
+  <a href="mailto:martinez.rl@hotmail.com" style="text-decoration: none; margin-left: 10px;">✉️</a>
+</div>
 
 
 ### Objective
@@ -118,6 +123,7 @@ Environmental studies undergraduate with a strong background in mentorship and p
 *Available upon request.*
 
 
+---
 
 </details>
 
@@ -125,12 +131,14 @@ Environmental studies undergraduate with a strong background in mentorship and p
 
 ## CV
 
-[⬇️ Download Not Yet Available](){.btn target="_blank"}
+[⬇ Download Not Yet Available](){.btn target="_blank"}
 
 <details>
   <summary style="color: #4FA78D; cursor: pointer;"><strong>Expand to view CV</strong></summary>
 
 
 *Coming soon*
+
+---
 
 </details>

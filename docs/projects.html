@@ -116,12 +116,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#academic" id="toc-academic" class="nav-link active" data-scroll-target="#academic">Academic</a>
+  <li><a href="#service-light-personal-data" id="toc-service-light-personal-data" class="nav-link active" data-scroll-target="#service-light-personal-data">💡 Service Light (Personal Data)</a>
   <ul class="collapse">
-  <li><a href="#ucsb" id="toc-ucsb" class="nav-link" data-scroll-target="#ucsb">UCSB</a></li>
+  <li><a href="#tools-used" id="toc-tools-used" class="nav-link" data-scroll-target="#tools-used"><strong>Tools Used:</strong></a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><strong>Reflection:</strong></a></li>
+  <li><a href="#code-snippet" id="toc-code-snippet" class="nav-link" data-scroll-target="#code-snippet"><strong>Code Snippet:</strong></a></li>
+  <li><a href="#visuals" id="toc-visuals" class="nav-link" data-scroll-target="#visuals"><strong>Visuals:</strong></a></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources"><strong>Resources</strong></a></li>
   </ul></li>
-  <li><a href="#research" id="toc-research" class="nav-link" data-scroll-target="#research">Research</a></li>
-  <li><a href="#other" id="toc-other" class="nav-link" data-scroll-target="#other">Other</a></li>
+  <li><a href="#soil-bioturbation" id="toc-soil-bioturbation" class="nav-link" data-scroll-target="#soil-bioturbation">🌱 Soil Bioturbation</a></li>
+  <li><a href="#fog-harp" id="toc-fog-harp" class="nav-link" data-scroll-target="#fog-harp">💧 Fog Harp</a></li>
+  <li><a href="#skunk-population" id="toc-skunk-population" class="nav-link" data-scroll-target="#skunk-population">🦨 Skunk Population</a></li>
   </ul>
 </nav>
     </div>
@@ -149,36 +154,33 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <p>This page highlights some of my work from classes and research.</p>
 <hr>
-<section id="academic" class="level1">
-<h1>Academic</h1>
+<section id="service-light-personal-data" class="level1">
+<h1>💡 Service Light (Personal Data)</h1>
 <details>
 <summary style="color: #4FA78D; cursor: pointer;">
-<strong>💡 Service Light (Personal Data)</strong>
+Click to expand
 </summary>
-<section id="ucsb" class="level3">
-<h3 class="anchored" data-anchor-id="ucsb">UCSB</h3>
-<section id="course-envs-193ds-data-science-for-environmental-studies" class="level4">
-<h4 class="anchored" data-anchor-id="course-envs-193ds-data-science-for-environmental-studies"><strong>Course:</strong> ENVS 193DS – Data Science for Environmental Studies</h4>
+<p><strong>University of California, Santa Barbara (UCSB)</strong><br>
+<em>ENVS 193DS – Data Science for Environmental Studies</em></p>
 <p>Ongoing project that explores the relationship between lighting conditions and service calls using a self-collected dataset (n=108). Created a bar chart, summary table, and a blinking lightboard animation (gif). See visuals.</p>
-</section>
-<section id="tools-used" class="level4">
-<h4 class="anchored" data-anchor-id="tools-used"><strong>Tools Used:</strong></h4>
+<section id="tools-used" class="level3">
+<h3 class="anchored" data-anchor-id="tools-used"><strong>Tools Used:</strong></h3>
 <p>RStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto</p>
 </section>
-<section id="reflection" class="level4">
-<h4 class="anchored" data-anchor-id="reflection"><strong>Reflection:</strong></h4>
+<section id="reflection" class="level3">
+<h3 class="anchored" data-anchor-id="reflection"><strong>Reflection:</strong></h3>
 <p>This project made me think harder about data than I expected. After collecting and working with my own dataset, I gained a deeper respect for the messiness of real-world data.</p>
 </section>
-<section id="code-snippet" class="level4">
-<h4 class="anchored" data-anchor-id="code-snippet"><strong>Code Snippet:</strong></h4>
+<section id="code-snippet" class="level3">
+<h3 class="anchored" data-anchor-id="code-snippet"><strong>Code Snippet:</strong></h3>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>clean_service_data <span class="ot">&lt;-</span> service_data <span class="sc">|&gt;</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="at">help =</span> <span class="fu">as.logical</span>(<span class="fu">toupper</span>(help)),</span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">working =</span> <span class="fu">as.logical</span>(<span class="fu">toupper</span>(working))</span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="visuals" class="level4">
-<h4 class="anchored" data-anchor-id="visuals"><strong>Visuals:</strong></h4>
+<section id="visuals" class="level3">
+<h3 class="anchored" data-anchor-id="visuals"><strong>Visuals:</strong></h3>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Service Light Table</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Service Light Bar Chart</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Blinking Lights Animation</a></li></ul>
 <div class="tab-content">
@@ -209,44 +211,59 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </section>
-<section id="resources" class="level4">
-<h4 class="anchored" data-anchor-id="resources"><strong>Resources</strong></h4>
-<p><a href="https://github.com/RebeccaLMartinez/ENVS-193DS_homework-03">GitHub Repo</a></p>
-<p><a href="https://rebeccalmartinez.github.io/ENVS-193DS_homework-03/code/ENVS-193DS_homework-03.html">View Live</a></p>
-</section></section></details>
+<section id="resources" class="level3">
+<h3 class="anchored" data-anchor-id="resources"><strong>Resources</strong></h3>
+<p><a href="https://rebeccalmartinez.github.io/ENVS-193DS_homework-03/code/ENVS-193DS_homework-03.html" target="_blank" style="
+    color: white; 
+    padding: 8px 12px; 
+    cursor: pointer; 
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    border-radius: 4px;
+    display: inline-block;
+" onmouseover="this.style.backgroundColor='#4FA78D';" onmouseout="this.style.backgroundColor='transparent';"> View Live </a> | <a href="https://github.com/RebeccaLMartinez/ENVS-193DS_homework-03" target="_blank" style="
+    color: white; 
+    padding: 8px 12px; 
+    cursor: pointer; 
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    border-radius: 4px;
+    display: inline-block;
+" onmouseover="this.style.backgroundColor='#4FA78D';" onmouseout="this.style.backgroundColor='transparent';"> GitHub Repo </a></p>
+<hr>
+</section></details>
 </section>
 
-
-<section id="research" class="level1">
-<h1>Research</h1>
-<!-- Soil Bioturbation -->
+<section id="soil-bioturbation" class="level1">
+<h1>🌱 Soil Bioturbation</h1>
 <details>
 <summary style="color: #4FA78D; cursor: pointer;">
-<strong>🌱 Soil Bioturbation</strong>
+Click to expand
 </summary>
-<em>Under construction…</em><br>
-
-</details>
-<!-- Fog Harp Device -->
-<details>
-<summary style="color: #4FA78D; cursor: pointer;">
-<strong> 💧 Fog Harp</strong>
-</summary>
-<em>Under construction…</em><br>
-
-</details>
-<!-- Skunk Camera -->
-<details>
-<summary style="color: #4FA78D; cursor: pointer;">
-<strong> 🦨 Skunk Population</strong>
-</summary>
-<em>Under construction…</em><br>
-
+<p><em>Under construction…</em></p>
+<hr>
 </details>
 </section>
-<section id="other" class="level1">
-<h1>Other</h1>
-<p><em>Coming soon…</em></p>
+<section id="fog-harp" class="level1">
+<h1>💧 Fog Harp</h1>
+<details>
+<summary style="color: #4FA78D; cursor: pointer;">
+Click to expand
+</summary>
+<p><em>Under construction…</em></p>
+<hr>
+</details>
+</section>
+<section id="skunk-population" class="level1">
+<h1>🦨 Skunk Population</h1>
+<details>
+<summary style="color: #4FA78D; cursor: pointer;">
+Click to expand
+</summary>
+<p><em>Under construction…</em></p>
+<hr>
+</details>
+<hr>
 
 
 </section>
