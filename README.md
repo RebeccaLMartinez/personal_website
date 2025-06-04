@@ -1,70 +1,66 @@
 # Rebecca L. Martinez – Personal Website
 
-Welcome to my personal website! This site showcases my work and life. Built with Quarto, RStudio, and lots of online searches.
-
-[Live Site](https://rebeccalmartinez.github.io/personal_website)
-
-[GitHub Repository](https://github.com/RebeccaLMartinez/)
-
-
- 
+Welcome! This site is a growing collection of my work, interests, and projects.
+🔗 [**Live Website**](https://rebeccalmartinez.github.io/personal_website)  
+💻 [**GitHub Repository**](https://github.com/RebeccaLMartinez/personal_website)
 
 ---
 
+## 📄 Pages & Content Overview
 
-## Pages & Files Overview
+### [`index.qmd`](index.qmd) – **Home**  
+Landing page with a brief introduction and site navigation.
 
-### `index.qmd` – Home  
-Landing page with a short introduction and welcome.
+### [`about.qmd`](about.qmd) – **About Me**  
+My background, education, and journey through community college to research and mentorship.
 
-### `about.qmd` – About Me  
-Personal background and education summary.
+### [`projects.qmd`](projects.qmd) – **Projects**  
+Highlights from academic, field, and coding projects:
+- **Service Light Data** – R-based data visualization with animated GIFs and tables
+- **Soil Bioturbation Study** – Field project on mammalian soil disturbance _(in progress)_
+- **Fog Harp Device** – Experimental fog-water harvesting device _(in progress)_  
+- **Skunk Population Research** – Camera-trap study on Santa Cruz Island _(in progress)_  
 
-### `projects.qmd` – Projects  
-Highlights data science and research projects:
+### [`cats.qmd`](cats.qmd) – **Cat Page 🐱**  
+A fun, interactive page featuring cat bios and a quiz.
+_Status: Live and expanding!_
 
-- **Service Light Data Project** – Includes R code, bar chart, table, and animated GIF.  
-- **Fog Harp Device** – Fog-water harvesting device (under construction).  
-- **Skunk Population** – Camera-trap research on Santa Cruz Island (under construction).  
-- **Soil Bioturbation by Mammals** – Field study on mammal-driven soil disturbance (under construction).
+### [`fieldphotos.qmd`](fieldphotos.qmd) – **Field Photos**  
+Collection of field research photos.  
+ _Status: In progress_
 
-### `cats.qmd` – Cat Page 🐱  
-A fun, themed page about my cats, including a quiz.
+### [`experience.qmd`](experience.qmd) – **Resume & CV**  
+Professional experience and academic background. 
+- Resume
+- CV _(in progress)_
 
-### `fieldphotos.qmd` – Photos  
-Placeholder for photos.  
-_Status: In progress_
-
-### `experience.qmd` – Resume & CV  
-Placeholder for resume and CV content.  
-_Status: In progress_
-
-### `resources.qmd` – Resources 
-Not created yet, but will host recommended educational resources including materials I've made.
----
-
-## Supporting Files
-
-### `media/`  
-Folder containing images and GIFs used in projects (e.g., bar chart, table, blinking lights).
-
-### `_footer.html`  
-Custom site footer used across all pages.
-
-### `styles.css`  
-Custom CSS for consistent styling and layout.
-
-### `quiz.html` 
-A playful quiz to match you with a cat type.
+### [`resources.qmd`](resources.qmd) – **Resource Collection**  
+Educational tools and links I've created or curated, including:
+- 3D anatomy models  
+- Flashcards  
+- Chemistry sims  
+- Desmos calculators  
+- Math video series  
+Status: Live and expanding!_
 
 ---
 
-## Built With
+## 📁 Supporting Files & Structure
 
-- **Quarto** + HTML/CSS/JavaScript
-- **R** (tidyverse, gganimate, ggfx, flextable, janitor, showtext)
-- **GitHub Pages** for hosting
+- **`media/`** – Images and GIFs used across pages (e.g., blinking LEDs, anatomy diagrams)  
+- **`_footer.html`** – Custom footer included site-wide  
+- **`styles.css`** – Custom CSS for visual design and layout consistency  
+- **`quiz.html`** – Standalone cat quiz embedded in the site
 
 ---
 
-> Thanks for stopping by!
+## 🛠️ Built With
+
+- [**Quarto**](https://quarto.org/)
+- [**R**](https://www.r-project.org/)
+- [**GitHub Pages**](https://pages.github.com/)
+
+And lots of curiosity!
+---
+
+> Thanks for visiting — feel free to explore, reuse, and share!
