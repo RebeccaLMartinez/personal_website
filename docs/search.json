@@ -74,7 +74,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "This page highlights some of my work from classes and research.\n\n\nSchool\n\n\n\n💡 Service Light Personal Data\n\n\n\nSchool: UCSB\nCourse: ENVS 193DS – Data Science for Environmental Studies\nOngoing project that explores the relationship between lighting conditions and service calls using a self-collected dataset (n=108). Created a bar chart, summary table, and a blinking lightboard animation (gif). See visuals.\nTools Used:\nRStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto\nReflection:\nThis project made me think harder about data than I expected. After collecting and working with my own dataset, I gained a deeper respect for the messiness of real-world data.\nCode Snippet:\nclean_service_data &lt;- service_data |&gt;\n  mutate(\n    help = as.logical(toupper(help)),\n    working = as.logical(toupper(working))\n  )\nVisuals:\n\nService Light TableService Light Bar ChartBlinking Lights\n\n\n  \n\n\n  \n\n\n  \n\n\n\nResources\nGitHub Repo\nView Live\n\n\n\n\nResearch\n&lt;– Soil Bioturbation –&gt;\n\n\n🌱 Soil Bioturbation\n\n\nUnder construction…\n\n\n\n\n\n💧 Fog Harp\n\n\nUnder construction…\n\n\n\n\n\n🦨 Skunk Population\n\n\nUnder construction…\n\n\n\n\nOther\nComing soon…\n\n\n×"
+    "text": "This page highlights some of my work from classes and research.\n\n\nAcademic\n\n\n💡 Service Light (Personal Data)\n\n\nUCSB\n\nCourse: ENVS 193DS – Data Science for Environmental Studies\nOngoing project that explores the relationship between lighting conditions and service calls using a self-collected dataset (n=108). Created a bar chart, summary table, and a blinking lightboard animation (gif). See visuals.\n\n\nTools Used:\nRStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto\n\n\nReflection:\nThis project made me think harder about data than I expected. After collecting and working with my own dataset, I gained a deeper respect for the messiness of real-world data.\n\n\nCode Snippet:\nclean_service_data &lt;- service_data |&gt;\n  mutate(\n    help = as.logical(toupper(help)),\n    working = as.logical(toupper(working))\n  )\n\n\nVisuals:\n\nService Light TableService Light Bar ChartBlinking Lights Animation\n\n\n\n\n\nService Light Table\n\n\n\n\n\n\n\nBar Chart\n\n\n\n\n\n\n\nBlinking Lights Animation\n\n\n\n\n\n\n\nResources\nGitHub Repo\nView Live\n\n\n\n\n\nResearch\n\n\n\n🌱 Soil Bioturbation\n\nUnder construction…\n\n\n\n\n\n 💧 Fog Harp\n\nUnder construction…\n\n\n\n\n\n 🦨 Skunk Population\n\nUnder construction…\n\n\n\n\nOther\nComing soon…"
   },
   {
     "objectID": "about.html#my-path",
@@ -256,21 +256,21 @@
     "href": "projects.html#school",
     "title": "Projects",
     "section": "School",
-    "text": "School\n\n\n\n💡 Service Light Data Project\n\n\n\nSchool: UCSB\nCourse: ENVS 193DS – Data Science for Environmental Studies\nOngoing project that explores the relationship between lighting conditions and service calls using a self-collected dataset (n=108). Created a bar chart, summary table, and a blinking lightboard animation (gif). See visuals.\nTools Used:\nRStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto\nReflection:\nThis project made me think harder about data than I expected. After collecting and working with my own dataset, I gained a deeper respect for the messiness of real-world data.\nCode Snippet:\nclean_service_data &lt;- service_data |&gt;\n  mutate(\n    help = as.logical(toupper(help)),\n    working = as.logical(toupper(working))\n  )\nVisuals:\n\n\n\nService Light Table\n\n\n\n\n\nService Light Graph\n\n\n\n Service Light Visual\n\nResources\nGitHub Repo\nView Live"
+    "text": "School\n\n\nService Light (Personal Data)\n\nSchool: UCSB\nCourse: ENVS 193DS – Data Science for Environmental Studies\nOngoing project that explores the relationship between lighting conditions and service calls using a self-collected dataset (n=108). Created a bar chart, summary table, and a blinking lightboard animation (gif). See visuals.\nTools Used:\nRStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto\nReflection:\nThis project made me think harder about data than I expected. After collecting and working with my own dataset, I gained a deeper respect for the messiness of real-world data.\nCode Snippet:\nclean_service_data &lt;- service_data |&gt;\n  mutate(\n    help = as.logical(toupper(help)),\n    working = as.logical(toupper(working))\n  )\nVisuals:\n\nService Light TableService Light Bar ChartBlinking Lights\n\n\n  \n\n\n  \n\n\n  \n\n\n\nResources\nGitHub Repo\nView Live"
   },
   {
     "objectID": "projects.html#research",
     "href": "projects.html#research",
     "title": "Projects",
     "section": "Research",
-    "text": "Research\n\n\n\n💧 Fog Harp Device\n\n\nAffiliation: UCSB Office of Education Partnerships\nDesigning and testing fogwater (fog harp) monitoring devices.\n\n\n\n\n🦨 Skunk Population\n\n\nAffiliation: UCSB-Smithsonian Scholars Program (OEP)\nUndergraduate research using camera traps to monitor and quantify skunk populations on Santa Cruz Island.\n\n\n\n\n🌱 Soil Bioturbation by Mammals\n\n\ns\n\n\nAffiliation: UCNRS Field Science Fellowship\nMentor: Dr. Iris Holzer\nInvestigating how small mammals like gophers and ground squirrels influence soil processes through bioturbation. Includes paired site comparisons.\n\n\n\n\nOther\nComing soon\n\n\n\n×"
+    "text": "Research\n\n\n\n🌱 Soil Bioturbation\n\nUnder construction…\n\n\n\n\n\n 💧 Fog Harp\n\nUnder construction…\n\n\n\n\n\n 🦨 Skunk Population\n\nUnder construction…"
   },
   {
     "objectID": "projects.html#other",
     "href": "projects.html#other",
     "title": "Projects",
     "section": "Other",
-    "text": "Other\nComing soon\n\n\n\n×"
+    "text": "Other\nComing soon…\n\n\n×"
   },
   {
     "objectID": "about.html#my-journey",
@@ -523,5 +523,19 @@
     "title": "Resource Collection",
     "section": "Chemistry",
     "text": "Chemistry\nHere are resources to help you learn basic chemistry.\n\n\nPhET Chemistry Simulations\n\nExplore interactive chemistry simulations that help make abstract concepts visible and understandable.\n\nMore PhET Simulations\n\n\nMolecule Shapes"
+  },
+  {
+    "objectID": "projects.html#school-ucsb",
+    "href": "projects.html#school-ucsb",
+    "title": "Projects",
+    "section": "School: UCSB",
+    "text": "School: UCSB\n\nCourse: ENVS 193DS – Data Science for Environmental Studies\nOngoing project that explores the relationship between lighting conditions and service calls using a self-collected dataset (n=108). Created a bar chart, summary table, and a blinking lightboard animation (gif). See visuals.\n\nTools Used:\nRStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto\n\n\nReflection:\nThis project made me think harder about data than I expected. After collecting and working with my own dataset, I gained a deeper respect for the messiness of real-world data.\n\n\nCode Snippet:\nclean_service_data &lt;- service_data |&gt;\n  mutate(\n    help = as.logical(toupper(help)),\n    working = as.logical(toupper(working))\n  )\n\n\nVisuals:\n\nService Light TableService Light Bar ChartBlinking Lights Animation\n\n\n\n\n\nService Light Table\n\n\n\n\n\n\n\nBar Chart\n\n\n\n\n\n\n\nBlinking Lights Animation\n\n\n\n\n\n\n\nResources\nGitHub Repo\nView Live"
+  },
+  {
+    "objectID": "projects.html#ucsb",
+    "href": "projects.html#ucsb",
+    "title": "Projects",
+    "section": "UCSB",
+    "text": "UCSB\n\nCourse: ENVS 193DS – Data Science for Environmental Studies\nOngoing project that explores the relationship between lighting conditions and service calls using a self-collected dataset (n=108). Created a bar chart, summary table, and a blinking lightboard animation (gif). See visuals.\n\n\nTools Used:\nRStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto\n\n\nReflection:\nThis project made me think harder about data than I expected. After collecting and working with my own dataset, I gained a deeper respect for the messiness of real-world data.\n\n\nCode Snippet:\nclean_service_data &lt;- service_data |&gt;\n  mutate(\n    help = as.logical(toupper(help)),\n    working = as.logical(toupper(working))\n  )\n\n\nVisuals:\n\nService Light TableService Light Bar ChartBlinking Lights Animation\n\n\n\n\n\nService Light Table\n\n\n\n\n\n\n\nBar Chart\n\n\n\n\n\n\n\nBlinking Lights Animation\n\n\n\n\n\n\n\nResources\nGitHub Repo\nView Live"
   }
 ]

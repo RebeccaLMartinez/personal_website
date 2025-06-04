@@ -70,8 +70,6 @@ _Wondering where the photos are? Chester and Leo got into the code again._
 
 _Check back soon for more feline mischief, fluff, and fun!_
 
----
-
 <script>
   // JavaScript function to toggle visibility of profiles
   // id: string - the ID of the profile to show/hide

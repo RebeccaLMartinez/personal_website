@@ -1,230 +1,232 @@
-/* ========== global styles ========== */
+/* 
+====================================
+GLOBAL STYLES
+Applies to the whole document
+====================================
+*/
 body {
-  padding-bottom: 120px;  /* prevent page content from hiding behind fixed footer */
-  margin: 0;              /* remove default margin */
-  font-family: sans-serif, verdana; /* better visually accessible font */
-  font-size: 18px;        /* increase base font size slightly */
+  padding-bottom: 120px;  /* Prevent content from hiding behind fixed footer */
+  margin: 0;              /* Remove default browser margin */
+  font-family: sans-serif, verdana; /* Accessible font stack */
+  font-size: 18px;        /* Slightly larger base font for readability */
 }
 
-
-/* Apply to all pages */
-
-/* Center the main document title */
+/* 
+====================================
+PAGE TITLES & HEADINGS
+Controls H1–H4 styling for structure
+====================================
+*/
 h1.title {
-    font-size: 3rem;           /* adjust size */
-  font-weight: 800;          /* bold */
-  color: #4FA78D;            /* Optional: custom color */
+  font-size: 3rem;           /* Large page title */
+  font-weight: 800;          /* Extra bold */
+  color: #4FA78D;            /* Themed teal */
   margin-top: 1rem;
   margin-bottom: 0.5rem;
 }
 
-
-/* Section headings h2 */
-h2 {
-  color: #4FA78D;  
-  border-bottom: 2px solid #4FA78D; /* Underline  */
+h2, h3, h4 {
+  color: #4FA78D;            /* Consistent teal for all headings */
   padding-bottom: 4px;
   margin-top: 1.5rem;
   margin-bottom: 1rem;
 }
+h2 { border-bottom: 2px solid #4FA78D; }
+h3 { border-bottom: 1px solid #4FA78D; }
+h4 { color: #2b7a78; }       /* Slightly darker teal */
 
-/* Section headings h3 */
-h3 {
-  color: #4FA78D;  /* Darker teal */
-  border-bottom: 1px solid #4FA78D; /* Underline */
-  padding-bottom: 4px;
-  margin-top: 1.5rem;
-  margin-bottom: 1rem;
-}
-
-/* Section headings h4 */
-h4 {
-  color: #2b7a78;  /* Darker teal */
-  padding-bottom: 4px;
-  margin-top: 1.5rem;
-  margin-bottom: 1rem;
-}
-
-
-
-/* ========== fixed footer styling ========== */
+/* 
+====================================
+FIXED FOOTER & NAVIGATION
+Always visible at the bottom
+====================================
+*/
 .fixed-footer {
-  position: fixed;        /* fix footer to viewport */
-  bottom: 0;              /* stick to bottom */
-  left: 0; right: 0;      /* stretch full width */
-  background-color: #222; /* dark background color */
-  color: #8bd9b1;           /* text color */
-  padding: 12px 20px;     /* inner spacing */
-  z-index: 9999;          /* high stacking order */
-  box-shadow: 0 -2px 5px rgba(0,0,0,0.5); /* subtle shadow above footer */
-  text-align: center;     /* center text horizontally */
+  position: fixed;
+  bottom: 0;
+  left: 0; right: 0;
+  background-color: #222;
+  color: #8bd9b1;
+  padding: 12px 20px;
+  z-index: 9999;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.5);
+  text-align: center;
 }
 
-/* footer navigation container */
 .footer-nav {
-  display: flex;          /* flexbox layout */
-  justify-content: center;/* center buttons horizontally */
-  align-items: center;    /* center buttons vertically */
-  flex-wrap: wrap;        /* allow buttons to wrap */
-  gap: 16px;              /* space between buttons */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
 }
 
-/* individual footer navigation buttons */
 .nav-button {
-  color: #4FA78D;         /* button text color */
-  text-decoration: none;  /* remove underline */
-  font-weight: 600;       /* semi-bold text */
-  padding: 6px 12px;      /* button padding */
-  border-radius: 4px;     /* rounded corners */
-  transition: background-color 0.3s ease, color 0.3s ease; /* smooth color changes */
+  color: #4FA78D;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 .nav-button:hover,
 .nav-button:focus {
-  background-color: #4FA78D; /* highlight background on hover/focus */
-  color: #111;               /* dark text on hover */
-  outline: none;             /* remove focus outline */
+  background-color: #4FA78D;
+  color: #111;
+  outline: none;
 }
 
-/* ========== floating icons at bottom right ========== */
+/* 
+====================================
+FLOATING BOTTOM-RIGHT ICONS
+E.g., quick links or social icons
+====================================
+*/
 #fixed-icons {
-  position: fixed;        /* fix icons to viewport */
-  bottom: 1rem;           /* 1 rem from bottom */
-  right: 1rem;            /* 1 rem from right */
-  display: flex;          /* arrange icons in a row */
-  gap: 1rem;              /* space between icons */
-  z-index: 1000;          /* above most content but below footer */
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  display: flex;
+  gap: 1rem;
+  z-index: 1000;
 }
 #fixed-icons a {
-  color: #4FA78D;         /* icon color */
-  font-size: 1.5rem;      /* icon size */
-  transition: color 0.2s; /* smooth color changes */
+  color: #4FA78D;
+  font-size: 1.5rem;
+  transition: color 0.2s;
 }
 #fixed-icons a:hover {
-  color: #418c76;         /* darker green on hover */
+  color: #418c76;
 }
 
-/* ========== circular video styling ========== */
+/* 
+====================================
+CIRCULAR VIDEO DISPLAY
+Used to embed a stylized round video
+====================================
+*/
 .video-wrapper {
-  display: flex;          /* flexbox to center video */
-  justify-content: center;/* center horizontally */
-  margin-top: 2rem;       /* space above video */
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
 }
 .circle-video {
-  width: 350px;           /* fixed width */
-  height: 350px;          /* fixed height for circle */
-  border-radius: 50%;     /* make video circular */
-  object-fit: cover;      /* scale video to fill circle */
-  border: 4px solid #4FA78D; /* green border */
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3); /* subtle shadow */
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #4FA78D;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
 
-
-/* ========== quiz component styling ========== */
+/* 
+====================================
+QUIZ COMPONENT
+Styling for an interactive quiz block
+====================================
+*/
 #quiz-container {
-  background-color: #222; /* dark background */
-  color: #fff;            /* white text */
-  padding: 1.5em;         /* inner padding */
-  border-radius: 12px;    /* rounded corners */
-  box-shadow: none;       /* no shadow */
-  max-width: 600px;       /* max width for readability */
-  margin: auto;           /* center horizontally */
+  background-color: #222;
+  color: #fff;
+  padding: 1.5em;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: auto;
 }
 #quiz-container #question {
-  font-size: 1.2em;       /* slightly larger font */
-  margin-bottom: 1em;     /* space below question */
+  font-size: 1.2em;
+  margin-bottom: 1em;
 }
 #quiz-container .btn {
-  padding: 0.6em 1.2em;   /* button padding */
-  margin: 0.4em;          /* space around buttons */
-  border-radius: 6px;     /* rounded corners */
-  border: 2px solid #4FA78D; /* green border */
-  background-color: #2b7a78; /* dark teal background */
-  color: #fff;            /* white text */
-  font-weight: bold;      /* bold text */
-  cursor: pointer;        /* pointer cursor */
-  transition: background-color 0.3s ease, transform 0.2s ease; /* smooth hover effects */
+  padding: 0.6em 1.2em;
+  margin: 0.4em;
+  border-radius: 6px;
+  border: 2px solid #4FA78D;
+  background-color: #2b7a78;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 #quiz-container .btn:hover {
-  background-color: #418c76; /* lighter teal on hover */
-  transform: translateY(-2px); /* slight lift on hover */
+  background-color: #418c76;
+  transform: translateY(-2px);
 }
 #quiz-container #result {
-  margin-top: 1.2em;      /* space above result */
-  font-size: 1.3em;       /* larger font */
-  color: #4FA78D;         /* green text */
-  text-shadow: 1px 1px 2px #111; /* subtle shadow */
+  margin-top: 1.2em;
+  font-size: 1.3em;
+  color: #4FA78D;
+  text-shadow: 1px 1px 2px #111;
 }
 #quiz-container #result-image img {
-  margin-top: 1em;        /* space above image */
-  border: 3px solid #4FA78D; /* green border */
-  border-radius: 10px;    /* rounded corners */
-  max-width: 100%;        /* responsive width */
-  height: auto;           /* maintain aspect ratio */
+  margin-top: 1em;
+  border: 3px solid #4FA78D;
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
 }
 
-/* ========== image grid ========== */
-
-/* Ensure image tiles display side-by-side inside the grid */
+/* 
+====================================
+IMAGE GRID GALLERY
+Used for thumbnail or visual displays
+====================================
+*/
 .image-grid {
-  display: flex;             /* enables flex layout */
-  flex-wrap: wrap;           /* allows items to wrap */
-  justify-content: center;   /* center content horizontally */
-  gap: 1em;                 /* spacing between tiles */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
 }
-
-/* Image tile container */
-
 .image-tile {
-  flex: 1 1 120px;          /* Shrinks down to 120px if needed */
-  max-width: 200px;         /* Prevents huge images */
-  min-width: 100px;         /* Prevents unreadably small tiles */
+  flex: 1 1 120px;
+  max-width: 200px;
+  min-width: 100px;
   margin: 0.5em;
   text-align: center;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: none;
   transition: transform 0.2s ease;
 }
-
 .image-tile:hover {
   transform: scale(1.05);
 }
-
 .image-tile img {
   max-width: 100%;
   height: auto;
   display: block;
 }
-/* Make sure figcaptions don't appear below thumbnails */
 .image-tile figcaption {
-  display: none; /* hides caption text */
+  display: none;
 }
 
-/* ========== modal styles ========== */
+/* 
+====================================
+MODAL (POPUP IMAGE VIEW)
+Fullscreen image viewer for about page
+====================================
+*/
 .modal {
-  display: none;          /* hidden by default */
-  position: fixed;        /* fixed viewport */
-  z-index: 10000;         /* very high stacking order */
+  display: none;
+  position: fixed;
+  z-index: 10000;
   left: 0; top: 0;
-  width: 100vw;           /* full viewport width */
-  height: 100vh;          /* full viewport height */
-  background-color: rgba(0,0,0,0.85); /* translucent dark background */
-  justify-content: center; /* flex center horizontally */
-  align-items: center;     /* flex center vertically */
-  flex-direction: column;  /* vertical stacking */
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.85);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   padding: 1rem;
   box-sizing: border-box;
 }
-
 .modal-content {
   max-width: 90vw;
   max-height: 80vh;
   border-radius: 16px;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.8);
   object-fit: contain;
   user-select: none;
 }
-
 #modal-caption {
   margin-top: 12px;
   color: #ccc;
@@ -234,8 +236,6 @@ h4 {
   max-width: 90vw;
   user-select: text;
 }
-
-/* close button */
 .modal-close {
   position: absolute;
   top: 1rem;
@@ -254,182 +254,132 @@ h4 {
   outline: none;
 }
 
-/* Responsive tweaks */
-@media (max-width: 480px) {
-  .image-tile {
-    max-width: 100%;
-  }
-}
-
-
-
-/* ========== PROJECT TOGGLE ========== */
-
-/* Clickable project titles */
-.project h3 {
-  cursor: pointer;        /* Pointer cursor indicates clickable */
-  color: #4FA78D;         /* Green color */
-  font-weight: bold;      /* Bold text */
-  transition: color 0.2s ease; /* Smooth color transition */
-}
-.project h3:hover {
-  color: #fff;            /* White text on hover */
-}
-
-/* Project images */
-.project-details img {
-  cursor: pointer;        /* Pointer cursor for interactivity */
-  transition: opacity 0.3s ease; /* Smooth fade effects */
-  margin: 10px 0;         /* Vertical spacing */
-  max-width: 100%;        /* Responsive images */
-  height: auto;           /* Maintain aspect ratio */
-}
-
-/* Smaller project images */
-.project-details img.small {
-  max-width: 300px;       /* Max width for small images */
-  width: auto;            /* Keep natural width */
-}
-
-/* Larger project figure images with effects */
-.project-details figure img {
-  max-width: 500px;       /* Larger max width */
-  width: 100%;            /* Fill container */
-  border-radius: 10px;    /* Rounded corners */
-  box-shadow: 0 0 15px rgba(0,0,0,0.5); /* Shadow for depth */
-}
-
-/* ========== PROJECT TOGGLE - POP OUT PANEL ========== */
-
-.project-popup {
-  display: none;
-  opacity: 0;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 80%;
-  max-width: 600px;
-  background-color: white;
-  padding: 20px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-  border-radius: 12px;
-  z-index: 1000;
-}
-
-.project-popup.open {
-  transform: translateX(0);
-}
-
-/* Optional close button inside popup */
-.project-popup .close-btn {
-  cursor: pointer;
-  color: #4FA78D;
-  font-weight: bold;
-  float: right;
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-}
-
-
-
-/* ========== RESPONSIVE DESIGN FOR SMALL SCREENS ========== */
-@media screen and (max-width: 600px) {
-  #quiz-container {
-    padding: 1em;         /* Reduce padding for small screens */
-  }
-  #quiz-container .btn {
-    width: 100%;          /* Make buttons full width on small screens */
-    margin: 0.3em 0;      /* Vertical margin between buttons */
-  }
-  .circle-video {
-    width: 250px;         /* Smaller video size on small screens */
-    height: 250px;
-  }
-  .footer-nav {
-    flex-direction: row;  /* Arrange footer nav buttons in a row */
-    flex-wrap: wrap;      /* Wrap buttons to next line if needed */
-    gap: 8px;             /* Smaller gap on small screens */
-  }
-  .nav-button {
-    width: auto;          /* Reset width to automatic */
-    text-align: center;   /* Center text */
-    min-width: 140px;     /* Minimum button width for usability */
-  }
-  #fixed-icons {
-    flex-direction: column; /* Stack floating icons vertically */
-  }
-
-  /* For image tiles */
-
-  .image-tile img {
-    width: 100%;           /* Ensure image fills tile */
-    height: auto;          /* Maintain aspect ratio */
-    display: block;        /* Prevent inline spacing issues */
-  }
-}
-
-/* ========== CAT PROFILES ========== */
+/* 
+====================================
+CAT PROFILES
+Expandable profile view for individual cats
+====================================
+*/
 .cat-profiles {
-  display: flex;          /* Use flexbox */
-  flex-direction: column; /* Stack cat profiles vertically */
-  gap: 1.5rem;            /* Space between profiles */
-  max-width: 600px;       /* Limit width */
-  margin: 2rem auto;      /* Center container with vertical margin */
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 600px;
+  margin: 2rem auto;
 }
 .cat-button {
-  display: flex;          /* Arrange contents horizontally */
-  align-items: center;    /* Vertically center content */
-  gap: 1rem;              /* Space between thumbnail and text */
-  cursor: pointer;        /* Pointer cursor for interactivity */
-  background: transparent;/* Transparent background */
-  padding: 0.75rem 1rem;  /* Padding inside button */
-  border-radius: 1rem;    /* Rounded pill shape */
-  transition: background 0.25s; /* Smooth background transition */
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  background: transparent;
+  padding: 0.75rem 1rem;
+  border-radius: 1rem;
+  transition: background 0.25s;
 }
 .cat-button:hover,
 .cat-button.open {
-  background: #495057;    /* Darker background on hover/open */
+  background: #495057;
 }
 .cat-thumb {
-  width: 65px;            /* Smaller thumbnail size */
+  width: 65px;
   height: 65px;
-  border-radius: 50%;     /* Circular thumbnail */
-  object-fit: cover;      /* Crop image to fill circle */
-  border: 2px solid #fff; /* White border around thumbnail */
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
 }
 .cat-details {
-  display: none;          /* Hidden initially */
-  margin-left: 5rem;      /* Indent text under thumbnail */
-  margin-top: -1rem;      /* Pull up slightly */
-  padding: 0.6rem 1rem;   /* Padding inside detail box */
-  border-left: 3px solid #4FA78D; /* Green left border */
-  background: #23272b;    /* Dark background */
-  border-radius: 0 8px 8px 0; /* Rounded corners on right side */
-  color: #f1f1f1;         /* Light text */
+  display: none;
+  margin-left: 5rem;
+  margin-top: -1rem;
+  padding: 0.6rem 1rem;
+  border-left: 3px solid #4FA78D;
+  background: #23272b;
+  border-radius: 0 8px 8px 0;
+  color: #f1f1f1;
 }
 
-/* Style only links with class clickable-link */
-
+/* 
+====================================
+CLICKABLE LINKS
+Styled like interactive buttons
+====================================
+*/
 .clickable-links a {
-  color: #111;                 /* text */
-  background-color: #4FA78D;      /* background */
+  color: #111;
+  background-color: #4FA78D;
   font-weight: 1000;
-  border: 6px outset #4FA78D;      /* outset to look more like button */
-  padding: 0.4em 0.8em;           /* Padding for box shape */
-  text-decoration: none;          /* underline etc */
-  border-radius: 12px;             /* Slight rounding */
+  border: 6px outset #4FA78D;
+  padding: 0.4em 0.8em;
+  text-decoration: none;
+  border-radius: 12px;
   transition: all 0.2s ease-in-out;
-  display: inline-block;          /* Make the box wrap tightly */
+  display: inline-block;
   cursor: pointer;
 }
-
-/* Hover and focus styles: invert the colors */
 .clickable-links a:hover,
 .clickable-links a:focus {
-  background-color: #3a6e61;      /* Teal background */
-  color: #111;                    /* Dark text */
-  border: 6px outset #3a6e61;      /* inset to look more like button */
-  text-decoration: none;
+  background-color: #3a6e61;
+  color: #111;
+  border: 6px outset #3a6e61;
+}
+
+/* ====================================
+   RESPONSIVE DESIGN
+   Mobile-first adjustments (max-width: 600px)
+   ==================================== */
+   
+@media screen and (max-width: 600px) {
   
-  
+  /* Quiz layout padding for mobile readability */
+  #quiz-container {
+    padding: 1em;
+  }
+
+  /* Make quiz buttons stack and span full width */
+  #quiz-container .btn {
+    width: 100%;
+    margin: 0.3em 0;
+  }
+
+  /* Resize circle video containers for small screens */
+  .circle-video {
+    width: 250px;
+    height: 250px;
+  }
+
+  /* Footer navigation wraps to prevent overflow */
+  .footer-nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  /* Nav buttons adapt width while staying readable */
+  .nav-button {
+    width: auto;
+    text-align: center;
+    min-width: 140px;
+  }
+
+  /* Fixed icon menu becomes vertical for easier tapping */
+  #fixed-icons {
+    flex-direction: column;
+  }
+
+  /* Responsive image tiles fill width, preserve aspect ratio */
+  .image-tile img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  /* Optional: Make embedded iframes (e.g., Quizlet, YouTube) scale nicely */
+  iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    display: block;
+  }
+}
+

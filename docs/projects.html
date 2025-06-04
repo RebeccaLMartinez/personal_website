@@ -116,7 +116,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#school" id="toc-school" class="nav-link active" data-scroll-target="#school">School</a></li>
+  <li><a href="#academic" id="toc-academic" class="nav-link active" data-scroll-target="#academic">Academic</a>
+  <ul class="collapse">
+  <li><a href="#ucsb" id="toc-ucsb" class="nav-link" data-scroll-target="#ucsb">UCSB</a></li>
+  </ul></li>
   <li><a href="#research" id="toc-research" class="nav-link" data-scroll-target="#research">Research</a></li>
   <li><a href="#other" id="toc-other" class="nav-link" data-scroll-target="#other">Other</a></li>
   </ul>
@@ -146,120 +149,104 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <p>This page highlights some of my work from classes and research.</p>
 <hr>
-<section id="school" class="level1">
-<h1>School</h1>
-<!-- Container for the first project with clickable title to toggle details -->
-<div class="project">
-<h3 onclick="toggleContent('proj1', this)" style="cursor:pointer;" class="anchored" data-anchor-id="school">
-💡 Service Light Personal Data
-</h3>
-<!-- Hidden content details for project 1, toggled by clicking the title -->
-<div id="proj1" class="project-details" hidden="">
-<p><strong>School:</strong> UCSB<br>
-<strong>Course:</strong> ENVS 193DS – Data Science for Environmental Studies</p>
+<section id="academic" class="level1">
+<h1>Academic</h1>
+<details>
+<summary style="color: #4FA78D; cursor: pointer;">
+<strong>💡 Service Light (Personal Data)</strong>
+</summary>
+<section id="ucsb" class="level3">
+<h3 class="anchored" data-anchor-id="ucsb">UCSB</h3>
+<section id="course-envs-193ds-data-science-for-environmental-studies" class="level4">
+<h4 class="anchored" data-anchor-id="course-envs-193ds-data-science-for-environmental-studies"><strong>Course:</strong> ENVS 193DS – Data Science for Environmental Studies</h4>
 <p>Ongoing project that explores the relationship between lighting conditions and service calls using a self-collected dataset (n=108). Created a bar chart, summary table, and a blinking lightboard animation (gif). See visuals.</p>
-<p><strong>Tools Used:</strong><br>
-RStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto</p>
-<p><strong>Reflection:</strong><br>
-This project made me think harder about data than I expected. After collecting and working with my own dataset, I gained a deeper respect for the messiness of real-world data.</p>
-<p><strong>Code Snippet:</strong></p>
+</section>
+<section id="tools-used" class="level4">
+<h4 class="anchored" data-anchor-id="tools-used"><strong>Tools Used:</strong></h4>
+<p>RStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto</p>
+</section>
+<section id="reflection" class="level4">
+<h4 class="anchored" data-anchor-id="reflection"><strong>Reflection:</strong></h4>
+<p>This project made me think harder about data than I expected. After collecting and working with my own dataset, I gained a deeper respect for the messiness of real-world data.</p>
+</section>
+<section id="code-snippet" class="level4">
+<h4 class="anchored" data-anchor-id="code-snippet"><strong>Code Snippet:</strong></h4>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>clean_service_data <span class="ot">&lt;-</span> service_data <span class="sc">|&gt;</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="at">help =</span> <span class="fu">as.logical</span>(<span class="fu">toupper</span>(help)),</span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">working =</span> <span class="fu">as.logical</span>(<span class="fu">toupper</span>(working))</span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p><strong>Visuals:</strong></p>
+</section>
+<section id="visuals" class="level4">
+<h4 class="anchored" data-anchor-id="visuals"><strong>Visuals:</strong></h4>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Service Light Table</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Service Light Bar Chart</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Blinking Lights</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Service Light Table</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Service Light Bar Chart</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Blinking Lights Animation</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<p><a href="javascript:void(0)" onclick="openModal('/media/light_table.jpg', 'Service Light Table')"> <img src="./media/light_table.jpg" alt="Service Light Table" style="border-radius:8px; max-width:100%; cursor:pointer;"> </a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href=".\media/light_table.jpg" target="_blank"><img src=".\media/light_table.jpg" class="img-fluid figure-img" alt="Service Light Table"></a></p>
+<figcaption>Service Light Table</figcaption>
+</figure>
+</div>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<p><a href="javascript:void(0)" onclick="openModal('/media/service_light_bar.jpg', 'Bar Chart')"> <img src="./media/service_light_bar.jpg" alt="Bar Chart" style="border-radius:8px; max-width:100%; cursor:pointer;"> </a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href=".\media/service_light_bar.jpg" target="_blank"><img src=".\media/service_light_bar.jpg" class="img-fluid figure-img" alt="Bar Chart"></a></p>
+<figcaption>Bar Chart</figcaption>
+</figure>
+</div>
 </div>
 <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
-<p><a href="javascript:void(0)" onclick="openModal('/media/blinking_lights.gif', 'Blinking Lights Animation')"> <img src="./media/blinking_lights.gif" alt="Blinking Lights Animation" style="border-radius:8px; max-width:100%; cursor:pointer;"> </a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href=".\media/blinking_lights.gif" target="_blank"><img src=".\media/blinking_lights.gif" class="img-fluid figure-img" alt="Blinking Lights Animation"></a></p>
+<figcaption>Blinking Lights Animation</figcaption>
+</figure>
 </div>
 </div>
-</div>
-<p><strong>Resources</strong></p>
-<p><a href="https://github.com/RebeccaLMartinez/ENVS-193DS_homework-03">GitHub Repo</a><br>
-<a href="https://rebeccalmartinez.github.io/ENVS-193DS_homework-03/code/ENVS-193DS_homework-03.html">View Live</a></p>
 </div>
 </div>
 </section>
+<section id="resources" class="level4">
+<h4 class="anchored" data-anchor-id="resources"><strong>Resources</strong></h4>
+<p><a href="https://github.com/RebeccaLMartinez/ENVS-193DS_homework-03">GitHub Repo</a></p>
+<p><a href="https://rebeccalmartinez.github.io/ENVS-193DS_homework-03/code/ENVS-193DS_homework-03.html">View Live</a></p>
+</section></section></details>
+</section>
+
+
 <section id="research" class="level1">
 <h1>Research</h1>
-&lt;– Soil Bioturbation –&gt;
-<div class="project">
-<h3 onclick="toggleContent('proj4', this)" style="cursor:pointer;" class="anchored" data-anchor-id="research">
-🌱 Soil Bioturbation
-</h3>
-<div id="proj4" class="project-details" hidden="">
-<em>Under construction…</em>
-</div>
-</div>
+<!-- Soil Bioturbation -->
+<details>
+<summary style="color: #4FA78D; cursor: pointer;">
+<strong>🌱 Soil Bioturbation</strong>
+</summary>
+<em>Under construction…</em><br>
+
+</details>
 <!-- Fog Harp Device -->
-<div class="project">
-<h3 onclick="toggleContent('proj2', this)" style="cursor:pointer;" class="anchored">
-💧 Fog Harp
-</h3>
-<div id="proj2" class="project-details" hidden="">
-<em>Under construction…</em>
-</div>
-</div>
+<details>
+<summary style="color: #4FA78D; cursor: pointer;">
+<strong> 💧 Fog Harp</strong>
+</summary>
+<em>Under construction…</em><br>
+
+</details>
 <!-- Skunk Camera -->
-<div class="project">
-<h3 onclick="toggleContent('proj3', this)" style="cursor:pointer;" class="anchored">
-🦨 Skunk Population
-</h3>
-<div id="proj3" class="project-details" hidden="">
-<em>Under construction…</em>
-</div>
-</div>
+<details>
+<summary style="color: #4FA78D; cursor: pointer;">
+<strong> 🦨 Skunk Population</strong>
+</summary>
+<em>Under construction…</em><br>
+
+</details>
 </section>
 <section id="other" class="level1">
 <h1>Other</h1>
 <p><em>Coming soon…</em></p>
-<!-- Modal markup -->
-<div id="modal" onclick="closeModal(event)" style="display:none;position:fixed;inset:0;
-            background:rgba(0,0,0,.85);
-            justify-content:center;align-items:center;
-            flex-direction:column;z-index:1000;">
-<span class="modal-close" style="position:absolute;top:10px;right:20px;
-               color:#fff;font-size:2rem;cursor:pointer;">×</span> <img id="modal-img" alt="Enlarged visual" style="max-width:90vw;max-height:80vh;border-radius:8px;">
-<div id="modal-caption" style="color:#eee;margin-top:10px;font-style:italic;text-align:center;">
-
-</div>
-</div>
-<!-- JavaScript -->
-<script>
-  // Toggle open/close project details
-  function toggleContent(id, header) {
-    const block = document.getElementById(id);
-    block.toggleAttribute('hidden');
-    header.style.fontWeight = block.hasAttribute('hidden') ? 'normal' : 'bold';
-  }
-
-  // Open image modal
-  function openModal(src, captionText) {
-    const modal = document.getElementById('modal');
-    modal.style.display = 'flex';
-    document.getElementById('modal-img').src = src;
-    document.getElementById('modal-caption').textContent = captionText || '';
-  }
-
-  // Close modal if clicking outside image or on X
-  function closeModal(e) {
-    const modal = document.getElementById('modal');
-    if (e.target === modal || e.target.classList.contains('modal-close')) {
-      modal.style.display = 'none';
-      document.getElementById('modal-img').removeAttribute('src'); // Clear image
-      document.getElementById('modal-caption').textContent = '';    // Clear caption
-    }
-  }
-</script>
 
 
 </section>

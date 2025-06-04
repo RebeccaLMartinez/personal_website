@@ -13,31 +13,26 @@ format:
 This page highlights some of my work from classes and research.
 
 
----
+***
 
-# School
+# Academic
 
-<!-- Container for the first project with clickable title to toggle details -->
-<div class="project">
-  <h3 onclick="toggleContent('proj1', this)" style="cursor:pointer;">
-    💡 Service Light Personal Data
-  </h3>
+ <details>
+  <summary style="color: #4FA78D; cursor: pointer;"><strong>💡 Service Light (Personal Data)</strong></summary>
 
-  <!-- Hidden content details for project 1, toggled by clicking the title -->
-  <div id="proj1" class="project-details" hidden>
+### UCSB
 
-**School:** UCSB  
-**Course:** ENVS 193DS – Data Science for Environmental Studies  
+#### **Course:** ENVS 193DS – Data Science for Environmental Studies  
 
 Ongoing project that explores the relationship between lighting conditions and service calls using a self-collected dataset (n=108). Created a bar chart, summary table, and a blinking lightboard animation (gif). See visuals.
 
-**Tools Used:**  
+#### **Tools Used:**  
 RStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto
 
-**Reflection:**  
+#### **Reflection:**  
 This project made me think harder about data than I expected. After collecting and working with my own dataset, I gained a deeper respect for the messiness of real-world data.
 
-**Code Snippet:**
+#### **Code Snippet:**
 
 ```r
 clean_service_data <- service_data |>
@@ -46,73 +41,55 @@ clean_service_data <- service_data |>
     working = as.logical(toupper(working))
   )
 ```
-**Visuals:**  
+#### **Visuals:**  
 
 :::{.panel-tabset}
 
 ## Service Light Table
 
-<a href="javascript:void(0)" onclick="openModal('/media/light_table.jpg', 'Service Light Table')">
-  <img src="/media/light_table.jpg" alt="Service Light Table" style="border-radius:8px; max-width:100%; cursor:pointer;">
-</a>
+[![Service Light Table](/media/light_table.jpg)](/media/light_table.jpg){target="_blank"}
 
 ## Service Light Bar Chart
 
-<a href="javascript:void(0)" onclick="openModal('/media/service_light_bar.jpg', 'Bar Chart')">
-  <img src="/media/service_light_bar.jpg" alt="Bar Chart" style="border-radius:8px; max-width:100%; cursor:pointer;">
-</a>
+[![Bar Chart](/media/service_light_bar.jpg)](/media/service_light_bar.jpg){target="_blank"}
 
-## Blinking Lights
+## Blinking Lights Animation
 
-<a href="javascript:void(0)" onclick="openModal('/media/blinking_lights.gif', 'Blinking Lights Animation')">
-  <img src="/media/blinking_lights.gif" alt="Blinking Lights Animation" style="border-radius:8px; max-width:100%; cursor:pointer;">
-</a>
+[![Blinking Lights Animation](/media/blinking_lights.gif)](/media/blinking_lights.gif){target="_blank"}
 
 :::
 
 
-**Resources**
+#### **Resources**
 
-[GitHub Repo](https://github.com/RebeccaLMartinez/ENVS-193DS_homework-03)  
+[GitHub Repo](https://github.com/RebeccaLMartinez/ENVS-193DS_homework-03) 
+
 [View Live](https://rebeccalmartinez.github.io/ENVS-193DS_homework-03/code/ENVS-193DS_homework-03.html)
 
-  </div>
-</div>
-
+</details>
 
 
 # Research
 
 
 <!-- Soil Bioturbation -->
-<div class="project">
-  <h3 onclick="toggleContent('proj4', this)" style="cursor:pointer;">
-    🌱 Soil Bioturbation
-  </h3>
-  <div id="proj4" class="project-details" hidden>
-_Under construction…_
-  </div>
-</div>
+<details>
+  <summary style="color: #4FA78D; cursor: pointer;"><strong>🌱 Soil Bioturbation</strong></summary>
+_Under construction…_  
+   </details>
 
 
 <!-- Fog Harp Device -->
-<div class="project">
-  <h3 onclick="toggleContent('proj2', this)" style="cursor:pointer;">
-    💧 Fog Harp
-  </h3>
-  <div id="proj2" class="project-details" hidden>
-_Under construction…_
-  </div>
-</div>
+<details>
+  <summary style="color: #4FA78D; cursor: pointer;"><strong> 💧 Fog Harp</strong></summary>
+_Under construction…_  
+   </details>
+
 <!-- Skunk Camera -->
-<div class="project">
-  <h3 onclick="toggleContent('proj3', this)" style="cursor:pointer;">
-    🦨 Skunk Population
-  </h3>
-  <div id="proj3" class="project-details" hidden>
-_Under construction…_
-  </div>
-</div>
+<details>
+  <summary style="color: #4FA78D; cursor: pointer;"><strong> 🦨 Skunk Population</strong></summary>
+_Under construction…_  
+   </details>
 
 
 # Other  
@@ -120,48 +97,3 @@ _Under construction…_
 *Coming soon…*
 
 
-
-<!-- Modal markup -->
-<div id="modal"
-     onclick="closeModal(event)"
-     style="display:none;position:fixed;inset:0;
-            background:rgba(0,0,0,.85);
-            justify-content:center;align-items:center;
-            flex-direction:column;z-index:1000;">
-  <span class="modal-close"
-        style="position:absolute;top:10px;right:20px;
-               color:#fff;font-size:2rem;cursor:pointer;">&times;</span>
-  <img id="modal-img"
-       alt="Enlarged visual"
-       style="max-width:90vw;max-height:80vh;border-radius:8px;">
-  <div id="modal-caption"
-       style="color:#eee;margin-top:10px;font-style:italic;text-align:center;"></div>
-</div>
-
-<!-- JavaScript -->
-<script>
-  // Toggle open/close project details
-  function toggleContent(id, header) {
-    const block = document.getElementById(id);
-    block.toggleAttribute('hidden');
-    header.style.fontWeight = block.hasAttribute('hidden') ? 'normal' : 'bold';
-  }
-
-  // Open image modal
-  function openModal(src, captionText) {
-    const modal = document.getElementById('modal');
-    modal.style.display = 'flex';
-    document.getElementById('modal-img').src = src;
-    document.getElementById('modal-caption').textContent = captionText || '';
-  }
-
-  // Close modal if clicking outside image or on X
-  function closeModal(e) {
-    const modal = document.getElementById('modal');
-    if (e.target === modal || e.target.classList.contains('modal-close')) {
-      modal.style.display = 'none';
-      document.getElementById('modal-img').removeAttribute('src'); // Clear image
-      document.getElementById('modal-caption').textContent = '';    // Clear caption
-    }
-  }
-</script>
