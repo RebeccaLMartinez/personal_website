@@ -515,14 +515,14 @@
     "href": "resources.html#human-anatomy",
     "title": "Resource Collection",
     "section": "Human Anatomy",
-    "text": "Human Anatomy\nHere you’ll find resources to help you learn structures of the human body.\n\nInteractive 3D Anatomy Model\n\n\nClick to expand\n\n\nExplore the human body in 3D with Zygote Body — an interactive tool that lets you zoom, rotate, and isolate individual structures.\nVisit Zygote Body\n\n\n\n\n\n\nQuizlet Flashcards\n\n\nClick to expand\n\nCreated for Dr. Len Miyahara’s BIO 124 course at Allan Hancock College in 2021. Material may differ.\n\nHistology & Integumentary Systems\nSkeletal System\nMuscular System\nHeart, Circulatory, & Respiratory Systems\nDigestive, Urinary, & Reproductive Systems\nBrain, Special Senses, & Nervous System\n\n\n\n\nVisual Guides\n\n\nClick to expand\n\n\nComing soon…"
+    "text": "Human Anatomy\nHere you’ll find resources to help you learn structures of the human body.\n\nInteractive 3D Anatomy Model\n\n\nClick to expand\n\n\nExplore the human body in 3D with Zygote Body — an interactive tool that lets you zoom, rotate, and isolate individual structures.\nVisit Zygote Body\n\n\n\n\n\n\nQuizlet Flashcards\n\n\nClick to expand\n\nCreated for Dr. Len Miyahara’s BIO 124 course at Allan Hancock College in 2021. Material may differ.\n\n\nHistology & Integumentary Systems\n\n\nSkeletal System\n\n\nMuscular System\n\n\nHeart, Circulatory, & Respiratory Systems\n\n\nDigestive, Urinary, & Reproductive Systems\n\n\nBrain, Special Senses, & Nervous System\n\n\n\n\n\nVisual Guides\n\n\nClick to expand\n\n\nComing soon…"
   },
   {
     "objectID": "resources.html#chemistry",
     "href": "resources.html#chemistry",
     "title": "Resource Collection",
     "section": "Chemistry",
-    "text": "Chemistry\nHere are resources to help learn basic chemistry.\n\nPhET Chemistry Simulations\n\n\nClick to expand\n\n\nExplore interactive chemistry simulations that help with understanding through visualizing.\nMore PhET Simulations\n\n\nMolecule Shapes"
+    "text": "Chemistry\nHere are resources to help learn basic chemistry.\n\nPhET Chemistry Simulations\n\n\nClick to expand\n\n\nExplore interactive chemistry simulations that help with understanding through visualizing.\nMore PhET Simulations\n\nMolecule Shapes {.no-underline}"
   },
   {
     "objectID": "projects.html#school-ucsb",
@@ -550,7 +550,7 @@
     "href": "resources.html#math",
     "title": "Resource Collection",
     "section": "Math",
-    "text": "Math\nExplore a collection of helpful math tools and materials.\n\nCalculators\n\n\nClick to expand\n\nBelow you will find a collection of free online calculators from desmos.\n\nDesmos Website\n\nScientific\n\n\nGraphing\n\n\n\n\n\nVideos\n\n\nClick to expand\n\nThese videos by Professor Leonard have been very helpful for learning math. If you find them useful, consider supporting him on Patreon.\nPrealgebra\n\n\nIntermediate Algebra\n\n\nCalculus 1\n\n\nCalculus 2\n\n\nCalculus 3\n\n\nStatistics"
+    "text": "Math\nExplore a collection of helpful math tools and materials.\n\nCalculators\n\n\nClick to expand\n\nBelow you will find a collection of free online calculators from desmos.\n\nDesmos Website\n\n\nScientific\n\n\n\n\nGraphing"
   },
   {
     "objectID": "resources.html#math-video-resources",
@@ -719,5 +719,12 @@
     "title": "Resource Collection",
     "section": "Calculators",
     "text": "Calculators\nBelow you will find a collection of free online calculators from desmos.\n\n\nClick to expand\n\n\nDesmos Website\n\n\nScientific\n\n\n\n\nGraphing"
+  },
+  {
+    "objectID": "resources.html#website",
+    "href": "resources.html#website",
+    "title": "Resource Collection",
+    "section": "Website",
+    "text": "Website\nHere are resources I used to create this website\n\n\nClick to expand\n\nA good starting point ↓\n\nMEDS: Creating Your Personal Website Using Quarto\n\n\nQuarto Guide\n\n\nQuarto HTML Options\n\n\nQuarto: The Definitive Guide\n\n\nQuarto Tips and Tricks\n\n\n6 Productivity Hacks for Quarto"
   }
 ]

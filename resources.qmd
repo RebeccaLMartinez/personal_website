@@ -4,12 +4,18 @@ format:
   html:
     theme: darkly
     css: styles.css
+    toc: true
+    toc-depth: 5
+    toc-expand: true
+    
 ---
 
 Welcome to my growing collection of educational tools and resources I’ve gathered or created over time. Feel free to explore, use what’s helpful, and share with others.
 
-***
-
+---
+   
+   
+   
 ## **Human Anatomy**
 
 Here you'll find resources to help you learn structures of the human body.   
@@ -44,17 +50,17 @@ Created for Dr. Len Miyahara's BIO 124 course at Allan Hancock College in 2021. 
 
 <div class="clickable-links">
 
-[Histology & Integumentary Systems](https://quizlet.com/user/Th3b3ckst3r/folders/histology-and-integumentary-system?i=2236oh&x=1xqt){target="_blank"}
+##### [Histology & Integumentary Systems](https://quizlet.com/user/Th3b3ckst3r/folders/histology-and-integumentary-system?i=2236oh&x=1xqt){target="_blank"}
 
-[Skeletal System](https://quizlet.com/user/Th3b3ckst3r/folders/skeletal-system?i=2236oh&x=1xqt){target="_blank"}
+##### [Skeletal System](https://quizlet.com/user/Th3b3ckst3r/folders/skeletal-system?i=2236oh&x=1xqt){target="_blank"}
 
-[Muscular System](https://quizlet.com/user/Th3b3ckst3r/folders/muscles?i=2236oh&x=1xqt){target="_blank"}
+##### [Muscular System](https://quizlet.com/user/Th3b3ckst3r/folders/muscles?i=2236oh&x=1xqt){target="_blank"}
 
-[Heart, Circulatory, & Respiratory Systems](https://quizlet.com/user/Th3b3ckst3r/folders/heart-circulatory-respiratory-systems?i=2236oh&x=1xqt){target="_blank"}
+##### [Heart, Circulatory, & Respiratory Systems](https://quizlet.com/user/Th3b3ckst3r/folders/heart-circulatory-respiratory-systems?i=2236oh&x=1xqt){target="_blank"}
 
-[Digestive, Urinary, & Reproductive Systems](https://quizlet.com/user/Th3b3ckst3r/folders/digestive-urinary-reproductive-systems?i=2236oh&x=1xqt){target="_blank"}
+##### [Digestive, Urinary, & Reproductive Systems](https://quizlet.com/user/Th3b3ckst3r/folders/digestive-urinary-reproductive-systems?i=2236oh&x=1xqt){target="_blank"}
 
-[Brain, Special Senses, & Nervous System](https://quizlet.com/user/Th3b3ckst3r/folders/nervous-system-brain-special-senses?i=2236oh&x=1xqt){target="_blank"}
+##### [Brain, Special Senses, & Nervous System](https://quizlet.com/user/Th3b3ckst3r/folders/nervous-system-brain-special-senses?i=2236oh&x=1xqt){target="_blank"}
 
 </div>
 
@@ -62,6 +68,7 @@ Created for Dr. Len Miyahara's BIO 124 course at Allan Hancock College in 2021. 
 
 
 ### Visual Guides {.no-underline}
+
 
 <details>
   <summary style="color: white; cursor: pointer;"><strong>Click to expand</strong></summary>
@@ -75,12 +82,15 @@ Created for Dr. Len Miyahara's BIO 124 course at Allan Hancock College in 2021. 
 </details>
 
 ---
-
+   
+   
+   
 ## **Chemistry**
 
 Here are resources to help learn basic chemistry.
 
 ### PhET Chemistry Simulations {.no-underline}
+
 
 <details>
   <summary style="color: white; cursor: pointer;"><strong>Click to expand</strong></summary>
@@ -93,19 +103,22 @@ Explore interactive chemistry simulations that help with understanding through v
 
 </div>
 
-#### Molecule Shapes {.no-underline}
+Molecule Shapes {.no-underline}
 
 <iframe src="https://phet.colorado.edu/sims/html/molecule-shapes/latest/molecule-shapes_en.html" width="800"  height="600" allowfullscreen></iframe>
 
 </details>
 
 ---
-
+   
+   
+   
 ## **Math**
 
 Explore a collection of helpful math tools and materials. 
 
 ### Calculators {.no-underline}
+
 
 <details>
   <summary style="color: white; cursor: pointer;"><strong>Click to expand</strong></summary>
@@ -118,11 +131,11 @@ Below you will find a collection of free online calculators from desmos.
 
 </div>
 
-<b>Scientific</b>
+##### Scientific
 
 <iframe src="https://www.desmos.com/scientific" height="500px" width="800px" allowfullscreen></iframe>
 
-<b>Graphing</b>
+##### Graphing
 
 <iframe src="https://www.desmos.com/calculator" height="500px" width="800px" allowfullscreen></iframe>
 
@@ -132,36 +145,62 @@ Below you will find a collection of free online calculators from desmos.
 
 ### Videos {.no-underline}
 
+
 <details>
   <summary style="color: white; cursor: pointer;"><strong>Click to expand</strong></summary>
   
 These videos by Professor Leonard have been very helpful for learning math. If you find them useful, consider supporting him on [Patreon](https://patreon.com/ProfessorLeonard){target="_blank"}.
 
-Prealgebra 
+##### Prealgebra 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=NEOhx8UfkJX0yqzS&amp;list=PL4C9296DF81B9EF13" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
 
-Intermediate Algebra
+##### Intermediate Algebra
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=EHAp3F4FxbVPqf65&amp;list=PLC292123722B1B450" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
 
-Calculus 1
+##### Calculus 1
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=kQM-f31fKhrvQGyj&amp;list=PLF797E961509B4EB5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
 
-Calculus 2
+##### Calculus 2
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=3zZp7AUIs7zTSfct&amp;list=PLDesaqWTN6EQ2J4vgsN1HyBeRADEh4Cw-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
 
-Calculus 3
+##### Calculus 3
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=SQBY7C57X3EQuWt3&amp;list=PLDesaqWTN6ESk16YRmzuJ8f6-rnuy0Ry7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
 
-Statistics
+#### Statistics
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=n7DWTG6KgBmrtFDP&amp;list=PL5102DFDC6790F3D0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 </details>
 
 ---
+
+## Website
+
+Here are resources I used to create this website
+
+<details>
+  <summary style="color: white; cursor: pointer;"><strong>Click to expand</strong></summary>
+
+
+A good starting point ↓ 
+
+##### [MEDS: Creating Your Personal Website Using Quarto](https://ucsb-meds.github.io/creating-quarto-websites/){target="_blank"}  
+  
+##### [Quarto Guide](https://quarto.org/docs/guide/){target="_blank"}
+  
+##### [Quarto HTML Options](https://quarto.org/docs/reference/formats/html.html){target="_blank"}
+    
+##### [Quarto: The Definitive Guide](https://quarto-tdg.org/websites){target="_blank"}   
+
+##### [Quarto Tips and Tricks](https://www.datanovia.com/guide/tools/quarto/){target="_blank"}
+
+##### [6 Productivity Hacks for Quarto](https://posit.co/blog/6-productivity-hacks-for-quarto/){target="_blank"}
+
+----
+
 
