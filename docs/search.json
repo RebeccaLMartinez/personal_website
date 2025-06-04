@@ -537,5 +537,68 @@
     "title": "Projects",
     "section": "UCSB",
     "text": "UCSB\n\nCourse: ENVS 193DS – Data Science for Environmental Studies\nOngoing project that explores the relationship between lighting conditions and service calls using a self-collected dataset (n=108). Created a bar chart, summary table, and a blinking lightboard animation (gif). See visuals.\n\n\nTools Used:\nRStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto\n\n\nReflection:\nThis project made me think harder about data than I expected. After collecting and working with my own dataset, I gained a deeper respect for the messiness of real-world data.\n\n\nCode Snippet:\nclean_service_data &lt;- service_data |&gt;\n  mutate(\n    help = as.logical(toupper(help)),\n    working = as.logical(toupper(working))\n  )\n\n\nVisuals:\n\nService Light TableService Light Bar ChartBlinking Lights Animation\n\n\n\n\n\nService Light Table\n\n\n\n\n\n\n\nBar Chart\n\n\n\n\n\n\n\nBlinking Lights Animation\n\n\n\n\n\n\n\nResources\nGitHub Repo\nView Live"
+  },
+  {
+    "objectID": "resources.html#calculators",
+    "href": "resources.html#calculators",
+    "title": "Resource Collection",
+    "section": "Calculators",
+    "text": "Calculators\nHere are free online calculators by desmos.\n\n\nScientific\n\n\n\n\n\n\nGraphing"
+  },
+  {
+    "objectID": "resources.html#math",
+    "href": "resources.html#math",
+    "title": "Resource Collection",
+    "section": "Math",
+    "text": "Math\nExplore a collection of helpful math tools and materials.\n\n\nCalculators\n\n\nCalculators\nBelow you will find a collection of free calculators by desmos.\n\nDesmos Website\n\n\nScientific\n\n\n\n\nGraphing\n\n\n\n\n\nVideos\n\n\nThese playlists by Professor Leonard have been very helpful for understanding math concepts. If you find them useful, consider supporting him on Patreon.\n\n\n\n\n\nPrealgebra\n\n\n\n\n\nIntermediate Algebra\n\n\n\n\n\nCalculus 1\n\n\n\n\n\nCalculus 2\n\n\n\n\n\nCalculus 3\n\n\n\n\n\nStatistics"
+  },
+  {
+    "objectID": "resources.html#math-video-resources",
+    "href": "resources.html#math-video-resources",
+    "title": "Resource Collection",
+    "section": "Math Video Resources",
+    "text": "Math Video Resources\nThese playlists by Professor Leonard have been very helpful for understanding math concepts. If you find them useful, consider supporting him on Patreon.\n\nPrealgebra\n\n\n\n\nIntermediate Algebra\n\n\n\n\nCalculus 1\n\n\n\n\nCalculus 2\n\n\n\n\nCalculus 3\n\n\n\n\nStatistics"
+  },
+  {
+    "objectID": "resources.html#prealgebra",
+    "href": "resources.html#prealgebra",
+    "title": "Resource Collection",
+    "section": "Prealgebra",
+    "text": "Prealgebra"
+  },
+  {
+    "objectID": "resources.html#intermediate-algebra",
+    "href": "resources.html#intermediate-algebra",
+    "title": "Resource Collection",
+    "section": "Intermediate Algebra",
+    "text": "Intermediate Algebra"
+  },
+  {
+    "objectID": "resources.html#calculus-1",
+    "href": "resources.html#calculus-1",
+    "title": "Resource Collection",
+    "section": "Calculus 1",
+    "text": "Calculus 1"
+  },
+  {
+    "objectID": "resources.html#calculus-2",
+    "href": "resources.html#calculus-2",
+    "title": "Resource Collection",
+    "section": "Calculus 2",
+    "text": "Calculus 2"
+  },
+  {
+    "objectID": "resources.html#calculus-3",
+    "href": "resources.html#calculus-3",
+    "title": "Resource Collection",
+    "section": "Calculus 3",
+    "text": "Calculus 3"
+  },
+  {
+    "objectID": "resources.html#statistics",
+    "href": "resources.html#statistics",
+    "title": "Resource Collection",
+    "section": "Statistics",
+    "text": "Statistics"
   }
 ]

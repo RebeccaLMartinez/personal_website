@@ -72,19 +72,82 @@ Explore interactive chemistry simulations that help make abstract concepts visib
 
 <div class="clickable-links">
 
-#### [More PhET Simulations](https://phet.colorado.edu/en/simulations/filter?type=html)
+[More PhET Simulations](https://phet.colorado.edu/en/simulations/filter?type=html)
 
 </div>
 
 #### Molecule Shapes
 
-<iframe src="https://phet.colorado.edu/sims/html/molecule-shapes/latest/molecule-shapes_en.html"
-        width="800"
-        height="600"
-        allowfullscreen>
-</iframe>
+<iframe src="https://phet.colorado.edu/sims/html/molecule-shapes/latest/molecule-shapes_en.html" width="800"  height="600" allowfullscreen></iframe>
 
 
+</details>
+
+
+## Math 
+
+Explore a collection of helpful math tools and materials. 
+
+
+<details>
+  <summary style="color: #4FA78D; cursor: pointer;"><strong>Calculators</strong></summary>
+
+### Calculators
+
+Below you will find a collection of free calculators by desmos.
+
+<div class="clickable-links">
+
+[Desmos Website](https://www.desmos.com/)
+
+</div>
+
+#### **Scientific**
+
+<iframe src="https://www.desmos.com/scientific"  height="500px" width="800px" allowfullscreen></iframe> 
+
+#### **Graphing**
+
+<iframe src="https://www.desmos.com/calculator"  height="500px" width="800px" allowfullscreen></iframe> 
+
+</details>
+
+<details>
+  <summary style="color: #4FA78D; cursor: pointer;"><strong>Videos</strong></summary>
+
+  <p>These playlists by Professor Leonard have been very helpful for understanding math concepts. If you find them useful, consider supporting him on <a href="https://patreon.com/ProfessorLeonard" target="_blank">Patreon</a>.</p>
+
+<div class="video-gallery">
+
+  <div class="video-item">
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=NEOhx8UfkJX0yqzS&amp;list=PL4C9296DF81B9EF13" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div class="video-caption">Prealgebra</div>
+  </div>
+
+  <div class="video-item">
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=EHAp3F4FxbVPqf65&amp;list=PLC292123722B1B450" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div class="video-caption">Intermediate Algebra</div>
+  </div>
+
+  <div class="video-item">
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=kQM-f31fKhrvQGyj&amp;list=PLF797E961509B4EB5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div class="video-caption">Calculus 1</div>
+  </div>
+
+  <div class="video-item">
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=3zZp7AUIs7zTSfct&amp;list=PLDesaqWTN6EQ2J4vgsN1HyBeRADEh4Cw-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div class="video-caption">Calculus 2</div>
+  </div>
+
+  <div class="video-item">
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=SQBY7C57X3EQuWt3&amp;list=PLDesaqWTN6ESk16YRmzuJ8f6-rnuy0Ry7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div class="video-caption">Calculus 3</div>
+  </div>
+
+  <div class="video-item">
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=n7DWTG6KgBmrtFDP&amp;list=PL5102DFDC6790F3D0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div class="video-caption">Statistics</div>
+  </div>
 
 </div>
 </details>
