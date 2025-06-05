@@ -17,6 +17,13 @@ about:
       href: https://github.com/RebeccaLMartinez
       aria-label: GitHub
 ---
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const lightbox = GLightbox({ selector: '.glightbox' });
+  });
+</script>
 
 Hi! I'm Rebecca — an Environmental Studies major at the University of California, Santa Barbara (UCSB), student researcher, and mom of two incredible teenagers. I’ve taken an unconventional path to college, but every step has shaped who I am today. I’m passionate about hands-on learning and finding meaningful ways to connect science with the world around us.
 
@@ -26,24 +33,15 @@ Hi! I'm Rebecca — an Environmental Studies major at the University of Californ
 
 Before returning to school, I balanced work, family life, and five years serving in the Marine Corps Reserves. Community college rekindled my love for science and service. At Allan Hancock College, I worked as a tutor and mentor, helping other students as I grew in my own studies. Now at UCSB, I’m blending research, education, and community involvement to build a path that feels purposeful and rewarding.
 
-<!-- Image grid with clickable images -->
+
 <div class="image-grid">
-  <figure class="image-tile" onclick="openModal('/media/usmc.jpg', 'Once Upon a Time')">
+  <a href="/media/usmc.jpg" class="glightbox" data-glightbox="title: Once Upon a Time">
     <img src="/media/usmc.jpg" alt="Once Upon a Time">
-    <figcaption>Once Upon a Time.</figcaption>
-  </figure>
+  </a>
 
-  <figure class="image-tile" onclick="openModal('/media/ahc.jpg', 'Allan Hancock College')">
+  <a href="/media/ahc.jpg" class="glightbox" data-glightbox="title: Allan Hancock College Academic Resource Center">
     <img src="/media/ahc.jpg" alt="Allan Hancock College">
-    <figcaption>Allan Hancock College.</figcaption>
-  </figure>
-</div>
-
-<!-- Modal container for displaying clicked images -->
-<div id="modal" class="modal" onclick="closeModal(event)">
-  <span class="modal-close" onclick="closeModal(event)">&times;</span>
-  <img class="modal-content" id="modal-img" alt="">
-  <div id="modal-caption"></div>
+  </a>
 </div>
 
 ---
@@ -54,16 +52,15 @@ Before returning to school, I balanced work, family life, and five years serving
 Sometimes the best way to learn is by jumping in and experiencing it firsthand. Fieldwork brings my studies to life by connecting science with real environments and showing how those environments impact our world. I believe hands-on experience is one of the best ways to inspire students and anyone who’s still finding their place in science.
 
 <div class="image-grid">
-  <figure class="image-tile" onclick="openModal('/media/lavendar.jpeg', 'Harvesting lavender to distill into oil.')">
+  <a href="/media/lavendar.jpeg" class="glightbox" data-glightbox="title: Harvesting lavender to distill into oil.">
     <img src="/media/lavendar.jpeg" alt="Harvesting lavender">
-    <figcaption>Harvesting lavender to distill into oil.</figcaption>
-  </figure>
+  </a>
 
-  <figure class="image-tile" onclick="openModal('/media/rebecca_kayla_sci.jpeg', 'With Kayla Geronimo-Anctil on Santa Cruz Island Reserve.')">
+  <a href="/media/rebecca_kayla_sci.jpeg" class="glightbox" data-glightbox="title: With Kayla Geronimo-Anctil on Santa Cruz Island Reserve.">
     <img src="/media/rebecca_kayla_sci.jpeg" alt="Santa Cruz Island">
-    <figcaption>With Kayla Geronimo-Anctil on Santa Cruz Island Reserve.</figcaption>
-  </figure>
+  </a>
 </div>
+
 
 *You can explore my [projects](projects.html) and [photos](fieldphotos.html) pages to see what I’ve been up to.*
 
@@ -74,15 +71,13 @@ Sometimes the best way to learn is by jumping in and experiencing it firsthand. 
 I’m a proud mom of two amazing teenagers who inspire me every day. When I’m not studying or working, I enjoy volunteering, spending time outdoors, and relaxing with my cats, Chester and Leo.
 
 <div class="image-grid">
-  <figure class="image-tile" onclick="openModal('/media/kids.jpg', 'My Family')">
+  <a href="/media/kids.jpg" class="glightbox" data-glightbox="title: My Family">
     <img src="/media/kids.jpg" alt="My Family">
-    <figcaption>My Family.</figcaption>
-  </figure>
+  </a>
 
-  <figure class="image-tile" onclick="openModal('/media/cats.jpeg', 'Chester and Leo')">
+  <a href="/media/cats.jpeg" class="glightbox" data-glightbox="title: Chester and Leo">
     <img src="/media/cats.jpeg" alt="Chester and Leo">
-    <figcaption>Chester and Leo.</figcaption>
-  </figure>
+  </a>
 </div>
 
 
@@ -95,15 +90,13 @@ I’m a proud mom of two amazing teenagers who inspire me every day. When I’m 
 Giving back has always been a priority for me. Whether mentoring, volunteering, or supporting community efforts behind the scenes, I believe showing up and contributing makes a difference. Over the years, I’ve been involved with groups like Toys for Tots, local outreach, and *She Raised Her Hand*.
 
 <div class="image-grid">
-  <figure class="image-tile" onclick="openModal('/media/toysfortots.jpg', 'Toys for Tots Event (holding the unicorn).')">
+  <a href="/media/toysfortots.jpg" class="glightbox" data-glightbox="title: Toys for Tots Event (holding the unicorn)">
     <img src="/media/toysfortots.jpg" alt="Toys for Tots">
-    <figcaption>Toys for Tots Event (holding the unicorn).</figcaption>
-  </figure>
+  </a>
 
-  <figure class="image-tile" onclick="openModal('/media/srhh.jpeg', 'Proclamation presented by the City of Santa Maria to She Raised Her Hand.')">
+  <a href="/media/srhh.jpeg" class="glightbox" data-glightbox="title: Proclamation presented by the City of Santa Maria to She Raised Her Hand">
     <img src="/media/srhh.jpeg" alt="She Raised Her Hand Proclamation">
-    <figcaption>Proclamation presented by the City of Santa Maria to <em>She Raised Her Hand</em>.</figcaption>
-  </figure>
+  </a>
 </div>
 
 
@@ -112,30 +105,3 @@ Giving back has always been a priority for me. Whether mentoring, volunteering, 
 
 ---
 
-<!-- Modal JavaScript to open and close image modal -->
-<script>
-  // Open modal and set image src and caption
-  function openModal(src, caption) {
-    const modal = document.getElementById('modal');
-    const modalImg = document.getElementById('modal-img');
-    const modalCaption = document.getElementById('modal-caption');
-
-    modal.style.display = 'flex';          // Show modal (flex for centering)
-    modalImg.src = src;                    // Set modal image source
-    modalCaption.textContent = caption;    // Set caption text
-  }
-
-  // Close modal when clicking outside image or on close button
-  function closeModal(event) {
-    const modal = document.getElementById('modal');
-    // Close only if clicking modal background or close icon
-    if (
-      event.target === modal || 
-      event.target.classList.contains('modal-close')
-    ) {
-      modal.style.display = 'none';
-      const modalImg = document.getElementById('modal-img');
-      modalImg.src = ''; // Clear image src on close to avoid stale image
-    }
-  }
-</script>

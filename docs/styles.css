@@ -182,86 +182,32 @@ Used for thumbnail or visual displays
 .image-grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 1em;
+  justify-content: center; /* <-- this centers the images */
+  gap: 1rem;
+  margin: 1rem 0;
 }
-.image-tile {
-  flex: 1 1 120px;
-  max-width: 200px;
-  min-width: 100px;
-  margin: 0.5em;
+
+.image-grid a {
+  flex: 1 1 300px;
+  max-width: 300px;
   text-align: center;
-  border-radius: 12px;
-  overflow: hidden;
+}
+
+.image-grid img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
   transition: transform 0.2s ease;
-}
-.image-tile:hover {
-  transform: scale(1.05);
-}
-.image-tile img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-.image-tile figcaption {
-  display: none;
-}
-
-/* 
-====================================
-MODAL (POPUP IMAGE VIEW)
-Fullscreen image viewer for about page
-====================================
-*/
-.modal {
-  display: flex;
-  position: fixed;
-  z-index: 10000;
-  left: 0; top: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0,0,0,0.85);
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 1rem;
-  box-sizing: border-box;
-}
-.modal-content {
-  max-width: 90vw;
-  max-height: 80vh;
-  border-radius: 16px;
-  object-fit: contain;
-  user-select: none;
-}
-#modal-caption {
-  margin-top: 12px;
-  color: #ccc;
-  font-style: italic;
-  font-size: 1.1rem;
-  text-align: center;
-  max-width: 90vw;
-  user-select: text;
-}
-.modal-close {
-  position: absolute;
-  top: 1rem;
-  right: 1.25rem;
-  color: #eee;
-  font-size: 2.4rem;
-  font-weight: bold;
   cursor: pointer;
-  user-select: none;
-  transition: color 0.3s ease;
-  z-index: 11000;
-}
-.modal-close:hover,
-.modal-close:focus {
-  color: #4FA78D;
-  outline: none;
 }
 
-/* 
+.image-grid img:hover {
+  transform: scale(1.03);
+}
+
+
 ====================================
 CAT PROFILES
 Expandable profile view for individual cats
@@ -382,7 +328,7 @@ Styled like interactive buttons
   }
 
   /* Optional: Make embedded iframes (e.g., Quizlet, YouTube) scale nicely */
-  iframe {
+  .iframe {
     width: 100%;
     height: 100%;
     aspect-ratio: 16 / 9;
