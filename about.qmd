@@ -17,13 +17,12 @@ about:
       href: https://github.com/RebeccaLMartinez
       aria-label: GitHub
 ---
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+<!-- Glightbox CSS -->
+<link href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" rel="stylesheet" />
+
+<!-- Glightbox JS -->
 <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
-<script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const lightbox = GLightbox({ selector: '.glightbox' });
-  });
-</script>
+
 
 Hi! I'm Rebecca — an Environmental Studies major at the University of California, Santa Barbara (UCSB), student researcher, and mom of two incredible teenagers. I’ve taken an unconventional path to college, but every step has shaped who I am today. I’m passionate about hands-on learning and finding meaningful ways to connect science with the world around us.
 
@@ -106,3 +105,8 @@ Giving back has always been a priority for me. Whether mentoring, volunteering, 
 
 ---
 
+<script>
+  const lightbox = GLightbox({
+    selector: '.glightbox'
+  });
+</script>

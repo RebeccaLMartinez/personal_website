@@ -109,13 +109,10 @@ ul.task-list li input[type="checkbox"] {
 </div>
       <div class="about-contents"><main class="content" id="quarto-document-content">
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+<!-- Glightbox CSS -->
+<p><link href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" rel="stylesheet"></p>
+<!-- Glightbox JS -->
 <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
-<script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const lightbox = GLightbox({ selector: '.glightbox' });
-  });
-</script>
 <p>Hi! I’m Rebecca — an Environmental Studies major at the University of California, Santa Barbara (UCSB), student researcher, and mom of two incredible teenagers. I’ve taken an unconventional path to college, but every step has shaped who I am today. I’m passionate about hands-on learning and finding meaningful ways to connect science with the world around us.</p>
 <hr>
 <section id="my-path" class="level1">
@@ -123,7 +120,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Before returning to school, I balanced work, family life, and five years serving in the Marine Corps Reserves. Community college rekindled my love for science and service. At Allan Hancock College, I worked as a tutor and mentor, helping other students as I grew in my own studies. Now at UCSB, I’m blending research, education, and community involvement to build a path that feels purposeful and rewarding.</p>
 <div class="image-grid">
 <p><a href="./media/usmc.jpg" class="glightbox" data-glightbox="title: Once Upon a Time"> <img src="./media/usmc.jpg" alt="Once Upon a Time"> </a></p>
-<p><a href="./media/ahc.jpg" class="glightbox" data-glightbox="title: Allan Hancock College Academic Resource Center"> <img src="./media/ahc.jpg" alt="Allan Hancock College"> </a></p>
+<p><a href="./media/ahc.jpg" class="glightbox" data-glightbox="title: Allan Hancock College"> <img src="./media/ahc.jpg" alt="Allan Hancock College"> </a></p>
 </div>
 <hr>
 </section>
@@ -151,14 +148,21 @@ ul.task-list li input[type="checkbox"] {
 <h1>❤️ Giving Back</h1>
 <p>Giving back has always been a priority for me. Whether mentoring, volunteering, or supporting community efforts behind the scenes, I believe showing up and contributing makes a difference. Over the years, I’ve been involved with groups like Toys for Tots, local outreach, and <em>She Raised Her Hand</em>.</p>
 <div class="image-grid">
-<p><a href="./media/toysfortots.jpg" class="glightbox" data-glightbox="title: Toys for Tots Event (holding the unicorn)"> <img src="./media/toysfortots.jpg" alt="Toys for Tots"> </a></p>
+<a href="./media/toysfortots.jpg" class="glightbox" data-glightbox="title: Toys for Tots Event (holding the unicorn)"> <img src="./media/toysfortots.jpg" alt="Toys for Tots"> </a>
+<div class="image-grid">
 <p><a href="./media/srhh.jpeg" class="glightbox" data-glightbox="title: Proclamation presented by the City of Santa Maria to She Raised Her Hand"> <img src="./media/srhh.jpeg" alt="She Raised Her Hand Proclamation"> </a></p>
 </div>
 <p><em>Please visit <a href="https://www.sheraisedherhand.com"><strong>She Raised Her Hand</strong></a> for more information and upcoming events.</em><br>
 <em>If you’d like to support seasonal giving efforts, donations can be made through <a href="https://www.toysfortots.org"><strong>Toys for Tots</strong></a>.</em></p>
 <hr>
+<script>
+  const lightbox = GLightbox({
+    selector: '.glightbox'
+  });
+</script>
 
 
+</div>
 </section>
 </main></div>
     </div>
