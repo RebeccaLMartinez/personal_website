@@ -166,12 +166,11 @@ This project gave me a creative way to engage with evolutionary biology. Working
 **UCSB-Smithsonian Scholars Program**
 *Advanced Field Research Training at the Smithsonian Tropical Research Institute (STRI) in Panama, Summer 2023*
 
-Final project from an immersive data science and field course. This project compares species richness and functional richness of bird communities between Barro Colorado Island (BCI) and Pipeline Road (mainland Panama). We used autonomous recorders (AudioMoths) and avian trait databases to examine diversity patterns in two distinct habitats.
+Final project from an immersive data science and field course. This project compares species richness and functional richness of bird communities between Barro Colorado Island (BCI) and Pipeline Road (mainland Panama). We used autonomous recorders (AudioMoths) and avian trait databases to examine diversity patterns in two distinct habitats. Results reflect learning outcomes rather than comprehensive biodiversity assessments.
 
 ### **Project Team**
 
 ***The Orependulas***
-
 Brandon Leon, Rebecca Martinez, Daniel Romero, Mathew Silva, and Zachary Wilson.
 
 
@@ -183,9 +182,18 @@ Brandon Leon, Rebecca Martinez, Daniel Romero, Mathew Silva, and Zachary Wilson.
 - AVONET – Comprehensive bird trait dataset
 - Birds of Panama – BirdLife International
 
-### **Methods**
+### **Process**
 
-Deployed 12 AudioMoths to record dawn chorus → Conducted point counts for visual confirmation → Analyzed 24 audio files using BirdNET-Analyzer → Combined detections with trait data from AVONET and Birds of Panama → Created visualizations in RStudio
+→ Deployed 12 AudioMoths to record dawn chorus 
+
+→ Conducted point counts for visual confirmation  
+
+→ Analyzed 24 audio files using BirdNET-Analyzer  
+
+→ Combined detections with trait data from AVONET and Birds of Panama  
+
+→ Created visualizations in RStudio  
+
 
 ### **Code Snippet**
 
@@ -230,7 +238,7 @@ Map of Sampling Locations
 
 :::
 
-#### Poster
+### Poster
 
 Presented findings at the 2023 Cal Poly Summer Internship Research Symposium and the 2023 UCSB Fall Undergraduate Research Showcase.
 
