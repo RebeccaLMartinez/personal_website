@@ -39,10 +39,11 @@ Before returning to school, I balanced work, family life, and five years serving
     <img src="/media/usmc.jpg" alt="Once Upon a Time">
   </a>
 
-  <a href="/media/ahc.jpg" class="glightbox" data-glightbox="title: Allan Hancock College Academic Resource Center">
+  <a href="/media/ahc.jpg" class="glightbox" data-glightbox="title: Allan Hancock College">
     <img src="/media/ahc.jpg" alt="Allan Hancock College">
   </a>
 </div>
+
 
 ---
 
@@ -93,7 +94,7 @@ Giving back has always been a priority for me. Whether mentoring, volunteering, 
   <a href="/media/toysfortots.jpg" class="glightbox" data-glightbox="title: Toys for Tots Event (holding the unicorn)">
     <img src="/media/toysfortots.jpg" alt="Toys for Tots">
   </a>
-
+<div class="image-grid">
   <a href="/media/srhh.jpeg" class="glightbox" data-glightbox="title: Proclamation presented by the City of Santa Maria to She Raised Her Hand">
     <img src="/media/srhh.jpeg" alt="She Raised Her Hand Proclamation">
   </a>
