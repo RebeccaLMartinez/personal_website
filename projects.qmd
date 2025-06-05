@@ -28,11 +28,10 @@ Ongoing project that explores the relationship between lighting conditions and s
 
 RStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto
 
-### **Reflection**  
-
-This project made me think harder about data than I expected. After collecting and working with my own dataset, I gained a deeper respect for the messiness of real-world data.
 
 ### **Code Snippet**
+
+This converts help and working columns in service_data to TRUE/FALSE values by making their text uppercase and then to logical type, then saves the result asa nee object called clean_service_data.
 
 ```r
 clean_service_data <- service_data |>
@@ -60,6 +59,9 @@ clean_service_data <- service_data |>
 
 :::
 
+### **Reflection**  
+
+This project made me think harder about data than I expected. After collecting and working with my own dataset, I gained a deeper respect for the messiness of real-world data.
 
 ### **Resources**
 
