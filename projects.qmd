@@ -244,8 +244,7 @@ Map of Sampling Locations
 
 Presented findings at the 2023 Cal Poly Summer Internship Research Symposium and the 2023 UCSB Fall Undergraduate Research Showcase.
 
-
-[![Comparison of Species Richness & Functional Richness Between BCI and Pipeline Road](/media/panama_bci_richness_poster.jpg)](/media/panama_bci_richness_poster.jpg){target="_blank"}
+![Comparison of Species Richness & Functional Richness Between BCI and Pipeline Road](/media/panama_bci_richness_poster.jpg){target="_blank"}
 
 ### **Reflection**
 

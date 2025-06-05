@@ -119,9 +119,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#service-lights" id="toc-service-lights" class="nav-link active" data-scroll-target="#service-lights">💡 Service Lights</a>
   <ul class="collapse">
   <li><a href="#tools-used" id="toc-tools-used" class="nav-link" data-scroll-target="#tools-used"><strong>Tools Used</strong></a></li>
-  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><strong>Reflection</strong></a></li>
   <li><a href="#code-snippet" id="toc-code-snippet" class="nav-link" data-scroll-target="#code-snippet"><strong>Code Snippet</strong></a></li>
   <li><a href="#visuals" id="toc-visuals" class="nav-link" data-scroll-target="#visuals"><strong>Visuals</strong></a></li>
+  <li><a href="#reflection" id="toc-reflection" class="nav-link" data-scroll-target="#reflection"><strong>Reflection</strong></a></li>
   <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources"><strong>Resources</strong></a></li>
   </ul></li>
   <li><a href="#soil-bioturbation" id="toc-soil-bioturbation" class="nav-link" data-scroll-target="#soil-bioturbation">🌱 Soil Bioturbation</a></li>
@@ -183,12 +183,9 @@ Click to expand
 <h3 class="anchored" data-anchor-id="tools-used"><strong>Tools Used</strong></h3>
 <p>RStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto</p>
 </section>
-<section id="reflection" class="level3">
-<h3 class="anchored" data-anchor-id="reflection"><strong>Reflection</strong></h3>
-<p>This project made me think harder about data than I expected. After collecting and working with my own dataset, I gained a deeper respect for the messiness of real-world data.</p>
-</section>
 <section id="code-snippet" class="level3">
 <h3 class="anchored" data-anchor-id="code-snippet"><strong>Code Snippet</strong></h3>
+<p>This converts help and working columns in service_data to TRUE/FALSE values by making their text uppercase and then to logical type, then saves the result asa nee object called clean_service_data.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>clean_service_data <span class="ot">&lt;-</span> service_data <span class="sc">|&gt;</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="at">help =</span> <span class="fu">as.logical</span>(<span class="fu">toupper</span>(help)),</span>
@@ -226,6 +223,10 @@ Click to expand
 </div>
 </div>
 </div>
+</section>
+<section id="reflection" class="level3">
+<h3 class="anchored" data-anchor-id="reflection"><strong>Reflection</strong></h3>
+<p>This project made me think harder about data than I expected. After collecting and working with my own dataset, I gained a deeper respect for the messiness of real-world data.</p>
 </section>
 <section id="resources" class="level3">
 <h3 class="anchored" data-anchor-id="resources"><strong>Resources</strong></h3>
@@ -375,7 +376,7 @@ Click to expand
 <p>Presented findings at the 2023 Cal Poly Summer Internship Research Symposium and the 2023 UCSB Fall Undergraduate Research Showcase.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href=".\media/panama_bci_richness_poster.jpg" target="_blank"><img src=".\media/panama_bci_richness_poster.jpg" class="img-fluid figure-img" alt="Comparison of Species Richness &amp; Functional Richness Between BCI and Pipeline Road"></a></p>
+<p><img src=".\media/panama_bci_richness_poster.jpg" class="img-fluid figure-img" target="_blank"></p>
 <figcaption>Comparison of Species Richness &amp; Functional Richness Between BCI and Pipeline Road</figcaption>
 </figure>
 </div>
