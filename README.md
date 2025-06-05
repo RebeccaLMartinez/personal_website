@@ -26,11 +26,12 @@ Highlights from academic, field, and coding projects:
 
 ### [`cats.qmd`](cats.qmd) – **Cat Page 🐱**  
 A fun, interactive page featuring cat bios and a quiz.
-_Status: Live and expanding!_
 
-### [`fieldphotos.qmd`](fieldphotos.qmd) – **Field Photos**  
+_(Live but expanding!)_
+
+### [`fieldphotos.qmd`](fieldphotos.qmd) – **Photo Gallery**  
 Collection of field research photos.  
- _Status: In progress_
+ _(in progress)_
 
 ### [`experience.qmd`](experience.qmd) – **Resume & CV**  
 Professional experience and academic background. 
@@ -44,8 +45,9 @@ Educational tools and links I've created or curated, including:
 - Chemistry sims  
 - Desmos calculators  
 - Math video series
-- Website resources
-  _Live and expanding!_
+- Website resources  
+
+_(Live but expanding!)_
 
 ---
 
