@@ -163,7 +163,7 @@ This project gave me a creative way to engage with evolutionary biology. Working
 <details>
   <summary style="color: #4FA78D; cursor: pointer;">Click to expand</summary>
 
-**UCSB-Smithsonian Scholars Program**
+**UCSB-Smithsonian Scholars Program**  
 *Advanced Field Research Training at the Smithsonian Tropical Research Institute (STRI) in Panama, Summer 2023*
 
 Final project from an immersive data science and field course. This project compares species richness and functional richness of bird communities between Barro Colorado Island (BCI) and Pipeline Road (mainland Panama). We used autonomous recorders (AudioMoths) and avian trait databases to examine diversity patterns in two distinct habitats. Results reflect learning outcomes rather than comprehensive biodiversity assessments.
