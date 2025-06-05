@@ -11,8 +11,7 @@ format:
 ---
 
 Welcome to my growing collection of educational tools and resources I’ve gathered or created over time. Feel free to explore, use what’s helpful, and share with others.
-
----
+   
    
    
    
@@ -185,9 +184,6 @@ Here are resources I used to create this website
 
 <details>
   <summary style="color: white; cursor: pointer;"><strong>Click to expand</strong></summary>
-
-
-A good starting point ↓ 
 
 ##### [MEDS: Creating Your Personal Website Using Quarto](https://ucsb-meds.github.io/creating-quarto-websites/){target="_blank"}  
   

@@ -15,7 +15,7 @@ This page highlights some of my work from classes and research.
 
 ***
 
-# 💡 Service Light (Personal Data) 
+# 💡 Service Lights
 <details>
   <summary style="color: #4FA78D; cursor: pointer;">Click to expand</summary>
 
@@ -24,13 +24,15 @@ This page highlights some of my work from classes and research.
 
 Ongoing project that explores the relationship between lighting conditions and service calls using a self-collected dataset (n=108). Created a bar chart, summary table, and a blinking lightboard animation (gif). See visuals.
 
-### **Tools Used:**  
+### **Tools Used**  
+
 RStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto
 
-### **Reflection:**  
+### **Reflection**  
+
 This project made me think harder about data than I expected. After collecting and working with my own dataset, I gained a deeper respect for the messiness of real-world data.
 
-### **Code Snippet:**
+### **Code Snippet**
 
 ```r
 clean_service_data <- service_data |>
@@ -40,7 +42,7 @@ clean_service_data <- service_data |>
   )
 ```
 
-### **Visuals:**  
+### **Visuals**  
 
 :::{.panel-tabset}
 
@@ -129,4 +131,116 @@ _Under construction…_
 
 </details>
 
+
+# 🦎 Rough Skinned Newt vs. Garter Snake
+
+<details>
+  <summary style="color: #4FA78D; cursor: pointer;">Click to expand</summary>
+
+**Allan Hancock College**  
+*BIOL 155 – Zoology*
+
+*Collaborative video project with Darlene Vera, with help from friends in the Department of Fine Arts.*
+
+The co-evolution of toxin production in rough-skinned newts and toxin resistance in garter snakes served as the focus of a short film designed to make complex science accessible. The project combined storytelling, visual art, and evolutionary biology to communicate this dynamic relationship.
+
+### **Tools Used**
+Scriptwriting, Storyboarding, Filmmaking, Adobe Premiere (editing)
+
+### **Reflection**
+This project gave me a creative way to engage with evolutionary biology. Working with visual storytelling reminded me that science communication can be just as impactful as scientific research.
+
+### **Watch the Video**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cFefwwtAHF8?si=m9Jg2OOTCrdrWtRe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 --- 
+
+</details>
+
+
+# 🐦 Species & Functional Richness Comparison
+
+<details>
+  <summary style="color: #4FA78D; cursor: pointer;">Click to expand</summary>
+
+**UCSB-Smithsonian Scholars Program**
+*Advanced Field Research Training at the Smithsonian Tropical Research Institute (STRI) in Panama, Summer 2023*
+
+Final project from an immersive data science and field course. This project compares species richness and functional richness of bird communities between Barro Colorado Island (BCI) and Pipeline Road (mainland Panama). We used autonomous recorders (AudioMoths) and avian trait databases to examine diversity patterns in two distinct habitats.
+
+### **Project Team**
+
+***The Orependulas***
+
+Brandon Leon, Rebecca Martinez, Daniel Romero, Mathew Silva, and Zachary Wilson.
+
+
+### **Tools Used**
+
+- AudioMoths
+- RStudio (tidyverse, mFD, phytools)
+- BirdNET-Analyzer (Cornell Lab of Ornithology)
+- AVONET – Comprehensive bird trait dataset
+- Birds of Panama – BirdLife International
+
+### **Methods**
+
+Deployed 12 AudioMoths to record dawn chorus → Conducted point counts for visual confirmation → Analyzed 24 audio files using BirdNET-Analyzer → Combined detections with trait data from AVONET and Birds of Panama → Created visualizations in RStudio
+
+### **Code Snippet**
+
+Code for species richness bar graph.
+
+```r
+merged_df <- bind_rows(pipeline_found_joined, bci_birds_joined)
+
+merged_df <- merged_df %>%
+  mutate(location = ifelse(row_number() <= 26, substr(location, 1, 4), location)) %>%
+  mutate(location = ifelse(row_number() >= 27 & row_number() <= 66, substr(location, 1, 3), location))
+
+family_count <- merged_df %>%
+  group_by(Family, location) %>%
+  summarize(num_species = n())
+
+ggplot(family_count, aes(x = Family, y = num_species, fill = location)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(title = "Number of Species by Family and Location",
+       x = "Family",
+       y = "Number of Species") +
+  theme_minimal() +
+  scale_y_continuous(breaks = seq(0, max(family_count$num_species), 1)) +
+  theme(axis.text.x = element_text(angle = 75, hjust = 1), axis.text = element_text(size = 8))
+  
+```
+
+### **Visuals**
+
+*Under construction...*
+
+:::{.panel-tabset}
+
+Functional Richness Boxplot by Location
+{target="_blank"}
+
+Species Count by Family and Location
+{target="_blank"}
+
+Map of Sampling Locations
+{target="_blank"}
+
+:::
+
+#### Poster
+
+Presented findings at the 2023 Cal Poly Summer Internship Research Symposium and the 2023 UCSB Fall Undergraduate Research Showcase.
+
+
+[![Comparison of Species Richness & Functional Richness Between BCI and Pipeline Road](/media/panama_bci_richness_poster.jpg)](/media/panama_bci_richness_poster.jpg)){target="_blank"}
+
+### **Reflection**
+
+This project helped me practice new skills in fieldwork, data analysis, and using R. It was exciting to work with real data that we collected ourselves in the field.
+
+---
+
+</details>
