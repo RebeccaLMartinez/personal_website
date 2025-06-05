@@ -214,7 +214,7 @@ Fullscreen image viewer for about page
 ====================================
 */
 .modal {
-  display: none;
+  display: flex;
   position: fixed;
   z-index: 10000;
   left: 0; top: 0;
