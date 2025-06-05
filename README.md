@@ -2,6 +2,7 @@
 
 Welcome! This site is a growing collection of my work, interests, and projects.
 🔗 [**Live Website**](https://rebeccalmartinez.github.io/personal_website)  
+  
 💻 [**GitHub Repository**](https://github.com/RebeccaLMartinez/personal_website)
 
 ---
@@ -17,9 +18,9 @@ My background, education, and journey through community college to research and 
 ### [`projects.qmd`](projects.qmd) – **Projects**  
 Highlights from academic, field, and coding projects:
 - **Service Light Data** – R-based data visualization with animated GIFs and tables
-- **Soil Bioturbation Study** – Field project on mammalian soil disturbance _(in progress)_
-- **Fog Harp Device** – Experimental fog-water harvesting device _(in progress)_  
-- **Skunk Population Research** – Camera-trap study on Santa Cruz Island _(in progress)_  
+- **Soil Bioturbation** – Field project on mammalian soil disturbance _(in progress)_
+- **Fog Harp** – Experimental fog-water harvesting device _(in progress)_  
+- **Skunk Population** – Camera-trap study on Santa Cruz Island _(in progress)_  
 
 ### [`cats.qmd`](cats.qmd) – **Cat Page 🐱**  
 A fun, interactive page featuring cat bios and a quiz.
