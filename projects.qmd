@@ -9,7 +9,11 @@ format:
       after-body: modal.js
 ---
 
+<!-- Glightbox CSS -->
+<link href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" rel="stylesheet" />
 
+<!-- Glightbox JS -->
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
 
 This page highlights some of my work from classes and research.
 
@@ -22,7 +26,7 @@ This page highlights some of my work from classes and research.
 **University of California, Santa Barbara (UCSB)**  
 *ENVS 193DS – Data Science for Environmental Studies*
 
-Ongoing project that explores the relationship between lighting conditions and service calls using a self-collected dataset (n=108). Created a bar chart, summary table, and a blinking lightboard animation (gif). See visuals.
+Ongoing project that explores the relationship between lighting conditions (working vs. broken) and service call outcomes (needing help or not) using a self-collected dataset (n=108). Created a bar chart, summary table, and a blinking lightboard animation (gif). See visuals.
 
 ### **Tools Used**  
 
@@ -31,7 +35,7 @@ RStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext)
 
 ### **Code Snippet**
 
-This converts help and working columns in service_data to TRUE/FALSE values by making their text uppercase and then to logical type, then saves the result asa nee object called clean_service_data.
+This converts help and working columns in service_data to TRUE/FALSE values by making their text uppercase and then to logical type, then saves the result as a new object called clean_service_data.
 
 ```r
 clean_service_data <- service_data |>
@@ -47,21 +51,22 @@ clean_service_data <- service_data |>
 
 #### Service Light Table
 
-[![Service Light Table](/media/light_table.jpg)](/media/light_table.jpg){target="_blank"}
+[![Service Light Table](/media/light_table.jpg)](/media/light_table.jpg){.glightbox data-glightbox="title: Service Light Table"}
 
 #### Service Light Bar Chart
 
-[![Bar Chart](/media/service_light_bar.jpg)](/media/service_light_bar.jpg){target="_blank"}
+[![Bar Chart](/media/service_light_bar.jpg)](/media/service_light_bar.jpg){.glightbox data-glightbox="title: Service Light Bar Chart"}
 
 #### Blinking Lights Animation
 
-[![Blinking Lights Animation](/media/blinking_lights.gif)](/media/blinking_lights.gif){target="_blank"}
+[![Blinking Lights Animation](/media/blinking_lights.gif)](/media/blinking_lights.gif){.glightbox data-glightbox="title: Blinking Lights Animation"}
 
 :::
 
+
 ### **Reflection**  
 
-This project made me think harder about data than I expected. After collecting and working with my own dataset, I gained a deeper respect for the messiness of real-world data.
+This project made me think more critically about data. Developing a personal data question, then collecting and working with my own dataset, helped me realize just how messy real-world data can be. It also made me appreciate the value of teamwork. This was a solo project - having others to help troubleshoot, clean, and interpret the same data makes a big difference.
 
 ### **Resources**
 
@@ -229,14 +234,17 @@ ggplot(family_count, aes(x = Family, y = num_species, fill = location)) +
 
 :::{.panel-tabset}
 
-Functional Richness Boxplot by Location
-{target="_blank"}
+#### Functional Richness Boxplot by Location
 
-Species Count by Family and Location
-{target="_blank"}
+<!-- [![Functional Richness Boxplot by Location]()](){glightbox ="Functional Richness Boxplot by Location"} -->
 
-Map of Sampling Locations
-{target="_blank"}
+#### Species Count by Family and Location
+
+<!-- [![Species Count by Family and Location]()](){glightbox ="Species Count by Family and Location"} -->
+
+#### Map of Sampling Locations
+
+<!-- [![Map of Sampling Locations]()](){glightbox ="Map of Sampling Locations"} -->
 
 :::
 
@@ -244,7 +252,9 @@ Map of Sampling Locations
 
 Presented findings at the 2023 Cal Poly Summer Internship Research Symposium and the 2023 UCSB Fall Undergraduate Research Showcase.
 
-![Comparison of Species Richness & Functional Richness Between BCI and Pipeline Road](/media/panama_bci_richness_poster.jpg){target="_blank"}
+[![Comparison of Species Richness & Functional Richness Between BCI and Pipeline Road](/media/panama_bci_richness_poster.jpg)](/media/panama_bci_richness_poster.jpg){.glightbox data-glightbox="title: Comparison of Species Richness & Functional Richness Between BCI and Pipeline Road"}
+
+
 
 ### **Reflection**
 
@@ -253,3 +263,10 @@ This project helped me practice new skills in fieldwork, data analysis, and usin
 ---
 
 </details>
+
+
+<script>
+  const lightbox = GLightbox({
+    selector: '.glightbox'
+  });
+</script>

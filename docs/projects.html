@@ -168,6 +168,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
+<!-- Glightbox CSS -->
+<p><link href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" rel="stylesheet"></p>
+<!-- Glightbox JS -->
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
 <p>This page highlights some of my work from classes and research.</p>
 <hr>
 <section id="service-lights" class="level1">
@@ -178,14 +182,14 @@ Click to expand
 </summary>
 <p><strong>University of California, Santa Barbara (UCSB)</strong><br>
 <em>ENVS 193DS – Data Science for Environmental Studies</em></p>
-<p>Ongoing project that explores the relationship between lighting conditions and service calls using a self-collected dataset (n=108). Created a bar chart, summary table, and a blinking lightboard animation (gif). See visuals.</p>
+<p>Ongoing project that explores the relationship between lighting conditions (working vs.&nbsp;broken) and service call outcomes (needing help or not) using a self-collected dataset (n=108). Created a bar chart, summary table, and a blinking lightboard animation (gif). See visuals.</p>
 <section id="tools-used" class="level3">
 <h3 class="anchored" data-anchor-id="tools-used"><strong>Tools Used</strong></h3>
 <p>RStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto</p>
 </section>
 <section id="code-snippet" class="level3">
 <h3 class="anchored" data-anchor-id="code-snippet"><strong>Code Snippet</strong></h3>
-<p>This converts help and working columns in service_data to TRUE/FALSE values by making their text uppercase and then to logical type, then saves the result asa nee object called clean_service_data.</p>
+<p>This converts help and working columns in service_data to TRUE/FALSE values by making their text uppercase and then to logical type, then saves the result as a new object called clean_service_data.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>clean_service_data <span class="ot">&lt;-</span> service_data <span class="sc">|&gt;</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="at">help =</span> <span class="fu">as.logical</span>(<span class="fu">toupper</span>(help)),</span>
@@ -200,7 +204,7 @@ Click to expand
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href=".\media/light_table.jpg" target="_blank"><img src=".\media/light_table.jpg" class="img-fluid figure-img" alt="Service Light Table"></a></p>
+<p><a href=".\media/light_table.jpg" class="glightbox" data-glightbox="title: Service Light Table"><img src=".\media/light_table.jpg" class="img-fluid figure-img" alt="Service Light Table"></a></p>
 <figcaption>Service Light Table</figcaption>
 </figure>
 </div>
@@ -208,7 +212,7 @@ Click to expand
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href=".\media/service_light_bar.jpg" target="_blank"><img src=".\media/service_light_bar.jpg" class="img-fluid figure-img" alt="Bar Chart"></a></p>
+<p><a href=".\media/service_light_bar.jpg" class="glightbox" data-glightbox="title: Service Light Bar Chart"><img src=".\media/service_light_bar.jpg" class="img-fluid figure-img" alt="Bar Chart"></a></p>
 <figcaption>Bar Chart</figcaption>
 </figure>
 </div>
@@ -216,7 +220,7 @@ Click to expand
 <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href=".\media/blinking_lights.gif" target="_blank"><img src=".\media/blinking_lights.gif" class="img-fluid figure-img" alt="Blinking Lights Animation"></a></p>
+<p><a href=".\media/blinking_lights.gif" class="glightbox" data-glightbox="title: Blinking Lights Animation"><img src=".\media/blinking_lights.gif" class="img-fluid figure-img" alt="Blinking Lights Animation"></a></p>
 <figcaption>Blinking Lights Animation</figcaption>
 </figure>
 </div>
@@ -226,7 +230,7 @@ Click to expand
 </section>
 <section id="reflection" class="level3">
 <h3 class="anchored" data-anchor-id="reflection"><strong>Reflection</strong></h3>
-<p>This project made me think harder about data than I expected. After collecting and working with my own dataset, I gained a deeper respect for the messiness of real-world data.</p>
+<p>This project made me think more critically about data. Developing a personal data question, then collecting and working with my own dataset, helped me realize just how messy real-world data can be. It also made me appreciate the value of teamwork. This was a solo project - having others to help troubleshoot, clean, and interpret the same data makes a big difference.</p>
 </section>
 <section id="resources" class="level3">
 <h3 class="anchored" data-anchor-id="resources"><strong>Resources</strong></h3>
@@ -365,9 +369,17 @@ Click to expand
 <h3 class="anchored" data-anchor-id="visuals-1"><strong>Visuals</strong></h3>
 <p><em>Under construction…</em></p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Functional Richness Boxplot by Location</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Species Count by Family and Location</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false">Map of Sampling Locations</a></li></ul>
 <div class="tab-content">
-
+<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
+<!-- [![Functional Richness Boxplot by Location]()](){glightbox ="Functional Richness Boxplot by Location"} -->
+</div>
+<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
+<!-- [![Species Count by Family and Location]()](){glightbox ="Species Count by Family and Location"} -->
+</div>
+<div id="tabset-2-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-3-tab">
+<!-- [![Map of Sampling Locations]()](){glightbox ="Map of Sampling Locations"} -->
+</div>
 </div>
 </div>
 </section>
@@ -376,7 +388,7 @@ Click to expand
 <p>Presented findings at the 2023 Cal Poly Summer Internship Research Symposium and the 2023 UCSB Fall Undergraduate Research Showcase.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src=".\media/panama_bci_richness_poster.jpg" class="img-fluid figure-img" target="_blank"></p>
+<p><a href=".\media/panama_bci_richness_poster.jpg" class="glightbox" data-glightbox="title: Comparison of Species Richness &amp; Functional Richness Between BCI and Pipeline Road"><img src=".\media/panama_bci_richness_poster.jpg" class="img-fluid figure-img" alt="Comparison of Species Richness &amp; Functional Richness Between BCI and Pipeline Road"></a></p>
 <figcaption>Comparison of Species Richness &amp; Functional Richness Between BCI and Pipeline Road</figcaption>
 </figure>
 </div>
@@ -386,6 +398,11 @@ Click to expand
 <p>This project helped me practice new skills in fieldwork, data analysis, and using R. It was exciting to work with real data that we collected ourselves in the field.</p>
 <hr>
 </section></details>
+<script>
+  const lightbox = GLightbox({
+    selector: '.glightbox'
+  });
+</script>
 
 
 </section>
