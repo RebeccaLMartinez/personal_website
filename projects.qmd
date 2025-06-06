@@ -178,6 +178,7 @@ Final project from an immersive data science and field course. This project comp
 ### **Project Team**
 
 ***The Orependulas***
+  
 Brandon Leon, Rebecca Martinez, Daniel Romero, Mathew Silva, and Zachary Wilson.
 
 
@@ -252,8 +253,7 @@ ggplot(family_count, aes(x = Family, y = num_species, fill = location)) +
 
 Presented findings at the 2023 Cal Poly Summer Internship Research Symposium and the 2023 UCSB Fall Undergraduate Research Showcase.
 
-[![Comparison of Species Richness & Functional Richness Between BCI and Pipeline Road](/media/panama_bci_richness_poster.jpg)](/media/panama_bci_richness_poster.jpg){.glightbox data-glightbox="title: Comparison of Species Richness & Functional Richness Between BCI and Pipeline Road"}
-
+[![Comparison of Species Richness & Functional Richness Between BCI and Pipeline Road](/media/panama_bci_richness_poster.jpg)](/media/panama_bci_richness_poster.jpg){.glightbox data-title="Comparison of Species Richness & Functional Richness Between BCI and Pipeline Road"}
 
 
 ### **Reflection**
