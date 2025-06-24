@@ -1,4 +1,4 @@
-# Rebecca L. Martinez – Personal Website
+# Personal Website
 
 Welcome! This site is a growing collection of my work, interests, and projects.
 🔗 [**Live Website**](https://rebeccalmartinez.github.io/personal_website)  
