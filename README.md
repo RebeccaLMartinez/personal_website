@@ -1,4 +1,4 @@
-# Rebecca L. Martinez – Personal Website
+# Personal Website
 
 Welcome! This site is a growing collection of my work, interests, and projects.
 🔗 [**Live Website**](https://rebeccalmartinez.github.io/personal_website)  
@@ -30,7 +30,7 @@ A fun, interactive page featuring cat bios and a quiz.
 _(Live but expanding!)_
 
 ### [`fieldphotos.qmd`](fieldphotos.qmd) – **Photo Gallery**  
-Collection of field research photos.  
+Collection of field photos plus more.  
  _(in progress)_
 
 ### [`experience.qmd`](experience.qmd) – **Resume & CV**  
