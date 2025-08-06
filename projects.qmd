@@ -19,6 +19,17 @@ This page highlights some of my work from classes and research.
 
 ***
 
+# 🌱 Soil Bioturbation
+
+<details>
+  <summary style="color: #4FA78D; cursor: pointer;">Click to expand</summary>
+  
+_Under construction…_
+
+---
+
+</details>
+
 # 💡 Service Lights
 <details>
   <summary style="color: #4FA78D; cursor: pointer;">Click to expand</summary>
@@ -26,7 +37,7 @@ This page highlights some of my work from classes and research.
 **University of California, Santa Barbara (UCSB)**  
 *ENVS 193DS – Data Science for Environmental Studies*
 
-Ongoing project that explores the relationship between lighting conditions (working vs. broken) and service call outcomes (needing help or not) using a self-collected dataset (n=108). Created a bar chart, summary table, and a blinking lightboard animation (gif). See visuals.
+A class project that explores the relationship between lighting conditions (working vs. broken) and service call outcomes (needing help or not) using a self-collected dataset (n=108). Created a bar chart, summary table, and a blinking lightboard animation (gif). See visuals.
 
 ### **Tools Used**  
 
@@ -63,11 +74,6 @@ clean_service_data <- service_data |>
 
 :::
 
-
-### **Reflection**  
-
-This project made me think more critically about data. Developing a personal data question, then collecting and working with my own dataset, helped me realize just how messy real-world data can be. It also made me appreciate the value of teamwork. This was a solo project - having others to help troubleshoot, clean, and interpret the same data makes a big difference.
-
 ### **Resources**
 
 <a href="https://rebeccalmartinez.github.io/ENVS-193DS_homework-03/code/ENVS-193DS_homework-03.html" target="_blank" style="
@@ -103,42 +109,6 @@ This project made me think more critically about data. Developing a personal dat
 </details>
 
 
-# 🌱 Soil Bioturbation
-
-<details>
-  <summary style="color: #4FA78D; cursor: pointer;">Click to expand</summary>
-  
-_Under construction…_
-
----
-
-</details>
-
-
-# 💧 Fog Harp
-
-<details>
-  <summary style="color: #4FA78D; cursor: pointer;">Click to expand</summary>
-  
-_Under construction…_
-
----
-
-</details>
-
-
-# 🦨 Skunk Population
-
-<details>
-  <summary style="color: #4FA78D; cursor: pointer;">Click to expand</summary>
-
-_Under construction…_
-
----
-
-</details>
-
-
 # 🦎 Rough Skinned Newt vs. Garter Snake
 
 <details>
@@ -153,9 +123,6 @@ The co-evolution of toxin production in rough-skinned newts and toxin resistance
 
 ### **Tools Used**
 Scriptwriting, Storyboarding, Filmmaking, Adobe Premiere (editing)
-
-### **Reflection**
-This project gave me a creative way to engage with evolutionary biology. Working with visual storytelling reminded me that science communication can be just as impactful as scientific research.
 
 ### **Watch the Video**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cFefwwtAHF8?si=m9Jg2OOTCrdrWtRe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -253,12 +220,8 @@ ggplot(family_count, aes(x = Family, y = num_species, fill = location)) +
 
 Presented findings at the 2023 Cal Poly Summer Internship Research Symposium and the 2023 UCSB Fall Undergraduate Research Showcase.
 
-[![Comparison of Species Richness & Functional Richness Between BCI and Pipeline Road](/media/panama_bci_richness_poster.jpg)](/media/panama_bci_richness_poster.jpg){.glightbox data-title="Comparison of Species Richness & Functional Richness Between BCI and Pipeline Road"}
+[![Comparison of Species Richness & Functional Richness Between BCI and Pipeline Road](media/panama_bci_richness_poster.jpg)](media/panama_bci_richness_poster.jpg){.glightbox data-title="Comparison of Species Richness & Functional Richness Between BCI and Pipeline Road"}
 
-
-### **Reflection**
-
-This project helped me practice new skills in fieldwork, data analysis, and using R. It was exciting to work with real data that we collected ourselves in the field.
 
 ---
 

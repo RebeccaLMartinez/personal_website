@@ -17,7 +17,7 @@ Welcome! Here you can view my professional resume and, soon, my detailed curricu
 ## Resume
 
 
-[⬇ Download Resume](media/resume_rm.pdf){.btn target="_blank"}
+[⬇ Download Resume](media/resume.pdf){.btn target="_blank"}
 
 
 <details>
@@ -59,60 +59,61 @@ Environmental studies undergraduate with a strong background in mentorship and p
 #### **UCSB Office of Education Partnerships (OEP)** — Goleta, CA  
 *Student Assistant* | Sept 2024 – Present  
 
-* Contribute to data collection, field site maintenance, and equipment repair for Island Spotted Skunk & Fog Harp projects on Santa Cruz Island.  
-* Assist with updating field protocols and project documentation to support ongoing research.  
-* Collaborate with a team to enhance project logistics and operational efficiency.
+* Collected data, maintenanced field sites, and repaired equipment.  
+* Updated protocols to support ongoing research initiatives.  
+* Worked as a team to enhance project logistics and operational efficiency.
 
 #### **Smithsonian Office of the Chief Information Officer (OCIO)** — Remote  
-*Data Science Lab Intern* | May 2024 – August 2024
+*Data Science Lab Intern* | Summer 2024, Summer 2025
 
-* Led weekly RStudio sessions, adapting teaching methods to improve learning outcomes.  
-* Mentored peers in applying research methodologies to real-world datasets.  
-* Developed and refined resources to enhance data science comprehension.
+* Led Rstudio/PositCloud discussion sections.  
+* Mentored peers in applying research methodologies to real-world datasets. 
+* Created and refined resources to enhance data science comprehension.
 
 #### **Allan Hancock College** — Santa Maria, CA  
 *Teaching Assistant* | Jan 2024 – May 2024  
 
 * Managed lab operations, including setup, compliance, and student support.  
-* Provided and created supplemental study materials to enhance student learning.
+* Developed supplemental study materials to enhance student learning.
 
 *Lead Tutor* | Aug 2020 – May 2024  
 
 * Coordinated tutor schedules and assisted in campus-wide training initiatives.  
-* Developed and delivered workshops to improve study skills and academic performance.  
+* Delivered workshops to improve study skills and academic performance. 
 * Collaborated with campus centers to enhance tutoring services and resources.
 
 *Peer Tutor* | Aug 2019 – May 2024  
 
 * Provided academic support in STEM subjects through one-on-one and group sessions.  
-* Assisted students in developing effective study and time management strategies.  
+* Guided students in developing effective study and time management strategies.  
 * Served as an embedded tutor in multiple science courses.
 
 #### **Chumash Casino Resort** — Santa Ynez, CA  
 *Slot Attendant* | Jan 2012 - May 2025  
 
-* Troubleshoot and resolve slot machine issues, address disputes promptly and tactfully to ensure a seamless guest experience.  
-* Ensure machines and equipment are functioning properly, maintaining the integrity of the gaming environment and upholding tribal gaming compliance.
+* Diagnosed and resolved slot machine issues.  
+* Addressed guest needs promptly and tactfully.
+* Maintained equipment and ensured gaming compliance
 
 *Floor Operations Supervisor* | June 2007 - Jan 2012  
 
-* Supervised daily operations for the slot and beverage departments, overseeing up to 75 team members per shift.  
-* Developed staff schedules and ensured operational efficiency during peak times.  
-* Addressed guest concerns to maintain a positive and safe environment.
+* Supervised daily floor operations and up to 75 staff per shift.  
+* Managed daily schedules to ensure adequate staffing.
+* Resolved guest concerns to maintain a safe and positive environment.
 
 *Security Officer* | June 2006 - June 2007  
 
-* Patrolled casino floor, staffed guard posts, and provided secure escorts.  
-* Handled chip drops and safeguarded money movements across the property.
+* Patrolled casino floor and provided secure guest escorts.
+* Responded to incidents and maintained safety protocols.
 
 
 ### Skills
 
-* Data analysis & visualization (RStudio)  
+* Data analysis & visualization (R)  
 * Field research & data collection  
 * Leadership & mentoring  
 * Communication & presentation  
-* Microsoft Office Suite  
+* Microsoft Office Suite & Google Suite 
 * Problem-solving & adaptability  
 * Time management  
 * Team collaboration  
@@ -131,11 +132,12 @@ Environmental studies undergraduate with a strong background in mentorship and p
 
 ## CV
 
-[⬇ Download Not Yet Available](){.btn target="_blank"}
+[⬇ Download CV](media/CV.pdf){.btn target="_blank"}
 
 <details>
   <summary style="color: #4FA78D; cursor: pointer;"><strong>Expand to view CV</strong></summary>
-
+  
+<div style="text-align: center;">
 
 *Coming soon*
 
