@@ -21,6 +21,7 @@ This page highlights some of my work from classes and research.
 
 
 # 🛣️️ Edible Trail Proposal
+
 <details>
   <summary style="color: #4FA78D; cursor: pointer;">Click to expand</summary>
 
