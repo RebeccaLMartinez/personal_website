@@ -8,7 +8,7 @@ format:
 
 
 
-Welcome! Here you can view my professional resume and, soon, my detailed curriculum vitae (CV).  
+Welcome! Here you can view my professional resume and curriculum vitae (CV).  
 
 
 ---
@@ -132,15 +132,121 @@ Environmental studies undergraduate with a strong background in mentorship and p
 
 ## CV
 
-[⬇ Download CV](media/CV.pdf){.btn target="_blank"}
+[⬇ Download CV](https://raw.githubusercontent.com/RebeccaLMartinez/cv/main/cv_rebecca.pdf){.btn target="_blank"}
 
 <details>
   <summary style="color: #4FA78D; cursor: pointer;"><strong>Expand to view CV</strong></summary>
   
 <div style="text-align: center;">
-
-*Coming soon*
-
+   
 ---
+
+<p style="text-align: center; font-size: 26px; color: #4FA78D; margin-bottom: 0;">Rebecca Martinez</p>
+<p style="text-align: center; margin-top: 0;">
+Undergraduate Researcher | Student Assistant<br>
+Environmental Studies Program | University of California, Santa Barbara
+</p>
+  <a href="mailto:rebecca_martinez@ucsb.edu" style="text-decoration: none;">📧</a>
+  <a href="mailto:martinez.rl@hotmail.com" style="text-decoration: none; margin-left: 10px;">✉️</a>
+</div>
+
+
+
+### Education
+
+|                                                                                             |                  |
+|:---------------------------------------------------------------------------------------------|------------------:|
+| **B.S. in Environmental Studies, University of California, Santa Barbara**                   | Expected 2026     |
+| **A.S. in Biology, Allan Hancock College** *(With honors)*                                 | Spring 2024       |
+| **A.A. in Biology, Allan Hancock College** *(With honors)*                                 | Winter 2023       |
+| **A.A. in Mathematics and Science, Allan Hancock College** *(With high honors)*             | Spring 2021       |
+| **IT Fundamentals Certificate, Allan Hancock College**                                     | Spring 2024       |
+
+
+
+### Research Experience
+
+|                                                                                                                              |                  |
+|:------------------------------------------------------------------------------------------------------------------------------|------------------:|
+| **Undergraduate Researcher, UC Santa Barbara**<br>*Geologic Nitrogen Inputs to Semi-Arid Soils with and without Mammalian Bioturbation.* Under Dr. Iris Holzer’s guidance, collected and prepared rock samples using rock saw and shatterbox. Prepared powdered samples in foil capsules for isotope analysis. | Winter 2025–Present |
+| **Research Assistant, UC Davis Soil Carbon Project**<br>*Soil Carbon Stabilization Study.* Assisted with pit digging, bulk density sampling, and soil auger collection at UCNRS Sedgwick Reserve. Performed USDA soil profile descriptions and applied safe sampling protocols while supporting team morale. | Spring 2025–Present |
+| **Student Assistant, UCSB Office of Education Partnerships**<br>Collected data, maintained field sites, repaired equipment, updated protocols, and supported project logistics to improve research operations. | Fall 2024–Present   |
+| **Peer Mentor, UCSB–Smithsonian Scholars Program**<br>Mentored students during a field workshop at Santa Cruz Island Reserve; trained them on field sensors including camera traps, Audiomoths (bioacoustic recording), and fog collectors with combined HOBO rain gauge data loggers; supported ecological data collection using FAIR data practices. | Summer 2024, 2025  |
+| **Participant, UCSB–Smithsonian Scholars Program**<br>Completed advanced field methods and data science training at UCNRS Santa Cruz Island Reserve and Smithsonian Tropical Research Institute (STRI), Panama, including RStudio/PositCloud instruction. | Summer 2023        |
+
+
+### Teaching and Mentorship
+
+|                                                                                                                                               |                  |
+|:-----------------------------------------------------------------------------------------------------------------------------------------------|------------------:|
+| **Discussion Leader, UCSB–Smithsonian ERES Program**<br>Guided undergraduates in using RStudio/PositCloud for data manipulation and visualization, emphasizing collaborative learning, equitable access, and open science principles. | Summer 2024, 2025 |
+| **Teaching Assistant, Allan Hancock College Human Anatomy Open Lab**<br>Managed Friday lab sessions, including setup and breakdown; developed visual study guides, led office hours, and supported human cadaver lab activities. | 2023–2024          |
+| **Tutor, Academic Resource Center & STEM Center, Allan Hancock College**<br>Provided one-on-one and group tutoring in biology, chemistry, math, and general education. | 2019–2024          |
+| &emsp;**Lead Tutor**; trained new tutors, led workshops on study skills and time management, and supported onboarding of staff and faculty. | 2020–2024          |
+| &emsp;**Embedded Tutor**; hosted review sessions and office hours, helped with grading, and customized study materials for life and physical science courses. | 2020–2024          |
+
+
+### Leadership and Service
+
+|                                                                                                                                               |                  |
+|:-----------------------------------------------------------------------------------------------------------------------------------------------|------------------:|
+| **Outreach Volunteer, UCSB Veteran Support Center**<br>Organized networking events to connect veteran students and women veterans within UCSB’s communities. | 2024–Present       |
+| **Science Outreach Volunteer, Allan Hancock College Life & Physical Sciences Department**<br>Designed and facilitated hands-on science activities for local K–12 students; created educational materials and coordinated event logistics. | 2022–2024          |
+| **Student Representative, Allan Hancock College**<br>Served as a student representative for faculty and staff hiring committees and Title V Committee to advocate for student needs. | 2021–2023          |
+| **Permanent Member, Alpha Gamma Sigma Aquarius Honor Society, Allan Hancock College**<br>Vice President; Organized meetings and contributed to executive decisions. | 2019–Present <br> 2020–2021 |
+| **Community Service Chair**; led service projects, fundraisers, and developed an online tracking system. | 2022–2023          |
+| **Key Volunteer, Santa Barbara County Toys for Tots**<br>Coordinated donation efforts and distributed toys to children during holiday seasons. | 2018–Present       |
+| **United States Marine Corps**<br>Completed training in land navigation, survival skills, swim qualification, and CBRN defense; developed leadership and operational skills applicable to research and fieldwork. | 2005–2010          |
+
+
+### Presentations
+
+|                                                                                                                                               |                  |
+|:-----------------------------------------------------------------------------------------------------------------------------------------------|------------------:|
+| *Abstract submitted for AGU Fall Meeting: Geologic Nitrogen Inputs to Semi-Arid Soils with and without Mammalian Bioturbation,* New Orleans, LA. | December 2025     |
+| *Learning from the Ground Up: Mammalian Bioturbators, Soil, & Undergraduate Education,* UCSB Environmental Studies 55th Anniversary, Santa Barbara, CA. | April 2025        |
+| *Guest Speaker,* Allan Hancock Foundation Honors Gala, Santa Maria, CA                                                                        | May 2024          |
+| *Comparison of Species Richness & Functional Richness Between Barro Colorado Island and Pipeline Road in Panama,* Cal Poly Summer Internship Research Symposium, San Luis Obispo, CA. | August 2023       |
+| *Comparison of Species Richness & Functional Richness Between Barro Colorado Island and Pipeline Road in Panama,* UCSB Fall Undergraduate Research Showcase, Santa Barbara, CA. | November 2023     |
+
+
+### Awards and Scholarships
+
+- UCNRS Field Science Fellowship, 2025  
+- Wenger Scholarship, 2025  
+- Gene & Susan Lucas Undergraduate Research Fund, 2025  
+- G. Allan Hancock Scholarship, 2024  
+- Allan Hancock MESA Scholarship, 2023  
+- Brander Single Parent Scholarship, 2022, 2023, 2024  
+- Joyce Dendo Veteran Scholarship (Inaugural), 2021  
+- Kathleen D. Loly Service Scholarship, 2021  
+- Joan Semelsberger Scholarship, 2021, 2022, 2023  
+- Virginia B. Martinez Memorial Scholarship, 2021  
+- AGS Aquarius Honor Society Leadership Award, 2021  
+
+
+### Programs and Affiliations
+
+- Bren–Environmental Studies Fellows Program, 2025–Present  
+- Tau Sigma National Honor Society, 2025–Present  
+- American Geophysical Union (AGU), 2025–Present  
+- UCSB Promise Scholars, 2024–Present  
+- UCSB Letters & Science Honors Program, 2024–Present  
+- UCSB Student Veterans Association (SVA), 2024–Present  
+- UCSB–Smithsonian Scholars Program, 2023–Present  
+- Alpha Gamma Sigma Honor Society, 2019–Present  
+- Association of Colleges for Tutoring & Learning Assistance (ACTLA), 2020–Present  
+- Lompoc Veteran Advisory Committee (LVAC), 2018–Present  
+
+
+<p style="margin-top: 1rem; font-style: italic; color: #555;">
+    _Last updated: August 8, 2025_
+  </p>
+
+  <p style="text-align: center; margin-top: 0.5rem;">
+    <a href="https://rebeccalmartinez.github.io/personal_website/" target="_blank" style="text-decoration: none;">
+      <img src="https://img.icons8.com/ios-glyphs/30/4FA78D/domain.png" alt="Website" style="vertical-align: middle;" />
+    </a>
+  </p>
 
 </details>
