@@ -4,6 +4,7 @@ format:
   html:
     theme: darkly
     css: styles.css
+    toc: false
 ---
 
 
@@ -11,7 +12,7 @@ format:
 Welcome! Here you can view my professional resume and curriculum vitae (CV).  
 
 
----
+
 
 
 ## Resume
@@ -141,7 +142,7 @@ Environmental studies undergraduate with a strong background in mentorship and p
    
 ---
 
-<p style="text-align: center; font-size: 26px; color: #4FA78D; margin-bottom: 0;">Rebecca Martinez</p>
+<p style="font-size: 26px;color: #4FA78D;">**Rebecca Martinez**</p>  
 <p style="text-align: center; margin-top: 0;">
 Undergraduate Researcher | Student Assistant<br>
 Environmental Studies Program | University of California, Santa Barbara

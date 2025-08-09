@@ -37,6 +37,9 @@ This site is a growing collection of projects, research, tutoring resources, adv
    
    
 ##### **[Resources](resources.qmd  "Educational recommendations and resources I’ve put together.")** Educational recommendations and resources I’ve put together.  
+
+
+##### **[Experience](experience.qmd "View my professional resume and curriculum vitae (CV).")** View my professional resume and curriculum vitae (CV).
    
     
 ##### **[Photos](fieldphotos.qmd "Browse photos from my adventures and explorations.")** Browse photos from my adventures and explorations  
