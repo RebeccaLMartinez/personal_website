@@ -13,39 +13,37 @@ about:
 
 <div style="text-align: center;">
   
-## Welcome to the digital habitat of Rebecca Martinez
+## Welcome to Rebecca’s digital habitat
 
-A place where curiosity leads the way and muddy boots are just part of the journey. Feel free to wander, stay curious — and thanks for visiting!
+A place of curiosity, creativity, compassion, and connection.
 
 </div>
    
    
 ###    
    
-This site is a growing collection of projects, research, tutoring resources, adventure photos, and the occasional feline cameo. Checkout the site contents below:
+Checkout the site contents below:
     
     
-   
-
 <div class="clickable-links">
 
 ##### **[About Me](about.qmd "Learn a bit more about who I am and what drives me.")**  Learn a bit more about who I am and what drives me.
 
    
     
-##### **[Projects](projects.qmd "See what I’ve been working on — from class projects to research.")** See what I’ve been working on — from class projects to research.  
+##### **[Projects](projects.qmd "Browse my projects, including class assignments and research.")** Browse my projects, including class assignments and research.  
    
    
-##### **[Resources](resources.qmd  "Educational recommendations and resources I’ve put together.")** Educational recommendations and resources I’ve put together.  
+##### **[Resources](resources.qmd  "Find helpful educational resources and tools.")** Find helpful educational resources and tools.  
 
 
 ##### **[Experience](experience.qmd "View my professional resume and curriculum vitae (CV).")** View my professional resume and curriculum vitae (CV).
    
     
-##### **[Photos](fieldphotos.qmd "Browse photos from my adventures and explorations.")** Browse photos from my adventures and explorations  
+##### **[Photos](fieldphotos.qmd "Explore photos from various adventures and explorations.")** Explore photos from various adventures and explorations.
    
     
-##### **[Cat Corner](cats.qmd  "Meet my feline friends and discover which cat matches your personality.")**  Meet my feline friends and discover which cat matches your personality.
+##### **[Cat Corner](cats.qmd  "Meet my feline friends and find your furry twin.")**  Meet my feline friends and find your furry twin.
     
     
    
