@@ -19,8 +19,6 @@ My background, education, and journey through community college to research and 
 Highlights from academic, field, and coding projects:
 - **Service Light Data** – R-based data visualization with animated GIFs and tables
 - **Soil Bioturbation** – Field project on mammalian soil disturbance _(in progress)_
-- **Fog Harp** – Experimental fog-water harvesting device _(in progress)_  
-- **Skunk Population** – Camera-trap study on Santa Cruz Island _(in progress)_
 - **Rough Skinned Newt vs. Garter Snake** - Creative educational video for a class project.
 - **Comparison of Species & Functional Richness** - Final project from an immersive data science and field course.
 
