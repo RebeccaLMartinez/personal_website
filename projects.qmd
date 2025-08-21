@@ -253,7 +253,17 @@ ggplot(family_count, aes(x = Family, y = num_species, fill = location)) +
 
 Presented findings at the 2023 Cal Poly Summer Internship Research Symposium and the 2023 UCSB Fall Undergraduate Research Showcase.
 
-[![Comparison of Species & Functional Richness Between BCI and Pipeline Road](media/panama_bci_richness_poster.jpg)](media/panama_bci_richness_poster.jpg){.glightbox data-glightbox="title: Comparison of Species & Functional Richness Between BCI and Pipeline Road"}
+### Poster
+
+Presented findings at the 2023 Cal Poly Summer Internship Research Symposium and the 2023 UCSB Fall Undergraduate Research Showcase.
+
+<a href="https://raw.githubusercontent.com/RebeccaLMartinez/personal_website/main/media/panama_bci_richness_poster.jpg" 
+   class="glightbox" 
+   data-glightbox='{"title":"Comparison of Species & Functional Richness Between BCI and Pipeline Road","type":"image"}'>
+  <img src="https://raw.githubusercontent.com/RebeccaLMartinez/personal_website/main/media/panama_bci_richness_poster.jpg" 
+       style="max-width:600px; width:100%; height:auto;" 
+       alt="Comparison of Species & Functional Richness Between BCI and Pipeline Road">
+</a>
 
 ---
 
