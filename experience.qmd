@@ -38,90 +38,89 @@ Goleta, CA 93117
 
 ### Objective
 
-Environmental studies undergraduate with a strong background in mentorship and peer support, dedicated to empowering academic growth through experiential learning and collaborative research. Committed to fostering curiosity, teamwork, and shared achievements to build resilient communities and drive lasting positive change.
+EEnvironmental Studies senior at UC Santa Barbara seeking a position supporting research, education, or program operations in a science-focused setting. Brings experience in field research and data analysis, a strong background in mentorship and operations, and a dependable, collaborative approach.
 
 
 ### Education
 
-**University of California, Santa Barbara (UCSB)** — Goleta, CA
+**University of California, Santa Barbara** — Santa Barbara, CA  
+*B.S. in Environmental Studies, Concentration in Terrestrial Ecosystems*  
+December 2026
 
-* B.S. in Environmental Studies | *Expected* 2026
+**Allan Hancock College** — Santa Maria, CA
 
-**Allan Hancock College** — Santa Maria, CA 
-
-* A.S. in Biology, *with honors* | May 2024  
-* A.A. in Biology, *with honors* | May 2023  
+* A.S. in Biology, *with honors* | May 2024
+* A.A. in Biology, *with honors* | December 2023
 * A.A. in Mathematics and Science, *with high honors* | May 2021
 
 
 ### Experience
 
-#### **UCSB Office of Education Partnerships (OEP)** — Goleta, CA  
-*Student Assistant* | Sept 2024 – Present  
+#### **Undergraduate Researcher**
 
-* Collected data, maintenanced field sites, and repaired equipment.  
-* Updated protocols to support ongoing research initiatives.  
-* Worked as a team to enhance project logistics and operational efficiency.
+*SWAMP Lab, UC Santa Barbara* — Santa Barbara, CA  
+January 2025 – Present
 
-#### **Smithsonian Office of the Chief Information Officer (OCIO)** — Remote  
-*Data Science Lab Intern* | Summer 2024, Summer 2025
+* Conducted an independent research project examining rock-derived nitrogen in semi-arid soils with and without mammalian bioturbation.  
+* Collected and prepared soil and rock samples, maintained project records, and analyzed data using R/RStudio.  
+* Presented findings at the American Geophysical Union Annual Meeting and prepared project materials for future students to continue the research.  
 
-* Led Rstudio/PositCloud discussion sections.  
-* Mentored peers in applying research methodologies to real-world datasets. 
-* Created and refined resources to enhance data science comprehension.
+#### **Student Assistant**
 
-#### **Allan Hancock College** — Santa Maria, CA  
-*Teaching Assistant* | Jan 2024 – May 2024  
+*UCSB Office of Education Partnerships* — Santa Barbara, CA  
+September 2024 – June 2026
 
-* Managed lab operations, including setup, compliance, and student support.  
-* Developed supplemental study materials to enhance student learning.
+* Revised program protocols, organized equipment and inventory, tutored students, and assisted with events and fieldwork.  
+* Responded to shifting priorities so students and staff received assistance where it was most needed.  
+* Contributed to smooth daily operations and consistent delivery of educational programs.  
 
-*Lead Tutor* | Aug 2020 – May 2024  
+#### **Discussion Leader**
 
-* Coordinated tutor schedules and assisted in campus-wide training initiatives.  
-* Delivered workshops to improve study skills and academic performance. 
-* Collaborated with campus centers to enhance tutoring services and resources.
+*UCSB–Smithsonian ¡ERES! Program* — Santa Barbara, CA  
+June 2025 – September 2025
 
-*Peer Tutor* | Aug 2019 – May 2024  
+* Led R/RStudio discussions and guided students through field data collection, assignments, and research projects during a six-week data science course.  
+* Reinforced course instruction by connecting field methods with data analysis and visualization.  
+* Prepared students to analyze data, create visualizations, and communicate research findings.  
 
-* Provided academic support in STEM subjects through one-on-one and group sessions.  
-* Guided students in developing effective study and time management strategies.  
-* Served as an embedded tutor in multiple science courses.
+#### **Data Science Intern**
 
-#### **Chumash Casino Resort** — Santa Ynez, CA  
-*Slot Attendant* | Jan 2012 - May 2025  
+*Smithsonian Data Science Lab* — Remote  
+June 2024 – September 2024
 
-* Diagnosed and resolved slot machine issues.  
-* Addressed guest needs promptly and tactfully.
-* Maintained equipment and ensured gaming compliance
+* Taught R/RStudio, developed instructional resources, and guided undergraduate students through data analysis assignments and projects.  
+* Made data science methods more approachable by connecting instruction to student research questions and real datasets.  
+* Prepared students to use R/RStudio to analyze data, create visualizations, and complete research projects.  
 
-*Floor Operations Supervisor* | June 2007 - Jan 2012  
+#### **Lead Tutor and Peer Tutor**
 
-* Supervised daily floor operations and up to 75 staff per shift.  
-* Managed daily schedules to ensure adequate staffing.
-* Resolved guest concerns to maintain a safe and positive environment.
+*Allan Hancock College* — Santa Maria, CA  
+August 2019 – May 2024
 
-*Security Officer* | June 2006 - June 2007  
+* Tutored STEM subjects, trained new tutors, facilitated workshops, and assisted with daily tutoring-center operations.  
+* Balanced individualized instruction with consistent tutoring practices to meet diverse learning needs across the program.  
+* Strengthened students’ understanding of course material and contributed to reliable, accessible tutoring services. 
 
-* Patrolled casino floor and provided secure guest escorts.
-* Responded to incidents and maintained safety protocols.
+#### **Slot Attendant / Floor Operations Supervisor / Security Officer**
+
+*Chumash Casino Resort* — Santa Ynez, CA  
+June 2006 – May 2025
+
+* Resolved guest and equipment issues, supervised daily floor operations, coordinated staffing, and responded to safety concerns.  
+* Balanced customer service, workforce coordination, and regulatory responsibilities in a fast-paced, high-volume environment.  
+* Contributed to efficient daily operations and a safe, positive experience for guests and employees.  
 
 
 ### Skills
 
-* Data analysis & visualization (R)  
-* Field research & data collection  
-* Leadership & mentoring  
-* Communication & presentation  
-* Microsoft Office Suite & Google Suite 
-* Problem-solving & adaptability  
-* Time management  
-* Team collaboration  
-
-
-### References
-
-*Available upon request.*
+* R/RStudio data analysis and visualization  
+* ArcGIS Pro  
+* Field data collection and sample preparation  
+* Research documentation and recordkeeping  
+* Microsoft Office and Google Workspace  
+* Program support and inventory organization  
+* STEM tutoring and mentoring  
+* Customer service and staff supervision  
 
 
 ---
@@ -187,7 +186,7 @@ Environmental Studies Program | University of California, Santa Barbara
 |:------------------------------------------------------------------------------------------------------------------------------|------------------:|
 | **Undergraduate Researcher, UC Santa Barbara**<br>*Geologic Nitrogen Inputs to Semi-Arid Soils with and without Mammalian Bioturbation.* Under Dr. Iris Holzer’s guidance, collected and prepared rock samples using rock saw and shatterbox. Prepared powdered samples in foil capsules for isotope analysis. | Winter 2025–Present |
 | **Research Assistant, UC Davis Soil Carbon Project**<br>*Soil Carbon Stabilization Study.* Assisted with pit digging, bulk density sampling, and soil auger collection at UCNRS Sedgwick Reserve. Performed USDA soil profile descriptions and applied safe sampling protocols while supporting team morale. | Spring 2025–Present |
-| **Student Assistant, UCSB Office of Education Partnerships**<br>Collected data, maintained field sites, repaired equipment, updated protocols, and supported project logistics to improve research operations. | Fall 2024–Present   |
+| **Student Assistant, UCSB Office of Education Partnerships**<br>Collected data, maintained field sites, repaired equipment, updated protocols, and supported project logistics to improve research operations. | Fall 2024–June 2026 |
 | **Peer Mentor, UCSB–Smithsonian Scholars Program**<br>Mentored students during a field workshop at Santa Cruz Island Reserve; trained them on field sensors including camera traps, Audiomoths (bioacoustic recording), and fog collectors with combined HOBO rain gauge data loggers; supported ecological data collection using FAIR data practices. | Summer 2024, 2025  |
 | **Participant, UCSB–Smithsonian Scholars Program**<br>Completed advanced field methods and data science training at UCNRS Santa Cruz Island Reserve and Smithsonian Tropical Research Institute (STRI), Panama, including RStudio/PositCloud instruction. | Summer 2023        |
 
