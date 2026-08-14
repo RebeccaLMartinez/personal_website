@@ -503,3 +503,22 @@ Styled like interactive buttons
   }
 }
 
+/* 
+====================================
+PROJECT VIDEOS
+====================================
+*/
+
+.project-video {
+  max-width: 900px;
+  margin: 1rem auto 2rem;
+}
+
+.project-video video {
+  display: block;
+  width: 100%;
+  height: auto;
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+}

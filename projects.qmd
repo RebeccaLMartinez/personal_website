@@ -1,5 +1,6 @@
 ---
 title: "Projects"
+
 format: 
   html:
     theme: darkly
@@ -9,57 +10,67 @@ format:
       after-body: modal.js
 ---
 
-<!-- Glightbox CSS -->
+<!-- GLightbox CSS -->
 <link href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" rel="stylesheet" />
 
-<!-- Glightbox JS -->
+<!-- GLightbox JS -->
 <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
 
-This page highlights some of my work from classes and research.
+This page highlights selected projects from my research, courses, and academic programs.
 
 ***
 
 # Research Projects
 
-## 🌱 Soil Bioturbation
+## Geologic Nitrogen Inputs to Semi-Arid Soils with and without Mammalian Bioturbatio
 
 <details>
-  <summary style="color: #4FA78D; cursor: pointer;">Click to expand</summary>
-  
+
+<summary style="color: #4FA78D; cursor: pointer;">*Click to expand*</summary>
+
+### Abstract
+
 ***Geologic Nitrogen Inputs to Semi-Arid Soils with and without Mammalian Bioturbation***
 
-Authors: Rebecca Martinez, Riley Howard, Heath Goertzen, Nina Bingham, Iris Holzer
+**Authors:** Rebecca Martinez, Riley Howard, Heath Goertzen, Nina Bingham, and Iris Holzer
 
-Nitrogen is a critical nutrient for plant productivity and ecosystem health, but not all sources of nitrogen are well understood. One such poorly understood source is nitrogen trapped in rocks, which can be released into soils and then used by plants and other organisms. This study examines nitrogen in rocks and its movement into soils in a climate from which we have limited data: semi-arid Mediterranean ecosystems. Some of these ecosystems include mammals that mix the soil, like gophers, which may play a role in moving nitrogen from rocks higher up in the soil. We measured nitrogen in rocks at two Central California sites, with and without these mammals, and found a wide range of nitrogen concentrations across different rock types. Additional soils data will allow for a more detailed assessment of the movement of nitrogen from rocks into soils across these two sites, helping us to better understand nutrient dynamics in these semi-arid ecosystems.
+Nitrogen is a critical nutrient for plant productivity and ecosystem health, but not all sources of nitrogen are well understood. One such poorly understood source is nitrogen trapped in rocks, which can be released into soils and then used by plants and other organisms. This study examines nitrogen in rocks and its movement into soils in a climate from which we have limited data: semi-arid Mediterranean ecosystems.
+
+Some of these ecosystems include mammals that mix the soil, such as gophers, which may help move nitrogen from rocks higher into the soil. We measured nitrogen in rocks at two Central California sites, with and without these mammals, and found a wide range of nitrogen concentrations across different rock types. Additional soil data will allow for a more detailed assessment of how nitrogen moves from rocks into soils across the two sites.
 
 ---
 
+</details>
+
+
 # Course Projects
+
 
 </details>
 
-## 🛣️️ Edible Trail Proposal
+## Edible Trail Proposal
 
 <details>
-  <summary style="color: #4FA78D; cursor: pointer;">Click to expand</summary>
 
-**University of California, Santa Barbara (UCSB)**  
-*ENVS 155 – Built Environment*
+<summary style="color: #4FA78D; cursor: pointer;">*Click to expand*</summary>
+
+**University of California, Santa Barbara**  
+*ENV S 155 – Built Environment*
 
 An artistic proof-of-concept proposal for transforming underused green spaces in Lompoc into edible walking trails that promote community connection, health, and sustainability. This fictional concept was created as a final project and is not an actual or funded plan.
 
-### **Project Highlights**
+### Project Highlights
 
-- Community-centered design incorporating native and edible plants  
-- Safe walking paths with shade, seating, and public art  
-- Hands-on workshops and volunteer planting days  
+- Community-centered design incorporating native and edible plants
+- Safe walking paths with shade, seating, and public art
+- Hands-on workshops and volunteer planting days
 - Interactive timeline and map for project phases and locations
 
-### **Tools Used**
+### Tools Used
 
-Quarto, HTML, CSS, Leaflet.js, Community Engagement Frameworks
+Quarto, HTML, CSS, Leaflet.js, and community engagement frameworks
 
-### **View Project**
+### View Project
 
 <iframe 
   src="https://rebeccalmartinez.github.io/ENVS-155-proj/" 
@@ -68,10 +79,10 @@ Quarto, HTML, CSS, Leaflet.js, Community Engagement Frameworks
 </iframe>
 
 <p style="margin-top: 1rem; font-style: italic; color: #bbb;">
-  *Note: This is a fictional concept for academic purposes only.*
+Note: This is a fictional concept created for academic purposes only.
 </p>
 
-### **Resources**
+### Resources
 
 - [GitHub Repository](https://github.com/RebeccaLMartinez/ENVS-155-proj){target="_blank"}
 
@@ -80,21 +91,21 @@ Quarto, HTML, CSS, Leaflet.js, Community Engagement Frameworks
 </details>
 
 
-## 💡 Service Lights
+## Service Lights
 <details>
-  <summary style="color: #4FA78D; cursor: pointer;">Click to expand</summary>
+  <summary style="color: #4FA78D; cursor: pointer;">*Click to expand*</summary>
 
 **University of California, Santa Barbara (UCSB)**  
 *ENVS 193DS – Data Science for Environmental Studies*
 
 A class project that explores the relationship between lighting conditions (working vs. broken) and service call outcomes (needing help or not) using a self-collected dataset (n=108). Created a bar chart, summary table, and a blinking lightboard animation (gif). See visuals.
 
-### **Tools Used**  
+### Tools Used  
 
 RStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto
 
 
-### **Code Snippet**
+### Code Snippet
 
 This converts help and working columns in service_data to TRUE/FALSE values by making their text uppercase and then to logical type, then saves the result as a new object called clean_service_data.
 
@@ -106,7 +117,7 @@ clean_service_data <- service_data |>
   )
 ```
 
-### **Visuals**  
+### Visuals  
 
 :::{.panel-tabset}
 
@@ -124,7 +135,7 @@ clean_service_data <- service_data |>
 
 :::
 
-### **Resources**
+### Resources
 
 <a href="https://github.com/RebeccaLMartinez/ENVS-193DS_homework-03" target="_blank" style="
     color: white; 
@@ -142,13 +153,35 @@ clean_service_data <- service_data |>
 
 ---
 
+## The 2004 Indian Ocean Tsunami
+
+<details>
+
+<summary style="color: #4FA78D; cursor: pointer;">*Click to expand*</summary>
+
+**University of California, Santa Barbara**  
+*EARTH 20*
+
+A short video project examining the 2004 Indian Ocean tsunami and the geologic processes behind the event.
+
+<div class="project-video">
+
+<video controls preload="metadata" playsinline>
+  <source src="media/the2004-indian-ocean-tsunami.mp4" type="video/mp4">
+  Your browser does not support embedded video.
+</video>
+
+</div>
+
+---
+
 </details>
 
 
-## 🦎 Rough Skinned Newt vs. Garter Snake
+## Rough Skinned Newt vs. Garter Snake
 
 <details>
-  <summary style="color: #4FA78D; cursor: pointer;">Click to expand</summary>
+  <summary style="color: #4FA78D; cursor: pointer;">*Click to expand*</summary>
 
 **Allan Hancock College**  
 *BIOL 155 – Zoology*
@@ -157,10 +190,10 @@ clean_service_data <- service_data |>
 
 The co-evolution of toxin production in rough-skinned newts and toxin resistance in garter snakes served as the focus of a short film designed to make complex science accessible. The project combined storytelling, visual art, and evolutionary biology to communicate this dynamic relationship.
 
-### **Tools Used**
+### Tools Used
 Scriptwriting, Storyboarding, Filmmaking, Adobe Premiere (editing)
 
-### **Watch the Video**
+### Watch the Video
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cFefwwtAHF8?si=m9Jg2OOTCrdrWtRe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 --- 
@@ -170,24 +203,24 @@ Scriptwriting, Storyboarding, Filmmaking, Adobe Premiere (editing)
 </details>
 
 
-## 🐦 Species & Functional Richness Comparison
+## Species & Functional Richness Comparison
 
 <details>
-  <summary style="color: #4FA78D; cursor: pointer;">Click to expand</summary>
+  <summary style="color: #4FA78D; cursor: pointer;">*Click to expand*</summary>
 
 **UCSB-Smithsonian Scholars Program**  
 *Advanced Field Research Training at the Smithsonian Tropical Research Institute (STRI) in Panama, Summer 2023*
 
 Final project from an immersive data science and field course. This project compares species richness and functional richness of bird communities between Barro Colorado Island (BCI) and Pipeline Road (mainland Panama). We used autonomous recorders (AudioMoths) and avian trait databases to examine diversity patterns in two distinct habitats. Results reflect learning outcomes rather than comprehensive biodiversity assessments.
 
-### **Project Team**
+### Project Team
 
 ***The Orependulas***
   
 Brandon Leon, Rebecca Martinez, Daniel Romero, Mathew Silva, and Zachary Wilson.
 
 
-### **Tools Used**
+### Tools Used
 
 - AudioMoths
 - RStudio (tidyverse, mFD, phytools)
@@ -195,7 +228,7 @@ Brandon Leon, Rebecca Martinez, Daniel Romero, Mathew Silva, and Zachary Wilson.
 - AVONET – Comprehensive bird trait dataset
 - Birds of Panama – BirdLife International
 
-### **Process**
+### Process
 
 → Deployed 12 AudioMoths to record dawn chorus 
 
@@ -208,7 +241,7 @@ Brandon Leon, Rebecca Martinez, Daniel Romero, Mathew Silva, and Zachary Wilson.
 → Created visualizations in RStudio  
 
 
-### **Code Snippet**
+### Code Snippet
 
 Code for species richness bar graph.
 
@@ -234,7 +267,7 @@ ggplot(family_count, aes(x = Family, y = num_species, fill = location)) +
   
 ```
 
-### **Visuals**
+### Visuals
 
 *Under construction...*
 
