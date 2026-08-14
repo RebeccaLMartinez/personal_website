@@ -1,44 +1,108 @@
 ---
 title: "Photo Gallery"
-format: 
+
+format:
   html:
     theme: darkly
     css: styles.css
+
+toc: false
+
+lightbox:
+  match: auto
+  effect: fade
+  desc-position: bottom
+  loop: true
 ---
 
+A collection of photos from places where I have worked, learned, explored, and made memories.
 
-Where are all the photos she promised??
+*Select an area, then click any photo to view it in full size.*
 
+<details class="gallery-section">
 
-*Under construction*
+<summary class="gallery-summary">
+<img src="media/SCI_view_oct25.jpg" alt="Santa Cruz Island">
+<span>
+<strong>Santa Cruz Island</strong>
+<small>Santa Cruz Island Reserve, field sites, trails, and island landscapes · 11 photos</small>
+</span>
+</summary>
 
+::: {.gallery layout-ncol=3}
 
+![Santa Cruz Island Reserve field site, 2025.](media/SCI_view_oct25.jpg){group="sci-gallery"}
 
+![Collecting soil samples from a field pit, 2025.](media/SCI_pit_oct25.jpg){group="sci-gallery"}
 
+![Measuring soil penetrometer resistance, 2025.](media/SCI_penetrometer3_oct25.jpg){group="sci-gallery"}
 
+![Recording soil penetrometer resistance, 2025.](media/SCI_penetrometer2_oct25.jpg){group="sci-gallery"}
 
+![Deploying a camera trap, 2024.](media/me1.jpg){group="sci-gallery"}
 
+![Santa Cruz Island landscape, 2025.](media/sci1.jpg){group="sci-gallery"}
 
+![Sunset on Santa Cruz Island, 2025.](media/sci-sunset.jpeg){group="sci-gallery"}
 
+![Hiking on Santa Cruz Island, 2025.](media/SCI_hiking_oct25.jpg){group="sci-gallery"}
 
+![Exploring Santa Cruz Island, 2025.](media/SCI_hiking2_oct25.jpg){group="sci-gallery"}
 
+![Group hike on Santa Cruz Island, 2025.](media/SCI_grouphike_oct25.jpg){group="sci-gallery"}
 
+![With Kayla Geronimo-Anctil on Santa Cruz Island, 2024.](media/rebecca_kayla_sci.jpeg){group="sci-gallery"}
 
+:::
 
+</details>
 
+<details class="gallery-section">
 
+<summary class="gallery-summary">
+<img src="media/sedg_view.jpg" alt="Sedgwick Reserve">
+<span>
+<strong>Sedgwick Reserve</strong>
+<small>Research, class projects, and reserve landscapes · 1 photo</small>
+</span>
+</summary>
 
+::: {.gallery layout-ncol=3}
 
+![Sedgwick Reserve landscape, 2025.](media/sedg_view.jpg){group="sedgwick-gallery"}
 
+:::
 
+</details>
 
+<details class="gallery-section gallery-placeholder">
 
+<summary class="gallery-summary">
+<div class="gallery-cover-placeholder" aria-hidden="true">🏜️</div>
+<span>
+<strong>Mojave Desert</strong>
+<small>Sweeney Granite Mountains Desert Research Center, Mojave Preserve, and nearby public lands · Photos coming soon</small>
+</span>
+</summary>
 
+<p class="gallery-note">
+Photos of desert landscapes, field experiences, wildlife, and time spent exploring the Mojave will be added here.
+</p>
 
+</details>
 
+<details class="gallery-section gallery-placeholder">
 
+<summary class="gallery-summary">
+<div class="gallery-cover-placeholder" aria-hidden="true">🌿</div>
+<span>
+<strong>Panama</strong>
+<small>Panama City, Pipeline Road, Barro Colorado Island, and other places visited · Photos coming soon</small>
+</span>
+</summary>
 
+<p class="gallery-note">
+Photos of program activities, travel, wildlife, landscapes, and experiences throughout Panama will be added here.
+</p>
 
-
-
-
+</details>
