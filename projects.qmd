@@ -162,7 +162,9 @@ clean_service_data <- service_data |>
 **University of California, Santa Barbara**  
 *EARTH 20*
 
-A short video project examining the 2004 Indian Ocean tsunami and the geologic processes behind the event.
+A short video project examining the 2004 Indian Ocean tsunami and the geologic processes behind the event. *More details coming soon.*
+
+### Watch the Video
 
 <div class="project-video">
 
