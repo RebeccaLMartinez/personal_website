@@ -1,70 +1,84 @@
 # Personal Website
 
-Welcome! This site is a growing collection of my work, interests, and projects.
-🔗 [**Live Website**](https://rebeccalmartinez.github.io/personal_website)  
-  
-💻 [**GitHub Repository**](https://github.com/RebeccaLMartinez/personal_website)
+Welcome! This website is a growing collection of my research, academic work, professional experience, educational resources, and personal interests.
+
+🔗 [**View the Live Website**](https://rebeccalmartinez.github.io/personal_website/)
+
+💻 [**View the GitHub Repository**](https://github.com/RebeccaLMartinez/personal_website)
 
 ---
 
-## 📄 Pages & Content Overview
+## Pages and Content
 
-### [`index.qmd`](index.qmd) – **Home**  
-Landing page with a brief introduction and site navigation.
+### [`index.qmd`](index.qmd): Home
 
-### [`about.qmd`](about.qmd) – **About Me**  
-My background, education, and journey through community college to research and mentorship.
+Landing page with a brief introduction and navigation to the main sections of the website.
 
-### [`projects.qmd`](projects.qmd) – **Projects**  
-Highlights from academic, field, and coding projects:
-- **Service Light Data** – R-based data visualization with animated GIFs and tables
-- **Soil Bioturbation** – Field project on mammalian soil disturbance _(in progress)_
-- **Rough Skinned Newt vs. Garter Snake** - Creative educational video for a class project.
-- **Comparison of Species & Functional Richness** - Final project from an immersive data science and field course.
+### [`about.qmd`](about.qmd): About Me
 
-### [`cats.qmd`](cats.qmd) – **Cat Page 🐱**  
-A fun, interactive page featuring cat bios and a quiz.
+An overview of my background, education, and journey from community college to environmental research, teaching, and mentorship.
 
-_(Live but expanding!)_
+### [`projects.qmd`](projects.qmd): Projects
 
-### [`fieldphotos.qmd`](fieldphotos.qmd) – **Photo Gallery**  
-Collection of field photos plus more.  
- _(in progress)_
+Interactive cards featuring selected research, course, and academic program projects:
 
-### [`experience.qmd`](experience.qmd) – **Resume & CV**  
-Professional experience and academic background. 
-- Resume
-- CV _(in progress)_
+- **Geologic Nitrogen Inputs to Semi-Arid Soils with and without Mammalian Bioturbation**
+- **Lompoc Edible Trail Proposal**
+- **Comparing Assistance Needs by Service Light Functionality**
+- **The 2004 Indian Ocean Tsunami**
+- **Rough-Skinned Newt vs. Garter Snake**
+- **Species and Functional Richness Comparison**
 
-### [`resources.qmd`](resources.qmd) – **Resource Collection**  
-Educational tools and links I've created or curated, including:
-- 3D anatomy models  
-- Flashcards  
-- Chemistry sims  
-- Desmos calculators  
+### [`fieldphotos.qmd`](fieldphotos.qmd): Photo Gallery
+
+Location-based photo galleries featuring fieldwork, research sites, landscapes, travel, and other experiences. Current and planned galleries include:
+
+- Santa Cruz Island
+- Sedgwick Reserve
+- Mojave Desert
+- Panama
+
+### [`experience.qmd`](experience.qmd): Experience
+
+Expandable versions of my professional resume and academic CV, with links to download each document as a PDF.
+
+### [`resources.qmd`](resources.qmd): Resource Collection
+
+Educational tools and materials I have created or collected, including:
+
+- 3D anatomy models
+- Flashcards
+- Chemistry simulations
+- Desmos calculators
 - Math video series
-- Website resources  
+- Website-building resources
 
-_(Live but expanding!)_
+### [`cats.qmd`](cats.qmd): Cat Page 🐱
 
----
-
-## 📁 Supporting Files & Structure
-
-- **`media/`** – Images and GIFs used across pages (e.g., blinking LEDs, anatomy diagrams)  
-- **`_footer.html`** – Custom footer included site-wide  
-- **`styles.css`** – Custom CSS for visual design and layout consistency  
-- **`quiz.html`** – Standalone cat quiz embedded in the site
+A personal and interactive page featuring cat profiles and a quiz.
 
 ---
 
-## 🛠️ Built With
+## Supporting Files and Structure
+
+- **`_quarto.yml`**: Website configuration and navigation
+- **`styles.css`**: Site-wide colors, layouts, responsive design, galleries, project cards, and interactive elements
+- **`media/`**: Images, videos, PDFs, GIFs, posters, and other media used throughout the website
+- **`_footer.html`**: Custom site-wide footer
+- **`fontawesome.html`**: Font Awesome icons and related resources
+- **`quiz.html`**: Interactive cat quiz embedded in the website
+
+---
+
+## Built With
 
 - [**Quarto**](https://quarto.org/)
-- [**R**](https://www.r-project.org/)
+- [**R and RStudio**](https://www.r-project.org/)
+- HTML, CSS, and JavaScript
 - [**GitHub Pages**](https://pages.github.com/)
 
-And lots of curiosity!
 ---
 
-> Thanks for visiting — feel free to explore, reuse, and share!
+This website is actively updated as I add new projects, photographs, experiences, and educational resources.
+
+> Thanks for visiting!

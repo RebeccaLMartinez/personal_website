@@ -15,9 +15,10 @@ lightbox:
   loop: true
 ---
 
-A collection of photos from places where I have worked, learned, explored, and made memories.
+A collection of photos from fieldwork, travel, academic programs, presentations, community events, and other memorable experiences.
 
-*Select an area, then click any photo to view it in full size.*
+*Select a gallery, then click any photo to view it in full size.*
+
 
 <details class="gallery-section">
 
@@ -25,7 +26,7 @@ A collection of photos from places where I have worked, learned, explored, and m
 <img src="media/SCI_view_oct25.jpg" alt="Santa Cruz Island">
 <span>
 <strong>Santa Cruz Island</strong>
-<small>Santa Cruz Island Reserve, field sites, trails, and island landscapes · 11 photos</small>
+<small>Santa Cruz Island Reserve, field sites, trails, and island landscapes</small>
 </span>
 </summary>
 
@@ -57,13 +58,14 @@ A collection of photos from places where I have worked, learned, explored, and m
 
 </details>
 
+
 <details class="gallery-section">
 
 <summary class="gallery-summary">
 <img src="media/sedg_view.jpg" alt="Sedgwick Reserve">
 <span>
 <strong>Sedgwick Reserve</strong>
-<small>Research, class projects, and reserve landscapes · 1 photo</small>
+<small>Research, class projects, and reserve landscapes</small>
 </span>
 </summary>
 
@@ -71,25 +73,52 @@ A collection of photos from places where I have worked, learned, explored, and m
 
 ![Sedgwick Reserve landscape, 2025.](media/sedg_view.jpg){group="sedgwick-gallery"}
 
+![Excavating a soil pit, 2025.](media/sedge-fieldwork-25.jpg){group="sedgwick-gallery"}
+
 :::
 
 </details>
 
-<details class="gallery-section gallery-placeholder">
+
+<details class="gallery-section">
 
 <summary class="gallery-summary">
-<div class="gallery-cover-placeholder" aria-hidden="true">🏜️</div>
+<img src="media/more-mesa-pickaxe.jpg" alt="Santa Barbara Area">
 <span>
-<strong>Mojave Desert</strong>
-<small>Sweeney Granite Mountains Desert Research Center, Mojave Preserve, and nearby public lands · Photos coming soon</small>
+<strong>Santa Barbara Area</strong>
+<small>UCSB, Goleta, More Mesa, local beaches, trails, and nearby natural areas</small>
 </span>
 </summary>
 
-<p class="gallery-note">
-Photos of desert landscapes, field experiences, wildlife, and time spent exploring the Mojave will be added here.
-</p>
+::: {.gallery layout-ncol=3}
+
+![Excavating a soil pit at More Mesa, 2026.](media/more-mesa-pickaxe.jpg){group="sb-gallery"}
+
+![Identifying soil horizons at More Mesa, 2026.](media/soil-horizons-more-mesa.jpg){group="sb-gallery"}
+
+:::
 
 </details>
+
+
+<details class="gallery-section">
+
+<summary class="gallery-summary">
+<img src="media/mojave-me-in-pit.jpg" alt="Mojave Desert">
+<span>
+<strong>Mojave Desert</strong>
+<small>Sweeney Granite Mountains Desert Research Center, Mojave National Preserve, and nearby public lands</small>
+</span>
+</summary>
+
+::: {.gallery layout-ncol=3}
+
+![Soil pit at the Sweeney Granite Mountains Desert Research Center, 2026.](media/mojave-me-in-pit.jpg){group="mojave-gallery"}
+
+:::
+
+</details>
+
 
 <details class="gallery-section gallery-placeholder">
 
@@ -104,5 +133,26 @@ Photos of desert landscapes, field experiences, wildlife, and time spent explori
 <p class="gallery-note">
 Photos of program activities, travel, wildlife, landscapes, and experiences throughout Panama will be added here.
 </p>
+
+</details>
+
+
+<details class="gallery-section">
+
+<summary class="gallery-summary">
+<img src="media/agu25.jpg" alt="Programs, Presentations, and Events">
+<span>
+<strong>Programs, Presentations, and Events</strong>
+<small>Conferences, posters, academic programs, outreach, and community events</small>
+</span>
+</summary>
+
+::: {.gallery layout-ncol=3}
+
+![Presenting my rock-derived nitrogen and mammalian bioturbation research to ENV S 2 students, 2025.](media/envs2_presentation_sept25.jpg){group="other-gallery"}
+
+![Presenting my research poster at the 2025 AGU Annual Meeting in New Orleans with my advisor, Dr. Iris Holzer.](media/agu25.jpg){group="other-gallery"}
+
+:::
 
 </details>
