@@ -1,317 +1,711 @@
 ---
 title: "Projects"
 
-format: 
+format:
   html:
     theme: darkly
     css: styles.css
     includes:
       in-body: fontawesome.html
-      after-body: modal.js
+
+toc: false
 ---
 
 <!-- GLightbox CSS -->
-<link href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" rel="stylesheet">
 
 <!-- GLightbox JS -->
 <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
 
 This page highlights selected projects from my research, courses, and academic programs.
 
-***
+*Click on a project to learn more.*
 
-# Research Projects
+## Research Projects
 
-## Geologic Nitrogen Inputs to Semi-Arid Soils with and without Mammalian Bioturbation
+<div class="project-carousel project-carousel-single">
 
-<details>
+<article
+  class="project-preview-card"
+  role="button"
+  tabindex="0"
+  aria-label="View Geologic Nitrogen Inputs project"
+  data-bs-toggle="modal"
+  data-bs-target="#soil-project-modal">
 
-<summary style="color: #4FA78D; cursor: pointer;">*Click to expand*</summary>
+<div class="project-preview-title">
+Geologic Nitrogen and Mammalian Bioturbation Soil Research
+</div>
 
-### Abstract
+<div class="project-preview-meta">
+Undergraduate Research · UC Santa Barbara
+</div>
 
-***Geologic Nitrogen Inputs to Semi-Arid Soils with and without Mammalian Bioturbation***
+</article>
 
-**Authors:** Rebecca Martinez, Riley Howard, Heath Goertzen, Nina Bingham, and Iris Holzer
+</div>
 
+
+## Course Projects
+
+<div class="project-carousel-wrapper">
+
+<button
+  type="button"
+  class="project-scroll-button"
+  data-scroll="left"
+  data-target="course-project-carousel"
+  aria-label="View previous project">
+  ‹
+</button>
+
+<div class="project-carousel" id="course-project-carousel">
+
+<article
+  class="project-preview-card"
+  role="button"
+  tabindex="0"
+  aria-label="View Lompoc Edible Trail Proposal"
+  data-bs-toggle="modal"
+  data-bs-target="#edible-trail-modal">
+
+<div class="project-preview-title">
+Lompoc Edible Trail Proposal
+</div>
+
+<div class="project-preview-meta">
+ENV S 155 · UC Santa Barbara
+</div>
+
+</article>
+
+
+<article
+  class="project-preview-card"
+  role="button"
+  tabindex="0"
+  aria-label="View Service Lights project"
+  data-bs-toggle="modal"
+  data-bs-target="#service-lights-modal">
+
+<div class="project-preview-title">
+Comparing Assistance Needs and Service Light Functionality
+</div>
+
+<div class="project-preview-meta">
+ENV S 193DS · UC Santa Barbara
+</div>
+
+</article>
+
+
+<article
+  class="project-preview-card"
+  role="button"
+  tabindex="0"
+  aria-label="View The 2004 Indian Ocean Tsunami project"
+  data-bs-toggle="modal"
+  data-bs-target="#tsunami-modal">
+
+<div class="project-preview-title">
+The 2004 Indian Ocean Tsunami
+</div>
+
+<div class="project-preview-meta">
+EARTH 20 · UC Santa Barbara
+</div>
+
+</article>
+
+
+<article
+  class="project-preview-card"
+  role="button"
+  tabindex="0"
+  aria-label="View Rough-Skinned Newt versus Garter Snake project"
+  data-bs-toggle="modal"
+  data-bs-target="#newt-snake-modal">
+
+<div class="project-preview-title">
+Rough-Skinned Newt vs. Garter Snake
+</div>
+
+<div class="project-preview-meta">
+BIOL 155 · Allan Hancock College
+</div>
+
+</article>
+
+</div>
+
+<button
+  type="button"
+  class="project-scroll-button"
+  data-scroll="right"
+  data-target="course-project-carousel"
+  aria-label="View next project">
+  ›
+</button>
+
+</div>
+
+
+## Other Projects
+
+<div class="project-carousel project-carousel-single">
+
+<article
+  class="project-preview-card"
+  role="button"
+  tabindex="0"
+  aria-label="View Species and Functional Richness Comparison"
+  data-bs-toggle="modal"
+  data-bs-target="#bird-richness-modal">
+
+<div class="project-preview-title">
+Species and Functional Richness Comparison
+</div>
+
+<div class="project-preview-meta">
+UCSB–Smithsonian Scholars Program · Panama
+</div>
+
+</article>
+
+</div>
+
+
+<!-- ==================================
+     PROJECT MODALS
+     ================================== -->
+
+
+<!-- Soil Research Project -->
+
+<div
+  class="modal fade project-modal"
+  id="soil-project-modal"
+  tabindex="-1"
+  aria-labelledby="soil-project-title"
+  aria-hidden="true">
+
+<div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+
+<div class="modal-content">
+
+<div class="modal-header">
+
+<h2 class="modal-title" id="soil-project-title">
+Geologic Nitrogen Inputs to Semi-Arid Soils
+</h2>
+
+<button
+  type="button"
+  class="project-modal-close"
+  data-bs-dismiss="modal"
+  aria-label="Close project">
+  Close ×
+</button>
+
+</div>
+
+<div class="modal-body">
+
+<h3>Abstract</h3>
+
+<p>
+<strong><em>Geologic Nitrogen Inputs to Semi-Arid Soils with and without Mammalian Bioturbation</em></strong>
+</p>
+
+<p>
+<strong>Authors:</strong> Rebecca Martinez, Riley Howard, Heath Goertzen, Nina Bingham, and Iris Holzer
+</p>
+
+<p>
 Nitrogen is a critical nutrient for plant productivity and ecosystem health, but not all sources of nitrogen are well understood. One such poorly understood source is nitrogen trapped in rocks, which can be released into soils and then used by plants and other organisms. This study examines nitrogen in rocks and its movement into soils in a climate from which we have limited data: semi-arid Mediterranean ecosystems.
+</p>
 
+<p>
 Some of these ecosystems include mammals that mix the soil, such as gophers, which may help move nitrogen from rocks higher into the soil. We measured nitrogen in rocks at two Central California sites, with and without these mammals, and found a wide range of nitrogen concentrations across different rock types. Additional soil data will allow for a more detailed assessment of how nitrogen moves from rocks into soils across the two sites.
+</p>
 
----
-
-</details>
-
-
-# Course Projects
+</div>
+</div>
+</div>
+</div>
 
 
-</details>
+<!-- Edible Trail Project -->
 
-## Edible Trail Proposal
+<div
+  class="modal fade project-modal"
+  id="edible-trail-modal"
+  tabindex="-1"
+  aria-labelledby="edible-trail-title"
+  aria-hidden="true">
 
-<details>
+<div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
 
-<summary style="color: #4FA78D; cursor: pointer;">*Click to expand*</summary>
+<div class="modal-content">
 
-**University of California, Santa Barbara**  
-*ENV S 155 – Built Environment*
+<div class="modal-header">
 
+<h2 class="modal-title" id="edible-trail-title">
+Lompoc Edible Trail Proposal
+</h2>
+
+<button
+  type="button"
+  class="project-modal-close"
+  data-bs-dismiss="modal"
+  aria-label="Close project">
+  Close ×
+</button>
+
+</div>
+
+<div class="modal-body">
+
+<p>
+<strong>University of California, Santa Barbara</strong><br>
+<em>ENV S 155 – Built Environment</em>
+</p>
+
+<p>
 An artistic proof-of-concept proposal for transforming underused green spaces in Lompoc into edible walking trails that promote community connection, health, and sustainability. This fictional concept was created as a final project and is not an actual or funded plan.
+</p>
 
-### Project Highlights
+<h3>Project Highlights</h3>
 
-- Community-centered design incorporating native and edible plants
-- Safe walking paths with shade, seating, and public art
-- Hands-on workshops and volunteer planting days
-- Interactive timeline and map for project phases and locations
+<ul>
+<li>Community-centered design incorporating native and edible plants</li>
+<li>Safe walking paths with shade, seating, and public art</li>
+<li>Hands-on workshops and volunteer planting days</li>
+<li>Interactive timeline and map for project phases and locations</li>
+</ul>
 
-### Tools Used
+<h3>Tools Used</h3>
 
+<p>
 Quarto, HTML, CSS, Leaflet.js, and community engagement frameworks
+</p>
 
-### View Project
+<h3>View Project</h3>
 
-<iframe 
-  src="https://rebeccalmartinez.github.io/ENVS-155-proj/" 
-  style="width: 100%; height: 600px; border: none; margin-top: 1rem;" 
-  title="Edible Trail Proposal Project">
+<iframe
+  class="project-website"
+  src="https://rebeccalmartinez.github.io/ENVS-155-proj/"
+  title="Lompoc Edible Trail Proposal Project"
+  loading="lazy">
 </iframe>
 
-<p style="margin-top: 1rem; font-style: italic; color: #bbb;">
+<p class="project-note">
 Note: This is a fictional concept created for academic purposes only.
 </p>
 
-### Resources
+<p>
+<a
+  class="project-link-button"
+  href="https://github.com/RebeccaLMartinez/ENVS-155-proj"
+  target="_blank"
+  rel="noopener">
+  View GitHub Repository
+</a>
+</p>
 
-- [GitHub Repository](https://github.com/RebeccaLMartinez/ENVS-155-proj){target="_blank"}
-
----
-
-</details>
-
-
-## Service Lights
-<details>
-  <summary style="color: #4FA78D; cursor: pointer;">*Click to expand*</summary>
-
-**University of California, Santa Barbara (UCSB)**  
-*ENVS 193DS – Data Science for Environmental Studies*
-
-A class project that explores the relationship between lighting conditions (working vs. broken) and service call outcomes (needing help or not) using a self-collected dataset (n=108). Created a bar chart, summary table, and a blinking lightboard animation (gif). See visuals.
-
-### Tools Used  
-
-RStudio (tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, showtext), Quarto
+</div>
+</div>
+</div>
+</div>
 
 
-### Code Snippet
+<!-- Service Lights Project -->
 
-This converts help and working columns in service_data to TRUE/FALSE values by making their text uppercase and then to logical type, then saves the result as a new object called clean_service_data.
+<div
+  class="modal fade project-modal"
+  id="service-lights-modal"
+  tabindex="-1"
+  aria-labelledby="service-lights-title"
+  aria-hidden="true">
 
-```r
-clean_service_data <- service_data |>
-  mutate(
-    help = as.logical(toupper(help)),
-    working = as.logical(toupper(working))
-  )
-```
+<div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
 
-### Visuals  
+<div class="modal-content">
 
-:::{.panel-tabset}
+<div class="modal-header">
 
-#### Service Light Table
+<h2 class="modal-title" id="service-lights-title">
+Service Lights
+</h2>
 
-[![Service Light Table](/media/light_table.jpg)](/media/light_table.jpg){.glightbox data-glightbox="title: Service Light Table"}
+<button
+  type="button"
+  class="project-modal-close"
+  data-bs-dismiss="modal"
+  aria-label="Close project">
+  Close ×
+</button>
 
-#### Service Light Bar Chart
+</div>
 
-[![Bar Chart](/media/service_light_bar.jpg)](/media/service_light_bar.jpg){.glightbox data-glightbox="title: Service Light Bar Chart"}
+<div class="modal-body">
 
-#### Blinking Lights Animation
+<p>
+<strong>University of California, Santa Barbara</strong><br>
+<em>ENV S 193DS – Data Science for Environmental Studies</em>
+</p>
 
-[![Blinking Lights Animation](/media/blinking_lights.gif)](/media/blinking_lights.gif){.glightbox data-glightbox="title: Blinking Lights Animation"}
+<p>
+A class project exploring the relationship between lighting conditions and service-call outcomes using a self-collected dataset (n = 108). The project included a bar chart, summary table, and blinking lightboard animation.
+</p>
 
-:::
+<h3>Tools Used</h3>
 
-### Resources
+<p>
+RStudio, Quarto, tidyverse, here, flextable, janitor, ggtext, ggfx, gganimate, and showtext
+</p>
 
-<a href="https://github.com/RebeccaLMartinez/ENVS-193DS_homework-03" target="_blank" style="
-    color: white; 
-    padding: 8px 12px; 
-    cursor: pointer; 
-    background-color: transparent;
-    transition: background-color 0.3s ease;
-    border-radius: 4px;
-    display: inline-block;
-" 
-   onmouseover="this.style.backgroundColor='#4FA78D';" 
-   onmouseout="this.style.backgroundColor='transparent';">
-  GitHub Repo
+<h3>Visuals</h3>
+
+<div class="image-grid">
+
+<a
+  href="media/light_table.jpg"
+  class="glightbox"
+  data-glightbox="title: Service Light Table">
+
+<img
+  src="media/light_table.jpg"
+  alt="Service Light Table">
+
 </a>
 
----
+<a
+  href="media/service_light_bar.jpg"
+  class="glightbox"
+  data-glightbox="title: Service Light Bar Chart">
 
-## The 2004 Indian Ocean Tsunami
+<img
+  src="media/service_light_bar.jpg"
+  alt="Service Light Bar Chart">
 
-<details>
+</a>
 
-<summary style="color: #4FA78D; cursor: pointer;">*Click to expand*</summary>
+<a
+  href="media/blinking_lights.gif"
+  class="glightbox"
+  data-glightbox="title: Blinking Lights Animation">
 
-**University of California, Santa Barbara**  
-*EARTH 20*
+<img
+  src="media/blinking_lights.gif"
+  alt="Blinking Lights Animation">
 
-A short video project examining the 2004 Indian Ocean tsunami and the geologic processes behind the event. *More details coming soon.*
+</a>
 
-### Watch the Video
+</div>
+
+<p>
+<a
+  class="project-link-button"
+  href="https://github.com/RebeccaLMartinez/ENVS-193DS_homework-03"
+  target="_blank"
+  rel="noopener">
+  View GitHub Repository
+</a>
+</p>
+
+</div>
+</div>
+</div>
+</div>
+
+
+<!-- Indian Ocean Tsunami Project -->
+
+<div
+  class="modal fade project-modal"
+  id="tsunami-modal"
+  tabindex="-1"
+  aria-labelledby="tsunami-title"
+  aria-hidden="true">
+
+<div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+
+<div class="modal-content">
+
+<div class="modal-header">
+
+<h2 class="modal-title" id="tsunami-title">
+The 2004 Indian Ocean Tsunami
+</h2>
+
+<button
+  type="button"
+  class="project-modal-close"
+  data-bs-dismiss="modal"
+  aria-label="Close project">
+  Close ×
+</button>
+
+</div>
+
+<div class="modal-body">
+
+<p>
+<strong>University of California, Santa Barbara</strong><br>
+<em>EARTH 20</em>
+</p>
+
+<p>
+A short video project examining the 2004 Indian Ocean tsunami and the geologic processes behind the event.
+</p>
+
+<p class="project-note">
+More details coming soon.
+</p>
+
+<h3>Watch the Video</h3>
 
 <div class="project-video">
 
 <video controls preload="metadata" playsinline>
-  <source src="media/the2004-indian-ocean-tsunami.mp4" type="video/mp4">
-  Your browser does not support embedded video.
+
+<source
+  src="media/the2004-indian-ocean-tsunami.mp4"
+  type="video/mp4">
+
+Your browser does not support embedded video.
+
 </video>
 
 </div>
 
----
+</div>
+</div>
+</div>
+</div>
 
-</details>
 
+<!-- Newt and Garter Snake Project -->
 
-## Rough Skinned Newt vs. Garter Snake
+<div
+  class="modal fade project-modal"
+  id="newt-snake-modal"
+  tabindex="-1"
+  aria-labelledby="newt-snake-title"
+  aria-hidden="true">
 
-<details>
-  <summary style="color: #4FA78D; cursor: pointer;">*Click to expand*</summary>
+<div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
 
-**Allan Hancock College**  
-*BIOL 155 – Zoology*
+<div class="modal-content">
 
-*Collaborative video project with Darlene Vera, with help from friends in the Department of Fine Arts.*
+<div class="modal-header">
 
+<h2 class="modal-title" id="newt-snake-title">
+Rough-Skinned Newt vs. Garter Snake
+</h2>
+
+<button
+  type="button"
+  class="project-modal-close"
+  data-bs-dismiss="modal"
+  aria-label="Close project">
+  Close ×
+</button>
+
+</div>
+
+<div class="modal-body">
+
+<p>
+<strong>Allan Hancock College</strong><br>
+<em>BIOL 155 – Zoology</em>
+</p>
+
+<p>
+<em>Collaborative video project with Darlene Vera, with assistance from friends in the Department of Fine Arts.</em>
+</p>
+
+<p>
 The co-evolution of toxin production in rough-skinned newts and toxin resistance in garter snakes served as the focus of a short film designed to make complex science accessible. The project combined storytelling, visual art, and evolutionary biology to communicate this dynamic relationship.
+</p>
 
-### Tools Used
-Scriptwriting, Storyboarding, Filmmaking, Adobe Premiere (editing)
+<h3>Tools Used</h3>
 
-### Watch the Video
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cFefwwtAHF8?si=m9Jg2OOTCrdrWtRe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<p>
+Scriptwriting, storyboarding, filmmaking, and Adobe Premiere
+</p>
 
---- 
+<h3>Watch the Video</h3>
 
-# Other Projects
+<div class="project-video">
 
-</details>
+<iframe
+  src="https://www.youtube.com/embed/cFefwwtAHF8?si=m9Jg2OOTCrdrWtRe"
+  title="Rough-Skinned Newt and Garter Snake video"
+  loading="lazy"
+  data-reset-on-close
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen>
+</iframe>
 
+</div>
 
-## Species & Functional Richness Comparison
-
-<details>
-  <summary style="color: #4FA78D; cursor: pointer;">*Click to expand*</summary>
-
-**UCSB-Smithsonian Scholars Program**  
-*Advanced Field Research Training at the Smithsonian Tropical Research Institute (STRI) in Panama, Summer 2023*
-
-Final project from an immersive data science and field course. This project compares species richness and functional richness of bird communities between Barro Colorado Island (BCI) and Pipeline Road (mainland Panama). We used autonomous recorders (AudioMoths) and avian trait databases to examine diversity patterns in two distinct habitats. Results reflect learning outcomes rather than comprehensive biodiversity assessments.
-
-### Project Team
-
-***The Orependulas***
-  
-Brandon Leon, Rebecca Martinez, Daniel Romero, Mathew Silva, and Zachary Wilson.
-
-
-### Tools Used
-
-- AudioMoths
-- RStudio (tidyverse, mFD, phytools)
-- BirdNET-Analyzer (Cornell Lab of Ornithology)
-- AVONET – Comprehensive bird trait dataset
-- Birds of Panama – BirdLife International
-
-### Process
-
-→ Deployed 12 AudioMoths to record dawn chorus 
-
-→ Conducted point counts for visual confirmation  
-
-→ Analyzed 24 audio files using BirdNET-Analyzer  
-
-→ Combined detections with trait data from AVONET and Birds of Panama  
-
-→ Created visualizations in RStudio  
+</div>
+</div>
+</div>
+</div>
 
 
-### Code Snippet
+<!-- Smithsonian Scholars Project -->
 
-Code for species richness bar graph.
+<div
+  class="modal fade project-modal"
+  id="bird-richness-modal"
+  tabindex="-1"
+  aria-labelledby="bird-richness-title"
+  aria-hidden="true">
 
-```r
-merged_df <- bind_rows(pipeline_found_joined, bci_birds_joined)
+<div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
 
-merged_df <- merged_df %>%
-  mutate(location = ifelse(row_number() <= 26, substr(location, 1, 4), location)) %>%
-  mutate(location = ifelse(row_number() >= 27 & row_number() <= 66, substr(location, 1, 3), location))
+<div class="modal-content">
 
-family_count <- merged_df %>%
-  group_by(Family, location) %>%
-  summarize(num_species = n())
+<div class="modal-header">
 
-ggplot(family_count, aes(x = Family, y = num_species, fill = location)) +
-  geom_bar(stat = "identity", position = "dodge") +
-  labs(title = "Number of Species by Family and Location",
-       x = "Family",
-       y = "Number of Species") +
-  theme_minimal() +
-  scale_y_continuous(breaks = seq(0, max(family_count$num_species), 1)) +
-  theme(axis.text.x = element_text(angle = 75, hjust = 1), axis.text = element_text(size = 8))
-  
-```
+<h2 class="modal-title" id="bird-richness-title">
+Species and Functional Richness Comparison
+</h2>
 
-### Visuals
+<button
+  type="button"
+  class="project-modal-close"
+  data-bs-dismiss="modal"
+  aria-label="Close project">
+  Close ×
+</button>
 
-*Under construction...*
+</div>
 
-:::{.panel-tabset}
+<div class="modal-body">
 
-#### Functional Richness Boxplot by Location
+<p>
+<strong>UCSB–Smithsonian Scholars Program</strong><br>
+<em>Advanced Field Research Training at the Smithsonian Tropical Research Institute in Panama · Summer 2023</em>
+</p>
 
-<!-- [![Functional Richness Boxplot by Location]()](){glightbox ="Functional Richness Boxplot by Location"} -->
+<p>
+This final program project compared the species richness and functional richness of bird communities between Barro Colorado Island and Pipeline Road in mainland Panama. We used autonomous recorders and avian trait databases to examine diversity patterns in two distinct habitats. The results reflect program learning outcomes rather than a comprehensive biodiversity assessment.
+</p>
 
-#### Species Count by Family and Location
+<h3>Project Team</h3>
 
-<!-- [![Species Count by Family and Location]()](){glightbox ="Species Count by Family and Location"} -->
+<p>
+<strong><em>The Orependulas</em></strong>
+</p>
 
-#### Map of Sampling Locations
+<p>
+Brandon Leon, Rebecca Martinez, Daniel Romero, Mathew Silva, and Zachary Wilson
+</p>
 
-<!-- [![Map of Sampling Locations]()](){glightbox ="Map of Sampling Locations"} -->
+<h3>Tools Used</h3>
 
-:::
+<ul>
+<li>AudioMoths</li>
+<li>RStudio</li>
+<li>tidyverse</li>
+<li>mFD</li>
+<li>phytools</li>
+<li>BirdNET-Analyzer</li>
+<li>AVONET bird trait dataset</li>
+<li>Birds of Panama</li>
+</ul>
 
-### Poster
+<h3>Process</h3>
 
-Presented findings at the 2023 Cal Poly Summer Internship Research Symposium and the 2023 UCSB Fall Undergraduate Research Showcase.
+<ul>
+<li>Deployed 12 AudioMoths to record the dawn chorus</li>
+<li>Conducted point counts for visual confirmation</li>
+<li>Analyzed 24 audio files using BirdNET-Analyzer</li>
+<li>Combined detections with trait data from AVONET and Birds of Panama</li>
+<li>Created visualizations in RStudio</li>
+</ul>
 
-### Poster
+<h3>Poster</h3>
 
-Presented findings at the 2023 Cal Poly Summer Internship Research Symposium and the 2023 UCSB Fall Undergraduate Research Showcase.
+<p>
+Presented at the 2023 Cal Poly Summer Internship Research Symposium and the 2023 UCSB Fall Undergraduate Research Showcase.
+</p>
 
-<a href="https://raw.githubusercontent.com/RebeccaLMartinez/personal_website/main/media/panama_bci_richness_poster.jpg" 
-   class="glightbox" 
-   data-glightbox='{"title":"Comparison of Species & Functional Richness Between BCI and Pipeline Road","type":"image"}'>
-  <img src="https://raw.githubusercontent.com/RebeccaLMartinez/personal_website/main/media/panama_bci_richness_poster.jpg" 
-       style="max-width:600px; width:100%; height:auto;" 
-       alt="Comparison of Species & Functional Richness Between BCI and Pipeline Road">
+<a
+  href="https://raw.githubusercontent.com/RebeccaLMartinez/personal_website/main/media/panama_bci_richness_poster.jpg"
+  class="glightbox"
+  data-glightbox="title: Comparison of Species and Functional Richness Between BCI and Pipeline Road">
+
+<img
+  class="project-poster"
+  src="https://raw.githubusercontent.com/RebeccaLMartinez/personal_website/main/media/panama_bci_richness_poster.jpg"
+  alt="Comparison of Species and Functional Richness Between BCI and Pipeline Road">
+
 </a>
 
----
-
-</details>
+</div>
+</div>
+</div>
+</div>
 
 
 <script>
-  const lightbox = GLightbox({
-    selector: '.glightbox'
+document.addEventListener("DOMContentLoaded", function () {
+
+  if (typeof GLightbox !== "undefined") {
+    GLightbox({
+      selector: ".glightbox"
+    });
+  }
+
+  /* Allow project cards to open with Enter or Space */
+  document.querySelectorAll(".project-preview-card").forEach(function (card) {
+    card.addEventListener("keydown", function (event) {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        card.click();
+      }
+    });
   });
+
+  /* Carousel arrow controls */
+  document.querySelectorAll(".project-scroll-button").forEach(function (button) {
+    button.addEventListener("click", function () {
+      const carousel = document.getElementById(button.dataset.target);
+
+      if (!carousel) return;
+
+      const card = carousel.querySelector(".project-preview-card");
+      const distance = card ? card.offsetWidth + 16 : 340;
+      const direction = button.dataset.scroll === "left" ? -1 : 1;
+
+      carousel.scrollBy({
+        left: distance * direction,
+        behavior: "smooth"
+      });
+    });
+  });
+
+  /* Stop videos when a project popout closes */
+  document.querySelectorAll(".project-modal").forEach(function (modal) {
+    modal.addEventListener("hidden.bs.modal", function () {
+
+      modal.querySelectorAll("video").forEach(function (video) {
+        video.pause();
+      });
+
+      modal.querySelectorAll("iframe[data-reset-on-close]").forEach(function (frame) {
+        frame.src = frame.src;
+      });
+
+    });
+  });
+
+});
 </script>

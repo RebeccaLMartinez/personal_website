@@ -1,81 +1,101 @@
 /* 
 ====================================
 GLOBAL STYLES
-Applies to the whole document
 ====================================
 */
-body {
-  padding-bottom: 120px;  /* Prevent content from hiding behind fixed footer */
-  margin: 0;              /* Remove default browser margin */
-  font-family: sans-serif, verdana; /* Accessible font stack */
-  font-size: 18px;        /* Slightly larger base font for readability */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
+
+body {
+  padding-bottom: 120px;
+  margin: 0;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 18px;
+}
+
 
 /* 
 ====================================
-PAGE TITLES & HEADINGS
-Controls H1–H4 styling for structure
+PAGE TITLES AND HEADINGS
 ====================================
 */
+
 h1.title {
-  font-size: 3rem;           /* Large page title */
-  font-weight: 800;          /* Extra bold */
-  color: #4FA78D;            /* Themed teal */
   margin-top: 1rem;
   margin-bottom: 0.5rem;
+  color: #4FA78D;
+  font-size: 3rem;
+  font-weight: 800;
 }
 
-h2, h3, h4 {
-  color: #4FA78D;            /* Consistent teal for all headings */
-  padding-bottom: 4px;
+h2,
+h3,
+h4 {
   margin-top: 1.5rem;
   margin-bottom: 1rem;
+  padding-bottom: 4px;
+  color: #4FA78D;
 }
-h2 { border-bottom: 2px solid #4FA78D; }
-h3 { border-bottom: 1px solid #4FA78D; }
-h4 { color: #2b7a78; }       /* Slightly darker teal */
+
+h2 {
+  border-bottom: 2px solid #4FA78D;
+}
+
+h3 {
+  border-bottom: 1px solid #4FA78D;
+}
+
+h4 {
+  color: #2b7a78;
+}
 
 .no-underline {
+  padding-bottom: 0 !important;
   border-bottom: none !important;
   text-decoration: none !important;
-  padding-bottom: 0 !important;
 }
 
 
 /* 
 ====================================
-FOOTER & NAVIGATION
-Always visible at the bottom
+FOOTER AND NAVIGATION
 ====================================
 */
+
 .fixed-footer {
   position: fixed;
+  right: 0;
   bottom: 0;
-  left: 0; right: 0;
+  left: 0;
+  z-index: 9999;
+  padding: 12px 20px;
   background-color: #222;
   color: #8bd9b1;
-  padding: 12px 20px;
-  z-index: 9999;
-  box-shadow: 0 -2px 5px rgba(0,0,0,0.5);
   text-align: center;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .footer-nav {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   gap: 16px;
 }
 
 .nav-button {
-  color: #4FA78D;
-  text-decoration: none;
-  font-weight: 600;
   padding: 6px 12px;
+  color: #4FA78D;
+  font-weight: 600;
+  text-decoration: none;
   border-radius: 4px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
+
 .nav-button:hover,
 .nav-button:focus {
   background-color: #4FA78D;
@@ -83,106 +103,118 @@ Always visible at the bottom
   outline: none;
 }
 
+
 /* 
 ====================================
 FLOATING BOTTOM-RIGHT ICONS
-E.g., quick links or social icons
 ====================================
 */
+
 #fixed-icons {
   position: fixed;
-  bottom: 1rem;
   right: 1rem;
+  bottom: 1rem;
+  z-index: 1000;
   display: flex;
   gap: 1rem;
-  z-index: 1000;
 }
+
 #fixed-icons a {
   color: #4FA78D;
   font-size: 1.5rem;
-  transition: color 0.2s;
+  transition: color 0.2s ease;
 }
+
 #fixed-icons a:hover {
   color: #418c76;
 }
 
+
 /* 
 ====================================
 CIRCULAR VIDEO DISPLAY
-Used to embed a stylized round video
 ====================================
 */
+
 .video-wrapper {
   display: flex;
   justify-content: center;
   margin-top: 2rem;
 }
+
 .circle-video {
   width: 350px;
   height: 350px;
-  border-radius: 50%;
   object-fit: cover;
   border: 4px solid #4FA78D;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
+
 
 /* 
 ====================================
 QUIZ COMPONENT
-Styling for an interactive quiz block
 ====================================
 */
+
 #quiz-container {
-  background-color: #222;
-  color: #fff;
-  padding: 1.5em;
-  border-radius: 12px;
   max-width: 600px;
   margin: auto;
+  padding: 1.5em;
+  background-color: #222;
+  color: #fff;
+  border-radius: 12px;
 }
+
 #quiz-container #question {
-  font-size: 1.2em;
   margin-bottom: 1em;
+  font-size: 1.2em;
 }
+
 #quiz-container .btn {
-  padding: 0.6em 1.2em;
   margin: 0.4em;
-  border-radius: 6px;
-  border: 2px solid #4FA78D;
+  padding: 0.6em 1.2em;
   background-color: #2b7a78;
   color: #fff;
-  font-weight: bold;
+  font-weight: 700;
+  border: 2px solid #4FA78D;
+  border-radius: 6px;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
+
 #quiz-container .btn:hover {
   background-color: #418c76;
   transform: translateY(-2px);
 }
+
 #quiz-container #result {
   margin-top: 1.2em;
-  font-size: 1.3em;
   color: #4FA78D;
+  font-size: 1.3em;
   text-shadow: 1px 1px 2px #111;
 }
+
 #quiz-container #result-image img {
+  max-width: 100%;
+  height: auto;
   margin-top: 1em;
   border: 3px solid #4FA78D;
   border-radius: 10px;
-  max-width: 100%;
-  height: auto;
 }
+
 
 /* 
 ====================================
-IMAGE GRID GALLERY
-Used for thumbnail or visual displays
+IMAGE GRID
 ====================================
 */
+
 .image-grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* <-- this centers the images */
+  justify-content: center;
   gap: 1rem;
   margin: 1rem 0;
 }
@@ -194,19 +226,22 @@ Used for thumbnail or visual displays
 }
 
 .image-grid img {
+  display: block;
   width: 100%;
   height: 200px;
   object-fit: cover;
   border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
-  transition: transform 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
   cursor: pointer;
+  transition: transform 0.2s ease;
 }
 
 .image-grid img:hover {
   transform: scale(1.03);
 }
 
+
+/* 
 ====================================
 COLLAPSIBLE PHOTO GALLERY
 ====================================
@@ -221,7 +256,6 @@ COLLAPSIBLE PHOTO GALLERY
   border-radius: 10px;
 }
 
-/* Remove the browser's default dropdown triangle */
 .gallery-section > summary {
   list-style: none;
 }
@@ -234,7 +268,6 @@ COLLAPSIBLE PHOTO GALLERY
   display: none;
 }
 
-/* Gallery header */
 .gallery-summary {
   display: grid;
   grid-template-columns: 90px minmax(0, 1fr) auto;
@@ -250,7 +283,6 @@ COLLAPSIBLE PHOTO GALLERY
   background-color: #333a38;
 }
 
-/* Small gallery thumbnail */
 .gallery-summary img,
 .gallery-cover-placeholder {
   width: 90px;
@@ -259,7 +291,6 @@ COLLAPSIBLE PHOTO GALLERY
   border-radius: 6px;
 }
 
-/* Gallery title */
 .gallery-summary strong {
   display: block;
   color: #4FA78D;
@@ -267,7 +298,6 @@ COLLAPSIBLE PHOTO GALLERY
   line-height: 1.25;
 }
 
-/* Brief description shown while closed */
 .gallery-summary small {
   display: block;
   margin-top: 0.2rem;
@@ -276,16 +306,14 @@ COLLAPSIBLE PHOTO GALLERY
   line-height: 1.3;
 }
 
-/* Hide the description after opening */
 .gallery-section[open] .gallery-summary small {
   display: none;
 }
 
-/* Custom open and close symbol */
 .gallery-summary::after {
-  content: "+";
   color: #4FA78D;
   font-size: 1.5rem;
+  content: "+";
 }
 
 .gallery-section[open] .gallery-summary::after {
@@ -296,14 +324,14 @@ COLLAPSIBLE PHOTO GALLERY
   border-bottom: 1px solid #3c4542;
 }
 
-/* Photos inside the opened gallery */
 .gallery-section .gallery {
   padding: 1.5rem;
 }
 
 .gallery img {
+  display: block;
   width: 100%;
-  aspect-ratio: 4 / 3;
+  height: 180px;
   object-fit: cover;
   border-radius: 7px;
   cursor: pointer;
@@ -327,7 +355,6 @@ COLLAPSIBLE PHOTO GALLERY
   text-align: center;
 }
 
-/* Placeholder gallery thumbnails */
 .gallery-cover-placeholder {
   display: flex;
   align-items: center;
@@ -343,8 +370,548 @@ COLLAPSIBLE PHOTO GALLERY
   text-align: center;
 }
 
-/* Mobile layout */
-@media screen and (max-width: 600px) {
+
+/* 
+====================================
+CAT PROFILES
+====================================
+*/
+
+.cat-profiles {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.cat-button {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  background: transparent;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: background 0.25s ease;
+}
+
+.cat-button:hover,
+.cat-button.open {
+  background-color: #495057;
+}
+
+.cat-thumb {
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+.cat-details {
+  display: none;
+  margin-top: -1rem;
+  margin-left: 5rem;
+  padding: 0.6rem 1rem;
+  background-color: #23272b;
+  color: #f1f1f1;
+  border-left: 3px solid #4FA78D;
+  border-radius: 0 8px 8px 0;
+}
+
+
+/* 
+====================================
+CLICKABLE LINKS
+====================================
+*/
+
+.clickable-links a {
+  display: inline-block;
+  padding: 0.4em 0.8em;
+  background-color: #4FA78D;
+  color: #111;
+  font-weight: 700;
+  text-decoration: none;
+  border: 6px outset #4FA78D;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.clickable-links a:hover,
+.clickable-links a:focus {
+  background-color: #3a6e61;
+  color: #111;
+  border-color: #3a6e61;
+}
+
+
+/* 
+====================================
+PROJECT CAROUSELS
+====================================
+*/
+
+.project-carousel {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  max-width: 1100px;
+  margin: 1.25rem auto 2.5rem;
+  padding: 0.25rem 0.25rem 1rem;
+  overflow-x: auto;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  scrollbar-color: #4FA78D #292e2d;
+  scrollbar-width: thin;
+}
+
+.project-carousel::-webkit-scrollbar {
+  height: 8px;
+}
+
+.project-carousel::-webkit-scrollbar-track {
+  background-color: #292e2d;
+  border-radius: 10px;
+}
+
+.project-carousel::-webkit-scrollbar-thumb {
+  background-color: #4FA78D;
+  border-radius: 10px;
+}
+
+.project-carousel-single {
+  justify-content: flex-start;
+}
+
+.project-carousel-single .project-preview-card {
+  flex-basis: 420px;
+}
+
+.project-carousel-wrapper {
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr) 42px;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.project-carousel-wrapper .project-carousel {
+  margin-bottom: 2.5rem;
+}
+
+
+/* 
+====================================
+PROJECT PREVIEW CARDS
+====================================
+*/
+
+.project-preview-card {
+  display: flex;
+  flex: 0 0 300px;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 130px;
+  padding: 1rem 1.25rem;
+  scroll-snap-align: start;
+  background-color: #fff;
+  border: 2px solid #e1e6e4;
+  border-radius: 16px;
+  box-shadow:
+    0 5px 0 #aeb8b5,
+    0 10px 18px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+  transition:
+    color 0.2s ease,
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+}
+
+/* Translucent teal hover effect */
+.project-preview-card:hover,
+.project-preview-card:focus,
+.project-preview-card:focus-visible {
+  background-color: rgba(79, 167, 141, 0.82);
+  border-color: #75c9af;
+  outline: none;
+  box-shadow:
+    0 7px 0 #2b7a78,
+    0 13px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-2px);
+}
+
+/* Pressed-button effect */
+.project-preview-card:active {
+  box-shadow:
+    0 2px 0 #2b7a78,
+    0 5px 9px rgba(0, 0, 0, 0.35);
+  transform: translateY(3px);
+}
+
+.project-preview-title {
+  color: #1f6864;
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.3;
+  transition: color 0.2s ease;
+}
+
+.project-preview-meta {
+  margin-top: 0.5rem;
+  color: #111;
+  font-size: 0.8rem;
+  font-style: italic;
+  line-height: 1.35;
+}
+
+/* More transparent teal hover effect */
+.project-preview-card:hover,
+.project-preview-card:focus,
+.project-preview-card:focus-visible {
+  background-color: rgba(79, 167, 141, 0.58);
+  border-color: #75c9af;
+  outline: none;
+  box-shadow:
+    0 7px 0 #2b7a78,
+    0 13px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-2px);
+}
+
+/* White text on the transparent teal background */
+.project-preview-card:hover .project-preview-title,
+.project-preview-card:hover .project-preview-meta,
+.project-preview-card:focus .project-preview-title,
+.project-preview-card:focus .project-preview-meta,
+.project-preview-card:focus-visible .project-preview-title,
+.project-preview-card:focus-visible .project-preview-meta {
+  color: #fff;
+}
+
+/* 
+====================================
+CAROUSEL ARROW BUTTONS
+====================================
+*/
+
+.project-scroll-button {
+  width: 42px;
+  height: 54px;
+  padding: 0;
+  color: #4FA78D;
+  background-color: #292e2d;
+  border: 1px solid #3c4542;
+  border-radius: 8px;
+  font-size: 2rem;
+  line-height: 1;
+  cursor: pointer;
+  transition:
+    color 0.2s ease,
+    background-color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.project-scroll-button:hover,
+.project-scroll-button:focus {
+  color: #111;
+  background-color: #4FA78D;
+  border-color: #4FA78D;
+}
+
+
+/* 
+====================================
+PROJECT POPOUTS
+====================================
+*/
+
+.project-modal {
+  z-index: 11000;
+}
+
+.modal-backdrop {
+  z-index: 10900 !important;
+}
+
+.project-modal .modal-dialog {
+  width: calc(100% - 2rem);
+  max-width: 1100px;
+}
+
+.project-modal .modal-content {
+  color: #212529;
+  background-color: #fff;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.6);
+}
+
+.project-modal .modal-header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  padding: 1rem 1.25rem;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.project-modal .modal-title {
+  margin: 0;
+  padding: 0;
+  color: #1f6864;
+  border-bottom: none;
+  font-size: 1.35rem;
+  line-height: 1.3;
+}
+
+.project-modal .modal-body {
+  padding: 1.5rem;
+  background-color: #fff;
+  color: #212529;
+}
+
+.project-modal .modal-body h3,
+.project-modal .modal-body h4 {
+  color: #212529;
+  border-bottom-color: #dee2e6;
+}
+
+.project-modal .modal-body h3 {
+  margin-top: 1.75rem;
+  padding-bottom: 0.35rem;
+  font-size: 1.15rem;
+}
+
+.project-modal .modal-body h3:first-child {
+  margin-top: 0;
+}
+
+.project-modal .modal-body p,
+.project-modal .modal-body li {
+  color: #212529;
+  line-height: 1.6;
+}
+
+.project-modal .modal-body a:not(.project-link-button) {
+  color: #2b7a78;
+}
+
+.project-note,
+.project-modal .project-note {
+  color: #5f6368;
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
+
+/* 
+====================================
+PROJECT POPOUT CLOSE BUTTON
+====================================
+*/
+
+.project-modal-close {
+  flex-shrink: 0;
+  margin-left: 1rem;
+  padding: 0.45rem 0.75rem;
+  color: #fff;
+  background-color: #2b7a78;
+  border: 2px solid #2b7a78;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition:
+    color 0.2s ease,
+    background-color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.project-modal-close:hover,
+.project-modal-close:focus {
+  color: #2b7a78;
+  background-color: #fff;
+  border-color: #2b7a78;
+}
+
+.project-modal-close:focus-visible {
+  outline: 3px solid rgba(43, 122, 120, 0.3);
+  outline-offset: 2px;
+}
+
+
+/* 
+====================================
+PROJECT LINKS
+====================================
+*/
+
+.project-link-button {
+  display: inline-block;
+  padding: 0.55rem 0.9rem;
+  color: #111;
+  background-color: #4FA78D;
+  border: 2px solid #4FA78D;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.project-link-button:hover,
+.project-link-button:focus {
+  color: #111;
+  background-color: #75c9af;
+  border-color: #75c9af;
+}
+
+
+/* 
+====================================
+PROJECT VIDEOS AND EMBEDS
+====================================
+*/
+
+.project-video {
+  width: 100%;
+  max-width: 900px;
+  margin: 1rem auto;
+}
+
+.project-video video,
+.project-video iframe {
+  display: block;
+  width: 100%;
+  background-color: #000;
+  border: none;
+  border-radius: 10px;
+}
+
+.project-video video {
+  height: auto;
+}
+
+.project-video iframe {
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
+
+.project-website {
+  display: block;
+  width: 100%;
+  height: 600px;
+  margin: 1rem 0;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
+
+/* 
+====================================
+PROJECT VISUALS
+====================================
+*/
+
+.project-modal .image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  width: 100%;
+  margin: 1rem 0 1.5rem;
+}
+
+.project-modal .image-grid a {
+  width: 100%;
+  max-width: none;
+}
+
+.project-modal .image-grid img {
+  display: block;
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.project-poster {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: 1rem auto;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+/*
+====================================
+RESPONSIVE DESIGN
+====================================
+*/
+
+@media screen and (max-width: 700px) {
+  body {
+    padding-bottom: 160px;
+  }
+
+  h1.title {
+    font-size: 2.3rem;
+  }
+
+  #quiz-container {
+    padding: 1em;
+  }
+
+  #quiz-container .btn {
+    width: 100%;
+    margin: 0.3em 0;
+  }
+
+  .circle-video {
+    width: 250px;
+    height: 250px;
+  }
+
+  .footer-nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .nav-button {
+    width: auto;
+    min-width: 140px;
+    text-align: center;
+  }
+
+  #fixed-icons {
+    flex-direction: column;
+  }
+
+  .image-grid a {
+    flex-basis: 140px;
+    max-width: 180px;
+  }
+
+  .image-grid img {
+    height: 130px;
+  }
+
   .gallery-summary {
     grid-template-columns: 70px minmax(0, 1fr) auto;
     gap: 0.65rem;
@@ -370,155 +937,75 @@ COLLAPSIBLE PHOTO GALLERY
   }
 
   .gallery img {
-    height: auto;
-    aspect-ratio: auto;
-  }
-}
-====================================
-CAT PROFILES
-Expandable profile view for individual cats
-====================================
-*/
-.cat-profiles {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  max-width: 600px;
-  margin: 2rem auto;
-}
-.cat-button {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  cursor: pointer;
-  background: transparent;
-  padding: 0.75rem 1rem;
-  border-radius: 1rem;
-  transition: background 0.25s;
-}
-.cat-button:hover,
-.cat-button.open {
-  background: #495057;
-}
-.cat-thumb {
-  width: 65px;
-  height: 65px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid #fff;
-}
-.cat-details {
-  display: none;
-  margin-left: 5rem;
-  margin-top: -1rem;
-  padding: 0.6rem 1rem;
-  border-left: 3px solid #4FA78D;
-  background: #23272b;
-  border-radius: 0 8px 8px 0;
-  color: #f1f1f1;
-}
-
-/* 
-====================================
-CLICKABLE LINKS
-Styled like interactive buttons
-====================================
-*/
-.clickable-links a {
-  color: #111;
-  background-color: #4FA78D;
-  font-weight: 1000;
-  border: 6px outset #4FA78D;
-  padding: 0.4em 0.8em;
-  text-decoration: none;
-  border-radius: 12px;
-  transition: all 0.2s ease-in-out;
-  display: inline-block;
-  cursor: pointer;
-}
-.clickable-links a:hover,
-.clickable-links a:focus {
-  background-color: #3a6e61;
-  color: #111;
-  border: 6px outset #3a6e61;
-}
-
-/* ====================================
-   RESPONSIVE DESIGN
-   Mobile-first adjustments
-   ==================================== */
-   
-@media screen and (max-width: 600px) {
-  
-  /* Quiz layout padding for mobile readability */
-  #quiz-container {
-    padding: 1em;
+    height: 110px;
   }
 
-  /* Make quiz buttons stack and span full width */
-  #quiz-container .btn {
-    width: 100%;
-    margin: 0.3em 0;
-  }
-
-  /* Resize circle video containers for small screens */
-  .circle-video {
-    width: 250px;
-    height: 250px;
-  }
-
-  /* Footer navigation wraps to prevent overflow */
-  .footer-nav {
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 8px;
-  }
-
-  /* Nav buttons adapt width while staying readable */
-  .nav-button {
-    width: auto;
-    text-align: center;
-    min-width: 140px;
-  }
-
-  /* Fixed icon menu becomes vertical for easier tapping */
-  #fixed-icons {
-    flex-direction: column;
-  }
-
-  /* Responsive image tiles fill width, preserve aspect ratio */
-  .image-tile img {
-    width: 100%;
-    height: auto;
+  /* Project carousels become swipeable */
+  .project-carousel-wrapper {
     display: block;
   }
 
-  /* Optional: Make embedded iframes (e.g., Quizlet, YouTube) scale nicely */
+  .project-scroll-button {
+    display: none;
+  }
+
+  .project-carousel {
+    margin-bottom: 2rem;
+    padding-right: 0.75rem;
+  }
+
+  .project-preview-card,
+  .project-carousel-single .project-preview-card {
+    flex-basis: 82vw;
+    min-height: 130px;
+  }
+
+  /* Project popouts */
+  .project-modal .modal-dialog {
+    width: calc(100% - 1rem);
+    margin: 0.5rem auto;
+  }
+
+  .project-modal .modal-header {
+    padding: 0.85rem 1rem;
+  }
+
+  .project-modal .modal-title {
+    font-size: 1.05rem;
+  }
+
+  .project-modal-close {
+    margin-left: 0.65rem;
+    padding: 0.4rem 0.6rem;
+    font-size: 0.75rem;
+  }
+
+  .project-modal .modal-body {
+    padding: 1rem;
+  }
+
+  .project-modal .image-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-modal .image-grid a {
+    max-width: none;
+  }
+
+  .project-modal .image-grid img {
+    height: auto;
+  }
+
+  .project-website {
+    height: 70vh;
+    min-height: 450px;
+  }
+
   .iframe {
-    width: 100%;
-    height: 100%;
-    aspect-ratio: 16 / 9;
     display: block;
-    border:none;
+    width: 100%;
+    height: auto;
+    border: none;
+    aspect-ratio: 16 / 9;
   }
-}
-
-/* 
-====================================
-PROJECT VIDEOS
-====================================
-*/
-
-.project-video {
-  max-width: 900px;
-  margin: 1rem auto 2rem;
-}
-
-.project-video video {
-  display: block;
-  width: 100%;
-  height: auto;
-  background-color: #000;
-  border-radius: 10px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
 }
