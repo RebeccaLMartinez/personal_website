@@ -29,7 +29,7 @@ Hi! I'm Rebecca — an Environmental Studies major at the University of Californ
 
 ---
 
-# 🛤️ My Path
+#️ My Path
 
 College wasn’t part of my plan. After high school, I worked in retail and telecommunications, gaining early life experience while figuring out my next steps. Seeking new direction, I enlisted in the Marine Corps Reserves. Shortly after completing training, I began working full-time at the Chumash Casino, and eventually started a family. Still searching for more, I decided to pursue a career in Dental Hygiene. At Allan Hancock College, I tutored and mentored other students while growing in my own studies. Inspired to chase bigger dreams, I shifted my focus toward STEM education. Now at UCSB, I’m blending research, education, and community involvement to advance science and help others. I’m grateful for the path I’ve taken and look forward to the opportunities that lie ahead.
 
@@ -47,7 +47,7 @@ College wasn’t part of my plan. After high school, I worked in retail and tele
 
 ---
 
-# 🔍 Hands-on Curiosity
+# Hands-on Curiosity
 
 I believe the most meaningful learning comes from direct engagement and hands-on experience. Curiosity and learning through trial and error, both inside and outside the classroom, have shaped my understanding. Fieldwork turns ideas into real experiences and shows the true impact that our efforts can have on communities and the environment. I am grateful for the opportunity to share this approach and hope to inspire others to explore with curiosity and a sense of wonder.
 
@@ -66,7 +66,7 @@ I believe the most meaningful learning comes from direct engagement and hands-on
 
 ---
 
-# 👩‍👧‍👦 Life & Inspiration
+# Life & Inspiration
 
 My family is at the heart of everything I do. I’m a proud mom to two wonderful teenagers who walk this journey with me every day. Outside of school and work, I enjoy volunteering, spending time outdoors, and relaxing with my cats, Chester and Leo. These parts of my life bring balance and joy, and they remind me why the work I do matters.
 
@@ -85,7 +85,7 @@ My family is at the heart of everything I do. I’m a proud mom to two wonderful
 
 ---
 
-# ❤️ Giving Back
+# Giving Back
 
 Giving back is an important part of who I am. Whether mentoring, volunteering, or supporting community or campus efforts behind the scenes, I believe that showing up and contributing makes a difference. Over the years, I’ve been involved with groups like Toys for Tots and *She Raised Her Hand*, and have served on various committees and advisory groups.
 
