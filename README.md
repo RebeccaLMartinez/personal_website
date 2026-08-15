@@ -22,21 +22,23 @@ An overview of my background, education, and journey from community college to e
 
 Interactive cards featuring selected research, course, and academic program projects:
 
-- **Geologic Nitrogen Inputs to Semi-Arid Soils with and without Mammalian Bioturbation**
-- **Lompoc Edible Trail Proposal**
-- **Comparing Assistance Needs by Service Light Functionality**
-- **The 2004 Indian Ocean Tsunami**
-- **Rough-Skinned Newt vs. Garter Snake**
-- **Species and Functional Richness Comparison**
+- Geologic Nitrogen Inputs to Semi-Arid Soils with and without Mammalian Bioturbation
+- Lompoc Edible Trail Proposal
+- Comparing Assistance Needs by Service Light Functionality
+- The 2004 Indian Ocean Tsunami
+- Rough-Skinned Newt vs. Garter Snake
+- Species and Functional Richness Comparison
 
 ### [`fieldphotos.qmd`](fieldphotos.qmd): Photo Gallery
 
-Location-based photo galleries featuring fieldwork, research sites, landscapes, travel, and other experiences. Current and planned galleries include:
+Photo gallery featuring fieldwork, landscapes, travel, and other experiences. Current and planned galleries include:
 
 - Santa Cruz Island
 - Sedgwick Reserve
+- Santa Barbara Area
 - Mojave Desert
 - Panama
+- Programs, Presentations, and Events
 
 ### [`experience.qmd`](experience.qmd): Experience
 
