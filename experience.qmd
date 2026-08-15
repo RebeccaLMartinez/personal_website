@@ -17,22 +17,26 @@ Welcome! Here you can view my professional resume and curriculum vitae (CV).
 
 ## Resume
 
+<details class="experience-dropdown">
 
-[⬇ Download Resume](media/resume.pdf){.btn target="_blank"}
+<summary>
+  <strong class="experience-label-closed">View resume</strong>
+  <strong class="experience-label-open">Close resume</strong>
+</summary>
 
-
-<details>
-  <summary style="color: #4FA78D; cursor: pointer;"><strong>Expand to view resume</strong></summary>
-  
 <div style="text-align: center;">
-   
----
-   
-<p style="font-size: 26px;color: #4FA78D;">**Rebecca Martinez**</p>  
-Goleta, CA 93117  
 
-  <a href="mailto:rebecca_martinez@ucsb.edu" style="text-decoration: none;">📧</a>
-  <a href="mailto:martinez.rl@hotmail.com" style="text-decoration: none; margin-left: 10px;">✉️</a>
+---
+
+<p style="font-size: 26px; color: #1f6864;">
+<strong>Rebecca Martinez</strong>
+</p>
+
+Goleta, CA 93117
+
+<a href="mailto:rebecca_martinez@ucsb.edu" style="text-decoration: none;">📧</a>
+<a href="mailto:martinez.rl@hotmail.com" style="text-decoration: none; margin-left: 10px;">✉️</a>
+
 </div>
 
 
@@ -127,28 +131,35 @@ June 2006 – May 2025
 
 </details>
 
+[⬇ *Download Resume*](media/resume.pdf){.experience-download target="_blank"}
 
 
 ## CV
 
-[⬇ Download CV](https://raw.githubusercontent.com/RebeccaLMartinez/cv/main/cv_rebecca.pdf){.btn target="_blank"}
+<details class="experience-dropdown">
 
-<details>
-  <summary style="color: #4FA78D; cursor: pointer;"><strong>Expand to view CV</strong></summary>
-  
+<summary>
+  <strong class="experience-label-closed">View CV</strong>
+  <strong class="experience-label-open">Close CV</strong>
+</summary>
+
 <div style="text-align: center;">
-   
+
 ---
 
-<p style="font-size: 26px;color: #4FA78D;">**Rebecca Martinez**</p>  
+<p style="font-size: 26px; color: #1f6864;">
+<strong>Rebecca Martinez</strong>
+</p>
+
 <p style="text-align: center; margin-top: 0;">
 Undergraduate Researcher<br>
 Environmental Studies Program | University of California, Santa Barbara
 </p>
-  <a href="mailto:rebecca_martinez@ucsb.edu" style="text-decoration: none;">📧</a>
-  <a href="mailto:martinez.rl@hotmail.com" style="text-decoration: none; margin-left: 10px;">✉️</a>
-</div>
 
+<a href="mailto:rebecca_martinez@ucsb.edu" style="text-decoration: none;">📧</a>
+<a href="mailto:martinez.rl@hotmail.com" style="text-decoration: none; margin-left: 10px;">✉️</a>
+
+</div>
 
 
 ### Education
@@ -243,9 +254,9 @@ Environmental Studies Program | University of California, Santa Barbara
 - Lompoc Veteran Advisory Committee (LVAC), 2018–Present  
 
 
-<p style="margin-top: 1rem; font-style: italic; color: #555;">
-    _Last updated: August 2026_
-  </p>
+<p style="margin-top: 1rem; color: #555;">
+  <em>Last updated: August 2026</em>
+</p>
 
   <p style="text-align: center; margin-top: 0.5rem;">
     <a href="https://rebeccalmartinez.github.io/personal_website/" target="_blank" style="text-decoration: none;">
@@ -254,3 +265,5 @@ Environmental Studies Program | University of California, Santa Barbara
   </p>
 
 </details>
+
+[⬇ *Download CV*](https://raw.githubusercontent.com/RebeccaLMartinez/cv/main/cv_rebecca.pdf){.experience-download target="_blank"}

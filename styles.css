@@ -733,21 +733,32 @@ PROJECT POPOUT CLOSE BUTTON
   transition:
     color 0.2s ease,
     background-color 0.2s ease,
-    border-color 0.2s ease;
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
-.project-modal-close:hover,
-.project-modal-close:focus {
+/* Mouse hover */
+.project-modal-close:hover {
   color: #2b7a78;
   background-color: #fff;
   border-color: #2b7a78;
+  box-shadow: 0 2px 6px rgba(43, 122, 120, 0.25);
 }
 
+/* Prevent mouse clicks from leaving the button highlighted */
+.project-modal-close:focus {
+  outline: none;
+}
+
+/* Preserve visible focus for keyboard navigation */
 .project-modal-close:focus-visible {
+  color: #2b7a78;
+  background-color: #fff;
+  border-color: #2b7a78;
   outline: 3px solid rgba(43, 122, 120, 0.3);
   outline-offset: 2px;
+  box-shadow: 0 2px 6px rgba(43, 122, 120, 0.25);
 }
-
 
 /* 
 ====================================
@@ -857,6 +868,211 @@ PROJECT VISUALS
   cursor: pointer;
 }
 
+
+/* 
+====================================
+EXPERIENCE PAGE DROPDOWNS
+====================================
+*/
+
+.experience-dropdown {
+  width: 100%;
+  margin: 1rem 0 2rem;
+  padding: 0 1.5rem;
+  overflow: hidden;
+  background-color: #fff;
+  color: #212529;
+  border: 1px solid #dee2e6;
+  border-radius: 12px;
+  box-shadow:
+    0 5px 0 #aeb8b5,
+    0 10px 18px rgba(0, 0, 0, 0.3);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+
+/* 
+====================================
+EXPERIENCE DROPDOWN HEADER
+====================================
+*/
+
+.experience-dropdown > summary {
+  margin: 0 -1.5rem;
+  padding: 1rem 1.25rem;
+  background-color: #fff;
+  color: #1f6864;
+  font-size: 1rem;
+  cursor: pointer;
+  transition:
+    color 0.2s ease,
+    background-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+
+/* 
+====================================
+EXPANDED DROPDOWN
+====================================
+*/
+
+.experience-dropdown[open] {
+  padding-bottom: 1.5rem;
+}
+
+.experience-dropdown[open] > summary {
+  margin-bottom: 1.25rem;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+
+
+/* 
+====================================
+DARK TEAL HEADER HOVER
+====================================
+*/
+
+.experience-dropdown > summary:hover,
+.experience-dropdown[open] > summary:hover {
+  background-color: #2b7a78;
+  color: #fff;
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.4);
+}
+
+/* Prevent mouse clicks from leaving the header highlighted */
+.experience-dropdown > summary:focus {
+  outline: none;
+}
+
+/* Preserve visible focus for keyboard navigation */
+.experience-dropdown > summary:focus-visible {
+  background-color: #2b7a78;
+  color: #fff;
+  outline: 3px solid rgba(43, 122, 120, 0.45);
+  outline-offset: -3px;
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.4);
+}
+
+
+/* 
+====================================
+DOCUMENT TEXT
+====================================
+*/
+
+.experience-dropdown p,
+.experience-dropdown li,
+.experience-dropdown td,
+.experience-dropdown th {
+  color: #212529;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+
+/* 
+====================================
+DOCUMENT HEADINGS
+====================================
+*/
+
+.experience-dropdown h2,
+.experience-dropdown h3,
+.experience-dropdown h4 {
+  color: #1f6864;
+  border-bottom-color: #4FA78D;
+}
+
+
+/* 
+====================================
+DOCUMENT LINKS
+====================================
+*/
+
+.experience-dropdown a {
+  color: #1f6864;
+}
+
+
+/* 
+====================================
+RESUME AND CV TABLES
+====================================
+*/
+
+.experience-dropdown table {
+  --bs-table-color: #212529;
+  --bs-table-bg: #fff;
+  --bs-table-striped-color: #212529;
+  --bs-table-striped-bg: #f3f5f4;
+  --bs-table-hover-color: #212529;
+  --bs-table-hover-bg: #e9efed;
+
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  color: #212529;
+  font-size: 1rem;
+}
+
+
+/* 
+====================================
+DIVIDER LINES
+====================================
+*/
+
+.experience-dropdown hr {
+  border-color: #dee2e6;
+}
+
+
+/* 
+====================================
+VIEW AND CLOSE WORDING
+====================================
+*/
+
+.experience-label-open {
+  display: none;
+}
+
+.experience-dropdown[open] .experience-label-closed {
+  display: none;
+}
+
+.experience-dropdown[open] .experience-label-open {
+  display: inline;
+}
+
+
+/* 
+====================================
+EXPERIENCE DROPDOWNS: MOBILE
+====================================
+*/
+
+@media screen and (max-width: 700px) {
+  .experience-dropdown {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .experience-dropdown > summary {
+    margin-right: -1rem;
+    margin-left: -1rem;
+    padding: 0.85rem 1rem;
+  }
+
+  .experience-dropdown[open] {
+    padding-bottom: 1rem;
+  }
+}
 
 /*
 ====================================
